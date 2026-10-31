@@ -1,0 +1,224 @@
+name: Build Packages (prefix toolAPKAI)
+
+on:
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: "Paket termux-packages yang di-build (spasi). Dependensi ikut otomatis."
+        required: false
+        default: "git"
+      custom_packages:
+        description: "Paket sendiri dari folder custom-packages/<nama> (spasi). Kosong = lewati."
+        required: false
+        default: ""
+      force_rebuild:
+        description: "Centang = build ulang walau commit termux-packages terbaru sudah pernah di-build"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: false
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BRANCH: apt-repo
+
+jobs:
+  # 1. Ambil commit terbaru termux-packages, putuskan perlu build atau tidak.
+  #    Tidak dicentang = cukup sekali: lewati kalau commit + daftar paket
+  #    + isi custom-packages sama persis dengan build terakhir.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.resolve.outputs.sha }}
+      stamp: ${{ steps.resolve.outputs.stamp }}
+      skip: ${{ steps.resolve.outputs.skip }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Cek commit terbaru dan penanda build terakhir
+        id: resolve
+        shell: bash
+        env:
+          PKGS: ${{ github.event.inputs.packages }}
+          CUSTOM: ${{ github.event.inputs.custom_packages }}
+          FORCE: ${{ github.event.inputs.force_rebuild }}
+        run: |
+          set -euo pipefail
+          SHA=$(git ls-remote "$TP_REPO" refs/heads/master | cut -f1)
+          [ -n "$SHA" ] || { echo "::error::Gagal membaca commit terbaru termux-packages"; exit 1; }
+
+          CUSTOM_HASH=none
+          if [ -d custom-packages ] && [ -n "${CUSTOM:-}" ]; then
+            CUSTOM_HASH=$(find custom-packages -type f | sort | xargs sha256sum | sha256sum | cut -d' ' -f1)
+          fi
+          STAMP="$SHA|${PKGS:-git}|${CUSTOM:-}|$CUSTOM_HASH"
+
+          LAST=""
+          if git ls-remote --exit-code --heads origin "$APT_BRANCH" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "$APT_BRANCH"
+            LAST=$(git show "FETCH_HEAD:BUILT.txt" 2>/dev/null || true)
+          fi
+
+          SKIP=false
+          if [ "$FORCE" != "true" ] && [ "$LAST" = "$STAMP" ]; then
+            SKIP=true
+          fi
+
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "stamp=$STAMP" >> "$GITHUB_OUTPUT"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Cek build"
+            echo "- termux-packages terbaru: \`$SHA\`"
+            echo "- paksa build ulang: $FORCE"
+            if [ "$SKIP" = "true" ]; then
+              echo "- hasil: **dilewati** (sudah pernah di-build, tidak ada perubahan)"
+            else
+              echo "- hasil: **build jalan**"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # 2. Clone termux-packages di commit itu, ganti prefix, build, publikasi.
+  build:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Clone termux-packages (commit terbaru)
+        shell: bash
+        env:
+          SHA: ${{ needs.check.outputs.sha }}
+        run: |
+          set -euo pipefail
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          git log -1 --oneline
+
+      - name: Ganti prefix ke paket app
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          F=scripts/properties.sh
+          # Nama variabel berbeda antar versi termux-packages; tangani keduanya.
+          sed -i -E "s|^(TERMUX_APP__PACKAGE_NAME=).*|\1\"$APP_PACKAGE\"|" "$F"
+          sed -i -E "s|^(TERMUX_APP_PACKAGE=).*|\1\"$APP_PACKAGE\"|" "$F"
+          if ! grep -q "$APP_PACKAGE" "$F"; then
+            echo "::error::Baris nama paket di $F tidak ditemukan. Lihat isi file dan sesuaikan sed."
+            grep -n "com.termux" "$F" | head -20 || true
+            exit 1
+          fi
+          grep -n "$APP_PACKAGE" "$F"
+
+      - name: Salin paket sendiri (bukan dari repo resmi)
+        shell: bash
+        env:
+          CUSTOM: ${{ github.event.inputs.custom_packages }}
+        run: |
+          set -euo pipefail
+          for p in ${CUSTOM:-}; do
+            [ -f "custom-packages/$p/build.sh" ] || { echo "::error::custom-packages/$p/build.sh tidak ada"; exit 1; }
+            rm -rf "tp/packages/$p"
+            cp -r "custom-packages/$p" "tp/packages/$p"
+            echo "Paket sendiri: $p"
+          done
+
+      - name: Siapkan lingkungan build
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          sudo ./scripts/setup-ubuntu.sh
+          sudo mkdir -p "/data/data/$APP_PACKAGE"
+          sudo chown -R "$(id -u):$(id -g)" /data
+          ./scripts/setup-android-sdk.sh
+
+      - name: Build paket
+        shell: bash
+        env:
+          PKGS: ${{ github.event.inputs.packages }}
+          CUSTOM: ${{ github.event.inputs.custom_packages }}
+        run: |
+          set +e
+          set -o pipefail
+          cd tp
+          mkdir -p output
+          ALL="${PKGS:-git} ${CUSTOM:-}"
+          STATUS=0
+          for p in $ALL; do
+            echo "=== build $p ==="
+            ./build-package.sh -a aarch64 "$p" 2>&1 | tee -a ../build_packages_log.txt
+            S=${PIPESTATUS[0]}
+            if [ "$S" -ne 0 ]; then
+              echo "::error::build $p gagal (exit $S)"
+              STATUS=$S
+              break
+            fi
+          done
+          echo "--- isi output ---"
+          ls -la output || true
+          if [ "$STATUS" -ne 0 ]; then
+            {
+              echo "## Build paket gagal"
+              echo '```'
+              tail -n 80 ../build_packages_log.txt
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit "$STATUS"
+          fi
+          ls output/*.deb >/dev/null 2>&1 || { echo "::error::Tidak ada .deb di output/"; exit 1; }
+
+      - name: Buat indeks apt (flat repo)
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y dpkg-dev apt-utils >/dev/null
+          mkdir -p repo
+          cp tp/output/*.deb repo/
+          cd repo
+          dpkg-scanpackages -m . > Packages
+          gzip -9 -k -f Packages
+          apt-ftparchive release . > Release
+          ls -la
+
+      - name: Publikasikan ke branch apt-repo (tanpa artefak)
+        shell: bash
+        env:
+          STAMP: ${{ needs.check.outputs.stamp }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd repo
+          printf '%s' "$STAMP" > BUILT.txt
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -q -b "$APT_BRANCH"
+          git add -A
+          git commit -q -m "apt repo: ${STAMP%%|*}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f origin "$APT_BRANCH"
+          {
+            echo "### Repo apt terbit"
+            echo "- branch: \`$APT_BRANCH\`"
+            echo "- baris sources.list:"
+            echo '```'
+            echo "deb [trusted=yes] https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${APT_BRANCH} ./"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
