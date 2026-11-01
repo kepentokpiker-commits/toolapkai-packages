@@ -110,6 +110,52 @@ jobs:
           grep -n "$APP_PACKAGE" "$F"
           ls -la scripts/build-bootstraps.sh scripts/run-docker.sh
 
+      - name: Pasang pembungkus build-package.sh (sub-paket ke paket induk)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          mv build-package.sh build-package.real.sh
+          cat > build-package.sh <<'EOF'
+          #!/bin/bash
+          # Pembungkus: kalau nama paket yang diminta ternyata sub-paket
+          # (mis. bzip2, libcurl, liblzma), bangun paket induknya.
+          # Semua .deb sub-paket ikut terbentuk di output/.
+          DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+          args=("$@")
+          n=${#args[@]}
+          if [ "$n" -gt 0 ]; then
+            name="${args[$((n-1))]}"
+            case "$name" in
+              -*|"") ;;
+              *)
+                found=0
+                for base in packages root-packages x11-packages; do
+                  if [ -d "$DIR/$base/$name" ]; then found=1; fi
+                done
+                if [ "$found" -eq 0 ]; then
+                  for base in packages root-packages x11-packages; do
+                    f=$(ls "$DIR/$base"/*/"$name".subpackage.sh 2>/dev/null | head -n 1)
+                    if [ -n "$f" ]; then
+                      parent=$(basename "$(dirname "$f")")
+                      echo "[pembungkus] sub-paket '$name' -> bangun paket induk '$parent'" >&2
+                      args[$((n-1))]="$parent"
+                      break
+                    fi
+                  done
+                fi
+                ;;
+            esac
+          fi
+          exec "$DIR/build-package.real.sh" "${args[@]}"
+          EOF
+          # Heredoc di dalam blok YAML ikut menjorok; rapikan indentasinya.
+          sed -i 's/^          //' build-package.sh
+          chmod +x build-package.sh build-package.real.sh
+          head -n 8 build-package.sh
+          bash -n build-package.sh && echo "sintaks pembungkus OK"
+
       - name: Build bootstrap (build-bootstraps.sh di dalam Docker)
         if: steps.check.outputs.skip != 'true'
         shell: bash
@@ -125,6 +171,12 @@ jobs:
           ./scripts/run-docker.sh ./scripts/build-bootstraps.sh "${ARGS[@]}" 2>&1 | tee ../bootstrap_log.txt
           RC=${PIPESTATUS[0]}
           sudo chown -R "$(id -u):$(id -g)" . || true
+          {
+            echo "### Sub-paket yang dipetakan ke paket induk"
+            echo '```'
+            grep -h '^\[pembungkus\]' ../bootstrap_log.txt | sort -u || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
           if [ "$RC" -ne 0 ] || [ ! -f bootstrap-aarch64.zip ]; then
             {
               echo "## Pembuatan bootstrap gagal (exit $RC)"
