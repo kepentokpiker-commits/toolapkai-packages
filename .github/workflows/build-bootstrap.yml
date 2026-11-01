@@ -1,0 +1,261 @@
+name: Build Bootstrap (prefix toolAPKAI)
+
+on:
+  workflow_dispatch:
+    inputs:
+      extra_packages:
+        description: "Paket tambahan di dalam bootstrap (pisah koma, tanpa spasi). Kosong = bawaan saja."
+        required: false
+        default: ""
+      force_rebuild:
+        description: "Centang = buat ulang bootstrap walau isi apt-repo belum berubah sejak bootstrap terakhir"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: false
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BRANCH: apt-repo
+  BOOT_BRANCH: bootstrap
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ambil apt-repo dan cek penanda
+        id: check
+        shell: bash
+        env:
+          EXTRA: ${{ github.event.inputs.extra_packages }}
+          FORCE: ${{ github.event.inputs.force_rebuild }}
+        run: |
+          set -euo pipefail
+          if ! git ls-remote --exit-code --heads origin "$APT_BRANCH" >/dev/null 2>&1; then
+            echo "::error::Branch $APT_BRANCH belum ada. Jalankan Build Packages dulu."
+            exit 1
+          fi
+          git fetch --depth 1 origin "refs/heads/$APT_BRANCH:refs/remotes/origin/$APT_BRANCH"
+          mkdir -p aptrepo
+          git archive "origin/$APT_BRANCH" | tar -x -C aptrepo
+          [ -f aptrepo/Packages ] || { echo "::error::Packages tidak ada di $APT_BRANCH"; exit 1; }
+          [ -f aptrepo/BUILT.txt ] || { echo "::error::BUILT.txt tidak ada di $APT_BRANCH"; exit 1; }
+
+          # Pakai commit termux-packages yang sama dengan build paket terakhir,
+          # supaya skrip generate-bootstraps.sh cocok dengan paketnya.
+          SHA=$(cut -d'|' -f1 aptrepo/BUILT.txt)
+          STAMP="$(sha256sum aptrepo/Packages | cut -d' ' -f1)|${EXTRA:-}"
+
+          LAST=""
+          if git ls-remote --exit-code --heads origin "$BOOT_BRANCH" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "refs/heads/$BOOT_BRANCH:refs/remotes/origin/$BOOT_BRANCH"
+            LAST=$(git show "origin/$BOOT_BRANCH:BOOTSTRAP.txt" 2>/dev/null || true)
+          fi
+
+          SKIP=false
+          if [ "$FORCE" != "true" ] && [ "$LAST" = "$STAMP" ]; then
+            SKIP=true
+          fi
+
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "stamp=$STAMP" >> "$GITHUB_OUTPUT"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Cek bootstrap"
+            echo "- commit termux-packages: \`$SHA\`"
+            echo "- paksa buat ulang: $FORCE"
+            if [ "$SKIP" = "true" ]; then
+              echo "- hasil: **dilewati** (apt-repo belum berubah sejak bootstrap terakhir)"
+            else
+              echo "- hasil: **bootstrap dibuat**"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Clone termux-packages dan ganti prefix
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          SHA: ${{ steps.check.outputs.sha }}
+        run: |
+          set -euo pipefail
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          F=scripts/properties.sh
+          sed -i -E "s|^(TERMUX_APP__PACKAGE_NAME=).*|\1\"$APP_PACKAGE\"|" "$F"
+          sed -i -E "s|^(TERMUX_APP_PACKAGE=).*|\1\"$APP_PACKAGE\"|" "$F"
+          if ! grep -q "$APP_PACKAGE" "$F"; then
+            echo "::error::Baris nama paket di $F tidak ditemukan."
+            exit 1
+          fi
+          grep -n "$APP_PACKAGE" "$F"
+          ls scripts/generate-bootstraps.sh
+
+      - name: Cek paket bootstrap yang sudah ada di repo
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          EXTRA: ${{ github.event.inputs.extra_packages }}
+        run: |
+          set -euo pipefail
+          cd tp
+          BASE="$GITHUB_WORKSPACE/aptrepo"
+          LIST=$( (grep -oE 'PACKAGES\+=\("[^"]+"\)' scripts/generate-bootstraps.sh \
+                   | sed -E 's/.*\("([^"]+)"\)/\1/' | sort -u) || true )
+          echo "Paket bawaan skrip: $(echo $LIST | wc -w)"
+          MISSING=""
+          for n in $LIST ${EXTRA//,/ }; do
+            grep -qx "Package: $n" "$BASE/Packages" || MISSING="$MISSING $n"
+          done
+          if [ -n "$MISSING" ]; then
+            {
+              echo "## Paket bootstrap belum ada di apt-repo"
+              echo
+              echo "Jalankan **Build Packages** sekali dengan isian \`packages\` berikut, lalu ulangi bootstrap:"
+              echo
+              echo '```'
+              echo "$MISSING" | xargs
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::Paket belum dibuild:$MISSING"
+            exit 1
+          fi
+
+      - name: Buat bootstrap
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          EXTRA: ${{ github.event.inputs.extra_packages }}
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y zip unzip xz-utils curl >/dev/null
+          BASE="$GITHUB_WORKSPACE/aptrepo"
+          D="$BASE/dists/stable/main/binary-aarch64"
+          mkdir -p "$D"
+          cp "$BASE/Packages" "$D/Packages"
+          gzip -9 -k -f "$D/Packages"
+          xz -9 -k -f "$D/Packages"
+
+          cd tp
+          S=scripts/generate-bootstraps.sh
+          has() { grep -q -- "$1" "$S"; }
+          ARGS=()
+          has '--architectures' && ARGS+=(--architectures aarch64)
+          if has '--repository'; then
+            ARGS+=(--repository "file://$BASE")
+          else
+            sed -i -E "s|^(REPO_BASE_URL=).*|\1\"file://$BASE\"|" "$S"
+            grep -n "REPO_BASE_URL=" "$S" | head -3
+          fi
+          if [ -n "${EXTRA:-}" ]; then
+            if has '--add'; then
+              ARGS+=(--add "$EXTRA")
+            else
+              echo "::warning::Skrip tidak punya opsi --add, paket tambahan diabaikan"
+            fi
+          fi
+
+          echo "Menjalankan: $S ${ARGS[*]}"
+          set +e
+          ./"$S" "${ARGS[@]}" 2>&1 | tee ../bootstrap_log.txt
+          RC=${PIPESTATUS[0]}
+          set -e
+          if [ "$RC" -ne 0 ]; then
+            {
+              echo "## Pembuatan bootstrap gagal"
+              echo '```'
+              tail -n 60 ../bootstrap_log.txt
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit "$RC"
+          fi
+          ls -la bootstrap-aarch64.zip
+
+      - name: Ganti sources.list ke repo kita dan verifikasi
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          Z=bootstrap-aarch64.zip
+
+          # sources.list bawaan menunjuk ke file:// runner; ganti ke repo publik.
+          mkdir -p ../srcfix/etc/apt
+          echo "deb [trusted=yes] https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${APT_BRANCH} ./" \
+            > ../srcfix/etc/apt/sources.list
+          (cd ../srcfix && zip -u "$GITHUB_WORKSPACE/tp/$Z" etc/apt/sources.list)
+
+          rm -rf ../chk && mkdir ../chk
+          unzip -q "$Z" -d ../chk
+          {
+            echo "## Hasil verifikasi bootstrap"
+            echo "- ukuran: $(numfmt --to=iec "$(stat -c %s "$Z")")"
+            echo "- jumlah entri zip: $(unzip -Z1 "$Z" | wc -l)"
+            if [ -f ../chk/SYMLINKS.txt ]; then
+              echo "- SYMLINKS.txt: $(wc -l < ../chk/SYMLINKS.txt) baris"
+            else
+              echo "- SYMLINKS.txt: **tidak ada**"
+            fi
+            LEFT=$(grep -rlaF 'com.termux' ../chk | wc -l)
+            echo "- file yang masih memuat com.termux: **$LEFT**"
+            if [ "$LEFT" -gt 0 ]; then
+              echo
+              echo '```'
+              grep -rlaF 'com.termux' ../chk | sed "s|$GITHUB_WORKSPACE/chk/||" | head -n 20
+              echo '```'
+            fi
+            echo "- sources.list:"
+            echo '```'
+            cat ../chk/etc/apt/sources.list
+            echo '```'
+            if [ -f ../chk/var/lib/dpkg/status ]; then
+              echo "- paket di dalam bootstrap:"
+              echo '```'
+              grep '^Package:' ../chk/var/lib/dpkg/status | cut -d' ' -f2 | sort | xargs
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publikasikan ke branch bootstrap (tanpa artefak)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          STAMP: ${{ steps.check.outputs.stamp }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          cp tp/bootstrap-aarch64.zip out/
+          cd out
+          sha256sum bootstrap-aarch64.zip > bootstrap-aarch64.zip.sha256
+          printf '%s' "$STAMP" > BOOTSTRAP.txt
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -q -b "$BOOT_BRANCH"
+          git add -A
+          git commit -q -m "bootstrap: ${STAMP%%|*}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f origin "$BOOT_BRANCH"
+          {
+            echo "### Bootstrap terbit"
+            echo "- branch: \`$BOOT_BRANCH\`"
+            echo "- sha256: \`$(cut -d' ' -f1 bootstrap-aarch64.zip.sha256)\`"
+            echo "- URL unduh:"
+            echo '```'
+            echo "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BOOT_BRANCH}/bootstrap-aarch64.zip"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
