@@ -4,8 +4,10 @@ TERMUX_PKG_LICENSE="Apache-2.0"
 TERMUX_PKG_MAINTAINER="@isbah"
 TERMUX_PKG_VERSION=1.0
 TERMUX_PKG_SKIP_SRC_EXTRACT=true
+TERMUX_PKG_PLATFORM_INDEPENDENT=true
 
 termux_step_make_install() {
+	mkdir -p "$TERMUX_PREFIX/bin"
 	cat > "$TERMUX_PREFIX/bin/halo" <<'EOF'
 #!/bin/sh
 echo "halo dari paket sendiri"
