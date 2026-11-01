@@ -29,7 +29,7 @@ env:
 jobs:
   bootstrap:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 180
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -69,6 +69,7 @@ jobs:
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
           echo "stamp=$STAMP" >> "$GITHUB_OUTPUT"
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          date +%s > "$RUNNER_TEMP/t_start"
           {
             echo "### Cek bootstrap"
             echo "- commit termux-packages: \`$SHA\`"
@@ -84,8 +85,39 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         shell: bash
         run: |
-          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/lib/android || true
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/lib/android \
+            /usr/share/swift /opt/hostedtoolcache /usr/local/.ghcup /opt/microsoft || true
+          sudo docker image prune -af >/dev/null 2>&1 || true
           df -h /
+
+      - name: Pasang swap 12 GB
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set +e
+          echo "--- sebelum ---"
+          free -h
+          df -h /mnt
+          sudo swapoff -a
+          sudo rm -f /mnt/swapfile
+          if sudo fallocate -l 12G /mnt/swapfile; then
+            sudo chmod 600 /mnt/swapfile
+            sudo mkswap /mnt/swapfile >/dev/null
+            sudo swapon /mnt/swapfile
+            sudo sysctl vm.swappiness=10 >/dev/null
+            echo "swap aktif"
+          else
+            echo "::warning::Gagal membuat swap di /mnt, build lanjut tanpa swap"
+          fi
+          echo "--- sesudah ---"
+          free -h
+          {
+            echo "### Memori runner"
+            echo '```'
+            free -h
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0
 
       - name: Clone termux-packages dan ganti prefix
         if: steps.check.outputs.skip != 'true'
@@ -155,27 +187,30 @@ jobs:
           chmod +x build-package.sh build-package.real.sh
           bash -n build-package.sh && echo "sintaks pembungkus OK"
 
-      - name: Pasang pengaman mv (zip disalin ke output/ kalau mv gagal)
+      - name: Pasang pengaman mv (zip selalu berakhir di output/)
         if: steps.check.outputs.skip != 'true'
         shell: bash
         run: |
           set -euo pipefail
           cd tp
           cat > "$RUNNER_TEMP/mvfix.sh" <<'EOF'
-          # --- pengaman: kalau mv zip gagal, salin ke output/ ---
+          # --- pengaman: zip selalu berakhir di output/ ---
+          # Container hanya boleh menulis ke output/, jadi mv zip ke
+          # folder utama repo memang akan ditolak.
           mv() {
-            command mv "$@" && return 0
-            local rc=$?
-            local src="${@: -2:1}"
+            local src="" out=/home/builder/termux-packages/output
+            if [ "$#" -ge 2 ]; then src="${@: -2:1}"; fi
             case "$src" in
               *.zip)
-                mkdir -p /home/builder/termux-packages/output
-                if cp -f "$src" /home/builder/termux-packages/output/ 2>/dev/null; then
+                mkdir -p "$out" 2>/dev/null || true
+                if command mv "$@" 2>/dev/null; then return 0; fi
+                if cp -f "$src" "$out/" 2>/dev/null; then
                   echo "[fallback] zip disalin ke output/ karena mv gagal" >&2
+                  return 0
                 fi
                 ;;
             esac
-            return $rc
+            command mv "$@"
           }
           # --- akhir pengaman ---
           EOF
@@ -186,7 +221,7 @@ jobs:
             bash -n "$f" && echo "sintaks $f OK"
           done
 
-      - name: Izinkan container menulis dan diagnosa izin
+      - name: Diagnosa izin container
         if: steps.check.outputs.skip != 'true'
         shell: bash
         run: |
@@ -199,10 +234,16 @@ jobs:
           echo "user di container: $(id)"
           ls -ld /home/builder/termux-packages /home/builder/termux-packages/output
           if touch /home/builder/termux-packages/_probe 2>/dev/null; then
-            echo "probe tulis ke folder repo: OK"
+            echo "tulis ke folder utama repo: OK"
             rm -f /home/builder/termux-packages/_probe
           else
-            echo "probe tulis ke folder repo: GAGAL"
+            echo "tulis ke folder utama repo: DITOLAK (normal, dibatasi AppArmor)"
+          fi
+          if touch /home/builder/termux-packages/output/_probe 2>/dev/null; then
+            echo "tulis ke output/: OK"
+            rm -f /home/builder/termux-packages/output/_probe
+          else
+            echo "tulis ke output/: GAGAL (ini masalah)"
           fi
           EOF
           sed -i 's/^          //' probe.sh
@@ -212,9 +253,8 @@ jobs:
           set -e
           {
             echo "### Diagnosa izin container"
-            echo "- user runner: $(id)"
             echo '```'
-            tail -n 12 ../probe_log.txt
+            grep -E '^(user di container|drw|tulis ke)' ../probe_log.txt || tail -n 12 ../probe_log.txt
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
           rm -f probe.sh
@@ -228,12 +268,14 @@ jobs:
           set +e
           set -o pipefail
           cd tp
+          T0=$(date +%s)
           ARGS=(--architectures aarch64)
           if [ -n "${EXTRA:-}" ]; then ARGS+=(--add "$EXTRA"); fi
           echo "Menjalankan: build-bootstraps.sh ${ARGS[*]}"
           ./scripts/run-docker.sh ./scripts/build-bootstraps.sh "${ARGS[@]}" 2>&1 | tee ../bootstrap_log.txt
           RC=${PIPESTATUS[0]}
           sudo chown -R "$(id -u):$(id -g)" . || true
+          T1=$(date +%s)
 
           # Ambil zip dari output/ kalau mv ke folder utama gagal.
           if [ ! -f bootstrap-aarch64.zip ] && [ -f output/bootstrap-aarch64.zip ]; then
@@ -242,6 +284,12 @@ jobs:
           fi
 
           {
+            echo "### Durasi build bootstrap"
+            echo "- $(( (T1 - T0) / 60 )) menit (exit $RC)"
+            echo "### Memori setelah build"
+            echo '```'
+            free -h
+            echo '```'
             echo "### Sub-paket yang dipetakan ke paket induk"
             echo '```'
             grep -h '^\[pembungkus\]' ../bootstrap_log.txt | sort -u || true
@@ -249,7 +297,8 @@ jobs:
             echo "### Pengaman mv"
             echo '```'
             grep -h '^\[fallback\]' ../bootstrap_log.txt | sort -u || true
-            grep -h '^mv: ' ../bootstrap_log.txt | sort -u || true
+            grep -h '^mv: .*\.zip' ../bootstrap_log.txt | sort -u || true
+            echo "mv lain yang diabaikan (mis. libreadline.a): $(grep -c '^mv: ' ../bootstrap_log.txt || true)"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
@@ -286,6 +335,7 @@ jobs:
 
           rm -rf ../chk && mkdir ../chk
           unzip -q "$Z" -d ../chk
+          LEFT=$(grep -rlaF 'com.termux' ../chk | wc -l)
           {
             echo "## Hasil verifikasi bootstrap"
             echo "- ukuran: $(numfmt --to=iec "$(stat -c %s "$Z")")"
@@ -295,7 +345,6 @@ jobs:
             else
               echo "- SYMLINKS.txt: **tidak ada**"
             fi
-            LEFT=$(grep -rlaF 'com.termux' ../chk | wc -l)
             echo "- file yang masih memuat com.termux: **$LEFT**"
             if [ "$LEFT" -gt 0 ]; then
               echo '```'
@@ -317,6 +366,9 @@ jobs:
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$LEFT" -gt 0 ]; then
+            echo "::warning::$LEFT file di bootstrap masih memuat com.termux"
+          fi
 
       - name: Publikasikan zip ke branch bootstrap (tanpa artefak)
         if: steps.check.outputs.skip != 'true'
