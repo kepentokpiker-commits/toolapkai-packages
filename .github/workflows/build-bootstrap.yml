@@ -69,7 +69,6 @@ jobs:
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
           echo "stamp=$STAMP" >> "$GITHUB_OUTPUT"
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
-          date +%s > "$RUNNER_TEMP/t_start"
           {
             echo "### Cek bootstrap"
             echo "- commit termux-packages: \`$SHA\`"
@@ -370,7 +369,7 @@ jobs:
             echo "::warning::$LEFT file di bootstrap masih memuat com.termux"
           fi
 
-      - name: Publikasikan zip ke branch bootstrap (tanpa artefak)
+      - name: Publikasikan zip ke GitHub Release (batas 100 MB repo dilewati)
         if: steps.check.outputs.skip != 'true'
         shell: bash
         env:
@@ -380,9 +379,22 @@ jobs:
           set -euo pipefail
           mkdir -p out
           cp tp/bootstrap-aarch64.zip out/
-          cd out
-          sha256sum bootstrap-aarch64.zip > bootstrap-aarch64.zip.sha256
-          printf '%s' "$STAMP" > BOOTSTRAP.txt
+          (cd out && sha256sum bootstrap-aarch64.zip > bootstrap-aarch64.zip.sha256)
+          SUM=$(cut -d' ' -f1 out/bootstrap-aarch64.zip.sha256)
+
+          # 1. Zip besar -> Release (tag "bootstrap", diganti tiap build)
+          gh release delete bootstrap --cleanup-tag -y --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          gh release create bootstrap \
+            out/bootstrap-aarch64.zip out/bootstrap-aarch64.zip.sha256 \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Bootstrap aarch64 (${STAMP%%|*})" \
+            --notes "sha256: $SUM"
+
+          # 2. Branch bootstrap hanya berisi penanda kecil (tanpa zip)
+          mkdir -p marker
+          printf '%s' "$STAMP" > marker/BOOTSTRAP.txt
+          cp out/bootstrap-aarch64.zip.sha256 marker/
+          cd marker
           git init -q
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
@@ -391,13 +403,14 @@ jobs:
           git commit -q -m "bootstrap: ${STAMP%%|*}"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push -f origin "$BOOT_BRANCH"
+
           {
             echo "### Bootstrap terbit"
-            echo "- branch: \`$BOOT_BRANCH\`"
-            echo "- sha256: \`$(cut -d' ' -f1 bootstrap-aarch64.zip.sha256)\`"
+            echo "- ukuran: $(numfmt --to=iec "$(stat -c %s ../out/bootstrap-aarch64.zip)")"
+            echo "- sha256: \`$SUM\`"
             echo "- URL unduh:"
             echo '```'
-            echo "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BOOT_BRANCH}/bootstrap-aarch64.zip"
+            echo "https://github.com/${GITHUB_REPOSITORY}/releases/download/bootstrap/bootstrap-aarch64.zip"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
