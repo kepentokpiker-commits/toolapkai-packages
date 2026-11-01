@@ -7,7 +7,7 @@ on:
         description: "Centang = hanya lapor jumlah file, tidak mengubah Release dan apt-repo"
         type: boolean
         required: false
-        default: false
+        default: true
 
 permissions:
   contents: write
