@@ -156,6 +156,18 @@ jobs:
           head -n 8 build-package.sh
           bash -n build-package.sh && echo "sintaks pembungkus OK"
 
+      - name: Izinkan container menulis ke folder repo
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          mkdir -p output
+          # User "builder" di dalam container punya UID berbeda dari user runner;
+          # tanpa ini, mv bootstrap-aarch64.zip ke folder utama ditolak.
+          chmod -R a+rwX .
+          ls -ld . output
+
       - name: Build bootstrap (build-bootstraps.sh di dalam Docker)
         if: steps.check.outputs.skip != 'true'
         shell: bash
