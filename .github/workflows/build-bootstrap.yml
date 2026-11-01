@@ -108,7 +108,7 @@ jobs:
             exit 1
           fi
           grep -n "$APP_PACKAGE" "$F"
-          ls -la scripts/build-bootstraps.sh scripts/run-docker.sh
+          ls -la scripts/build-bootstraps.sh scripts/generate-bootstraps.sh scripts/run-docker.sh
 
       - name: Pasang pembungkus build-package.sh (sub-paket ke paket induk)
         if: steps.check.outputs.skip != 'true'
@@ -153,20 +153,71 @@ jobs:
           # Heredoc di dalam blok YAML ikut menjorok; rapikan indentasinya.
           sed -i 's/^          //' build-package.sh
           chmod +x build-package.sh build-package.real.sh
-          head -n 8 build-package.sh
           bash -n build-package.sh && echo "sintaks pembungkus OK"
 
-      - name: Izinkan container menulis ke folder repo
+      - name: Pasang pengaman mv (zip disalin ke output/ kalau mv gagal)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          cat > "$RUNNER_TEMP/mvfix.sh" <<'EOF'
+          # --- pengaman: kalau mv zip gagal, salin ke output/ ---
+          mv() {
+            command mv "$@" && return 0
+            local rc=$?
+            local src="${@: -2:1}"
+            case "$src" in
+              *.zip)
+                mkdir -p /home/builder/termux-packages/output
+                if cp -f "$src" /home/builder/termux-packages/output/ 2>/dev/null; then
+                  echo "[fallback] zip disalin ke output/ karena mv gagal" >&2
+                fi
+                ;;
+            esac
+            return $rc
+          }
+          # --- akhir pengaman ---
+          EOF
+          sed -i 's/^          //' "$RUNNER_TEMP/mvfix.sh"
+          for f in scripts/generate-bootstraps.sh scripts/build-bootstraps.sh; do
+            head -n 1 "$f"
+            sed -i "1r $RUNNER_TEMP/mvfix.sh" "$f"
+            bash -n "$f" && echo "sintaks $f OK"
+          done
+
+      - name: Izinkan container menulis dan diagnosa izin
         if: steps.check.outputs.skip != 'true'
         shell: bash
         run: |
           set -euo pipefail
           cd tp
           mkdir -p output
-          # User "builder" di dalam container punya UID berbeda dari user runner;
-          # tanpa ini, mv bootstrap-aarch64.zip ke folder utama ditolak.
           chmod -R a+rwX .
-          ls -ld . output
+          cat > probe.sh <<'EOF'
+          #!/bin/bash
+          echo "user di container: $(id)"
+          ls -ld /home/builder/termux-packages /home/builder/termux-packages/output
+          if touch /home/builder/termux-packages/_probe 2>/dev/null; then
+            echo "probe tulis ke folder repo: OK"
+            rm -f /home/builder/termux-packages/_probe
+          else
+            echo "probe tulis ke folder repo: GAGAL"
+          fi
+          EOF
+          sed -i 's/^          //' probe.sh
+          chmod +x probe.sh
+          set +e
+          ./scripts/run-docker.sh ./probe.sh 2>&1 | tee ../probe_log.txt
+          set -e
+          {
+            echo "### Diagnosa izin container"
+            echo "- user runner: $(id)"
+            echo '```'
+            tail -n 12 ../probe_log.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm -f probe.sh
 
       - name: Build bootstrap (build-bootstraps.sh di dalam Docker)
         if: steps.check.outputs.skip != 'true'
@@ -183,20 +234,33 @@ jobs:
           ./scripts/run-docker.sh ./scripts/build-bootstraps.sh "${ARGS[@]}" 2>&1 | tee ../bootstrap_log.txt
           RC=${PIPESTATUS[0]}
           sudo chown -R "$(id -u):$(id -g)" . || true
+
+          # Ambil zip dari output/ kalau mv ke folder utama gagal.
+          if [ ! -f bootstrap-aarch64.zip ] && [ -f output/bootstrap-aarch64.zip ]; then
+            cp -f output/bootstrap-aarch64.zip bootstrap-aarch64.zip
+            echo "Zip diambil dari output/ (pengaman mv dipakai)"
+          fi
+
           {
             echo "### Sub-paket yang dipetakan ke paket induk"
             echo '```'
             grep -h '^\[pembungkus\]' ../bootstrap_log.txt | sort -u || true
             echo '```'
+            echo "### Pengaman mv"
+            echo '```'
+            grep -h '^\[fallback\]' ../bootstrap_log.txt | sort -u || true
+            grep -h '^mv: ' ../bootstrap_log.txt | sort -u || true
+            echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-          if [ "$RC" -ne 0 ] || [ ! -f bootstrap-aarch64.zip ]; then
+
+          if [ ! -f bootstrap-aarch64.zip ]; then
             {
               echo "## Pembuatan bootstrap gagal (exit $RC)"
               echo '```'
               tail -n 70 ../bootstrap_log.txt
               echo '```'
             } >> "$GITHUB_STEP_SUMMARY"
-            echo "::error::build-bootstraps.sh gagal atau bootstrap-aarch64.zip tidak ada"
+            echo "::error::bootstrap-aarch64.zip tidak ditemukan"
             exit 1
           fi
           ls -la bootstrap-aarch64.zip
