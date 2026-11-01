@@ -86,7 +86,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          sudo apt-get install -y zip unzip >/dev/null
+          sudo apt-get install -y zip unzip >/dev/null 2>&1
           rm -rf z && mkdir z && cd z
           unzip -q ../work/bootstrap-aarch64.zip
 
@@ -133,19 +133,25 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          sudo apt-get install -y dpkg-dev apt-utils >/dev/null
+          sudo apt-get install -y dpkg-dev apt-utils >/dev/null 2>&1
           cd debs
           : > ../deb_changed.txt
           : > ../deb_binary.txt
+          : > ../deb_failed.txt
+
           fix_deb() {
-            local deb="$1" w
+            local deb="$1" w rc=0
             w=$(mktemp -d)
-            dpkg-deb -R "$deb" "$w"
+            if ! dpkg-deb -R "$deb" "$w"; then
+              rm -rf "$w"
+              return 1
+            fi
             if ! grep -rIlE "$PAT" "$w" >/dev/null 2>&1; then
               if grep -rlaE "$PAT" "$w" >/dev/null 2>&1; then
                 echo "$deb" >> ../deb_binary.txt
               fi
-              chmod -R u+rwX "$w"; rm -rf "$w"
+              chmod -R u+rwX "$w"
+              rm -rf "$w"
               return 0
             fi
             grep -rIlE "$PAT" "$w" | while read -r f; do
@@ -153,16 +159,32 @@ jobs:
             done
             if [ -f "$w/DEBIAN/md5sums" ]; then
               (cd "$w" && find . -type f ! -path './DEBIAN/*' -printf '%P\0' \
-                | xargs -0 -r md5sum > DEBIAN/md5sums)
+                | xargs -0 -r md5sum > DEBIAN/md5sums) || rc=1
             fi
-            dpkg-deb --root-owner-group -Zxz -b "$w" "$deb.new" >/dev/null
-            mv -f "$deb.new" "$deb"
-            echo "$deb" >> ../deb_changed.txt
-            chmod -R u+rwX "$w"; rm -rf "$w"
+            # dpkg-deb -b menolak izin di luar 0555-0775 untuk skrip pemelihara
+            # dan di luar 0755-0775 untuk folder DEBIAN.
+            chmod 0755 "$w/DEBIAN"
+            for s in preinst postinst prerm postrm config; do
+              if [ -f "$w/DEBIAN/$s" ]; then chmod 0755 "$w/DEBIAN/$s"; fi
+            done
+            if [ "$rc" -eq 0 ] && dpkg-deb --root-owner-group -Zxz -b "$w" "$deb.new" >/dev/null; then
+              mv -f "$deb.new" "$deb"
+              echo "$deb" >> ../deb_changed.txt
+            else
+              rc=1
+              rm -f "$deb.new"
+            fi
+            chmod -R u+rwX "$w"
+            rm -rf "$w"
+            return "$rc"
           }
+
           for d in *.deb; do
-            fix_deb "$d"
+            if ! fix_deb "$d"; then
+              echo "$d" >> ../deb_failed.txt
+            fi
           done
+
           dpkg-scanpackages -m . > Packages
           gzip -9 -k -f Packages
           apt-ftparchive release . > Release
@@ -172,6 +194,12 @@ jobs:
             echo '```'
             cat ../deb_changed.txt
             echo '```'
+            echo "- .deb yang GAGAL dibangun ulang: **$(wc -l < ../deb_failed.txt)**"
+            if [ -s ../deb_failed.txt ]; then
+              echo '```'
+              cat ../deb_failed.txt
+              echo '```'
+            fi
             echo "- .deb dengan path lama di file BINARY (tidak diubah): $(sort -u ../deb_binary.txt | wc -l)"
             if [ -s ../deb_binary.txt ]; then
               echo '```'
@@ -179,6 +207,10 @@ jobs:
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+          if [ -s ../deb_failed.txt ]; then
+            echo "::error::Ada .deb yang gagal dibangun ulang, hasil tidak diterbitkan"
+            exit 1
+          fi
 
       - name: Terbitkan hasil perbaikan
         if: github.event.inputs.dry_run != 'true'
