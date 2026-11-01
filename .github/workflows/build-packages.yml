@@ -184,13 +184,36 @@ jobs:
           fi
           ls output/*.deb >/dev/null 2>&1 || { echo "::error::Tidak ada .deb di output/"; exit 1; }
 
+      - name: Gabungkan dengan paket lama di apt-repo
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p repo old
+          if git ls-remote --exit-code --heads origin "$APT_BRANCH" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "$APT_BRANCH"
+            git archive FETCH_HEAD | tar -x -C old
+          fi
+          # Buang versi lama dari paket yang baru dibuild.
+          for n in tp/output/*.deb; do
+            P=$(dpkg-deb -f "$n" Package)
+            for o in old/*.deb; do
+              [ -e "$o" ] || continue
+              if [ "$(dpkg-deb -f "$o" Package)" = "$P" ]; then
+                rm -f "$o"
+              fi
+            done
+          done
+          # Sisa paket lama dipertahankan, lalu paket baru ditambahkan.
+          cp old/*.deb repo/ 2>/dev/null || true
+          cp tp/output/*.deb repo/
+          echo "Isi repo gabungan:"
+          ls -la repo
+
       - name: Buat indeks apt (flat repo)
         shell: bash
         run: |
           set -euo pipefail
           sudo apt-get install -y dpkg-dev apt-utils >/dev/null
-          mkdir -p repo
-          cp tp/output/*.deb repo/
           cd repo
           dpkg-scanpackages -m . > Packages
           gzip -9 -k -f Packages
