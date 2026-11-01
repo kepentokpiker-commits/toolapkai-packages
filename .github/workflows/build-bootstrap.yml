@@ -112,10 +112,38 @@ jobs:
         run: |
           set -euo pipefail
           cd tp
+          S=scripts/generate-bootstraps.sh
           BASE="$GITHUB_WORKSPACE/aptrepo"
-          LIST=$( (grep -oE 'PACKAGES\+=\("[^"]+"\)' scripts/generate-bootstraps.sh \
-                   | sed -E 's/.*\("([^"]+)"\)/\1/' | sort -u) || true )
-          echo "Paket bawaan skrip: $(echo $LIST | wc -w)"
+
+          # Diagnosis: tampilkan semua baris yang menyentuh daftar paket.
+          {
+            echo "## Baris PACKAGES di generate-bootstraps.sh"
+            echo '```'
+            grep -n 'PACKAGES' "$S" | head -n 150 || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          # Ambil isi tiap PACKAGES+=( ... ), buang komentar, kutip, dan variabel ($...).
+          LIST=$( (grep -E 'PACKAGES\+=\(' "$S" \
+                    | sed -E 's/#.*$//' \
+                    | sed -E 's/.*PACKAGES\+=\(([^)]*)\).*/\1/' \
+                    | tr -d "\"'" | tr ' ' '\n' \
+                    | grep -E '^[a-z0-9][a-z0-9+.-]*$' | sort -u) || true )
+          COUNT=$(echo "$LIST" | grep -c . || true)
+          echo "Paket bawaan terbaca: $COUNT"
+          echo "$LIST" | xargs
+
+          if [ "$COUNT" -lt 5 ]; then
+            {
+              echo "## Daftar paket bootstrap tidak terbaca"
+              echo
+              echo "Hanya $COUNT nama yang terbaca dari skrip. Format daftar paketnya berbeda dari yang diperkirakan."
+              echo "Kirim blok **Baris PACKAGES** di atas supaya parser disesuaikan."
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::Daftar paket bootstrap tidak terbaca ($COUNT nama). Lihat Summary."
+            exit 1
+          fi
+
           MISSING=""
           for n in $LIST ${EXTRA//,/ }; do
             grep -qx "Package: $n" "$BASE/Packages" || MISSING="$MISSING $n"
