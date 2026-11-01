@@ -1,0 +1,223 @@
+name: Perbaiki Path Lama (com.termux)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Centang = hanya lapor jumlah file, tidak mengubah Release dan apt-repo"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: false
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BRANCH: apt-repo
+  RELEASE_TAG: bootstrap
+  # Path lama yang diganti; com.termux.api dan sejenisnya sengaja tidak ikut.
+  PAT: '/data/data/com\.termux([^A-Za-z0-9_.]|$)'
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ambil apt-repo
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --depth 1 origin "refs/heads/$APT_BRANCH:refs/remotes/origin/$APT_BRANCH"
+          mkdir -p debs
+          git archive "origin/$APT_BRANCH" | tar -x -C debs
+          echo "Jumlah .deb: $(ls debs/*.deb | wc -l)"
+          ls debs/BUILT.txt
+
+      - name: Ambil zip bootstrap dari Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" \
+            --pattern bootstrap-aarch64.zip --dir work
+          ls -la work
+
+      - name: Diagnosa sumber (kenapa path lama muncul)
+        shell: bash
+        run: |
+          set +e
+          SHA=$(cut -d'|' -f1 debs/BUILT.txt)
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch -q --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          {
+            echo "### Diagnosa sumber (commit \`$SHA\`)"
+            echo "#### scripts/properties.sh, baris yang memuat com.termux"
+            echo '```'
+            grep -n 'com\.termux' scripts/properties.sh | head -n 40
+            echo '```'
+            for p in termux-tools termux-exec termux-core; do
+              echo "#### packages/$p: file sumber yang memuat /data/data/com.termux"
+              echo '```'
+              grep -rIn '/data/data/com\.termux' "packages/$p" | head -n 15
+              echo '```'
+            done
+            echo "#### packages/termux-tools/build.sh (60 baris pertama)"
+            echo '```'
+            sed -n '1,60p' packages/termux-tools/build.sh
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0
+
+      - name: Perbaiki zip bootstrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y zip unzip >/dev/null
+          rm -rf z && mkdir z && cd z
+          unzip -q ../work/bootstrap-aarch64.zip
+
+          grep -rIlE "$PAT" . | sort > ../zip_text.txt || true
+          grep -rlaE "$PAT" . | sort > ../zip_all.txt || true
+          comm -23 ../zip_all.txt ../zip_text.txt > ../zip_bin.txt || true
+          NT=$(wc -l < ../zip_text.txt)
+          NBIN=$(wc -l < ../zip_bin.txt)
+
+          while read -r f; do
+            [ -n "$f" ] || continue
+            sed -E -i "s#/data/data/com\.termux([^A-Za-z0-9_.]|\$)#/data/data/${APP_PACKAGE}\1#g" "$f"
+            rel="${f#./}"
+            new=$(md5sum "$f" | cut -d' ' -f1)
+            key="data/data/${APP_PACKAGE}/files/usr/${rel}"
+            for m in var/lib/dpkg/info/*.md5sums; do
+              if grep -qF "  $key" "$m" 2>/dev/null; then
+                sed -i "s#^[0-9a-f]\{32\}  ${key}\$#${new}  ${key}#" "$m"
+              fi
+            done
+          done < ../zip_text.txt
+
+          AFTER=$(grep -rIlE "$PAT" . | wc -l || true)
+          rm -f ../work/new.zip
+          zip -qr9 ../work/new.zip ./*
+          {
+            echo "## Perbaikan zip bootstrap"
+            echo "- file teks yang diperbaiki: **$NT**"
+            echo "- file teks yang masih memuat path lama sesudahnya: **$AFTER**"
+            echo "- file BINARY yang memuat path lama (tidak diubah): **$NBIN**"
+            if [ "$NBIN" -gt 0 ]; then
+              echo '```'
+              sed 's#^\./##' ../zip_bin.txt | head -n 20
+              echo '```'
+            fi
+            echo "- file yang diperbaiki:"
+            echo '```'
+            sed 's#^\./##' ../zip_text.txt
+            echo '```'
+            echo "- ukuran zip baru: $(numfmt --to=iec "$(stat -c %s ../work/new.zip)")"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Perbaiki .deb di apt-repo
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y dpkg-dev apt-utils >/dev/null
+          cd debs
+          : > ../deb_changed.txt
+          : > ../deb_binary.txt
+          fix_deb() {
+            local deb="$1" w
+            w=$(mktemp -d)
+            dpkg-deb -R "$deb" "$w"
+            if ! grep -rIlE "$PAT" "$w" >/dev/null 2>&1; then
+              if grep -rlaE "$PAT" "$w" >/dev/null 2>&1; then
+                echo "$deb" >> ../deb_binary.txt
+              fi
+              chmod -R u+rwX "$w"; rm -rf "$w"
+              return 0
+            fi
+            grep -rIlE "$PAT" "$w" | while read -r f; do
+              sed -E -i "s#/data/data/com\.termux([^A-Za-z0-9_.]|\$)#/data/data/${APP_PACKAGE}\1#g" "$f"
+            done
+            if [ -f "$w/DEBIAN/md5sums" ]; then
+              (cd "$w" && find . -type f ! -path './DEBIAN/*' -printf '%P\0' \
+                | xargs -0 -r md5sum > DEBIAN/md5sums)
+            fi
+            dpkg-deb --root-owner-group -Zxz -b "$w" "$deb.new" >/dev/null
+            mv -f "$deb.new" "$deb"
+            echo "$deb" >> ../deb_changed.txt
+            chmod -R u+rwX "$w"; rm -rf "$w"
+          }
+          for d in *.deb; do
+            fix_deb "$d"
+          done
+          dpkg-scanpackages -m . > Packages
+          gzip -9 -k -f Packages
+          apt-ftparchive release . > Release
+          {
+            echo "## Perbaikan .deb di apt-repo"
+            echo "- .deb yang diperbaiki: **$(wc -l < ../deb_changed.txt)** dari $(ls *.deb | wc -l)"
+            echo '```'
+            cat ../deb_changed.txt
+            echo '```'
+            echo "- .deb dengan path lama di file BINARY (tidak diubah): $(sort -u ../deb_binary.txt | wc -l)"
+            if [ -s ../deb_binary.txt ]; then
+              echo '```'
+              sort -u ../deb_binary.txt | head -n 20
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Terbitkan hasil perbaikan
+        if: github.event.inputs.dry_run != 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # 1. Zip bootstrap -> ganti aset di Release
+          cp work/new.zip bootstrap-aarch64.zip
+          sha256sum bootstrap-aarch64.zip > bootstrap-aarch64.zip.sha256
+          SUM=$(cut -d' ' -f1 bootstrap-aarch64.zip.sha256)
+          gh release upload "$RELEASE_TAG" bootstrap-aarch64.zip bootstrap-aarch64.zip.sha256 \
+            --clobber --repo "$GITHUB_REPOSITORY"
+          gh release edit "$RELEASE_TAG" --notes "sha256: $SUM (path com.termux diperbaiki)" \
+            --repo "$GITHUB_REPOSITORY"
+
+          # 2. apt-repo -> dorong ulang berisi .deb yang sudah diperbaiki
+          cd debs
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -q -b "$APT_BRANCH"
+          git add -A
+          git commit -q -m "apt repo: perbaiki path com.termux"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f origin "$APT_BRANCH"
+          {
+            echo "### Hasil diterbitkan"
+            echo "- sha256 zip baru: \`$SUM\`"
+            echo "- URL:"
+            echo '```'
+            echo "https://github.com/${GITHUB_REPOSITORY}/releases/download/${RELEASE_TAG}/bootstrap-aarch64.zip"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Catatan dry run
+        if: github.event.inputs.dry_run == 'true'
+        shell: bash
+        run: |
+          echo "### Dry run" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Release dan apt-repo **tidak** diubah. Jalankan lagi tanpa centang untuk menerbitkan." >> "$GITHUB_STEP_SUMMARY"
