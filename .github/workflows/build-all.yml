@@ -17,6 +17,11 @@ on:
         type: boolean
         required: false
         default: false
+      tp_sha:
+        description: "Opsional: pin commit termux-packages (40 karakter). Harus bersama reset kalau sudah ada state. Kosong = master terbaru."
+        type: string
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -83,9 +88,18 @@ jobs:
       - name: Clone termux-packages (commit dipin)
         id: tp
         shell: bash
+        env:
+          INPUT_SHA: ${{ github.event.inputs.tp_sha }}
         run: |
           set -euo pipefail
-          if [ -s "$RUNNER_TEMP/SHA.txt" ]; then
+          if [ -n "${INPUT_SHA:-}" ]; then
+            [[ "$INPUT_SHA" =~ ^[0-9a-f]{40}$ ]] || { echo "::error::tp_sha harus 40 karakter hex penuh"; exit 1; }
+            if [ -s "$RUNNER_TEMP/SHA.txt" ] && [ "$(cat "$RUNNER_TEMP/SHA.txt")" != "$INPUT_SHA" ]; then
+              echo "::error::State lama memakai commit lain. Centang reset bersama tp_sha."
+              exit 1
+            fi
+            SHA=$INPUT_SHA
+          elif [ -s "$RUNNER_TEMP/SHA.txt" ]; then
             SHA=$(cat "$RUNNER_TEMP/SHA.txt")
           else
             SHA=$(git ls-remote "$TP_REPO" refs/heads/master | cut -f1)
