@@ -15,21 +15,27 @@ touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt"
 cd "$ROOT/tp"
 
 if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
-  # Tulis ke berkas sementara: kalau gagal di tengah jalan, urutan setengah jadi
-  # tidak boleh ikut tersimpan ke state dan dipakai stage berikutnya.
-  if ./scripts/buildorder.py > "$STATE_DIR/buildorder.tmp" 2> "$STATE_DIR/buildorder.err"; then
+  # Keluaran ditulis ke berkas sementara: kalau gagal di tengah jalan, urutan
+  # setengah jadi tidak boleh ikut tersimpan ke state dan dipakai stage berikutnya.
+  ./scripts/buildorder.py > "$STATE_DIR/buildorder.tmp" 2> "$STATE_DIR/buildorder.err"
+  BO_RC=$?
+  if [ "$BO_RC" -eq 0 ]; then
     mv "$STATE_DIR/buildorder.tmp" "$STATE_DIR/buildorder.txt"
   else
-    rm -f "$STATE_DIR/buildorder.tmp"
-    echo "::error::buildorder.py gagal (exit $?)"
-    echo "--- stderr buildorder.py (lengkap) ---"
-    cat "$STATE_DIR/buildorder.err"
+    echo "::error::buildorder.py gagal (exit $BO_RC)"
+    cat "$STATE_DIR/buildorder.tmp" "$STATE_DIR/buildorder.err" > "$STATE_DIR/buildorder.all"
+    echo "--- inti siklus (ringkas) ---"
+    python3 "$ROOT/scripts/cycle-report.py" "$STATE_DIR/buildorder.all" | tee "$STATE_DIR/cycle-report.txt"
+    echo "--- awal keluaran buildorder.py ---"
+    head -n 40 "$STATE_DIR/buildorder.all"
     {
-      echo "### buildorder.py gagal"
+      echo "### buildorder.py gagal (exit $BO_RC)"
+      echo "commit termux-packages: \`$(git rev-parse --short HEAD 2>/dev/null)\`"
       echo '```'
-      head -n 60 "$STATE_DIR/buildorder.err"
+      head -n 40 "$STATE_DIR/cycle-report.txt"
       echo '```'
     } >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
+    rm -f "$STATE_DIR/buildorder.tmp"
     exit 1
   fi
 fi
