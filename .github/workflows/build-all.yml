@@ -31,17 +31,11 @@ env:
   TP_REPO: https://github.com/termux/termux-packages.git
   APT_BRANCH: apt-repo
   APT_BASE_URL: ${{ vars.APT_BASE_URL }}
-  ANDROID_HOME: /usr/local/lib/android/sdk
-  ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
-  ANDROID_SDK_DIR: /usr/local/lib/android/sdk
-  ANDROID_API_LEVEL: "35"
-  ANDROID_BUILD_TOOLS_VERSION: "35.0.0"
 
 jobs:
   stage:
     runs-on: ubuntu-latest
     timeout-minutes: 345
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -73,13 +67,11 @@ jobs:
         shell: bash
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           [ -n "${APT_BASE_URL:-}" ] || { echo "::error::Variabel APT_BASE_URL belum diisi"; exit 1; }
           [ -n "${GPG_PRIVATE_KEY:-}" ] || { echo "::error::Secret GPG_PRIVATE_KEY belum diisi"; exit 1; }
-          [ -n "${GPG_PASSPHRASE:-}" ] || { echo "::error::Secret GPG_PASSPHRASE belum diisi"; exit 1; }
           sudo apt-get update -qq
-          sudo apt-get install -y zstd dpkg-dev apt-utils gnupg xz-utils unzip wget ca-certificates >/dev/null
+          sudo apt-get install -y zstd dpkg-dev apt-utils gnupg xz-utils >/dev/null
 
       - name: Pulihkan state stage sebelumnya
         shell: bash
@@ -115,65 +107,24 @@ jobs:
           set -euo pipefail
           bash scripts/patch-tp.sh tp 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Siapkan Android SDK
-        shell: bash
-        env:
-          ANDROID_HOME: /usr/local/lib/android/sdk
-          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
-        run: |
-          set -euo pipefail
-
-          sudo mkdir -p /usr/local/lib/android
-          sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
-          mkdir -p "$ANDROID_HOME"
-
-          if [ ! -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ]; then
-            echo "Mengunduh Android Command Line Tools..."
-            wget -q https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip -O /tmp/cmdline-tools.zip
-            rm -rf /tmp/cmdline-tools
-            mkdir -p /tmp/cmdline-tools
-            unzip -q /tmp/cmdline-tools.zip -d /tmp/cmdline-tools
-
-            mkdir -p "$ANDROID_HOME/cmdline-tools"
-            rm -rf "$ANDROID_HOME/cmdline-tools/latest"
-            mv /tmp/cmdline-tools/cmdline-tools "$ANDROID_HOME/cmdline-tools/latest"
-          fi
-
-          export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
-
-          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" --licenses >/dev/null 2>&1 || true
-          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" --install \
-            "platform-tools" \
-            "platforms;android-${ANDROID_API_LEVEL}" \
-            "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" \
-            "ndk;26.3.11579264"
-
-          echo "$ANDROID_HOME/cmdline-tools/latest/bin" >> "$GITHUB_PATH"
-          echo "$ANDROID_HOME/platform-tools" >> "$GITHUB_PATH"
-          echo "ANDROID_HOME=$ANDROID_HOME" >> "$GITHUB_ENV"
-          echo "ANDROID_SDK_ROOT=$ANDROID_HOME" >> "$GITHUB_ENV"
-
       - name: Siapkan lingkungan build
         shell: bash
-        env:
-          ANDROID_HOME: /usr/local/lib/android/sdk
-          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
         run: |
           set -euo pipefail
           cd tp
           sudo ./scripts/setup-ubuntu.sh
           sudo mkdir -p "/data/data/$APP_PACKAGE"
           sudo chown -R "$(id -u):$(id -g)" /data
+          # Folder ini sengaja dihapus saat bebaskan ruang disk; SDK butuh dibuat ulang.
           sudo mkdir -p /usr/local/lib/android
           sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
+          ./scripts/setup-android-sdk.sh
 
       - name: Build paket (sampai waktu stage habis)
         id: build
         shell: bash
         env:
           MAX_MIN: ${{ github.event.inputs.max_minutes }}
-          ANDROID_HOME: /usr/local/lib/android/sdk
-          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
         run: |
           export MAX_SECONDS=$(( ${MAX_MIN:-270} * 60 ))
           bash scripts/stage-build.sh
