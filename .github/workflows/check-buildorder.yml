@@ -1,0 +1,102 @@
+name: Cek buildorder.py (cepat, tanpa build)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tp_sha:
+        description: "Commit termux-packages (40 karakter). Kosong = master terbaru."
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BASE_URL: ${{ vars.APT_BASE_URL }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Clone termux-packages
+        id: tp
+        shell: bash
+        env:
+          INPUT_SHA: ${{ github.event.inputs.tp_sha }}
+        run: |
+          set -euo pipefail
+          SHA=${INPUT_SHA:-}
+          if [ -z "$SHA" ]; then
+            SHA=$(git ls-remote "$TP_REPO" refs/heads/master | cut -f1)
+          fi
+          [[ "$SHA" =~ ^[0-9a-f]{40}$ ]] || { echo "::error::SHA tidak valid: $SHA"; exit 1; }
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          git log -1 --oneline
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+
+      - name: buildorder.py TANPA patch kita (upstream murni)
+        id: plain
+        shell: bash
+        run: |
+          set +e
+          cd tp
+          ./scripts/buildorder.py > "$RUNNER_TEMP/plain.out" 2> "$RUNNER_TEMP/plain.err"
+          RC=$?
+          cat "$RUNNER_TEMP/plain.out" "$RUNNER_TEMP/plain.err" > "$RUNNER_TEMP/plain.all"
+          echo "rc=$RC" >> "$GITHUB_OUTPUT"
+          echo "baris urutan: $(grep -c . "$RUNNER_TEMP/plain.out")"
+          [ "$RC" -eq 0 ] || python3 ../scripts/cycle-report.py "$RUNNER_TEMP/plain.all"
+          exit 0
+
+      - name: Terapkan patch kita (prefix, repo, paket sendiri)
+        id: patched
+        shell: bash
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          set +e
+          bash scripts/patch-tp.sh tp > "$RUNNER_TEMP/patch.log" 2>&1
+          PRC=$?
+          tail -n 5 "$RUNNER_TEMP/patch.log"
+          cd tp
+          ./scripts/buildorder.py > "$RUNNER_TEMP/patched.out" 2> "$RUNNER_TEMP/patched.err"
+          RC=$?
+          cat "$RUNNER_TEMP/patched.out" "$RUNNER_TEMP/patched.err" > "$RUNNER_TEMP/patched.all"
+          echo "rc=$RC" >> "$GITHUB_OUTPUT"
+          echo "prc=$PRC" >> "$GITHUB_OUTPUT"
+          echo "baris urutan: $(grep -c . "$RUNNER_TEMP/patched.out")"
+          [ "$RC" -eq 0 ] || python3 ../scripts/cycle-report.py "$RUNNER_TEMP/patched.all"
+          exit 0
+
+      - name: Ringkasan
+        shell: bash
+        run: |
+          {
+            echo "### Hasil cek buildorder.py"
+            echo "- commit: \`${{ steps.tp.outputs.sha }}\`"
+            echo "- upstream murni: exit **${{ steps.plain.outputs.rc }}** (0 = lolos)"
+            echo "- setelah patch kita: exit **${{ steps.patched.outputs.rc }}** (patch-tp.sh exit ${{ steps.patched.outputs.prc }})"
+            if [ "${{ steps.plain.outputs.rc }}" != "0" ]; then
+              echo "#### Siklus di upstream murni"
+              echo '```'
+              python3 scripts/cycle-report.py "$RUNNER_TEMP/plain.all" | head -n 40
+              echo '```'
+            fi
+            if [ "${{ steps.patched.outputs.rc }}" != "0" ] && [ "${{ steps.plain.outputs.rc }}" = "0" ]; then
+              echo "#### Siklus hanya muncul SETELAH patch kita"
+              echo '```'
+              python3 scripts/cycle-report.py "$RUNNER_TEMP/patched.all" | head -n 40
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
