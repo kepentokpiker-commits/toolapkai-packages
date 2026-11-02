@@ -115,6 +115,9 @@ jobs:
           sudo ./scripts/setup-ubuntu.sh
           sudo mkdir -p "/data/data/$APP_PACKAGE"
           sudo chown -R "$(id -u):$(id -g)" /data
+          # Folder ini sengaja dihapus saat bebaskan ruang disk; SDK butuh dibuat ulang.
+          sudo mkdir -p /usr/local/lib/android
+          sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
           ./scripts/setup-android-sdk.sh
 
       - name: Build paket (sampai waktu stage habis)
