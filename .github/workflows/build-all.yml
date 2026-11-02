@@ -110,16 +110,52 @@ jobs:
       - name: Siapkan lingkungan build
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+
           cd tp
+
+          echo "=== Menyiapkan lingkungan Ubuntu ==="
           sudo ./scripts/setup-ubuntu.sh
+
+          echo "=== Menyiapkan direktori aplikasi ==="
           sudo mkdir -p "/data/data/$APP_PACKAGE"
           sudo chown -R "$(id -u):$(id -g)" /data
-          # Folder ini sengaja dihapus saat bebaskan ruang disk; SDK butuh dibuat ulang.
+
+          echo "=== Menyiapkan direktori Android SDK ==="
           sudo mkdir -p /usr/local/lib/android
           sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
+
+          export ANDROID_HOME=/usr/local/lib/android/sdk
+          export ANDROID_SDK_ROOT="$ANDROID_HOME"
+
+          echo "ANDROID_HOME=$ANDROID_HOME"
+
+          echo "=== Memeriksa SDK yang tersedia ==="
+          if [ ! -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ] \
+             && [ ! -x "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" ]; then
+            echo "SDK tidak lengkap. Menghapus direktori SDK lama."
+            rm -rf "$ANDROID_HOME"
+          fi
+
+          echo "=== Memasang Android SDK dan NDK ==="
           ./scripts/setup-android-sdk.sh
 
+          echo "=== Memvalidasi sdkmanager ==="
+          if [ -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ]; then
+            SDK_MANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          elif [ -x "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" ]; then
+            SDK_MANAGER="$ANDROID_HOME/cmdline-tools/bin/sdkmanager"
+          else
+            echo "::error::sdkmanager tidak ditemukan setelah instalasi"
+            find "$ANDROID_HOME" -type f -name sdkmanager -print || true
+            exit 1
+          fi
+
+          echo "SDK_MANAGER=$SDK_MANAGER"
+          "$SDK_MANAGER" --version
+
+          echo "=== Android SDK siap ==="
+          
       - name: Build paket (sampai waktu stage habis)
         id: build
         shell: bash
