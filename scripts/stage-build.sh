@@ -36,7 +36,31 @@ if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
       echo '```'
     } >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
     rm -f "$STATE_DIR/buildorder.tmp"
-    exit 1
+
+    # Urutan cadangan: siklus induk <-> sub-paket dipecah sendiri.
+    # Matikan dengan ALLOW_FALLBACK=0 kalau ingin gagal keras.
+    : "${FALLBACK_MIN:=500}"
+    if [ "${ALLOW_FALLBACK:-1}" = "1" ]; then
+      echo "--- buildorder.py upstream gagal, memakai urutan cadangan ---"
+      python3 "$ROOT/scripts/fallback-buildorder.py" . > "$STATE_DIR/buildorder.fb" 2> "$STATE_DIR/fallback.log"
+      cat "$STATE_DIR/fallback.log"
+      FB_N=$(grep -c . "$STATE_DIR/buildorder.fb")
+      if [ "$FB_N" -ge "$FALLBACK_MIN" ]; then
+        mv "$STATE_DIR/buildorder.fb" "$STATE_DIR/buildorder.txt"
+        {
+          echo "**Memakai urutan cadangan ($FB_N paket).** Siklus dipecah otomatis; paket yang salah urut mungkin gagal dan dilewati."
+          echo '```'
+          cat "$STATE_DIR/fallback.log"
+          echo '```'
+        } >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
+      else
+        echo "::error::urutan cadangan hanya $FB_N paket (minimal $FALLBACK_MIN); dianggap salah baca"
+        rm -f "$STATE_DIR/buildorder.fb"
+        exit 1
+      fi
+    else
+      exit 1
+    fi
   fi
 fi
 TOTAL=$(grep -c . "$STATE_DIR/buildorder.txt")
