@@ -2,7 +2,7 @@
 //  /<repo>/dists/...        -> indeks di branch apt-repo (raw.githubusercontent)
 //  /<repo>/pool/<tag>/<.deb> -> berkas di GitHub Release
 // Ganti OWNER dan REPO, lalu deploy di dashboard Cloudflare Workers.
-const OWNER = "GANTI_USER_GITHUB";
+const OWNER = "kepentokpiker-commits";
 const REPO = "toolapkai-packages";
 const BRANCH = "apt-repo";
 
