@@ -23,15 +23,43 @@ if ! grep -q "$APP_PACKAGE" "$F"; then
   grep -n 'com\.termux' "$F" | head -20 || true
   exit 1
 fi
-# Semua URL repo resmi (termux-main, termux-root, termux-x11) diarahkan ke repo kita.
-sed -i -E "s#https?://packages(-cf)?\.termux\.dev/apt#${BASE}#g" "$F"
-if ! grep -q "$BASE" "$F"; then
-  echo "::error::URL repo resmi tidak ditemukan di $F; cek variabel TERMUX_REPO_* secara manual."
-  grep -n 'TERMUX_REPO' "$F" | head -20 || true
+# URL repo: termux-packages versi baru membaca daftar repo dari repo.json
+# (tiap entri punya url, distribution, component). Ganti hanya url-nya,
+# nama belakangnya (termux-main, termux-root, termux-x11) dipertahankan.
+RJ=$TP/repo.json
+if [ ! -f "$RJ" ]; then
+  echo "::error::repo.json tidak ditemukan di $TP"
   exit 1
 fi
+if ! python3 - "$RJ" "$BASE" <<'PY'
+import json, sys
+path, base = sys.argv[1], sys.argv[2]
+data = json.load(open(path, encoding='utf-8'))
+n = 0
+for key, val in data.items():
+    if isinstance(val, dict) and 'url' in val:
+        tail = val['url'].rstrip('/').rsplit('/', 1)[-1]
+        val['url'] = base + '/' + tail
+        n += 1
+with open(path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2)
+    f.write('\n')
+print('repo.json: url diganti pada', n, 'entri')
+sys.exit(0 if n else 1)
+PY
+then
+  echo "::error::Tidak ada kolom url di repo.json; isinya:"
+  cat "$RJ"
+  exit 1
+fi
+echo "--- repo.json sesudah diubah ---"
+cat "$RJ"
+# Sisa alamat repo resmi di file lain (hanya laporan, tidak menghentikan build).
+sed -i -E "s#https?://packages(-cf)?\.termux\.dev/apt#${BASE}#g" "$F" || true
+echo "--- sisa alamat repo resmi di sumber (untuk diperiksa) ---"
+grep -rnE 'packages(-cf)?\.termux\.dev' "$TP/repo.json" "$F" "$TP/packages/termux-tools" 2>/dev/null | head -n 20 || true
 echo "--- baris penting di properties.sh ---"
-grep -nE "TERMUX_APP(__PACKAGE_NAME|_PACKAGE)=|TERMUX_REPO|${BASE}" "$F" | head -n 30
+grep -nE "TERMUX_APP(__PACKAGE_NAME|_PACKAGE)=" "$F" | head -n 10
 
 # 2. paket sendiri (termasuk override termux-keyring)
 if [ -d "$ROOT/custom-packages" ]; then
