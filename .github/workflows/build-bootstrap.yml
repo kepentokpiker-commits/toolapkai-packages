@@ -1,0 +1,418 @@
+name: Build Bootstrap (prefix toolAPKAI)
+
+on:
+  workflow_dispatch:
+    inputs:
+      extra_packages:
+        description: "Paket tambahan di dalam bootstrap (opsi --add, pisah koma, tanpa spasi). Kosong = bawaan saja."
+        required: false
+        default: ""
+      force_rebuild:
+        description: "Centang = buat ulang bootstrap walau commit termux-packages dan isiannya sama dengan bootstrap terakhir"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: false
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BRANCH: apt-repo
+  BOOT_BRANCH: bootstrap
+  APT_BASE_URL: ${{ vars.APT_BASE_URL }}
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Tentukan commit termux-packages dan cek penanda
+        id: check
+        shell: bash
+        env:
+          EXTRA: ${{ github.event.inputs.extra_packages }}
+          FORCE: ${{ github.event.inputs.force_rebuild }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Pakai commit yang sama dengan build paket terakhir (kalau ada),
+          # supaya versi paket di bootstrap sama dengan di apt-repo.
+          SHA=""
+          SHA=$(gh release download state --repo "$GITHUB_REPOSITORY" --pattern SHA.txt --output - 2>/dev/null || true)
+          if [ -z "$SHA" ]; then
+            SHA=$(git ls-remote "$TP_REPO" refs/heads/master | cut -f1)
+          fi
+          [ -n "$SHA" ] || { echo "::error::Gagal menentukan commit termux-packages"; exit 1; }
+
+          STAMP="$SHA|${EXTRA:-}"
+          LAST=""
+          if git ls-remote --exit-code --heads origin "$BOOT_BRANCH" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "refs/heads/$BOOT_BRANCH:refs/remotes/origin/$BOOT_BRANCH"
+            LAST=$(git show "origin/$BOOT_BRANCH:BOOTSTRAP.txt" 2>/dev/null || true)
+          fi
+
+          SKIP=false
+          if [ "$FORCE" != "true" ] && [ "$LAST" = "$STAMP" ]; then
+            SKIP=true
+          fi
+
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "stamp=$STAMP" >> "$GITHUB_OUTPUT"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Cek bootstrap"
+            echo "- commit termux-packages: \`$SHA\`"
+            echo "- paksa buat ulang: $FORCE"
+            if [ "$SKIP" = "true" ]; then
+              echo "- hasil: **dilewati** (commit dan isian sama dengan bootstrap terakhir)"
+            else
+              echo "- hasil: **bootstrap dibuat**"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Bebaskan ruang disk
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/lib/android \
+            /usr/share/swift /opt/hostedtoolcache /usr/local/.ghcup /opt/microsoft || true
+          sudo docker image prune -af >/dev/null 2>&1 || true
+          df -h /
+
+      - name: Pasang swap 12 GB
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set +e
+          echo "--- sebelum ---"
+          free -h
+          df -h /mnt
+          sudo swapoff -a
+          sudo rm -f /mnt/swapfile
+          if sudo fallocate -l 12G /mnt/swapfile; then
+            sudo chmod 600 /mnt/swapfile
+            sudo mkswap /mnt/swapfile >/dev/null
+            sudo swapon /mnt/swapfile
+            sudo sysctl vm.swappiness=10 >/dev/null
+            echo "swap aktif"
+          else
+            echo "::warning::Gagal membuat swap di /mnt, build lanjut tanpa swap"
+          fi
+          echo "--- sesudah ---"
+          free -h
+          {
+            echo "### Memori runner"
+            echo '```'
+            free -h
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0
+
+      - name: Clone termux-packages dan ganti prefix
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          SHA: ${{ steps.check.outputs.sha }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          F=scripts/properties.sh
+          sed -i -E "s|^(TERMUX_APP__PACKAGE_NAME=).*|\1\"$APP_PACKAGE\"|" "$F"
+          sed -i -E "s|^(TERMUX_APP_PACKAGE=).*|\1\"$APP_PACKAGE\"|" "$F"
+          if ! grep -q "$APP_PACKAGE" "$F"; then
+            echo "::error::Baris nama paket di $F tidak ditemukan."
+            grep -n "com.termux" "$F" | head -20 || true
+            exit 1
+          fi
+          grep -n "$APP_PACKAGE" "$F"
+          cd ..
+          bash scripts/patch-tp.sh tp
+          cd tp
+          ls -la scripts/build-bootstraps.sh scripts/generate-bootstraps.sh scripts/run-docker.sh
+
+      - name: Pasang pembungkus build-package.sh (sub-paket ke paket induk)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          mv build-package.sh build-package.real.sh
+          cat > build-package.sh <<'EOF'
+          #!/bin/bash
+          # Pembungkus: kalau nama paket yang diminta ternyata sub-paket
+          # (mis. bzip2, libcurl, liblzma), bangun paket induknya.
+          # Semua .deb sub-paket ikut terbentuk di output/.
+          DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+          args=("$@")
+          n=${#args[@]}
+          if [ "$n" -gt 0 ]; then
+            name="${args[$((n-1))]}"
+            case "$name" in
+              -*|"") ;;
+              *)
+                found=0
+                for base in packages root-packages x11-packages; do
+                  if [ -d "$DIR/$base/$name" ]; then found=1; fi
+                done
+                if [ "$found" -eq 0 ]; then
+                  for base in packages root-packages x11-packages; do
+                    f=$(ls "$DIR/$base"/*/"$name".subpackage.sh 2>/dev/null | head -n 1)
+                    if [ -n "$f" ]; then
+                      parent=$(basename "$(dirname "$f")")
+                      echo "[pembungkus] sub-paket '$name' -> bangun paket induk '$parent'" >&2
+                      args[$((n-1))]="$parent"
+                      break
+                    fi
+                  done
+                fi
+                ;;
+            esac
+          fi
+          exec "$DIR/build-package.real.sh" "${args[@]}"
+          EOF
+          # Heredoc di dalam blok YAML ikut menjorok; rapikan indentasinya.
+          sed -i 's/^          //' build-package.sh
+          chmod +x build-package.sh build-package.real.sh
+          bash -n build-package.sh && echo "sintaks pembungkus OK"
+
+      - name: Pasang pengaman mv (zip selalu berakhir di output/)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          cat > "$RUNNER_TEMP/mvfix.sh" <<'EOF'
+          # --- pengaman: zip selalu berakhir di output/ ---
+          # Container hanya boleh menulis ke output/, jadi mv zip ke
+          # folder utama repo memang akan ditolak.
+          mv() {
+            local src="" out=/home/builder/termux-packages/output
+            if [ "$#" -ge 2 ]; then src="${@: -2:1}"; fi
+            case "$src" in
+              *.zip)
+                mkdir -p "$out" 2>/dev/null || true
+                if command mv "$@" 2>/dev/null; then return 0; fi
+                if cp -f "$src" "$out/" 2>/dev/null; then
+                  echo "[fallback] zip disalin ke output/ karena mv gagal" >&2
+                  return 0
+                fi
+                ;;
+            esac
+            command mv "$@"
+          }
+          # --- akhir pengaman ---
+          EOF
+          sed -i 's/^          //' "$RUNNER_TEMP/mvfix.sh"
+          for f in scripts/generate-bootstraps.sh scripts/build-bootstraps.sh; do
+            head -n 1 "$f"
+            sed -i "1r $RUNNER_TEMP/mvfix.sh" "$f"
+            bash -n "$f" && echo "sintaks $f OK"
+          done
+
+      - name: Diagnosa izin container
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          mkdir -p output
+          chmod -R a+rwX .
+          cat > probe.sh <<'EOF'
+          #!/bin/bash
+          echo "user di container: $(id)"
+          ls -ld /home/builder/termux-packages /home/builder/termux-packages/output
+          if touch /home/builder/termux-packages/_probe 2>/dev/null; then
+            echo "tulis ke folder utama repo: OK"
+            rm -f /home/builder/termux-packages/_probe
+          else
+            echo "tulis ke folder utama repo: DITOLAK (normal, dibatasi AppArmor)"
+          fi
+          if touch /home/builder/termux-packages/output/_probe 2>/dev/null; then
+            echo "tulis ke output/: OK"
+            rm -f /home/builder/termux-packages/output/_probe
+          else
+            echo "tulis ke output/: GAGAL (ini masalah)"
+          fi
+          EOF
+          sed -i 's/^          //' probe.sh
+          chmod +x probe.sh
+          set +e
+          ./scripts/run-docker.sh ./probe.sh 2>&1 | tee ../probe_log.txt
+          set -e
+          {
+            echo "### Diagnosa izin container"
+            echo '```'
+            grep -E '^(user di container|drw|tulis ke)' ../probe_log.txt || tail -n 12 ../probe_log.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm -f probe.sh
+
+      - name: Build bootstrap (build-bootstraps.sh di dalam Docker)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          EXTRA: ${{ github.event.inputs.extra_packages }}
+        run: |
+          set +e
+          set -o pipefail
+          cd tp
+          T0=$(date +%s)
+          ARGS=(--architectures aarch64)
+          if [ -n "${EXTRA:-}" ]; then ARGS+=(--add "$EXTRA"); fi
+          echo "Menjalankan: build-bootstraps.sh ${ARGS[*]}"
+          ./scripts/run-docker.sh ./scripts/build-bootstraps.sh "${ARGS[@]}" 2>&1 | tee ../bootstrap_log.txt
+          RC=${PIPESTATUS[0]}
+          sudo chown -R "$(id -u):$(id -g)" . || true
+          T1=$(date +%s)
+
+          # Ambil zip dari output/ kalau mv ke folder utama gagal.
+          if [ ! -f bootstrap-aarch64.zip ] && [ -f output/bootstrap-aarch64.zip ]; then
+            cp -f output/bootstrap-aarch64.zip bootstrap-aarch64.zip
+            echo "Zip diambil dari output/ (pengaman mv dipakai)"
+          fi
+
+          {
+            echo "### Durasi build bootstrap"
+            echo "- $(( (T1 - T0) / 60 )) menit (exit $RC)"
+            echo "### Memori setelah build"
+            echo '```'
+            free -h
+            echo '```'
+            echo "### Sub-paket yang dipetakan ke paket induk"
+            echo '```'
+            grep -h '^\[pembungkus\]' ../bootstrap_log.txt | sort -u || true
+            echo '```'
+            echo "### Pengaman mv"
+            echo '```'
+            grep -h '^\[fallback\]' ../bootstrap_log.txt | sort -u || true
+            grep -h '^mv: .*\.zip' ../bootstrap_log.txt | sort -u || true
+            echo "mv lain yang diabaikan (mis. libreadline.a): $(grep -c '^mv: ' ../bootstrap_log.txt || true)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ ! -f bootstrap-aarch64.zip ]; then
+            {
+              echo "## Pembuatan bootstrap gagal (exit $RC)"
+              echo '```'
+              tail -n 70 ../bootstrap_log.txt
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::bootstrap-aarch64.zip tidak ditemukan"
+            exit 1
+          fi
+          ls -la bootstrap-aarch64.zip
+          ls output/*.deb 2>/dev/null | wc -l
+
+      - name: Ganti sources.list ke repo kita dan verifikasi
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y zip unzip >/dev/null
+          cd tp
+          Z=bootstrap-aarch64.zip
+
+          rm -rf ../chk0 && mkdir ../chk0
+          unzip -q "$Z" -d ../chk0
+          OLD_SRC=$(cat ../chk0/etc/apt/sources.list 2>/dev/null || echo "(tidak ada)")
+
+          mkdir -p ../srcfix/etc/apt
+          echo "deb ${APT_BASE_URL%/}/termux-main stable main" \
+            > ../srcfix/etc/apt/sources.list
+          (cd ../srcfix && zip -q "$GITHUB_WORKSPACE/tp/$Z" etc/apt/sources.list)
+
+          rm -rf ../chk && mkdir ../chk
+          unzip -q "$Z" -d ../chk
+          LEFT=$(grep -rlaF 'com.termux' ../chk | wc -l)
+          {
+            echo "## Hasil verifikasi bootstrap"
+            echo "- ukuran: $(numfmt --to=iec "$(stat -c %s "$Z")")"
+            echo "- jumlah entri zip: $(unzip -Z1 "$Z" | wc -l)"
+            if [ -f ../chk/SYMLINKS.txt ]; then
+              echo "- SYMLINKS.txt: $(wc -l < ../chk/SYMLINKS.txt) baris"
+            else
+              echo "- SYMLINKS.txt: **tidak ada**"
+            fi
+            echo "- file yang masih memuat com.termux: **$LEFT**"
+            if [ "$LEFT" -gt 0 ]; then
+              echo '```'
+              grep -rlaF 'com.termux' ../chk | sed "s|$GITHUB_WORKSPACE/chk/||" | head -n 20
+              echo '```'
+            fi
+            echo "- sources.list bawaan (sebelum diganti):"
+            echo '```'
+            echo "$OLD_SRC"
+            echo '```'
+            echo "- sources.list sekarang:"
+            echo '```'
+            cat ../chk/etc/apt/sources.list
+            echo '```'
+            if [ -f ../chk/var/lib/dpkg/status ]; then
+              echo "- paket di dalam bootstrap:"
+              echo '```'
+              grep '^Package:' ../chk/var/lib/dpkg/status | cut -d' ' -f2 | sort | xargs
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$LEFT" -gt 0 ]; then
+            echo "::warning::$LEFT file di bootstrap masih memuat com.termux"
+          fi
+
+      - name: Publikasikan zip ke GitHub Release (batas 100 MB repo dilewati)
+        if: steps.check.outputs.skip != 'true'
+        shell: bash
+        env:
+          STAMP: ${{ steps.check.outputs.stamp }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          cp tp/bootstrap-aarch64.zip out/
+          (cd out && sha256sum bootstrap-aarch64.zip > bootstrap-aarch64.zip.sha256)
+          SUM=$(cut -d' ' -f1 out/bootstrap-aarch64.zip.sha256)
+
+          # 1. Zip besar -> Release (tag "bootstrap", diganti tiap build)
+          gh release delete bootstrap --cleanup-tag -y --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          gh release create bootstrap \
+            out/bootstrap-aarch64.zip out/bootstrap-aarch64.zip.sha256 \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Bootstrap aarch64 (${STAMP%%|*})" \
+            --notes "sha256: $SUM"
+
+          # 2. Branch bootstrap hanya berisi penanda kecil (tanpa zip)
+          mkdir -p marker
+          printf '%s' "$STAMP" > marker/BOOTSTRAP.txt
+          cp out/bootstrap-aarch64.zip.sha256 marker/
+          cd marker
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -q -b "$BOOT_BRANCH"
+          git add -A
+          git commit -q -m "bootstrap: ${STAMP%%|*}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f origin "$BOOT_BRANCH"
+
+          {
+            echo "### Bootstrap terbit"
+            echo "- ukuran: $(numfmt --to=iec "$(stat -c %s ../out/bootstrap-aarch64.zip)")"
+            echo "- sha256: \`$SUM\`"
+            echo "- URL unduh:"
+            echo '```'
+            echo "https://github.com/${GITHUB_REPOSITORY}/releases/download/bootstrap/bootstrap-aarch64.zip"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

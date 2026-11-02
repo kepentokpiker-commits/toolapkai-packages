@@ -1,0 +1,158 @@
+name: Build All Packages (bertahap, prefix toolAPKAI)
+
+on:
+  workflow_dispatch:
+    inputs:
+      auto_continue:
+        description: "Centang = setelah satu stage selesai, jalankan stage berikutnya otomatis sampai semua paket selesai"
+        type: boolean
+        required: false
+        default: true
+      max_minutes:
+        description: "Batas waktu membangun paket per stage (menit). Sisa waktu untuk unggah hasil."
+        required: false
+        default: "270"
+      reset:
+        description: "Centang = HAPUS state dan mulai dari awal (commit termux-packages dipilih ulang)"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: build-packages
+  cancel-in-progress: false
+
+env:
+  APP_PACKAGE: com.user.toolapkai
+  TP_REPO: https://github.com/termux/termux-packages.git
+  APT_BRANCH: apt-repo
+  APT_BASE_URL: ${{ vars.APT_BASE_URL }}
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Bebaskan ruang disk
+        shell: bash
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/lib/android \
+            /usr/share/swift /opt/hostedtoolcache /usr/local/.ghcup /opt/microsoft || true
+          sudo docker image prune -af >/dev/null 2>&1 || true
+          df -h /
+
+      - name: Pasang swap 12 GB
+        shell: bash
+        run: |
+          set +e
+          sudo swapoff -a
+          sudo rm -f /mnt/swapfile
+          if sudo fallocate -l 12G /mnt/swapfile; then
+            sudo chmod 600 /mnt/swapfile
+            sudo mkswap /mnt/swapfile >/dev/null
+            sudo swapon /mnt/swapfile
+            sudo sysctl vm.swappiness=10 >/dev/null
+          fi
+          free -h
+          exit 0
+
+      - name: Pastikan secret dan variabel terisi
+        shell: bash
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          [ -n "${APT_BASE_URL:-}" ] || { echo "::error::Variabel APT_BASE_URL belum diisi"; exit 1; }
+          [ -n "${GPG_PRIVATE_KEY:-}" ] || { echo "::error::Secret GPG_PRIVATE_KEY belum diisi"; exit 1; }
+          sudo apt-get update -qq
+          sudo apt-get install -y zstd dpkg-dev apt-utils gnupg xz-utils >/dev/null
+
+      - name: Pulihkan state stage sebelumnya
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESET: ${{ github.event.inputs.reset }}
+        run: bash scripts/state-restore.sh
+
+      - name: Clone termux-packages (commit dipin)
+        id: tp
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -s "$RUNNER_TEMP/SHA.txt" ]; then
+            SHA=$(cat "$RUNNER_TEMP/SHA.txt")
+          else
+            SHA=$(git ls-remote "$TP_REPO" refs/heads/master | cut -f1)
+          fi
+          [ -n "$SHA" ] || { echo "::error::Gagal menentukan commit termux-packages"; exit 1; }
+          mkdir tp && cd tp
+          git init -q
+          git remote add origin "$TP_REPO"
+          git fetch --depth 1 origin "$SHA"
+          git checkout -q FETCH_HEAD
+          git log -1 --oneline
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Ganti prefix, URL repo, dan keyring
+        shell: bash
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          bash scripts/patch-tp.sh tp 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Siapkan lingkungan build
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd tp
+          sudo ./scripts/setup-ubuntu.sh
+          sudo mkdir -p "/data/data/$APP_PACKAGE"
+          sudo chown -R "$(id -u):$(id -g)" /data
+          ./scripts/setup-android-sdk.sh
+
+      - name: Build paket (sampai waktu stage habis)
+        id: build
+        shell: bash
+        env:
+          MAX_MIN: ${{ github.event.inputs.max_minutes }}
+        run: |
+          export MAX_SECONDS=$(( ${MAX_MIN:-270} * 60 ))
+          bash scripts/stage-build.sh
+
+      - name: Terbitkan .deb dan indeks apt
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          TP_SHA: ${{ steps.tp.outputs.sha }}
+        run: bash scripts/publish-stage.sh
+
+      - name: Simpan state untuk stage berikutnya
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_NUMBER: ${{ github.run_number }}
+          TP_SHA: ${{ steps.tp.outputs.sha }}
+        run: bash scripts/state-save.sh
+
+      - name: Jalankan stage berikutnya
+        if: >-
+          success() && github.event.inputs.auto_continue == 'true'
+          && steps.build.outputs.left != '0'
+          && (steps.build.outputs.built != '0' || steps.build.outputs.failed != '0')
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAX_MIN: ${{ github.event.inputs.max_minutes }}
+        run: |
+          gh workflow run build-all.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
+            -f auto_continue=true -f max_minutes="${MAX_MIN:-270}"
+          echo "Stage berikutnya dijadwalkan." >> "$GITHUB_STEP_SUMMARY"
