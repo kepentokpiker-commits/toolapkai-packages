@@ -121,40 +121,33 @@ jobs:
           sudo mkdir -p "/data/data/$APP_PACKAGE"
           sudo chown -R "$(id -u):$(id -g)" /data
 
-          echo "=== Menyiapkan direktori Android SDK ==="
-          sudo mkdir -p /usr/local/lib/android
-          sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
-
-          export ANDROID_HOME=/usr/local/lib/android/sdk
+          echo "=== Menentukan lokasi SDK dan NDK ==="
+          export ANDROID_HOME="$HOME/lib/android-sdk-9123335"
           export ANDROID_SDK_ROOT="$ANDROID_HOME"
+          export NDK="$HOME/lib/android-ndk-r30"
+
+          mkdir -p "$HOME/lib"
 
           echo "ANDROID_HOME=$ANDROID_HOME"
-
-          echo "=== Memeriksa SDK yang tersedia ==="
-          if [ ! -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ] \
-             && [ ! -x "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" ]; then
-            echo "SDK tidak lengkap. Menghapus direktori SDK lama."
-            rm -rf "$ANDROID_HOME"
-          fi
+          echo "NDK=$NDK"
 
           echo "=== Memasang Android SDK dan NDK ==="
+          rm -rf "$ANDROID_HOME"
           ./scripts/setup-android-sdk.sh
 
-          echo "=== Memvalidasi sdkmanager ==="
-          if [ -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ]; then
-            SDK_MANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
-          elif [ -x "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" ]; then
-            SDK_MANAGER="$ANDROID_HOME/cmdline-tools/bin/sdkmanager"
-          else
-            echo "::error::sdkmanager tidak ditemukan setelah instalasi"
-            find "$ANDROID_HOME" -type f -name sdkmanager -print || true
+          echo "=== Memeriksa hasil instalasi ==="
+          if [ ! -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" ] \
+             && [ ! -x "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" ]; then
+            echo "::error::sdkmanager tidak ditemukan"
+            echo "Isi direktori HOME/lib:"
+            find "$HOME/lib" -maxdepth 5 -name sdkmanager -print || true
             exit 1
           fi
 
-          echo "SDK_MANAGER=$SDK_MANAGER"
-          "$SDK_MANAGER" --version
-
-          echo "=== Android SDK siap ==="
+          echo "=== SDK berhasil disiapkan ==="
+          find "$ANDROID_HOME/cmdline-tools" -maxdepth 4 \
+            -type f -name sdkmanager -print
+            
           
       - name: Build paket (sampai waktu stage habis)
         id: build
