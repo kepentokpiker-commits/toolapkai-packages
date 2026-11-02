@@ -15,7 +15,23 @@ touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt"
 cd "$ROOT/tp"
 
 if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
-  ./scripts/buildorder.py > "$STATE_DIR/buildorder.txt" || { echo "::error::buildorder.py gagal"; exit 0; }
+  # Tulis ke berkas sementara: kalau gagal di tengah jalan, urutan setengah jadi
+  # tidak boleh ikut tersimpan ke state dan dipakai stage berikutnya.
+  if ./scripts/buildorder.py > "$STATE_DIR/buildorder.tmp" 2> "$STATE_DIR/buildorder.err"; then
+    mv "$STATE_DIR/buildorder.tmp" "$STATE_DIR/buildorder.txt"
+  else
+    rm -f "$STATE_DIR/buildorder.tmp"
+    echo "::error::buildorder.py gagal (exit $?)"
+    echo "--- stderr buildorder.py (lengkap) ---"
+    cat "$STATE_DIR/buildorder.err"
+    {
+      echo "### buildorder.py gagal"
+      echo '```'
+      head -n 60 "$STATE_DIR/buildorder.err"
+      echo '```'
+    } >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
+    exit 1
+  fi
 fi
 TOTAL=$(grep -c . "$STATE_DIR/buildorder.txt")
 
