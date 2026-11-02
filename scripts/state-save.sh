@@ -24,9 +24,11 @@ gh release view state --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
 gh release upload state --repo "$GITHUB_REPOSITORY" --clobber "$OUT"/*
 
 # Hapus state lama setelah yang baru terunggah penuh.
-gh release view state --repo "$GITHUB_REPOSITORY" --json assets -q '.assets[].name' \
-  | grep -E '^state-[0-9]{6}\.tar\.zst\.part' | grep -v "^$NAME\." \
-  | while read -r old; do
-      gh release delete-asset state "$old" -y --repo "$GITHUB_REPOSITORY" || true
-    done
+# grep keluar 1 kalau tidak ada baris cocok (mis. run pertama, belum ada state lama);
+# dengan pipefail itu mematikan script, jadi ditampung dulu dan dibuat tidak fatal.
+OLD_ASSETS=$(gh release view state --repo "$GITHUB_REPOSITORY" --json assets -q '.assets[].name' || true)
+while read -r old; do
+  [ -n "$old" ] || continue
+  gh release delete-asset state "$old" -y --repo "$GITHUB_REPOSITORY" || true
+done < <(grep -E '^state-[0-9]{6}\.tar\.zst\.part' <<<"$OLD_ASSETS" | grep -v "^$NAME\." || true)
 echo "state tersimpan: $NAME"
