@@ -11,7 +11,7 @@ ARCH=aarch64
 STATE_DIR=$HOME/.termux-build/_buildall-$ARCH
 LOGDIR=$ROOT/buildlogs
 mkdir -p "$STATE_DIR" "$LOGDIR" "$ROOT/tp/output"
-touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt" "$STATE_DIR/skipped.txt"
+touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt"
 cd "$ROOT/tp"
 
 if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
@@ -66,6 +66,7 @@ fi
 TOTAL=$(grep -c . "$STATE_DIR/buildorder.txt")
 
 # Paket berat (lihat scripts/heavy-packages.txt) dilewati, kecuali BUILD_HEAVY=1.
+# Tidak disimpan di state: daftar dibaca ulang tiap stage, jadi mengubah daftar langsung berlaku.
 HEAVY_FILE="$ROOT/scripts/heavy-packages.txt"
 is_heavy() {
   [ -f "$HEAVY_FILE" ] && grep -vE '^[[:space:]]*(#|$)' "$HEAVY_FILE" | grep -qxF "$1"
@@ -86,10 +87,7 @@ while IFS= read -r path; do
   grep -qxF "$pkg" "$STATE_DIR/buildstatus.txt" && continue
   grep -qxF "$pkg" <(cut -d'|' -f1 "$STATE_DIR/failed.txt") && continue
   if [ "${BUILD_HEAVY:-0}" != "1" ] && is_heavy "$pkg"; then
-    grep -qxF "$pkg" "$STATE_DIR/skipped.txt" || {
-      echo "$pkg" >> "$STATE_DIR/skipped.txt"
-      echo "::notice::$pkg dilewati (paket berat, lihat scripts/heavy-packages.txt)"
-    }
+    echo "::notice::$pkg dilewati (paket berat, lihat scripts/heavy-packages.txt)"
     continue
   fi
 
@@ -129,9 +127,19 @@ done < "$STATE_DIR/buildorder.txt"
 
 DONE=$(grep -c . "$STATE_DIR/buildstatus.txt")
 BAD=$(grep -c . "$STATE_DIR/failed.txt")
-SKIP=$(grep -c . "$STATE_DIR/skipped.txt")
-LEFT=$((TOTAL - DONE - BAD - SKIP))
-[ "$LEFT" -lt 0 ] && LEFT=0
+# Hitung sisa langsung dari urutan build (bukan pengurangan angka), supaya tetap benar
+# walaupun daftar paket berat diubah atau state berasal dari versi script yang lebih lama.
+sed 's#.*/##' "$STATE_DIR/buildorder.txt" | sort -u > "$STATE_DIR/.names"
+{ cut -d'|' -f1 "$STATE_DIR/failed.txt"; cat "$STATE_DIR/buildstatus.txt"; } | sort -u > "$STATE_DIR/.finished"
+if [ "${BUILD_HEAVY:-0}" != "1" ] && [ -f "$HEAVY_FILE" ]; then
+  grep -vE '^[[:space:]]*(#|$)' "$HEAVY_FILE" | sort -u > "$STATE_DIR/.heavy"
+else
+  : > "$STATE_DIR/.heavy"
+fi
+grep -vxFf "$STATE_DIR/.finished" "$STATE_DIR/.names" > "$STATE_DIR/.pending"
+SKIP=$(grep -xFf "$STATE_DIR/.heavy" "$STATE_DIR/.pending" | grep -c .)
+LEFT=$(grep -vxFf "$STATE_DIR/.heavy" "$STATE_DIR/.pending" | grep -c .)
+rm -f "$STATE_DIR/.names" "$STATE_DIR/.finished" "$STATE_DIR/.heavy" "$STATE_DIR/.pending" "$STATE_DIR/skipped.txt"
 SUMMARY=${GITHUB_STEP_SUMMARY:-/dev/null}
 {
   echo "### Hasil stage"
