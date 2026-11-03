@@ -1,0 +1,7 @@
+# Paket yang terlalu berat untuk runner GitHub (lebih dari beberapa jam, RAM/disk sangat besar).
+# Dilewati otomatis oleh stage-build.sh dan dicatat di skipped.txt (BUKAN gagal, tidak diulang terus).
+# Satu nama paket per baris; baris berawalan # diabaikan.
+# Untuk membangunnya juga: jalankan stage dengan env BUILD_HEAVY=1 atau hapus barisnya dari sini.
+qt6-qtwebengine
+qt5-qtwebengine
+chromium
