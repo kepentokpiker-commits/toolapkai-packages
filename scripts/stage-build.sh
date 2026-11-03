@@ -11,7 +11,7 @@ ARCH=aarch64
 STATE_DIR=$HOME/.termux-build/_buildall-$ARCH
 LOGDIR=$ROOT/buildlogs
 mkdir -p "$STATE_DIR" "$LOGDIR" "$ROOT/tp/output"
-touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt"
+touch "$STATE_DIR/buildstatus.txt" "$STATE_DIR/failed.txt" "$STATE_DIR/skipped.txt"
 cd "$ROOT/tp"
 
 if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
@@ -65,6 +65,16 @@ if [ ! -s "$STATE_DIR/buildorder.txt" ]; then
 fi
 TOTAL=$(grep -c . "$STATE_DIR/buildorder.txt")
 
+# Paket berat (lihat scripts/heavy-packages.txt) dilewati, kecuali BUILD_HEAVY=1.
+HEAVY_FILE="$ROOT/scripts/heavy-packages.txt"
+is_heavy() {
+  [ -f "$HEAVY_FILE" ] && grep -vE '^[[:space:]]*(#|$)' "$HEAVY_FILE" | grep -qxF "$1"
+}
+# Paket yang terpotong batas stage hanya boleh ditunda kalau mulainya sudah lewat
+# DEFER_AFTER detik; kalau ia mulai di awal stage dan tetap tidak selesai, ia tidak
+# akan pernah selesai dan harus dicatat gagal (kalau tidak, stage mengulang selamanya).
+: "${DEFER_AFTER:=900}"
+
 START=$(date +%s)
 BUILT=0
 FAILED=0
@@ -75,6 +85,13 @@ while IFS= read -r path; do
   [ -n "$pkg" ] || continue
   grep -qxF "$pkg" "$STATE_DIR/buildstatus.txt" && continue
   grep -qxF "$pkg" <(cut -d'|' -f1 "$STATE_DIR/failed.txt") && continue
+  if [ "${BUILD_HEAVY:-0}" != "1" ] && is_heavy "$pkg"; then
+    grep -qxF "$pkg" "$STATE_DIR/skipped.txt" || {
+      echo "$pkg" >> "$STATE_DIR/skipped.txt"
+      echo "::notice::$pkg dilewati (paket berat, lihat scripts/heavy-packages.txt)"
+    }
+    continue
+  fi
 
   NOW=$(date +%s)
   ELAPSED=$((NOW - START))
@@ -93,7 +110,7 @@ while IFS= read -r path; do
     echo "$pkg" >> "$STATE_DIR/buildstatus.txt"
     BUILT=$((BUILT + 1))
     rm -rf "$HOME/.termux-build/$pkg" "$LOGDIR/$pkg.log"
-  elif [ "$RC" -eq 124 ] && [ "$LIMIT" -lt "$PKG_TIMEOUT" ]; then
+  elif [ "$RC" -eq 124 ] && [ "$LIMIT" -lt "$PKG_TIMEOUT" ] && [ "$ELAPSED" -gt "$DEFER_AFTER" ]; then
     # Terpotong batas waktu stage, bukan salah paketnya: coba lagi di stage berikutnya.
     echo "$pkg dipotong batas waktu stage, diulang di stage berikutnya"
     rm -rf "$HOME/.termux-build/$pkg"
@@ -101,7 +118,8 @@ while IFS= read -r path; do
     break
   else
     echo "::warning::$pkg gagal (exit $RC)"
-    echo "$pkg|exit $RC" >> "$STATE_DIR/failed.txt"
+    if [ "$RC" -eq 124 ]; then REASON="melebihi batas waktu ${LIMIT}s"; else REASON="exit $RC"; fi
+    echo "$pkg|$REASON" >> "$STATE_DIR/failed.txt"
     FAILED=$((FAILED + 1))
     rm -rf "$HOME/.termux-build/$pkg"
     echo "--- akhir log $pkg ---"
@@ -111,13 +129,14 @@ done < "$STATE_DIR/buildorder.txt"
 
 DONE=$(grep -c . "$STATE_DIR/buildstatus.txt")
 BAD=$(grep -c . "$STATE_DIR/failed.txt")
-LEFT=$((TOTAL - DONE - BAD))
+SKIP=$(grep -c . "$STATE_DIR/skipped.txt")
+LEFT=$((TOTAL - DONE - BAD - SKIP))
 [ "$LEFT" -lt 0 ] && LEFT=0
 SUMMARY=${GITHUB_STEP_SUMMARY:-/dev/null}
 {
   echo "### Hasil stage"
   echo "- dibuild di stage ini: **$BUILT**, gagal di stage ini: **$FAILED**"
-  echo "- total selesai: **$DONE** dari $TOTAL, gagal permanen: **$BAD**, sisa: **$LEFT**"
+  echo "- total selesai: **$DONE** dari $TOTAL, gagal permanen: **$BAD**, dilewati (berat): **$SKIP**, sisa: **$LEFT**"
   echo "- berhenti karena: $STOP_REASON"
   if [ "$BAD" -gt 0 ]; then
     echo "- paket gagal (daftar penuh di state):"
