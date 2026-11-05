@@ -11,7 +11,7 @@ on:
       max_minutes:
         description: "Batas waktu membangun paket per stage (menit). Sisa waktu untuk unggah hasil."
         required: false
-        default: "150"
+        default: "270"
       reset:
         description: "Centang = HAPUS state dan mulai dari awal (commit termux-packages dipilih ulang)"
         type: boolean
