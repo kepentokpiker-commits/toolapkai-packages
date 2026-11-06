@@ -1,0 +1,1150 @@
+Package: k6
+Version: 2.3.0-1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 47496
+Filename: pool/debs-20261106-023920-00/k6_2.3.0-1_aarch64.deb
+Size: 11115700
+MD5sum: 6f5f2224eea73625da9c55d2cbb910ac
+SHA1: 83a23a0da1f2b3610c6f30390efa5f29f853f3ae
+SHA256: f4c73cb4696a70c234178cd98d559b6d85f1f6d9c9793e62be6d37c7b6c3243f
+Homepage: https://k6.io
+Description: Modern load-testing tool for developers and testers
+
+Package: k9s
+Version: 0.51.0-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 132348
+Filename: pool/debs-20261106-023920-00/k9s_0.51.0-1_aarch64.deb
+Size: 25076084
+MD5sum: 78bb24129cd0055a80a3809d76b232c6
+SHA1: 50b5dc031cd336adfcf53d081f0c635d8bfbd018
+SHA256: c2f19555373497b97c477a5b4e93d17197350dedaa63a48989f9f7bc24b20bc5
+Homepage: https://k9scli.io
+Description: Kubernetes CLI To Manage Your Clusters In Style!
+
+Package: kactivitymanagerd
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1012
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kglobalaccel, kf6-ki18n, kf6-kio, kf6-kservice, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kactivitymanagerd_6.8.0_really6.7.5_aarch64.deb
+Size: 156196
+MD5sum: 4c722f32498adc60d17b7109271b5508
+SHA1: bc7c71716aa31ba9d42ea6c38305f2bc807fc62a
+SHA256: d90e5b01ed0fb058236caaa4f5c80feb662f55c4b94144e574f327bf10f32392
+Homepage: https://invent.kde.org/plasma/kactivitymanagerd
+Description: System service to manage user activities and track the usage patterns
+
+Package: kainjow-mustache
+Version: 4.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 184
+Filename: pool/debs-20261106-023920-00/kainjow-mustache_4.1_all.deb
+Size: 8296
+MD5sum: fb2d50c1f0222a9fe869fd5cd0120deb
+SHA1: 62652c99f3326cd5c6dd813bf5cd35c9adfb31b5
+SHA256: 65f72159ec99bab3c5d04b1100e6c7638f7fd394555284b2c64d4aced6b9cd56
+Homepage: https://github.com/kainjow/Mustache
+Description: Mustache implementation for modern C++
+
+Package: kakoune
+Version: 2026.05.21-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3608
+Depends: libc++
+Filename: pool/debs-20261106-023920-00/kakoune_2026.05.21-1_aarch64.deb
+Size: 717772
+MD5sum: 48892b08465dbe7e3f27722f11d9d81b
+SHA1: fbbf185e8df7221a371a96ed9c92365680af4852
+SHA256: acba08d2229e002ace71ce6a8909377a0639fd9d5851c85256d6acaea571ae67
+Homepage: https://kakoune.org/
+Description: Code editor heavily inspired by Vim
+
+Package: kakoune-lsp
+Version: 22.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7148
+Conflicts: kak-lsp
+Replaces: kak-lsp
+Filename: pool/debs-20261106-023920-00/kakoune-lsp_22.0.0_aarch64.deb
+Size: 2112436
+MD5sum: 4db71d4934849da426e3da8df89938a9
+SHA1: 98d5ba1533fc348ac1673b59b4b45b84aa4fa655
+SHA256: 6d13fcf86cba575e05dcf7fbb0d9f26e6739eaf8a5ec9aa7c3bb54cc0536d458
+Homepage: https://github.com/kakoune-lsp/kakoune-lsp
+Description: Language Server Protocol Client for the Kakoune editor
+
+Package: kalgebra
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2136
+Depends: analitza, kirigami-addons, kf6-kcolorscheme, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-ki18n, kf6-kio, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtdeclarative, qt6-qtwebengine
+Filename: pool/debs-20261106-023920-00/kalgebra_26.08.2_aarch64.deb
+Size: 983448
+MD5sum: 7e7abbd35762e0e4ac88434316ab4fcb
+SHA1: 33960b8be7d1d3059097fd8f6ac5fa095199f80e
+SHA256: 4f9d5521d0925225e14a97fbe84a5269b3b4a70421883669b9c68c291d6e9cd2
+Homepage: https://invent.kde.org/education/kalgebra
+Description: Graph Calculator
+
+Package: kalzium
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 37284
+Depends: kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kio, kf6-kitemviews, kf6-knewstuff, kf6-kplotting, kf6-ktextwidgets, kf6-kunitconversion, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, libxml2, openbabel, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative, qt6-qtscxml, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/kalzium_26.08.2_aarch64.deb
+Size: 21980512
+MD5sum: 4e34c34002342ed0515694ab14a0b126
+SHA1: 2d73e5206482bcbe21f71138f430d2925d3b2df9
+SHA256: e2d9312db25da709a5c1447179c0cac72bc1189e3e33ff507d3a72e1a06f0062
+Homepage: https://invent.kde.org/education/kalzium
+Description: Periodic Table of Elements
+
+Package: kanagram
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8012
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-knewstuff, kf6-kwidgetsaddons, kf6-kxmlgui, kf6-sonnet, libc++, libkeduvocdocument, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia, qt6-qtspeech
+Filename: pool/debs-20261106-023920-00/kanagram_26.08.2_aarch64.deb
+Size: 6941920
+MD5sum: a9ae9a4457ddac02fc3de437d0d72f17
+SHA1: 4983dd54660d3fcfab758f7912f27afd5d040831
+SHA256: f19dd86a33f19443d060f631102dbaf766fc926dc900efb9b91e4d977f5693fc
+Homepage: https://invent.kde.org/education/kanagram
+Description: Letter Order Game
+
+Package: kate
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25552
+Depends: clang, git, kf6-karchive, kf6-kbookmarks, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kguiaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-knewstuff, kf6-kparts, kf6-kservice, kf6-ktexteditor, kf6-kuserfeedback, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, kf6-syntax-highlighting, konsole, libc++, qt6-qtbase, qt6-qtdeclarative, rust, texlab
+Filename: pool/debs-20261106-023920-00/kate_26.08.2_aarch64.deb
+Size: 6781108
+MD5sum: 7875f14c9093e16cbb6100dced301c44
+SHA1: cd14bd57679b43c0b94a35a46b8ec4479e4f9a15
+SHA256: 488246092f6a9038a2fd12b5db273f85f91c2323b4b0a10e289e2090c97418a6
+Homepage: https://apps.kde.org/kate/
+Description: KDE Advanced Text Editor
+
+Package: kbruch
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6012
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kbruch_26.08.2_aarch64.deb
+Size: 4546392
+MD5sum: 89f968b77563551e0d07e47dc72db64a
+SHA1: 310124306f704ec9f1ce7422206f9fe398f6325d
+SHA256: 7bdd3eac71ffcc8c067803f26232a5c20562b657aea085625a0e7681f9a70a4d
+Homepage: https://invent.kde.org/education/kbruch
+Description: Exercise Fractions
+
+Package: kcalc
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1964
+Depends: kf6-kcolorscheme, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kguiaddons, kf6-ki18n, kf6-knotifications, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, libgmp, libmpc, libmpfr, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kcalc_26.08.2_aarch64.deb
+Size: 459036
+MD5sum: db6b7f3b784117fe5c1769be2e174881
+SHA1: 0f8ff22b821b5823eb9c9c3fd80628a1e49f73ec
+SHA256: 379062fc8b5cabf13ab971a9fdae5e633d2807def3dde50886573001384d582b
+Homepage: https://apps.kde.org/kcalc/
+Description: Scientific Calculator by KDE
+
+Package: kcolorchooser
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: kf6-kcoreaddons, kf6-ki18n, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kcolorchooser_26.08.2_aarch64.deb
+Size: 19012
+MD5sum: c791ac07e2e9ab1dedd8ff5f8a26e463
+SHA1: afa3e3c7de483f5a57124d8b55c9652e18986962
+SHA256: f5dc3efc637e22ed212f27c014a11af9f243742fd8dcb50e8193502028058b12
+Homepage: https://invent.kde.org/graphics/kcolorchooser
+Description: Color Chooser
+
+Package: kdbg
+Version: 3.2.0
+Architecture: aarch64
+Maintainer: 3ls-it <3ls-it@pm.me>
+Installed-Size: 1360
+Depends: gdb, kf6-kconfig, kf6-ki18n, kf6-kcoreaddons, kf6-kiconthemes, kf6-kxmlgui, kf6-kwindowsystem, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kdbg_3.2.0_aarch64.deb
+Size: 305628
+MD5sum: 4df569652d765669251d5ddf0c66be96
+SHA1: fcacccaa0348dcf9580f5c1642a480a0c6daee39
+SHA256: 800f18e308efed6e270dad451e09ac510a75fe9a19ae92ed7e50cfdfe191fbdb
+Homepage: https://www.kdbg.org/
+Description: Kdbg is a Qt-based interface for gdb, the GNU debugger.
+
+Package: kddockwidgets
+Version: 2.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3984
+Depends: fmt, libc++, libspdlog, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kddockwidgets_2.5.1_aarch64.deb
+Size: 723812
+MD5sum: 7a5f482911593ce90d41889c23cc9831
+SHA1: ab1ac2cf088ecd64445d1cdae5c967d20b332766
+SHA256: 28b896dd55645ba53edfd730c901d767d18e5128dcc6de154161d2d8dae86b74
+Homepage: https://github.com/KDAB/KDDockWidgets
+Description: Dock Widget Framework for Qt
+
+Package: kde-applications
+Version: 26.04-15
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: accessibility-inspector, alligator, ark, artikulate, audiotube, blinken, calligra, dolphin, elisa, filelight, gwenview, itinerary, kalzium, kanagram, kate, kbruch, kcalc, kcolorchooser, kdeconnect, kdegraphics-thumbnailers, kdenlive, kdialog, kfind, kgeography, kget, kgraphviewer, khangman, kig, kigo, kiriki, kiten, klettres, kmag, kmahjongg, kmines, kmousetool, kmouth, kmplot, knights, koko, kolourpaint, konsole, kontrast, konversation, kpat, krdc, krfb, kruler, ktouch, kturtle, kwalletmanager, kwave, kweather, kwordquiz, lskat, minuet, okular, palapeli, rocs, step, svgpart
+Recommends: akregator, angelfish, arianna, cantor, falkon, kaddressbook, kalarm, kalgebra, kimagemapeditor, kleopatra, kmail, konqueror, kontact, korganizer, ktorrent, marble, merkuro, neochat, parley, tokodon, zanshin
+Filename: pool/debs-20261106-023920-00/kde-applications_26.04-15_all.deb
+Size: 1164
+MD5sum: 6832c2a9471e35e1890dd2a26294a8c5
+SHA1: 8ab0c1961b77ef9e6e032ee49d6677adece46879
+SHA256: 24a48b766a5b89e2c36775c4a60914ef6a3ff6ef18fbc832abb669b32d698c63
+Homepage: https://github.com/termux/x11-packages
+Description: Meta package for KDE Gear applications (incomplete!)
+
+Package: kde-gtk-config
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: glib, gsettings-desktop-schemas, kdecoration, kf6-kcolorscheme, kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-kguiaddons, kf6-kwindowsystem, libc++, qt6-qtbase, qt6-qtsvg, xsettingsd
+Filename: pool/debs-20261106-023920-00/kde-gtk-config_6.8.0_really6.7.5_aarch64.deb
+Size: 70592
+MD5sum: 8b674a2c6e00d65e53206ce0f44380c9
+SHA1: 960fc69fd6ab82ec8e0b3ef3a588048a462e1cc4
+SHA256: baeda92f40a8d0d21cc9f82a20f43a93e23a48042096bf6a36411c3f63a468e4
+Homepage: https://invent.kde.org/plasma/kde-gtk-config
+Description: Syncs KDE settings to GTK applications
+
+Package: kdeedu-data
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5412
+Depends: hicolor-icon-theme
+Filename: pool/debs-20261106-023920-00/kdeedu-data_26.08.2_aarch64.deb
+Size: 324200
+MD5sum: 78c8e460b978b0b1b50909442b3bba0c
+SHA1: d103eaa9d3711ed8c77734defc467c1b0822e024
+SHA256: be84f6bda684f3fbe5abd23a64d7fae7a1e327c61fa395330c870ad18c3e7dd0
+Homepage: https://invent.kde.org/education/kdeedu-data
+Description: Common data for KDE Edu applications
+
+Package: kdegraphics-thumbnailers
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: ghostscript, kdegraphics-mobipocket, kf6-karchive, kf6-kcoreaddons, kf6-kio, libc++, libkdcraw, libkexiv2, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kdegraphics-thumbnailers_26.08.2_aarch64.deb
+Size: 41776
+MD5sum: 7c20c2893bf434af874e96e1b67233e7
+SHA1: 11c87236ff7ac67876a3deaeace9b02d0a5790a8
+SHA256: 686c55d9159da90798856202d77b90119aae916c3aa7b25b509cb5fb4f8f8b3b
+Homepage: https://invent.kde.org/graphics/kdegraphics-thumbnailers
+Description: Thumbnailers for various graphics file formats
+
+Package: kdeplasma-addons
+Version: 6.7.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9392
+Depends: kf6-kauth, kf6-kcmutils, kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-kdeclarative, kf6-kglobalaccel, kf6-kholidays, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kirigami, kf6-kitemmodels, kf6-kjobwidgets, kf6-knewstuff, kf6-knotifications, kf6-kpackage, kf6-krunner, kf6-kservice, kf6-ksvg, kf6-kunitconversion, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, kf6-sonnet, kirigami-addons, kwin-x11, libc++, libicu, libplasma, plasma-workspace, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kdeplasma-addons_6.7.5-1_aarch64.deb
+Size: 1399860
+MD5sum: 488163a9f8e9795f5c4b77bbbfd0a746
+SHA1: 058bd07c74c09637ecc892e304fd453635ec891b
+SHA256: 8cbe8eda497a774117a78640140fb294de980e24b74a88246b7881985cb07c44
+Homepage: https://invent.kde.org/plasma/kdeplasma-addons
+Description: All kind of addons to improve your Plasma experience
+
+Package: kdialog
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-kguiaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kwindowsystem, libc++, libx11, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kdialog_26.08.2_aarch64.deb
+Size: 44336
+MD5sum: 175cb945d5615b63e53082191b1c7c16
+SHA1: 00c3d67fd557245344af82b0dfd95f76d12818aa
+SHA256: 9d6f7319f697e4469b3bd146245cdd5a852c1823e78e686293d3f82d03719993
+Homepage: https://invent.kde.org/utilities/kdialog
+Description: A utility for displaying dialog boxes from shell scripts
+
+Package: kdsingleapplication
+Version: 1.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 348
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kdsingleapplication_1.2.1_aarch64.deb
+Size: 31092
+MD5sum: 3a7bb7530d15f6ec818491ef19bd37d3
+SHA1: 8138195c62e21a7cd1d5536def7c7b169bbd0d17
+SHA256: 5e158828497dd4e18b11009094892644ae906799731f54973788c0a2464d5c20
+Homepage: https://github.com/KDAB/KDSingleApplication
+Description: KDAB's helper class for single-instance policy applications
+
+Package: keditbookmarks
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 992
+Depends: kf6-kbookmarks, kf6-kcodecs, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kparts, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/keditbookmarks_26.08.2_aarch64.deb
+Size: 176680
+MD5sum: 48bf1090379614b7bdbf1a7d647f6195
+SHA1: a5a8e494e09fc0d52b574740f81da33a0ce81f49
+SHA256: 8fefdd58f9a4412100ad5e8ec416407b92b04c73b16a4edcd291ddfaeecc6179
+Homepage: https://invent.kde.org/utilities/keditbookmarks
+Description: Bookmark Organizer and Editor
+
+Package: keepassxc
+Version: 2.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26120
+Depends: argon2, botan3, libc++, libminizip, libpcsclite, libqrencode, libusb, libx11, libxtst, qt6-qtbase, qt6-qtsvg, readline, zlib
+Filename: pool/debs-20261106-023920-00/keepassxc_2.8.0_aarch64.deb
+Size: 4395580
+MD5sum: 3f02ba782c4733e1e211c543a1907eec
+SHA1: e3878f1ba2cb2b0b64aaf01c605bceea602d85e2
+SHA256: 6260d4fc29f0663432a88ccb25449c6410216082ea11bc9f3934c47beadd6cfd
+Homepage: https://keepassxc.org/
+Description: Cross-platform community-driven port of Keepass password manager
+
+Package: kf6-kded
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kservice, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kf6-kded_6.31.0_aarch64.deb
+Size: 30344
+MD5sum: 8f1dfc94ec1558a88a585890bf222f20
+SHA1: 66d9b5e5b5ccda8d61a764c59481ebcdabf354e6
+SHA256: 804f730b79e70c67fcdfaaf498d9a8ec0318028c081b5e4078c9c507ad46b52d
+Homepage: https://invent.kde.org/frameworks/kded
+Description: Extensible deamon for providing system level services
+
+Package: kf6-kpeople
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1020
+Depends: kf6-kcontacts, kf6-kcoreaddons, kf6-ki18n, kf6-kitemviews, kf6-kwidgetsaddons, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kf6-kpeople_6.31.0_aarch64.deb
+Size: 125252
+MD5sum: 06d2cfed1ac5fcc7c52f7db2912c8116
+SHA1: 7d5dc64f03e8db5d69768e4ce07eb777459685ec
+SHA256: 11a6773808341af11259764f0446aabe72b3a92ef0b20cb8d25e0eb962bc3ae0
+Homepage: https://invent.kde.org/frameworks/kpeople
+Description: A library that provides access to all contacts and the people who hold them
+
+Package: kf6-kplotting
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 348
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kf6-kplotting_6.31.0_aarch64.deb
+Size: 34556
+MD5sum: 0714299b26b345b8823642dba2664d1a
+SHA1: 23cc242c324307edba2b594735b5902c243f0093
+SHA256: a3feed76c03ec0ec2aeb0c4a98641c122f1782701197a463bc62eb7e4bcfbfff
+Homepage: https://invent.kde.org/frameworks/kplotting
+Description: Lightweight plotting framework
+
+Package: kfind
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: 3ls-it <3ls-it@pm.me>
+Installed-Size: 988
+Depends: gettext, kf6-karchive, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kfilemetadata, kf6-ki18n, kf6-kio, kf6-kwidgetsaddons, kf6-kxmlgui, kf6-kcrash, kf6-kdoctools, libc++, qt6-qtbase, qt6-qt5compat
+Filename: pool/debs-20261106-023920-00/kfind_26.08.2_aarch64.deb
+Size: 250412
+MD5sum: 1ad74b4eb06c686feb5621c998072a38
+SHA1: 9c0ffae274308e0b47bc6916ab9a19e801f00a8a
+SHA256: 6528fb09ae370f83b8f4dbb896ad315ef559dfc5a88fd4663264dd3400d6730a
+Homepage: https://invent.kde.org/utilities/kfind
+Description: File search utility by KDE
+
+Package: kgeography
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13124
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kitemviews, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kgeography_26.08.2_aarch64.deb
+Size: 8708556
+MD5sum: 1981a3dfbbccd68d05289a20c8769400
+SHA1: 35c03d79ccefc11804ee8b5a06e80cca808e4c54
+SHA256: 707f4dc76ac25e746c926f49467478a66b353373662bb3307d29c3a1e6598916
+Homepage: https://invent.kde.org/education/kgeography
+Description: Geography Trainer
+
+Package: kget
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8632
+Depends: gpgmepp, kf6-kcmutils, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kitemviews, kf6-knotifications, kf6-knotifyconfig, kf6-kstatusnotifieritem, kf6-kwallet, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, libc++, qgpgme, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kget_26.08.2_aarch64.deb
+Size: 4608176
+MD5sum: 4aabf9a437c27d59b7528e25b74127e0
+SHA1: b9beef8fc4ad5574ce79d713071a2b31580fc90f
+SHA256: e287cec035fcd24d1b7ab8157dbcbeda23d292c684f45ea49ab1090a717be34d
+Homepage: https://apps.kde.org/kget/
+Description: Download Manager by KDE
+
+Package: kglobalacceld
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kglobalaccel, kf6-kio, kf6-kjobwidgets, kf6-kservice, kf6-kwindowsystem, libc++, libx11, libxcb, qt6-qtbase, xcb-util-keysyms
+Filename: pool/debs-20261106-023920-00/kglobalacceld_6.8.0_really6.7.5_aarch64.deb
+Size: 96856
+MD5sum: b7b57bf3c34e13af7c487f012762c2b5
+SHA1: 49b2754a70ff0b4fbbf3f6013804a79d5c6b0086
+SHA256: c87c917c635670eb0a1476dfe5c49dd7740654952bc2bf6d990cfad22fbb904b
+Homepage: https://invent.kde.org/plasma/kglobalacceld
+Description: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+
+Package: kgraphviewer
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2908
+Depends: graphviz, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-ki18n, kf6-kparts, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qt5compat, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/kgraphviewer_26.08.2_aarch64.deb
+Size: 1208332
+MD5sum: 01da3586438f18008a95f457e03e8378
+SHA1: 36c127df4dd7fba49f562d2f0e97d0c93edabd7f
+SHA256: 0c609bde9c63fd3bec4cc02c0e99c5c6009e82e11fe21a17127579a4b1e84071
+Homepage: https://invent.kde.org/graphics/kgraphviewer
+Description: A Graphviz dot graph file viewer
+
+Package: khangman
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10024
+Depends: kirigami-addons, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kirigami, kf6-knewstuff, libc++, libkeduvocdocument, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia
+Filename: pool/debs-20261106-023920-00/khangman_26.08.2_aarch64.deb
+Size: 6538144
+MD5sum: b0cd5206ad532bc6c58e665941d9f060
+SHA1: a21603d63ba3d703f7b00759492d2098e94d0734
+SHA256: ebf0e8b135adc1dadbcebb7ba4b06cf2f4f13adc5a713d832ce95667c42a671f
+Homepage: https://invent.kde.org/education/khangman
+Description: Hangman Game
+
+Package: kig
+Version: 26.08.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6508
+Depends: boost, kf6-karchive, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kiconthemes, kf6-kparts, kf6-ktexteditor, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, python, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/kig_26.08.2-1_aarch64.deb
+Size: 2728208
+MD5sum: ff9a6e8825771ab36ac219fc35be0f62
+SHA1: 18b700c762c0824a6803b94e7084532b2933788d
+SHA256: c1a9d12d21bc12584fb5ff0dcd36c32f8fce2f060c74b03fc3d64b90d07d047a
+Homepage: https://invent.kde.org/education/kig
+Description: Interactive Geometry
+
+Package: kiten
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32284
+Depends: kf6-karchive, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kio, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kiten_26.08.2_aarch64.deb
+Size: 11415360
+MD5sum: d2ccc83067e66ff265a618688f824c82
+SHA1: 109361eace3961477c0ec8f1636413e9273d0a3a
+SHA256: dbebda3981028ceaff6984887ecd3ba84dd95dce7c21bf142d2aad7342789966
+Homepage: https://invent.kde.org/education/kiten
+Description: Japanese Reference/Study Tool
+
+Package: klettres
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 53720
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-knewstuff, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtmultimedia, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/klettres_26.08.2_aarch64.deb
+Size: 39805516
+MD5sum: d99cd2c8b8f5d787d40eaf908788bf84
+SHA1: 23f3bb9fec493ea7dd08d6f070e6df22eaaf938b
+SHA256: ef136165b0809472b248c6cf06c06a59a42663ed06b17fe3ba33a565b90e8fdb
+Homepage: https://invent.kde.org/education/klettres
+Description: Learn The Alphabet
+
+Package: kmag
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1424
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kio, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, libqaccessibilityclient-qt6, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kmag_26.08.2_aarch64.deb
+Size: 658024
+MD5sum: ac0c5912012d3f00dad696044ca67d31
+SHA1: f72757f62cb952a73b35297cf4f90454dce7cafa
+SHA256: d80b3cbca9b58dfa9f3fe6883d740bc992dfeec6e982d72d7286b1c7981426b4
+Homepage: https://invent.kde.org/accessibility/kmag
+Description: Screen Magnifier
+
+Package: kmousetool
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 744
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-ki18n, kf6-kstatusnotifieritem, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, libx11, libxtst, qt6-qtbase, qt6-qtmultimedia
+Filename: pool/debs-20261106-023920-00/kmousetool_26.08.2_aarch64.deb
+Size: 163600
+MD5sum: 4fd0005f45c9f34c4b6d4ec2841291a1
+SHA1: 0f80a14c0e5397ec03565a8c33006e6c46503810
+SHA256: c2887f5f34139cd8b937a8e54d5aa44124a41ca339ca2d07af467b16c5aec831
+Homepage: https://invent.kde.org/accessibility/kmousetool
+Description: Clicks the mouse for you, reducing the effects of RSI
+
+Package: kmouth
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2984
+Depends: kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-ki18n, kf6-kio, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtspeech
+Filename: pool/debs-20261106-023920-00/kmouth_26.08.2_aarch64.deb
+Size: 1564388
+MD5sum: 90dc32d31597a0ad0c0308e1489c26be
+SHA1: 32ec183582399a772a71852ee50472bde9b3e3fa
+SHA256: 1d716c5bd5d93a29670ee72d218aa8b88172406fbb2c6e8b2a6e66fb0ee3d5d8
+Homepage: https://invent.kde.org/accessibility/kmouth
+Description: Speech Synthesizer Frontend
+
+Package: kmplot
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6136
+Depends: kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kio, kf6-kjobwidgets, kf6-kparts, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/kmplot_26.08.2_aarch64.deb
+Size: 2999096
+MD5sum: 0b7281dfe129777c3b2f0871554d4121
+SHA1: e1e9fb7c855d9030341407001c887a8c4f54b3b0
+SHA256: 17463c5561ff4ad8745acd88367eb62893f00e96482cfa70350043635ecdd4ed
+Homepage: https://invent.kde.org/education/kmplot
+Description: Mathematical Function Plotter
+
+Package: knighttime
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-kholidays, libc++, qt6-qtbase, qt6-qtpositioning
+Filename: pool/debs-20261106-023920-00/knighttime_6.8.0_really6.7.5_aarch64.deb
+Size: 50664
+MD5sum: c128a21b7f48dfcfac26a705616fb3bb
+SHA1: 7ad7697d007360e4e2833c952a28ba6e1d210cf4
+SHA256: 103aefa317d2a28d9621290ced9db5218390e5cc4712592d16cff575a5e74175
+Homepage: https://invent.kde.org/plasma/knighttime
+Description: KDE Helper for scheduling the dark-light cycle
+
+Package: koko
+Version: 26.04.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32976
+Depends: exiv2, kirigami-addons, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kdeclarative, kf6-kfilemetadata, kf6-ki18n, kf6-kio, kf6-kirigami, kf6-knotifications, kf6-kwindowsystem, kf6-purpose, kf6-qqc2-desktop-style, kquickimageeditor, libc++, libxcb, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia, qt6-qtpositioning, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/koko_26.04.1_aarch64.deb
+Size: 8416640
+MD5sum: 1af433cf79988d453119b7a9aea3ec03
+SHA1: 8b626335535aa05f89c66a7663e73cfb72c6f7c5
+SHA256: f9293829760797b6dce009e9849efc39c2d859fb8190ae7db7fbab2aef8b2690
+Homepage: https://invent.kde.org/graphics/koko
+Description: Image gallery application
+
+Package: kolourpaint
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8052
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kguiaddons, kf6-ki18n, kf6-kio, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kolourpaint_26.08.2_aarch64.deb
+Size: 5039208
+MD5sum: 35216eb532cf09eabce94aca52c52ac4
+SHA1: 19da616dc4165f2ad6c2f98dcbcc8b9523ecfb85
+SHA256: c3d1b5d370063b9859ef8df2021fe681ca13db2a4583f74cacc54daf0e1df8f7
+Homepage: https://invent.kde.org/graphics/kolourpaint
+Description: Paint Program
+
+Package: kontrast
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Depends: futuresql, kirigami-addons, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kirigami, libc++, qcoro, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kontrast_26.08.2_aarch64.deb
+Size: 209000
+MD5sum: 41127c7501c3686ccb6e4937051f442a
+SHA1: e9ba49952e2c899c78ae8a973f75573bcd515638
+SHA256: d5d1b3044f57aa0f70a3f7f34902a16302c07eb021182dbb9be90cc0ad07d191
+Homepage: https://invent.kde.org/accessibility/kontrast
+Description: Tool to check contrast for colors that allows verifying that your colors are correctly accessible
+
+Package: konversation
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9212
+Depends: keditbookmarks, kf6-karchive, kf6-kbookmarks, kf6-kcodecs, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kglobalaccel, kf6-ki18n, kf6-kidletime, kf6-kio, kf6-kitemviews, kf6-knewstuff, kf6-knotifications, kf6-knotifyconfig, kf6-kparts, kf6-kstatusnotifieritem, kf6-ktextwidgets, kf6-kwallet, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, libc++, perl, python, qca, qt6-qt5compat, qt6-qtbase, qt6-qtmultimedia, qt6-qttools
+Filename: pool/debs-20261106-023920-00/konversation_26.08.2_aarch64.deb
+Size: 3701524
+MD5sum: 8b457ddbd073b9260ea6f6c0dffb4a93
+SHA1: 1ed949db9c4c7c0e3a957abc31a009c38029f26e
+SHA256: cee485dab4bffb5ace6fbcbf645721b520b3fc12c5e2212a8fe6ffe14eb5c937
+Homepage: https://apps.kde.org/konversation/
+Description: A user-friendly and fully-featured IRC client
+
+Package: kqtquickcharts
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kqtquickcharts_26.08.2_aarch64.deb
+Size: 48244
+MD5sum: 3f5aefa33f748cd641eda928a5b05a4c
+SHA1: f0fb79770d8017d03d034e1c41a2c10c811b0e96
+SHA256: d28885afa8802e27125778b78bb261eca23560764f1d5970d2b32c440d5866e5
+Homepage: https://invent.kde.org/libraries/kqtquickcharts
+Description: A QtQuick plugin to render beautiful and interactive charts
+
+Package: kquickimageeditor
+Version: 0.7.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2576
+Depends: highway, kf6-kconfig, kf6-kirigami, libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kquickimageeditor_0.7.0.1_aarch64.deb
+Size: 388648
+MD5sum: 3bfec11c315d15d7681ee5daa49a9d9d
+SHA1: e85120ac787e76b5bba141395c7f7b14d99df4ce
+SHA256: e38d259a6587ab954a657b434396aec069f1fe08bbad263b2cb4bad356e51d48
+Homepage: https://invent.kde.org/libraries/kquickimageeditor
+Description: QML image editing components
+
+Package: kruler
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: 3ls-it <3ls-it@pm.me>
+Installed-Size: 864
+Depends: gettext, kf6-attica, kf6-kconfig, kf6-kcrash, kf6-ki18n, kf6-knotifications, kf6-kstatusnotifieritem, kf6-kwindowsystem, kf6-kxmlgui, libc++, libx11, littlecms, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kruler_26.08.2_aarch64.deb
+Size: 240300
+MD5sum: d351c8dc745a7651c6de5084a298db9c
+SHA1: 98c7250e455cd733ff5f438dc9ec98bb19d4e63d
+SHA256: bf49d4d34758dab7574552a381a4485bd8fb630cc65d9302fb94da3298535b8e
+Homepage: https://invent.kde.org/graphics/kruler
+Description: Pixel measuring tool by KDE
+
+Package: ktouch
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8560
+Depends: kf6-kcmutils, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-ki18n, kf6-kirigami, kf6-kitemviews, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, kqtquickcharts, libc++, libx11, libxcb, libxml2, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/ktouch_26.08.2_aarch64.deb
+Size: 4258848
+MD5sum: 2cefc3c6af73260b7529e839658917d1
+SHA1: 4de8eefbf5a821ded150cecb100b971b6b7df54e
+SHA256: 93743d562adc2385a204ff1eee9c44c13ef94f166a87c523557774112e7c3445
+Homepage: https://invent.kde.org/education/ktouch
+Description: Touch Typing Tutor
+
+Package: kturtle
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4068
+Depends: kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kio, kf6-knewstuff, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/kturtle_26.08.2_aarch64.deb
+Size: 1687140
+MD5sum: 45047bc2700d9f3c6cbb75bc82dcb7c5
+SHA1: f688be7808b152a1b5fa5e28769485ce4a7d759f
+SHA256: 9632de128cf20b4fcd94961f978b66cef7b6081a40126d3f4e2e02156cc5d1d8
+Homepage: https://invent.kde.org/education/kturtle
+Description: Educational Programming Environment
+
+Package: kwalletmanager
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2312
+Depends: kf6-karchive, kf6-kcmutils, kf6-kcodecs, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kio, kf6-kitemviews, kf6-kservice, kf6-kstatusnotifieritem, kf6-kwallet, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/kwalletmanager_26.08.2_aarch64.deb
+Size: 990320
+MD5sum: 13de77c16bbec85b081554c7af72f339
+SHA1: 2ff59073db7538a49f9c71d260d15a4ca40b6635
+SHA256: 8c5ab9b75ee1ff63c637638d45fd5e0639febbe8d9fad36b4fbf662883c7ab4e
+Homepage: https://invent.kde.org/utilities/kwalletmanager
+Description: Wallet management tool
+
+Package: kwave
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13812
+Depends: alsa-lib, audiofile, fftw, flac, id3lib, kf6-karchive, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, libmad, libogg, libsamplerate, libvorbis, pulseaudio, qt6-qtbase, qt6-qtmultimedia
+Filename: pool/debs-20261106-023920-00/kwave_26.08.2_aarch64.deb
+Size: 5583404
+MD5sum: 657eff55b731cdf5e6d5f913185003d7
+SHA1: 7edfe2b9de20476150098fe3bb64c877a5a8db3e
+SHA256: d86292cc73580fb7dfc8aeb3af3038a4a3f4eac53b5b8dc236f2a31bd286a056
+Homepage: https://apps.kde.org/kwave/
+Description: A sound editor by KDE
+
+Package: kweather
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2220
+Depends: kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kirigami, kf6-krunner, kf6-qqc2-desktop-style, kirigami-addons, kweathercore, libplasma, qt6-qtbase, qt6-qtcharts, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/kweather_26.08.2_aarch64.deb
+Size: 435396
+MD5sum: b8f03362cd44ec8fd9c10013d24b5ae6
+SHA1: 41ae204a5926748373bdf68b41f43883e3a4bc64
+SHA256: db0bff6f0b3b7e22052061777f1037e1dbca6d4b7678ed7afc67b9fa6af526fe
+Homepage: https://apps.kde.org/kweather/
+Description: Weather application for KDE Plasma
+
+Package: kweathercore
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 836
+Depends: kf6-kholidays, kf6-ki18n, libc++, qt6-qtbase, qt6-qtpositioning
+Filename: pool/debs-20261106-023920-00/kweathercore_26.08.2_aarch64.deb
+Size: 93276
+MD5sum: acbd468f18dfed396ab4e47aa522d927
+SHA1: cdeecee04d328caf2af83de288a790f5fedce336
+SHA256: 4842492641e664c516e75c19bd47d1c884c0b0516379d4f02d86a77f8e042707
+Homepage: https://invent.kde.org/libraries/kweathercore
+Description: Library to facilitate retrieval of weather information including forecasts and alerts
+
+Package: kwordquiz
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5152
+Depends: kirigami-addons, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kirigami, kf6-knewstuff, kf6-qqc2-desktop-style, libc++, libkeduvocdocument, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia
+Filename: pool/debs-20261106-023920-00/kwordquiz_26.08.2_aarch64.deb
+Size: 3027508
+MD5sum: f0b95614325f0b3ce458dfb11c03cad7
+SHA1: a97a3d889144dd6043f26328cd2c9780559f8ff2
+SHA256: deecc48638e8437e43934f5b87d8c1eca4c906165004b35ec5315b7c75f3449f
+Homepage: https://invent.kde.org/education/kwordquiz
+Description: Flash Card Trainer
+
+Package: layer-shell-qt
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: libc++, qt6-qtbase, qt6-qtdeclarative, libwayland
+Filename: pool/debs-20261106-023920-00/layer-shell-qt_6.8.0_really6.7.5_aarch64.deb
+Size: 35456
+MD5sum: ea8234efedd9338be19fd823caea9664
+SHA1: e244e6435029e65f7760941716955e79f5fc1220
+SHA256: 1944103e7d3c61329c26c5f138cd065ff9f6483907e775f8ec25866e6f3a405d
+Homepage: https://invent.kde.org/plasma/layer-shell-qt
+Description: Qt component to allow applications to make use of the Wayland wl-layer-shell protocol
+
+Package: libkeduvocdocument
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: kdeedu-data, kf6-karchive, kf6-kcoreaddons, kf6-ki18n, kf6-kio, libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/libkeduvocdocument_26.08.2_aarch64.deb
+Size: 111356
+MD5sum: 095906a02271cb85a59e1677f3488ec7
+SHA1: f5e08bbbe0304a6609a1e6ad6cfe0b737ad9af75
+SHA256: 4246573968ac9c9ac77baaf1787184520795b7133c0cab3a1288b107a66af064
+Homepage: https://invent.kde.org/education/libkeduvocdocument
+Description: Common libraries for KDE Edu applications
+
+Package: libkscreen
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1556
+Depends: libc++, libwayland, libxcb, qt6-qtbase, qt6-qtwayland
+Filename: pool/debs-20261106-023920-00/libkscreen_6.8.0_really6.7.5_aarch64.deb
+Size: 252016
+MD5sum: 17d215cc5a58cb8cca897639825378f0
+SHA1: fe0a70f65a7a1589d8f14ed618f775d9a7ebac98
+SHA256: 4893aefd0068c879c524b2551651ad5c616959814d6ff3d052687488e75cd9c4
+Homepage: https://invent.kde.org/plasma/libkscreen
+Description: KDE screen management software
+
+Package: libksysguard
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2924
+Depends: kf6-kauth, kf6-kconfig, kf6-kcoreaddons, kf6-kdeclarative, kf6-ki18n, kf6-kirigami, kf6-kitemmodels, kf6-knewstuff, kf6-kpackage, kf6-kquickcharts, kf6-kservice, kf6-solid, libc++, libdrm, libnl, libpcap, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/libksysguard_6.8.0_really6.7.5_aarch64.deb
+Size: 389736
+MD5sum: 8b024068da70ac9ce59ef908d5a0e8d4
+SHA1: c7bbe63a23a3786db2d170a40ad4cfa16aec91c7
+SHA256: 8eef05454be5907aaa67390fdd439e28f934bd34c650f924a514ee9aa8213cc2
+Homepage: https://invent.kde.org/plasma/libksysguard
+Description: KSysGuard library provides API to read and manage processes running on the system
+
+Package: libktorrent
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2920
+Depends: kf6-karchive, kf6-kconfig, kf6-kcoreaddons, kf6-ki18n, kf6-kio, libc++, libgmp, openssl, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/libktorrent_26.08.2_aarch64.deb
+Size: 536360
+MD5sum: eeabceb185a59243e90c17141169b02f
+SHA1: 37c1617b176160e38a7901d3dc435a5e65954f5c
+SHA256: 4cd541b5318dc083bb224e5896e7e32a97b991328231fe109ccbccaaab9d611e
+Homepage: https://invent.kde.org/network/libktorrent
+Description: A BitTorrent protocol implementation
+
+Package: libpcsclite
+Version: 2.5.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: python
+Breaks: libpcsclite-dev
+Replaces: libpcsclite-dev
+Filename: pool/debs-20261106-023920-00/libpcsclite_2.5.3_aarch64.deb
+Size: 59440
+MD5sum: a740e59871e111eed7955a6f5395804e
+SHA1: 96c11c258bde14e03934b495fbb6dfdc8569e90a
+SHA256: 7b4d9657fb1fc86d6a989e490f0e934e1d45c861b36b6bcff88c8822a03d149c
+Homepage: https://pcsclite.apdu.fr/
+Description: Middleware to access a smart card using SCard API (PC/SC).
+
+Package: libplasma
+Version: 6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7968
+Depends: kf6-kcolorscheme, kf6-kconfig, kf6-kcoreaddons, kf6-kglobalaccel, kf6-kguiaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kirigami, kf6-knotifications, kf6-kpackage, kf6-ksvg, kf6-kwidgetsaddons, kf6-kwindowsystem, libc++, libglvnd, libwayland, libx11, libxcb, plasma-activities, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative, qt6-qtwayland
+Filename: pool/debs-20261106-023920-00/libplasma_6.7.5_aarch64.deb
+Size: 2124096
+MD5sum: cf70ccd3f9b2683ec4b2068cb8bc8f03
+SHA1: 57ceac485f5fea775f0e2427862494004279c349
+SHA256: 38933967bf6cf2bcb052113c94be3a0f6d764978ee4b546a38b546320841a72f
+Homepage: https://invent.kde.org/plasma/libplasma
+Description: Plasma library and runtime components
+
+Package: libva
+Version: 2.24.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1196
+Depends: libc++, libdrm, libx11, libxext, libxfixes, libwayland
+Filename: pool/debs-20261106-023920-00/libva_2.24.1-1_aarch64.deb
+Size: 182424
+MD5sum: 994a9ed8cdef2a142301376df9cb6a17
+SHA1: 0abd2817cec59b36beb3053048934719214e2966
+SHA256: 9d92bf42b30bc810d0ff144f531db42dda3c44b71e138d64086d27b66e833b04
+Homepage: https://github.com/intel/libva
+Description: Video Acceleration (VA) API for Linux
+
+Package: libvncserver
+Version: 0.9.15-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 928
+Depends: libgcrypt, libjpeg-turbo, liblzo, libpng, openssl, zlib
+Filename: pool/debs-20261106-023920-00/libvncserver_0.9.15-2_aarch64.deb
+Size: 204032
+MD5sum: 8c2ea72dd45ea8dbe49c974be4fab066
+SHA1: 9b83608e91de31ee6a1bd9432587fca4dda6b903
+SHA256: 7a2b972b39c448cdc61aa334e8d08d4d392c29b1861651c13ce7a1956d2e230e
+Homepage: https://libvnc.github.io/
+Description: Cross-platform C libraries that allow you to easily implement VNC server or client functionality
+
+Package: milou
+Version: 6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 572
+Depends: kf6-kconfig, kf6-kirigami, kf6-krunner, libc++, libplasma, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/milou_6.7.5_aarch64.deb
+Size: 86404
+MD5sum: f9910c0d724a432d96ac438e7fcbef78
+SHA1: 03c43f066bee78fd83e873ab429bf335576ce0fd
+SHA256: a7219dbd0cf0a820014026b90bbdc42c66a7f3aef2f95bb7ac2a206d31d88c0e
+Homepage: https://invent.kde.org/plasma/milou
+Description: A dedicated search application built on top of Baloo
+
+Package: minuet
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 35972
+Depends: aubio, fluidsynth, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kirigami, kf6-qqc2-desktop-style, kirigami-addons, libc++, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/minuet_26.08.2_aarch64.deb
+Size: 28843836
+MD5sum: adfe570288227a63ec850319e853f1b4
+SHA1: 51e726763aa29ee6086b210ad2dd4fe2dc9652ef
+SHA256: fcc37759a5f130f538ae85e1f3608fd82323701cb2af45835207db339b8b9c38
+Homepage: https://invent.kde.org/education/minuet
+Description: A KDE Software for Music Education
+
+Package: ocean-sound-theme
+Version: 6.8.0+really6.7.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2424
+Depends: libc++
+Filename: pool/debs-20261106-023920-00/ocean-sound-theme_6.8.0_really6.7.5_all.deb
+Size: 2029652
+MD5sum: 3fef670e0160e77a09c0971a60d595b0
+SHA1: 4b7603f855eace9ae7e712ac68a5f8cf5da6189b
+SHA256: 1d47bb9072c9c335328d996aadbea96e4e7f0dff60b9624b5af70d3bfa8c09b8
+Homepage: https://invent.kde.org/plasma/ocean-sound-theme
+Description: Ocean Sound Theme for Plasma
+
+Package: openbabel
+Version: 3.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 110080
+Depends: libc++, libcairo, libxml2, rapidjson, zlib
+Breaks: openbabel-dev
+Replaces: openbabel-dev
+Filename: pool/debs-20261106-023920-00/openbabel_3.2.1_aarch64.deb
+Size: 12546600
+MD5sum: e4b817b28fccd12738b1ab0965b5de30
+SHA1: 8e20fc60d629e854bacd9680b07c115ad59509aa
+SHA256: 97b6ce7101d2256448668d3975857f3322ce645be898801a9a5c8ad529781c8c
+Homepage: https://openbabel.org/
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+
+Package: openbabel-static
+Version: 3.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20112
+Depends: openbabel (= 3.2.1)
+Filename: pool/debs-20261106-023920-00/openbabel-static_3.2.1_aarch64.deb
+Size: 2549572
+MD5sum: d449c7f2cd1f364eefa0233fd16c9c55
+SHA1: e942c543001720d49d9261dedae3c29cbac02e11
+SHA256: 004cc842bdafef10ab759656a055346d9a1594c62337b72883214d9bd71e4038
+Homepage: https://openbabel.org/
+Description: Static libraries for openbabel
+
+Package: pcscd
+Version: 2.5.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: libusb, libpcsclite (= 2.5.3)
+Filename: pool/debs-20261106-023920-00/pcscd_2.5.3_aarch64.deb
+Size: 44280
+MD5sum: 09ad86fc380b11c66021d01e91b8adf6
+SHA1: a936d2cd81bd07047748f3410e7a71896b28b6d5
+SHA256: 88014cc391a00d3d736171b38455f52ff3d2858d6878a8abb6be1229d62b567e
+Homepage: https://pcsclite.apdu.fr/
+Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
+
+Package: plasma-integration
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 504
+Depends: kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kcoreaddons, kf6-kguiaddons, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kjobwidgets, kf6-kservice, kf6-kstatusnotifieritem, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, qqc2-breeze-style, kf6-qqc2-desktop-style, libc++, libwayland, libxcb, libxcursor, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/plasma-integration_6.8.0_really6.7.5_aarch64.deb
+Size: 89192
+MD5sum: b04aa23388d4cacacea69ce7ae540d97
+SHA1: 711561d3bfae3799facc800e44d5f4b66c01395e
+SHA256: 8604e09bd6754ea65c2e7c3ff5f9c2272174dbb8e405900060cd2ec685559b08
+Homepage: https://invent.kde.org/plasma/plasma-integration
+Description: Qt Platform Theme integration plugins for the Plasma workspaces
+
+Package: pulseaudio-qt
+Version: 1.9.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 964
+Depends: libc++, pulseaudio, pulseaudio-glib, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/pulseaudio-qt_1.9.0_aarch64.deb
+Size: 98824
+MD5sum: 16421647e92f4730031b72f67801d66c
+SHA1: 35604a21bb9339fbdf74e69073213ff823e8b3eb
+SHA256: 7f5f6404874709ae671d559b4fd414408135a5a48e51904c2f4230950c77c49f
+Homepage: https://invent.kde.org/libraries/pulseaudio-qt
+Description: Qt bindings for libpulse
+
+Package: python-pipcl
+Version: 13
+Architecture: all
+Maintainer: @termux
+Installed-Size: 360
+Depends: python, python-pip
+Filename: pool/debs-20261106-023920-00/python-pipcl_13_all.deb
+Size: 50256
+MD5sum: c207c280b82a9b153a4acf64d78189b2
+SHA1: 75557748e4c2cc878c3fe86657dc5b2eb5d0be03
+SHA256: 5cce7fafd913f89eb81a93d45b209f852dde40aa76ce3762faa273a8e831660a
+Homepage: https://github.com/ArtifexSoftware/pipcl
+Description: Python packaging operations for use by python-mupdf and python-pymupdf
+
+Package: qqc2-breeze-style
+Version: 6.8.0+really6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3692
+Depends: kf6-kcolorscheme, kf6-kconfig, kf6-kguiaddons, kf6-kiconthemes, kf6-kirigami, libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/qqc2-breeze-style_6.8.0_really6.7.5_aarch64.deb
+Size: 500992
+MD5sum: 2aafcd757922ed3d7d0f804be14f650b
+SHA1: 8680601508014de7817f3d7137915636333f2734
+SHA256: 1d952a602c4c8e921900d460db588df09fd40fdd93a1a3e935bad2b777a3453d
+Homepage: https://invent.kde.org/plasma/qqc2-breeze-style
+Description: Applications useful for Plasma development
+
+Package: qt6-qtconnectivity
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1760
+Depends: libc++, libpcsclite, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/qt6-qtconnectivity_6.12.0_aarch64.deb
+Size: 180192
+MD5sum: 5fd07e2219aadad732cd72b205b695a5
+SHA1: 3fcd83dd92a1d449c1fe4521c9887dd5e7b370e1
+SHA256: aa90962c3fe311c8b0976700a71117127f19861f493637186c6cb1a1779f5012
+Homepage: https://www.qt.io/
+Description: Provides access to Bluetooth hardware
+
+Package: qt6-qtsensors
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux-user
+Installed-Size: 2124
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/qt6-qtsensors_6.12.0_aarch64.deb
+Size: 156440
+MD5sum: aa416b250c7653eb3739d02d0273f27e
+SHA1: ec06c3d5e0c9874597eb4dc13fe22cfe12f47218
+SHA256: 0d0f2f8a094c4203918490b5d4124d005c41756f771f2aaad365ef29fd096cbe
+Homepage: https://www.qt.io
+Description: Provides access to sensor hardware and motion gesture recognition
+
+Package: qt6-qtvirtualkeyboard
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7788
+Depends: libc++, hunspell, qt6-qtbase, qt6-qtdeclarative, qt6-qtpositioning, qt6-qtmultimedia, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/qt6-qtvirtualkeyboard_6.12.0_aarch64.deb
+Size: 2246784
+MD5sum: d484172783ef9e9d95969cf6dd7bcffe
+SHA1: 25e9d3fd202c14dd49b8d1127661de5b990e4fe2
+SHA256: 50f43246f1796f5ae0462e23d57345fd0fca799ebd3ffc6045be8ecc5de7afc1
+Homepage: https://www.qt.io/
+Description: Virtual keyboard framework
+
+Package: rocs
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3980
+Depends: kf6-karchive, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kitemviews, kf6-kparts, kf6-ktexteditor, kf6-ktexttemplate, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261106-023920-00/rocs_26.08.2_aarch64.deb
+Size: 1439324
+MD5sum: 57ef61f56e4c18905756d9344101af47
+SHA1: f6fa226c7958a79c1d4905696446e3619c6fa966
+SHA256: c47c161ecd9d69b85a20dfeadb9418c82f03ddd9244a9940417de0086d9f2b5f
+Homepage: https://invent.kde.org/education/rocs
+Description: Graph Theory IDE
+
+Package: step
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15068
+Depends: gsl, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-knewstuff, kf6-kplotting, kf6-ktextwidgets, kf6-kwidgetsaddons, kf6-kxmlgui, libc++, qalculate-gtk, qt6-qtbase
+Filename: pool/debs-20261106-023920-00/step_26.08.2_aarch64.deb
+Size: 978184
+MD5sum: d805cd837a669e8e6ae89633e32a9a7b
+SHA1: ffcc8620b53a3999b00709db025e12b78084c9bc
+SHA256: 35e5447ce3f1284ed60e9c745d9371d3eb8954c034deccd1b97024fc5cdc87fa
+Homepage: https://invent.kde.org/education/step
+Description: Interactive Physical Simulator
+
+Package: svgpart
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kparts, kf6-kxmlgui, libc++, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261106-023920-00/svgpart_26.08.2_aarch64.deb
+Size: 18840
+MD5sum: e04d51925b390672db53156f4a732d77
+SHA1: 4309403d099607300a298dae47ac02936606d122
+SHA256: 43ebcc60377bfc95ea589832b986fa995527b0dbb7181a81b9ce06a0b8aa8772
+Homepage: https://invent.kde.org/graphics/svgpart
+Description: A KPart for viewing SVGs
+
+Package: texlab
+Version: 5.26.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13800
+Filename: pool/debs-20261106-023920-00/texlab_5.26.0_aarch64.deb
+Size: 8807492
+MD5sum: 2a16610b829636635f3dc6740bcbe305
+SHA1: eeacf0ff6a8ee1373e076e9804167f63fa7b321a
+SHA256: ef47aa90af628ddfd597add1fcee008ff641e88c239afe8a1c20e8bf1dfa4740
+Homepage: https://texlab.netlify.app/
+Description: A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system
+
+Package: xorg-xrdb
+Version: 1.2.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Depends: libx11, libxmu
+Filename: pool/debs-20261106-023920-00/xorg-xrdb_1.2.3_aarch64.deb
+Size: 16292
+MD5sum: ea497f96ca86830004ec7e697faed59f
+SHA1: bfce0151b0484d5a18fbd5586211f212f5a3d901
+SHA256: 805dca505b9c007024e2cff8e0cbda0b93e10ea724ac674025ecc0e4c8115218
+Homepage: https://xorg.freedesktop.org/
+Description: X server resource database utility
+

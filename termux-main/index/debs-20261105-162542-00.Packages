@@ -1,0 +1,1238 @@
+Package: fselect
+Version: 0.10.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6304
+Depends: zlib
+Filename: pool/debs-20261105-162542-00/fselect_0.10.4_aarch64.deb
+Size: 2168032
+MD5sum: a00f5a4eae77e202e2672138a9fb0476
+SHA1: fa95f2dcc05d250f5ef802f21da56ec418d218e7
+SHA256: 8f282666c821abbc253af275ddd721fd6cad1e8a929b7e16d116b34c584c7ab7
+Homepage: https://fselect.rocks/
+Description: Find files with SQL-like queries
+
+Package: fsmon
+Version: 1.8.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Filename: pool/debs-20261105-162542-00/fsmon_1.8.8-1_aarch64.deb
+Size: 10252
+MD5sum: 734ce03179278c8a038ed201c112228c
+SHA1: 96feaebf99f40858a0d5572c2ad6c540ad24154a
+SHA256: 30c6b6b51c3f21277194d5575daef4ef35d3fbab623832a26dca690f8270a09c
+Homepage: https://github.com/nowsecure/fsmon
+Description: Filesystem monitor with fanotify and inotify backends
+
+Package: fvwm
+Version: 2.7.0-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5896
+Depends: fontconfig, fribidi, glib, libandroid-shmem, libcairo, libice, libiconv, libpng, librsvg, libsm, libx11, libxcursor, libxext, libxft, libxinerama, libxpm, libxrender, readline
+Filename: pool/debs-20261105-162542-00/fvwm_2.7.0-8_aarch64.deb
+Size: 2154000
+MD5sum: 4bbe55e30624d587d8648336fc7949ef
+SHA1: f7b5912b137cc83a082000e380ab62682332d5ea
+SHA256: 0c0dac1868e15ff2e2e27c2b751bef5d3eb877dbf0a6c3a69d36b728d6d205d9
+Homepage: https://www.fvwm.org/
+Description: A multiple large virtual desktop window manager originally derived from twm.
+
+Package: fwknop
+Version: 2.6.11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: gpgme
+Breaks: fwknop-dev
+Replaces: fwknop-dev
+Filename: pool/debs-20261105-162542-00/fwknop_2.6.11-2_aarch64.deb
+Size: 99244
+MD5sum: e3e74affeb11782afe23d6a4091d172b
+SHA1: ff7eb493ecfe4a8b2e45b00dd186f7f63d6a8baa
+SHA256: defc7f683385a0f0bfbda0e6e9f6caa1f96bb698c5aafeac30b56135e08cdd01
+Homepage: https://www.cipherdyne.org/fwknop/
+Description: fwknop: Single Packet Authorization > Port Knocking
+
+Package: fwknop-static
+Version: 2.6.11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: fwknop (= 2.6.11-2)
+Filename: pool/debs-20261105-162542-00/fwknop-static_2.6.11-2_aarch64.deb
+Size: 35188
+MD5sum: b1d7afcb06a8bfb3d4444c36d8801737
+SHA1: b5c8218d29a193ddad09e8c3ee9b6c51a15a3113
+SHA256: 71b896adb268a5c895bd9bb377dda8830409c0450969b7869ef583171ffc2532
+Homepage: https://www.cipherdyne.org/fwknop/
+Description: Static libraries for fwknop
+
+Package: fx
+Version: 40.0.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 15964
+Filename: pool/debs-20261105-162542-00/fx_40.0.1_aarch64.deb
+Size: 3837664
+MD5sum: 5fdb71a981c6b9bf4127fb968f256c7e
+SHA1: 6743c8204423bce18ba852051f8bfa7819222443
+SHA256: 95a0db696be16f0866ed6032a291489955fca891255f3136d535eac100e5f36a
+Homepage: https://github.com/antonmedv/fx
+Description: Interactive JSON viewer on your terminal
+
+Package: fzy
+Version: 1.1-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 148
+Filename: pool/debs-20261105-162542-00/fzy_1.1-1_aarch64.deb
+Size: 12836
+MD5sum: 7cd1d52d61a09c3d3070c0a6f21fbce9
+SHA1: 7e1bda6b0026893c4d3857734d01a1a4bbfba478
+SHA256: 509ad152b1f852a61ae932cb5d6fd2844047ff13c9a48e108d06bd1e74689146
+Homepage: https://github.com/jhawthorn/fzy
+Description: A simple, fast fuzzy finder for the terminal
+
+Package: galculator
+Version: 2.1.4-25
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1040
+Depends: atk, gdk-pixbuf, glib, gtk3, libcairo, pango
+Filename: pool/debs-20261105-162542-00/galculator_2.1.4-25_aarch64.deb
+Size: 62584
+MD5sum: a757904e5fdd0af9f50b002e2700f50e
+SHA1: c88e99b97d30790a91bd2b4186ae614a3696ae5c
+SHA256: 0512f863d1ca9218d900a0b1ac37a2ae20bff8e3a6f8f5adac5c8b8972e5f359
+Homepage: https://sourceforge.net/projects/galculator/
+Description: GTK+ based scientific calculator
+
+Package: gap
+Version: 4.16.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92992
+Depends: readline, libgmp, zlib, gap-packages
+Breaks: gap-dev
+Replaces: gap-dev
+Filename: pool/debs-20261105-162542-00/gap_4.16.1_aarch64.deb
+Size: 21348452
+MD5sum: a364ab732004bac16049ace25d563cdc
+SHA1: f48989216c47e6f1a1749be4d461b231311e966b
+SHA256: 08bda64b43f16c9ddf6bc9a7e399a3b72901886d44fce7f243df9fcca8752d87
+Homepage: https://www.gap-system.org/
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+
+Package: gap-packages
+Version: 4.16.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 107300
+Filename: pool/debs-20261105-162542-00/gap-packages_4.16.1_all.deb
+Size: 95113220
+MD5sum: 45b2938063519a1565901382e4afc2b0
+SHA1: 6b01df9c01a57492d31f614ef02ad3f94f40905d
+SHA256: b4255109c171f82dfd248b0ac1949eddd5f2e71818f5fdce62a848dbb50cd281
+Homepage: https://www.gap-system.org/
+Description: Packages for gap
+
+Package: garage
+Version: 2.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 37056
+Depends: openssl-tool
+Filename: pool/debs-20261105-162542-00/garage_2.5.0_aarch64.deb
+Size: 8155384
+MD5sum: 6701b978da4dafcbf543f63d24293176
+SHA1: eb777ce4373caaea4a81f437e2d8e2b06cabc1bf
+SHA256: a8de13c6769d5e95a60c40e1d0581d0f44139e5e001b33c5c38a24143f7d2752
+Homepage: https://garagehq.deuxfleurs.fr/
+Description: S3-compatible object store for small self-hosted geo-distributed deployments
+
+Package: garcon
+Version: 4.20.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 784
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libcairo, libxfce4ui, libxfce4util, pango, zlib
+Conflicts: libgarcon
+Replaces: libgarcon
+Provides: libgarcon
+Filename: pool/debs-20261105-162542-00/garcon_4.20.0-1_aarch64.deb
+Size: 88068
+MD5sum: 9b7fd307ae808ba844b500127c7da86b
+SHA1: ae219221931c98412113a278005883c683cf2b72
+SHA256: e2499c58261981c78446233b5776c195ceb3ad24ed979b875236c2852c7f1e5f
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: Implementation of the freedesktop.org menu specification
+
+Package: garcon-static
+Version: 4.20.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: garcon (= 4.20.0-1)
+Filename: pool/debs-20261105-162542-00/garcon-static_4.20.0-1_aarch64.deb
+Size: 49912
+MD5sum: d1ee838aa281b5f4d71d2b93f097e923
+SHA1: a65a76dccf20468a44d45828522b57f9176232bb
+SHA256: d968bda3cae53f0c705094df110d065275e5d7bb54523dd9e49c36c2d6210056
+Homepage: https://docs.xfce.org/xfce/garcon/start
+Description: Static libraries for garcon
+
+Package: gatling
+Version: 0.16-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Depends: libcrypt, libiconv, openssl, zlib
+Filename: pool/debs-20261105-162542-00/gatling_0.16-3_aarch64.deb
+Size: 109476
+MD5sum: 4442e99a921a8c10687ee92bc74c9365
+SHA1: 2e6a74ad25ca60a03e01ae950cfff30a2e9dedf4
+SHA256: 3f94ec46fe3771cbc7d5e888ff0b82b1fb4a084a9ff59423c134a0c094fb42a5
+Homepage: https://www.fefe.de/gatling/
+Description: A high performance http, ftp and smb server
+
+Package: gauche
+Version: 0.9.15-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42132
+Depends: gdbm, libcrypt, libiconv, mbedtls, zlib
+Recommends: llvm, ca-certificates
+Filename: pool/debs-20261105-162542-00/gauche_0.9.15-3_aarch64.deb
+Size: 8665516
+MD5sum: 4be3adb8abb6374dea74c205c4a8d15d
+SHA1: b4518af8910666406f960131a51bd464cd18d455
+SHA256: f94da4db2a8973d0dc22016b27217d5feb0584e66ee222fe7cb5459db4477df0
+Homepage: https://practical-scheme.net/gauche/
+Description: An R7RS Scheme implementation developed to be a handy script interpreter
+
+Package: gauche-static
+Version: 0.9.15-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 59600
+Depends: gauche (= 0.9.15-3)
+Filename: pool/debs-20261105-162542-00/gauche-static_0.9.15-3_aarch64.deb
+Size: 9437344
+MD5sum: 5e8fb198a0e0d5640d99c86321d467ef
+SHA1: 754cc345660fb9cdced6edf1972e3efcda139061
+SHA256: 69be0d165644c8f8bc0cb4f249c3b10ac76c6096786d1835088361924394b2cd
+Homepage: https://practical-scheme.net/gauche/
+Description: Static libraries for gauche
+
+Package: gbt
+Version: 2.0.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3116
+Filename: pool/debs-20261105-162542-00/gbt_2.0.0-7_aarch64.deb
+Size: 787056
+MD5sum: 151da16df9ea9fa12c5af5d884f9ff69
+SHA1: 40255803e04f1530feb0242a82b44d300fc4aebd
+SHA256: 807f126b997fb41a61baf6c2ad28ba71f64e1e10c02f3e94d659fed7e591f621
+Homepage: https://github.com/jtyr/gbt
+Description: Highly configurable prompt builder for Bash and ZSH written in Go
+
+Package: gcab
+Version: 1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 348
+Depends: glib, zlib
+Filename: pool/debs-20261105-162542-00/gcab_1.6-1_aarch64.deb
+Size: 36524
+MD5sum: 3a5e121c414fed978f52816d397b3d2e
+SHA1: 792f8d0094a4f40bfcc2dbe02d055f36810a96ca
+SHA256: c0ab2b2498da92fa3a6cee8de178368f0dc2a628eece64bbcd7e79804a9400f5
+Homepage: https://gitlab.gnome.org/GNOME/gcab
+Description: GObject library to create cabinet files
+
+Package: gdal
+Version: 3.13.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39376
+Depends: cfitsio, giflib, imath, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openexr, openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd
+Breaks: gdal-dev
+Replaces: gdal-dev
+Filename: pool/debs-20261105-162542-00/gdal_3.13.3-1_aarch64.deb
+Size: 9730576
+MD5sum: 7e244a04412d5982ab97c932f50fd161
+SHA1: a2caf7d397b380ac40529ef92f22809a9b9eaff8
+SHA256: 725394c24377ad603fae20d47bc119334eb467ec0b7ed62401f5cf114aa5d38f
+Homepage: https://gdal.org
+Description: A translator library for raster and vector geospatial data formats
+
+Package: gdu
+Version: 5.38.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22872
+Filename: pool/debs-20261105-162542-00/gdu_5.38.0-1_aarch64.deb
+Size: 6084528
+MD5sum: 898c3cb1693782695dc9dbe3d2bf01f5
+SHA1: cbaec55e089d285aebcaac86094d19a3e814fa8f
+SHA256: e95306fae1fe6da42b34b2094bfcf5e063b364dd349ac1f410fa4cc2f3b894f4
+Homepage: https://github.com/dundee/gdu
+Description: Fast disk usage analyzer with console interface written in Go
+
+Package: geany
+Version: 2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12420
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libandroid-glob, libc++, libcairo, libvte, pango
+Recommends: clang, make
+Filename: pool/debs-20261105-162542-00/geany_2.1-1_aarch64.deb
+Size: 3145852
+MD5sum: 0fb99ff9149b0ae4817bf8b39270b4ef
+SHA1: f3c47aeb30b9c1fde09906cf19464e01ae189519
+SHA256: 6f46a15d97a98c48a178e9b82acfc6b29e97d66ffb54236cb3fdac603098b339
+Homepage: https://www.geany.org/
+Description: Fast and lightweight IDE
+
+Package: geany-plugins
+Version: 2.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6228
+Depends: geany
+Filename: pool/debs-20261105-162542-00/geany-plugins_2.1-2_aarch64.deb
+Size: 1314792
+MD5sum: 89b256d5ebca0b9e732742b0f70a7d7b
+SHA1: 189e10141eb193990e1e3f9cd2380eac1fe18957
+SHA256: 89989fdc5de3395882bf7d8db99112dd92e0f136168dfaff62c329c08fa2ce54
+Homepage: https://plugins.geany.org/install.html
+Description: This is a plug-in for the editor Geany
+
+Package: geany-plugins-static
+Version: 2.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4568
+Depends: geany-plugins (= 2.1-2)
+Filename: pool/debs-20261105-162542-00/geany-plugins-static_2.1-2_aarch64.deb
+Size: 710888
+MD5sum: 550fdadf4840487a4517a5ed5738152b
+SHA1: 633795b30db00c20d25a90049a6d37bcecc8602c
+SHA256: 17466804a9db6c86b99883d8e4fcbfdbc9168b38bb0abcfdba685383ff42f671
+Homepage: https://plugins.geany.org/install.html
+Description: Static libraries for geany-plugins
+
+Package: geany-static
+Version: 2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9676
+Depends: geany (= 2.1-1)
+Filename: pool/debs-20261105-162542-00/geany-static_2.1-1_aarch64.deb
+Size: 1505312
+MD5sum: 10cfe4b77363486ac1f04eb22d50bcaf
+SHA1: 31f39dd241e0e336ef95d4bea560d711c9fca128
+SHA256: 1341e072d4eda2ed17cd1f9b5ea76d1f2ceba4795454e15d19f9f46396bff5e4
+Homepage: https://www.geany.org/
+Description: Static libraries for geany
+
+Package: geckodriver
+Version: 0.37.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4836
+Recommends: firefox
+Filename: pool/debs-20261105-162542-00/geckodriver_0.37.1_aarch64.deb
+Size: 1439436
+MD5sum: b919754a4bdc856ecba9204346ea56ce
+SHA1: 3f4b531c5ebd4c894f14ccda049acc0ba3820132
+SHA256: bc65e5280bf381f39cda0de77792365f08d9b74a3ec4533f6038509bd6d432c3
+Homepage: https://github.com/mozilla/geckodriver
+Description: Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers
+
+Package: gecode
+Version: 6.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23940
+Depends: libc++
+Filename: pool/debs-20261105-162542-00/gecode_6.5.0_aarch64.deb
+Size: 2999996
+MD5sum: cdf47c0ff8ac23d4664ccbfb9f351604
+SHA1: f4e5f4c3fb3e55963c34cd2110017a47eda7633d
+SHA256: 35cbf80d66763fca5884527255888145a894161e7347506095e86cee575847f5
+Homepage: https://www.gecode.dev/
+Description: Generic Constraint Development Environment
+
+Package: gedit
+Version: 51.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1968
+Depends: gdk-pixbuf, glib, gobject-introspection, gsettings-desktop-schemas, gspell, gtk3, libcairo, libgedit-amtk, libgedit-gfls, libgedit-gtksourceview, libgedit-tepl, libpeas, pango
+Recommends: gedit-help
+Filename: pool/debs-20261105-162542-00/gedit_51.0_aarch64.deb
+Size: 339664
+MD5sum: 2cb4819ab7967785c90496651e12e3db
+SHA1: 85f00fab1e062a69d884669bfbb645a6aefc1e46
+SHA256: 20f6488f9d74d677a4e2a6508dad88941803c0c7002308c2171209429e8bdee8
+Homepage: https://gedit-technology.github.io/apps/gedit/
+Description: GNOME Text Editor
+
+Package: gedit-help
+Version: 51.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6244
+Depends: gedit (= 51.0)
+Filename: pool/debs-20261105-162542-00/gedit-help_51.0_all.deb
+Size: 373136
+MD5sum: b32e9a2b1fa0c60e283a57c36728efa7
+SHA1: 531fd772a4995f384d286532a9c23de8f51101ae
+SHA256: 7f9d0ac861377965e5f8793d66efe1a11bcbf21cec8c842881d539fd2854d2ab
+Homepage: https://gedit-technology.github.io/apps/gedit/
+Description: Gedit help files
+
+Package: gegl
+Version: 0.4.72-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5452
+Depends: babl, ffmpeg, gdk-pixbuf, glib, imath, json-glib, libandroid-support, libc++, libcairo, libjasper, libjpeg-turbo, libpng, libraw, librsvg, libtiff, libwebp, littlecms, openexr, pango, poppler
+Breaks: gegl-dev
+Replaces: gegl-dev
+Filename: pool/debs-20261105-162542-00/gegl_0.4.72-3_aarch64.deb
+Size: 1274260
+MD5sum: ba45c0581317f94c046db19ba5954ff0
+SHA1: 4f53ae0fed226eefbac60235715b9b4c56b03712
+SHA256: f79dec07e14963e094b760c074b2cefac7260eee774b2b74b22649a156700722
+Homepage: https://gegl.org/
+Description: Data flow based image processing framework
+
+Package: gengetopt
+Version: 2.23.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1036
+Depends: libc++
+Filename: pool/debs-20261105-162542-00/gengetopt_2.23.1_aarch64.deb
+Size: 187516
+MD5sum: 9a5ac3eea5b2d65bda24689ffbe5030d
+SHA1: 6fbeb2f48d0c9e08d82ff9e754b5f4bb901f93c9
+SHA256: 881b589dd876b8c6ea79deb6163710be35ec2781f1de59d6a4a1e50540d037a5
+Homepage: https://www.gnu.org/software/gengetopt/
+Description: gengetopt is a tool to write command line option parsing code for C programs
+
+Package: geocode-glib
+Version: 3.26.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 668
+Depends: glib, json-glib, libsoup3
+Filename: pool/debs-20261105-162542-00/geocode-glib_3.26.4_aarch64.deb
+Size: 60424
+MD5sum: a788c96e7f6186d4a2181bef3d81b369
+SHA1: b24cf55f4a7f1931f3ec4c3d3e46cae290d15769
+SHA256: 53ba53205d69234518c4f70de1389a7d92dcd7a4e83e12972e9ae49594f1e1c7
+Homepage: https://gitlab.gnome.org/GNOME/geocode-glib
+Description: Convenience library for the geocoding and reverse geocoding
+
+Package: geographiclib
+Version: 2.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3584
+Depends: libc++
+Filename: pool/debs-20261105-162542-00/geographiclib_2.7_aarch64.deb
+Size: 620460
+MD5sum: 49ddd98203b1702c4427d0f8b080d625
+SHA1: 72f3fb631a43e047a47ae74472b18dadf2703be3
+SHA256: 3fa42546798af3593a34a9dd832c765c669ca26a45521d33a7d25019c0785311
+Homepage: https://geographiclib.sourceforge.io
+Description: Utilities and C++ library to solve some geodesic problems
+
+Package: geoip2-database
+Version: 20191221-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 71760
+Filename: pool/debs-20261105-162542-00/geoip2-database_20191221-2_all.deb
+Size: 23394012
+MD5sum: 92eb43ef4b25ddf563f4345c943be035
+SHA1: e917bed46686e6c07dd86c969d87a51edc2d2deb
+SHA256: 8ef49090160508f596bac1175c20650d50269d1c075a77a8c20cbb47162403ab
+Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
+Description: GeoLite2 IP geolocation databases compiled by MaxMind
+
+Package: germanium
+Version: 1.2.3-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7828
+Filename: pool/debs-20261105-162542-00/germanium_1.2.3-4_aarch64.deb
+Size: 2058416
+MD5sum: 42633c378719f23d56162e801617da57
+SHA1: d022f88766101f2d198aea394cdde5a5856c62fa
+SHA256: c21b7942af59fde0f76d5641f4d8b16ae833a9c9d27223af4ce3d8810070ab61
+Homepage: https://github.com/matsuyoshi30/germanium
+Description: Generate image from source code
+
+Package: getconf
+Version: 0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/debs-20261105-162542-00/getconf_0.6-1_aarch64.deb
+Size: 6644
+MD5sum: c7147938b59c608c05dab9c74c54eca2
+SHA1: c5f24eae4883a35faf787efd7d2da69e7385e63f
+SHA256: 2676f2685554741b14924fe7110e3f5efcb3643b63ee0f5ed1f65a7707908428
+Homepage: https://github.com/termux/getconf
+Description: Utility to print configuration values
+
+Package: geth
+Version: 1.17.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 65128
+Suggests: geth-utils
+Filename: pool/debs-20261105-162542-00/geth_1.17.10_aarch64.deb
+Size: 16111516
+MD5sum: 9c196caf4b0449e4ea015ce3b0b3c561
+SHA1: 7c31fd63bfb9073337cd1a95b23be74f231c0681
+SHA256: 8efe9fdf4b0b0c8d164cf3a2332bd3549222985d6fb8003e78634c57285c54a8
+Homepage: https://geth.ethereum.org/
+Description: Go implementation of the Ethereum protocol
+
+Package: geth-utils
+Version: 1.17.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 219988
+Depends: geth (= 1.17.10)
+Filename: pool/debs-20261105-162542-00/geth-utils_1.17.10_aarch64.deb
+Size: 59250972
+MD5sum: ab4e21e7519faaa814cd1306c75f2144
+SHA1: 30c55b296c0d74c1deaa9860531ff0fc8dc75494
+SHA256: fdf806d0f045e3fffc524328d494552c163824e8e67979caf14b101b46cdfb66
+Homepage: https://geth.ethereum.org/
+Description: Additional utilities for Geth (like abigen, bootnode, evm, puppeth)
+
+Package: gexiv2
+Version: 0.16.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 732
+Depends: exiv2, glib, libc++
+Filename: pool/debs-20261105-162542-00/gexiv2_0.16.2_aarch64.deb
+Size: 85724
+MD5sum: 4d054a2096c161dc6b7a4d29d9977e40
+SHA1: f87c1f42493fc530f2217df407c7e42a768a54f2
+SHA256: 400881f8c5855ce29cd43d5ef754e570c5c4708de60e7715b5a88c81f64e0c19
+Homepage: https://wiki.gnome.org/Projects/gexiv2
+Description: A GObject-based Exiv2 wrapper
+
+Package: gh
+Version: 2.103.3
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 42272
+Recommends: openssh
+Filename: pool/debs-20261105-162542-00/gh_2.103.3_aarch64.deb
+Size: 9947940
+MD5sum: fea86bc44d1e76fa56f68db1b042332e
+SHA1: 44ec968f9261b65081ee38436f49c2e48304a49a
+SHA256: 9f613afc3c7713adf8accfab7b8ba734ce3d5e2431149df1db10bf5f58e102e9
+Homepage: https://cli.github.com/
+Description: GitHub’s official command line tool
+
+Package: ghc
+Version: 9.12.2-5
+Architecture: aarch64
+Maintainer: Aditya Alok <alok@termux.dev>
+Installed-Size: 2963872
+Depends: libiconv, libffi, libgmp, libandroid-posix-semaphore, libandroid-utimes, ncurses
+Replaces: ghc-libs-static, ghc-libs
+Provides: ghc-libs, ghc-libs-static
+Filename: pool/debs-20261105-162542-00/ghc_9.12.2-5_aarch64.deb
+Size: 226448448
+MD5sum: 81b7a5c0f932f6706b2b64490332052f
+SHA1: 479f1eca9f288faf87bb68a8fb5cff8cb2d13873
+SHA256: 6907611b825c7d3ea317a9630c0c627baecbc763fde83044cf3236631b236b5d
+Homepage: https://www.haskell.org/ghc/
+Description: The Glasgow Haskell Compiler
+
+Package: ghex
+Version: 50.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 820
+Depends: glib, gtk4, libadwaita, libcairo, pango
+Recommends: ghex-help
+Filename: pool/debs-20261105-162542-00/ghex_50.4_aarch64.deb
+Size: 121956
+MD5sum: 8cfe014f92fd89210fca3882b2992d3b
+SHA1: b4bd7ef82cdb2fa14aed15c506036f40a241f625
+SHA256: ea9534d514fd1029720fba1b8275d9ceb8e5f0a02839f0eed584266a79b40c95
+Homepage: https://wiki.gnome.org/Apps/Ghex
+Description: A simple binary editor for the Gnome desktop.
+
+Package: ghex-help
+Version: 50.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1556
+Depends: ghex (= 50.4)
+Breaks: ghex (<< 46.1)
+Replaces: ghex (<< 46.1)
+Filename: pool/debs-20261105-162542-00/ghex-help_50.4_all.deb
+Size: 76404
+MD5sum: c565c6b666bcad19c511e2abdc12f11e
+SHA1: 8f4168bc3b14fe6f8f79da0df51100ba7e1c724c
+SHA256: a2d3f187571e1f681d169c6ee159666345d4574f1fd7b38898ce29a63e9e3bc2
+Homepage: https://wiki.gnome.org/Apps/Ghex
+Description: GHex help files
+
+Package: ghq
+Version: 1.11.2-1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 10656
+Filename: pool/debs-20261105-162542-00/ghq_1.11.2-1_aarch64.deb
+Size: 2936152
+MD5sum: 15505c171da81e7925aa0855940cb66d
+SHA1: 74b38aece88ea6dcf6b799e7893898d265507d6d
+SHA256: 82c4e9778e67d6b54af53eb35b877641c9e546da27dcef1eebf356a570c8889a
+Homepage: https://github.com/x-motemen/ghq
+Description: Manage remote repository clones, like go get does
+
+Package: gifsicle
+Version: 1.98
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Suggests: libx11
+Filename: pool/debs-20261105-162542-00/gifsicle_1.98_aarch64.deb
+Size: 115252
+MD5sum: 39aef9a0138a79b63684e50a00a993ab
+SHA1: 6fc025cdb2c376328548882e9102dafd2e9184eb
+SHA256: 8c256f619e7799e135ca94049c05552823b14555b47958279be8ce1f19adc3fe
+Homepage: https://www.lcdf.org/gifsicle/
+Description: Tool for creating, editing, and getting information about GIF images and animations
+
+Package: gifski
+Version: 1.34.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1384
+Filename: pool/debs-20261105-162542-00/gifski_1.34.0-2_aarch64.deb
+Size: 505772
+MD5sum: ceea932e2b729dac8341fc9238017306
+SHA1: cd212f4c8e2efcc1824a31ea73b8db0474e88ee4
+SHA256: 44653500e12310b03977a76eaccde54bc0c06fca61a23b8cb092fd7bb09a5db4
+Homepage: https://gif.ski/
+Description: GIF encoder based on libimagequant
+
+Package: gimp
+Version: 3.2.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39472
+Depends: aalib, appstream, appstream-glib, atk, babl, fontconfig, freetype, gdk-pixbuf, gegl, gexiv2, ghostscript, gimp-data, glib, glib-networking, gtk3, harfbuzz, hicolor-icon-theme, imath, json-glib, libandroid-execinfo, libandroid-shmem, libbz2, libc++, libcairo, libheif, libjpeg-turbo, libjxl, libmypaint, libpng, librsvg, libtiff, libwebp, libxcursor, libxmu, libxpm, littlecms, mypaint-brushes, openexr, openjpeg, pango, poppler, poppler-data, pygobject, zlib
+Suggests: cfitsio, gimp-resynthesizer
+Filename: pool/debs-20261105-162542-00/gimp_3.2.6-3_aarch64.deb
+Size: 7020464
+MD5sum: 6acbf1a3f785d07cb38c24e397eee9d7
+SHA1: d23c5de6b283f1770f505fae1f1e35a1fb5d53f9
+SHA256: f7f14f13226553fbad10503c36e0e147cd7fef98457d0b022958b001e52aabcc
+Homepage: https://www.gimp.org/
+Description: GNU Image Manipulation Program
+
+Package: gimp-data
+Version: 3.2.6-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 34672
+Filename: pool/debs-20261105-162542-00/gimp-data_3.2.6-3_all.deb
+Size: 6007924
+MD5sum: 39d7ec6db4948ad9de0e2ffac5652441
+SHA1: bdfb71dea811edb9139d91d542f2d57093eb73ae
+SHA256: ff8bf3d04e747a3436e9f626e6a1dca35ee7c1b0ba582ef27892112876284ff6
+Homepage: https://www.gimp.org/
+Description: Platform-independent data for gimp
+
+Package: gimp-resynthesizer
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: gimp, python
+Filename: pool/debs-20261105-162542-00/gimp-resynthesizer_3.0.1_aarch64.deb
+Size: 34572
+MD5sum: b3299c2ef3a1d03d65a7ba42f8ccd84d
+SHA1: 6b3c84e86bf068ffe2ce613fc466d4defea41da4
+SHA256: 519d45ea9c93a523099eb77ba89273336e3823559710e42db4f67346eefb64bf
+Homepage: https://github.com/bootchk/resynthesizer
+Description: Suite of gimp plugins for texture synthesis
+
+Package: girara
+Version: 2026.07.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: glib
+Filename: pool/debs-20261105-162542-00/girara_2026.07.18_aarch64.deb
+Size: 17024
+MD5sum: 41532d1701f296ae768c80ae3f13c442
+SHA1: c3dceaaa906905c7a2756c8d4dc73e8289729004
+SHA256: d9a7310412fa569da812ec56aa81414adaca7410dc132c66097e7c6a395ec6f4
+Homepage: https://pwmt.org/projects/girara
+Description: Simple user interface library used by Zathura
+
+Package: git-absorb
+Version: 0.9.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 1216
+Depends: zlib
+Filename: pool/debs-20261105-162542-00/git-absorb_0.9.0_aarch64.deb
+Size: 399204
+MD5sum: 7da5876404880fc16e47994dfe7aabfa
+SHA1: 692b48f76a9e250aa0e61444a6ed600b13d45a16
+SHA256: a3d24fbd9e55880a590f60739de7e933a63a749bcee2a71259a84359943b4685
+Homepage: https://github.com/tummychow/git-absorb
+Description: git commit --fixup, but automatic
+
+Package: git-credential-manager
+Version: 3.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23792
+Depends: dotnet-host, dotnet-runtime-10.0
+Filename: pool/debs-20261105-162542-00/git-credential-manager_3.0.2-1_aarch64.deb
+Size: 6915900
+MD5sum: 640b67e256fdbf4ee9e998e746966f03
+SHA1: 2ab22eb527baf3322288b6d9dc2485b183379b5c
+SHA256: 42b4c80f25f003a463100991e036d650418756b5ea57dc0879b97f8e086332be
+Homepage: https://aka.ms/gcm
+Description: Cross-platform Git credential storage for multiple hosting providers
+
+Package: git-crypt
+Version: 0.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: git, libc++, openssl
+Filename: pool/debs-20261105-162542-00/git-crypt_0.8.0_aarch64.deb
+Size: 59572
+MD5sum: 99388c189d6ac4ba25a747f7f229ce79
+SHA1: b550b82275d198afd461ea7794b5cb1244a8e850
+SHA256: 150ca54653db1277ca1ed024ce08b53d08173ef02d4c1960d5f7ffe34d2f1e8f
+Homepage: https://www.agwa.name/projects/git-crypt/
+Description: Enables transparent encryption and decryption of files for a git repository
+
+Package: git-delta
+Version: 0.20.1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 5560
+Depends: git, libgit2, oniguruma
+Filename: pool/debs-20261105-162542-00/git-delta_0.20.1_aarch64.deb
+Size: 2141516
+MD5sum: 7fe170c4af8ba7b52a85e6323e29480b
+SHA1: 1fd792dc6c9740fdf9335250abd27eade76d2aee
+SHA256: 9d6ee2ba6ffd7ad21be308f368a2af8625197554e722a69ad1cd9542eb799921
+Homepage: https://dandavison.github.io/delta/
+Description: A syntax-highlighter for git and diff output
+
+Package: git-extras
+Version: 7.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 852
+Depends: bash, git, util-linux, gawk, findutils, ncurses-utils
+Recommends: curl, procps, rsync
+Filename: pool/debs-20261105-162542-00/git-extras_7.5.0_aarch64.deb
+Size: 106004
+MD5sum: 12f44520e721c794dd630e2ed6881ebf
+SHA1: 78879731772b4a5996d56d3d5f84f815053e5ad2
+SHA256: eabff7eb84021140c269be010e1c15b74c2d3158fc8a8f7bd57d0438dda3f25b
+Homepage: https://github.com/tj/git-extras
+Description: Little git extras.
+
+Package: git-lfs
+Version: 3.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14112
+Filename: pool/debs-20261105-162542-00/git-lfs_3.8.1_aarch64.deb
+Size: 3754560
+MD5sum: 22c1a43798d7e381aa9d0f6c38eebca1
+SHA1: 94d811895424855981fe47f4d0bb7ba13bc7e268
+SHA256: 3c07b1cb01460ca9543f35424c5e48b1d432123c10dba85b4e34c5adcb0112e3
+Homepage: https://git-lfs.github.com/
+Description: Git extension for versioning large files
+
+Package: git-sizer
+Version: 1.5.0-6
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 4044
+Depends: git
+Filename: pool/debs-20261105-162542-00/git-sizer_1.5.0-6_aarch64.deb
+Size: 1153508
+MD5sum: 3acb0232f690942b62f9c78dbf72d9d6
+SHA1: b35448708f79fb24c85ecc38e1bb77711d8d960f
+SHA256: a2089c7d4eccd087ea7374a220bc77aaaa8214826895067909b8626016908268
+Homepage: https://github.com/github/git-sizer
+Description: Compute various size metrics for a Git repository
+
+Package: git-town
+Version: 24.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25684
+Filename: pool/debs-20261105-162542-00/git-town_24.1.0-1_aarch64.deb
+Size: 5059260
+MD5sum: e0228398e1ce0c3aa4f26a83a95387fd
+SHA1: 246a7f39588ef6bcfcd6d715de93498afd3c1972
+SHA256: a891ccbaea19001993bbc4e26a5d65b091532a58558ce2b27b989c3f683490f8
+Homepage: https://www.git-town.com
+Description: Git branches made easy
+
+Package: gitea
+Version: 28.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 127012
+Depends: dash, git
+Filename: pool/debs-20261105-162542-00/gitea_28.3.0_aarch64.deb
+Size: 33421672
+MD5sum: 1eeb870620baf7efbcd9024622e33cbf
+SHA1: a3dfb1fd08360d500fead35bbf694f7ee60bb89d
+SHA256: b5d31fd9d93806f8281b54c04fffa5cdd25c8c23a2a2e0392d35ba4b29caaa97
+Homepage: https://gitea.io
+Description: Git with a cup of tea, painless self-hosted git service
+
+Package: gitflow-avh
+Version: 1.12.3-9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 508
+Depends: dash, git
+Filename: pool/debs-20261105-162542-00/gitflow-avh_1.12.3-9_all.deb
+Size: 31508
+MD5sum: dfbffeb6feea7fc339eee217f089fd0b
+SHA1: e77f44e43f9a694f11f52c9b9efef3a044ea9e3c
+SHA256: 18003f83b1f6c2dca6bd53c1a017adf986a2558492dd3c4be35d46bf5b94f8e7
+Homepage: https://github.com/petervanderdoes/gitflow/
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+
+Package: gitleaks
+Version: 8.30.1-2
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 16824
+Filename: pool/debs-20261105-162542-00/gitleaks_8.30.1-2_aarch64.deb
+Size: 4597464
+MD5sum: dbd0859fafd772d15c40acddaa53b85d
+SHA1: 10bb3098eb7a3af555e5fb953b3114e3f5a5defd
+SHA256: f1f317805b58ee16ab586d63b318af3df5b88878968f4c630eb92e8057d017b3
+Homepage: https://github.com/gitleaks/gitleaks
+Description: Detect secrets like passwords, API keys, and tokens in git repos and files
+
+Package: gitoxide
+Version: 0.61.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32416
+Depends: resolv-conf
+Filename: pool/debs-20261105-162542-00/gitoxide_0.61.0_aarch64.deb
+Size: 8752440
+MD5sum: f50b813360873f52983897ce9c9ddd4a
+SHA1: 02dfbb70ee8062c9b06fb84abdd3fc824be9b034
+SHA256: de2c9bffce5f223c4f4e9964d5cc4587b0373aafd67c64b24b866d842f00b078
+Homepage: https://github.com/GitoxideLabs/gitoxide
+Description: Rust implementation of Git
+
+Package: gitui
+Version: 0.28.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7664
+Depends: libgit2, libssh2, openssl, zlib
+Filename: pool/debs-20261105-162542-00/gitui_0.28.1_aarch64.deb
+Size: 3299188
+MD5sum: 3b0ab3a703b2d3076cbd0679b4119ebe
+SHA1: bf25b57f701b1e2b71f6e36ae02d6e1b0b5a6e42
+SHA256: 1379d1c241bebed0c622ec9071808f109e97e31a41fefae1f4ecf00f10a0c37a
+Homepage: https://github.com/gitui-org/gitui
+Description: Blazing fast terminal-ui for git written in rust
+
+Package: gjots2
+Version: 3.2.1-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1140
+Depends: gtksourceview4, pygobject, python
+Filename: pool/debs-20261105-162542-00/gjots2_3.2.1-3_all.deb
+Size: 127792
+MD5sum: 3d8ad087937f6cf53a012c885b0bfa9f
+SHA1: 4e07de9656cacf033fe71ede9774e4b3ac499c65
+SHA256: 37de5fcdc430b8258c1963c516389302dc37488fde69788283545e462122c81e
+Homepage: http://bhepple.freeshell.org/gjots
+Description: A hierarchical note jotter
+
+Package: gkermit
+Version: 2.01-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libandroid-support
+Filename: pool/debs-20261105-162542-00/gkermit_2.01-1_aarch64.deb
+Size: 38220
+MD5sum: b2457cfe8981ff2d79fe8e4827394643
+SHA1: f7334baffa81a45c7332a9780c498909979bb791
+SHA256: d2c194de72c15be7222aa9b5e6a164287b0341dbd5234ebc01a17bd3b364b8d5
+Homepage: https://www.kermitproject.org/gkermit.html
+Description: Simple, Portable, Free File Transfer Software for UNIX
+
+Package: gl2ps
+Version: 1.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 540
+Depends: libpng, opengl, zlib
+Filename: pool/debs-20261105-162542-00/gl2ps_1.4.3_aarch64.deb
+Size: 286704
+MD5sum: 3269c313f913775dfd1dd1677ab47a32
+SHA1: f89dc3cc7398f20a8095791bd5b4d9151365ad7b
+SHA256: b61949ecea4c4b267b98d36be8944a1a26cb14f3b00e63649ef1ec521ea4ed70
+Homepage: https://www.geuz.org/gl2ps/
+Description: An OpenGL to PostScript printing library
+
+Package: glab-cli
+Version: 1.126.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 50512
+Filename: pool/debs-20261105-162542-00/glab-cli_1.126.0_aarch64.deb
+Size: 12074780
+MD5sum: 4309870ae64a63ff989dd4a36f7cae7c
+SHA1: ebecad7fa5cfbde70bbfa35d9d8920f3ddcd5ab9
+SHA256: eb49edc4cce55757e89b27736172a0d542fefb8934f337459c12c0b10f4cb3da
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+
+Package: glade
+Version: 3.40.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6448
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libxml2, pango
+Filename: pool/debs-20261105-162542-00/glade_3.40.0-4_aarch64.deb
+Size: 1193956
+MD5sum: 2903665f66f8f1dbcf3c52352590a6e2
+SHA1: eac8b8dd8a8b41a19cc5c8922e499d30ab66be06
+SHA256: d22d1959d738caba0da6545f432c8ed0e72bad2c6c70e71c581992708a0a61ce
+Homepage: https://glade.gnome.org/
+Description: User interface designer for Gtk+ and GNOME
+
+Package: glib-networking
+Version: 2.90.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: glib, openssl
+Filename: pool/debs-20261105-162542-00/glib-networking_2.90.1_aarch64.deb
+Size: 37760
+MD5sum: 6fdeb65faeabc44f1209129dfc4ad287
+SHA1: 0eb18cd4aaaa17b9319884b2bbdbbc4d98aff47b
+SHA256: 4256842e4a17c09e116930fd1dd842a976a84293e28441baef272289ca123091
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking
+Description: Network-related giomodules for glib
+
+Package: libatomic-ops
+Version: 7.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1108
+Filename: pool/debs-20261105-162542-00/libatomic-ops_7.10.0_aarch64.deb
+Size: 89512
+MD5sum: bd26beafc5938a117a22ec127ff90df3
+SHA1: b718a016084e6d7a39a0013d3568c719f56aa75d
+SHA256: 6dc759ec600f4c2c2a3daccd56ace05cef38750ce061da043b692fd89050cd6a
+Homepage: https://github.com/bdwgc/libatomic_ops
+Description: Provides semi-portable access to hardware-provided atomic memory update operations
+
+Package: libatomic-ops-static
+Version: 7.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: libatomic-ops (= 7.10.0)
+Filename: pool/debs-20261105-162542-00/libatomic-ops-static_7.10.0_aarch64.deb
+Size: 4188
+MD5sum: be61ce3a60a8bb94feea2314e1152e87
+SHA1: 323e5819534f8443669e5db4a3a2d20fca99ba1d
+SHA256: f058674bde424e66a1e52306efa6cde24a037125237bda09072ef6c0c80747b2
+Homepage: https://github.com/bdwgc/libatomic_ops
+Description: Static libraries for libatomic-ops
+
+Package: libfreexl
+Version: 2.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: libiconv, libminizip, libexpat
+Filename: pool/debs-20261105-162542-00/libfreexl_2.0.0-1_aarch64.deb
+Size: 25436
+MD5sum: 886726f5c451dfa651a1479871c4c952
+SHA1: e9e6701de7c8ec207df7548ea119c2c1c1a1010e
+SHA256: 425c971df4908f8b8358074d7ff0ec0524448de0c00f64066463ca419f881193
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Description: Library to extract valid data from within an Excel (.xls) spreadsheet
+
+Package: libfreexl-static
+Version: 2.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: libfreexl (= 2.0.0-1)
+Filename: pool/debs-20261105-162542-00/libfreexl-static_2.0.0-1_aarch64.deb
+Size: 21380
+MD5sum: 90788795361c7d7827c38e59accae006
+SHA1: 063608b4cd12ae07147a186d07da51cbaa7e92df
+SHA256: 74cff09cdaba47dff7e885564eb5e2c429509204015baf6470477d748202dda7
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Description: Static libraries for libfreexl
+
+Package: libgedit-amtk
+Version: 5.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: glib, gtk3
+Filename: pool/debs-20261105-162542-00/libgedit-amtk_5.11.0_aarch64.deb
+Size: 38264
+MD5sum: 0a21c687809521a497773a7573ea6b23
+SHA1: 1dea004ee9fd2def840779f4b8ef7e4dbb1ff26c
+SHA256: 47162f3c7bfc64ca963b75c3bde594b5b0aab105c18178ba3f9aebb27edaf05b
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-amtk
+Description: Actions, Menus and Toolbars Kit for GTK applications
+
+Package: libgedit-gfls
+Version: 0.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: glib
+Filename: pool/debs-20261105-162542-00/libgedit-gfls_0.5.0_aarch64.deb
+Size: 38536
+MD5sum: 9998e07c9720fab6f7e5bc8db892bc54
+SHA1: bb6f7e1f98295408ff62d86303ea33761dd8e82e
+SHA256: 6befcb0856fbc7090d33c3b84b6f0300459b771067a2fd911084ea301e511f95
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-gfls
+Description: A module dedicated to file loading and saving
+
+Package: libgedit-gtksourceview
+Version: 299.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3808
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libgedit-amtk, libgedit-gfls, libxml2, pango
+Filename: pool/debs-20261105-162542-00/libgedit-gtksourceview_299.8.0_aarch64.deb
+Size: 431424
+MD5sum: d02be41ef23671a38473860b3bec1895
+SHA1: 0cd0254221eb7f5e4fa3960aca276112489e6868
+SHA256: 7e0f490320aeec1dce6eebde94deafbecdfb0d9d755dc4de4a1aee97b665709e
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-gtksourceview
+Description: A source code editing widget
+
+Package: libgedit-tepl
+Version: 6.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1236
+Depends: glib, gsettings-desktop-schemas, gtk3, libcairo, libgedit-amtk, libgedit-gfls, libgedit-gtksourceview, libhandy, libicu, pango
+Filename: pool/debs-20261105-162542-00/libgedit-tepl_6.15.0_aarch64.deb
+Size: 141532
+MD5sum: 48d18a6da3453805cb160378776fc44c
+SHA1: 974055d021073cddb248e2da299546ac166320f9
+SHA256: f2e9376a7d0f170d2bd7f83eb49fb186ea05ae9d7048f57921c8cf83fab63735
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-tepl
+Description: Library that eases the development of GtkSourceView-based text editors and IDEs
+
+Package: libgeos
+Version: 3.15.0
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 9828
+Depends: libc++
+Breaks: libgeos-dev
+Replaces: libgeos-dev
+Filename: pool/debs-20261105-162542-00/libgeos_3.15.0_aarch64.deb
+Size: 1506500
+MD5sum: 21d327526759d6c104dcb3af7d9c15ab
+SHA1: bf1b98f115a2f0acc7997fe9e6028cfdb9df46e0
+SHA256: 557e339952fe28a9459b52311ed58239d30a6817243234028b298e27b1b3e806
+Homepage: https://geos.osgeo.org/
+Description: Geometry Engine, C++ port of the Java Topology Suite
+
+Package: libmypaint
+Version: 1.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 504
+Depends: glib, json-c
+Filename: pool/debs-20261105-162542-00/libmypaint_1.6.1-2_aarch64.deb
+Size: 59552
+MD5sum: dcb67e1f71ddf421afdaa19f95e5aba9
+SHA1: 8cd1d1b8467d76d4201d95c83fe98be09dea1d67
+SHA256: 3cb59bd166bf4a89ef8364178e0ce4dbd8af48c9654d9bbc1566f879171847e6
+Homepage: https://github.com/mypaint/libmypaint
+Description: MyPaint brush engine library
+
+Package: libmypaint-static
+Version: 1.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libmypaint (= 1.6.1-2)
+Filename: pool/debs-20261105-162542-00/libmypaint-static_1.6.1-2_aarch64.deb
+Size: 39472
+MD5sum: 9a2b797a4b024e644fbf6f589c50e941
+SHA1: b49b87d1854dbb44ae0eaf7e53bcb8db83a09f72
+SHA256: 66ed3d554fa4a89850c253edbc089a60384691cfedb6b9e921a6da16b5f95cce
+Homepage: https://github.com/mypaint/libmypaint
+Description: Static libraries for libmypaint
+
+Package: libowfat
+Version: 0.34
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2840
+Filename: pool/debs-20261105-162542-00/libowfat_0.34_aarch64.deb
+Size: 291780
+MD5sum: e27c5e6b5870dca5a260ceb4e02283c2
+SHA1: 033ff25cb960f9e7b46f745ce798224856740024
+SHA256: 45260da435cc5e4198d5a0094b64c81f34baf19839d67e7cd54b27faaeff1890
+Homepage: http://www.fefe.de/libowfat/
+Description: GPL reimplementation of libdjb
+
+Package: librttopo
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: libgeos, proj
+Filename: pool/debs-20261105-162542-00/librttopo_1.1.0-5_aarch64.deb
+Size: 158188
+MD5sum: f0d7bc687867adedaaf28121884a81fd
+SHA1: 59174dca920a98a57e323b8b0228534b07eed39b
+SHA256: 64f05666c2ad8437dcc441c075b8646aa393cd7c6ca28e76eeca0d51907c0e74
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Description: The RT Topology Library exposes an API to create and manage standard topologies
+
+Package: librttopo-static
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: librttopo (= 1.1.0-5)
+Filename: pool/debs-20261105-162542-00/librttopo-static_1.1.0-5_aarch64.deb
+Size: 160932
+MD5sum: 7551ad249596de53fb425c1c1eb6bc28
+SHA1: 17708f5b88aa4844c60b203d2a74810fee2a1d5e
+SHA256: 0fb1cbf0a477f14022cf3741f26b82de82ffb34004041a237ff6f9bafcba3a23
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Description: Static libraries for librttopo
+
+Package: libspatialite
+Version: 5.1.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14072
+Depends: libgeos, proj, libfreexl, libsqlite, libxml2, librttopo
+Filename: pool/debs-20261105-162542-00/libspatialite_5.1.0-3_aarch64.deb
+Size: 2739436
+MD5sum: fb1e03b5eb2de1040eaa4227f4e130b6
+SHA1: f611fccbfebb9b8cb75b8da6ec5a9f1ff9daab1a
+SHA256: 8655b1de452dff6e49dd5cabac2d85c7fdbe5b28f5d1963deb30f4dc9939d67c
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Description: SQLite extension to support spatial data types and operations
+
+Package: libspatialite-static
+Version: 5.1.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15352
+Depends: libspatialite (= 5.1.0-3)
+Filename: pool/debs-20261105-162542-00/libspatialite-static_5.1.0-3_aarch64.deb
+Size: 2053696
+MD5sum: 21c3ff772d715bdc334efdd7a8d669a6
+SHA1: f3cf228813a5bc9c72b72be14a15528a0c2b0080
+SHA256: e4e27afc5f6fd2a62a8136d451544d8d1c715741d5e368c3548bca7b37b02d32
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Description: Static libraries for libspatialite
+
+Package: mypaint-brushes
+Version: 2.0.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3896
+Filename: pool/debs-20261105-162542-00/mypaint-brushes_2.0.2_all.deb
+Size: 1479712
+MD5sum: 7230e9b7de016cf04436f6e4f2d7d44d
+SHA1: f386d6525f96c8ecbd2e6c5299fefe928d8062a3
+SHA256: 38c8741761209283aad03b59b04230d8bade4deb8810f78b9f42f06e065b5298
+Homepage: https://github.com/mypaint/mypaint-brushes
+Description: MyPaint brushes
+
+Package: proj
+Version: 9.9.0
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 16008
+Depends: libc++, libsqlite, sqlite, libtiff, libcurl
+Breaks: proj-dev
+Replaces: proj-dev
+Filename: pool/debs-20261105-162542-00/proj_9.9.0_aarch64.deb
+Size: 2491984
+MD5sum: c47149b41defefeee97cbbbc24e4e936
+SHA1: e726c1c6d2adc60ad2bb06193f229082e7a34dca
+SHA256: 13298ac7775ca57b946ace9222607e3c059c560048b76bdc701554bd63dfed01
+Homepage: https://proj.org
+Description: Generic coordinate transformation software
+
+Package: xerces-c
+Version: 3.3.0
+Architecture: aarch64
+Maintainer: @3ls-it
+Installed-Size: 9676
+Depends: libc++, libcurl, libicu
+Filename: pool/debs-20261105-162542-00/xerces-c_3.3.0_aarch64.deb
+Size: 1152300
+MD5sum: 79015f9c496cf2093be9ae858a1d6e0a
+SHA1: 7816347a154ffe7436bfb3a0c4f2357a4102e78f
+SHA256: 34d1afdb2d21c886fecec1f3b6b3bdb325c2146a6268ffeebc0adc885bb4c094
+Homepage: https://xerces.apache.org/
+Description: Validating XML parser library for C++.
+
+Package: xerces-c-static
+Version: 3.3.0
+Architecture: aarch64
+Maintainer: @3ls-it
+Installed-Size: 10904
+Depends: xerces-c (= 3.3.0)
+Filename: pool/debs-20261105-162542-00/xerces-c-static_3.3.0_aarch64.deb
+Size: 1121740
+MD5sum: 19f3a6104a762439120cd6125a2c7e0a
+SHA1: 873451848ef3f01301c7592fb4b4aae1db7f7981
+SHA256: 6d864587274bc5a5420c0dd8139b84de68659a11edee06adf2ae00b8761691e4
+Homepage: https://xerces.apache.org/
+Description: Static libraries for xerces-c
+

@@ -1,0 +1,126 @@
+Package: browsh
+Version: 1.8.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9908
+Depends: firefox
+Filename: pool/debs-20261103-185512-00/browsh_1.8.3-1_aarch64.deb
+Size: 2936352
+MD5sum: bf4a458f2dd83bbf8b8044d421cb85e7
+SHA1: f376b0653937c160640415aeb3737b7868a67c43
+SHA256: 1b674f56b02e670d1b93cd0cd67ccd9cb88880678300ba07e95e72870b4f66df
+Homepage: https://www.brow.sh/
+Description: A fully-modern text-based browser, rendering to TTY and browsers
+
+Package: bsd-finger
+Version: 0.17-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/debs-20261103-185512-00/bsd-finger_0.17-3_aarch64.deb
+Size: 17240
+MD5sum: 2990ad7d49d9f03bb9b0302fffe00729
+SHA1: e4039e5feaa2fb5f58b3824410005c801330df60
+SHA256: 50500f88562024c32bc385e368f9beac1dc8caa773d1261ad1ba7586e4c9b2aa
+Homepage: https://packages.debian.org/sid/source/bsd-finger
+Description: User information lookup program
+
+Package: bsd-games
+Version: 1:3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 904
+Depends: ncurses
+Filename: pool/debs-20261103-185512-00/bsd-games_1_3.3-1_aarch64.deb
+Size: 204624
+MD5sum: fb11f6b2311584d2c53fd044f6e3c161
+SHA1: 5f4fbf9aada7b6e724d5109dec4af3f977fb4089
+SHA256: 102444e84579eeaba6517f88045482fbdded5c525099905b5a60e5ea1fab2739
+Homepage: https://www.polyomino.org.uk/computer/software/bsd-games/
+Description: Classic text mode games from UNIX folklore
+
+Package: bspwm
+Version: 0.9.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: libxcb, sxhkd, xcb-util, xcb-util-keysyms, xcb-util-wm
+Filename: pool/debs-20261103-185512-00/bspwm_0.9.12-1_aarch64.deb
+Size: 87820
+MD5sum: 0fd915c0d7f25cb99bf2ea98bba3531b
+SHA1: dbc974cd831cdec7b268f14495fc70cb3bfd8ca5
+SHA256: 44c8cedab436786543a6fe92bd2f34892af06d6c087521cb90b5492ad3d4f4c7
+Homepage: https://github.com/baskerville/bspwm
+Description: A tiling window manager based on binary space partitioning
+
+Package: btfs2
+Version: 4.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 83368
+Depends: libc++
+Conflicts: btfs
+Replaces: btfs
+Filename: pool/debs-20261103-185512-00/btfs2_4.1.0-1_aarch64.deb
+Size: 23338624
+MD5sum: c56d12abfe70504ac13b88033353afc2
+SHA1: 0ba48989d2aad493e0e02574b49b5975b098134e
+SHA256: b0917f5dc7bf8fa961bdfef5a20eda2e24c9ca7d238d26188113aa52c19b0dbd
+Homepage: https://github.com/bittorrent/go-btfs
+Description: Decentralized file system integrating with TRON network and Bittorrent network
+
+Package: firefox
+Version: 159.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 285400
+Depends: ffmpeg, fontconfig, freetype, gdk-pixbuf, glib, gtk3, libandroid-shmem, libandroid-spawn, libc++, libcairo, libevent, libffi, libice, libicu, libjpeg-turbo, libnspr, libnss, libpixman, libsm, libvpx, libwayland, libwebp, libx11, libxcb, libxcomposite, libxdamage, libxext, libxfixes, libxkbcommon, libxrandr, libxtst, pango, pulseaudio, zlib
+Filename: pool/debs-20261103-185512-00/firefox_159.0_aarch64.deb
+Size: 69282552
+MD5sum: 9d6b8786743f657e197d014a697c96e8
+SHA1: deba9c7b5abe6e1d8c4e835c6c33d0b7224236f4
+SHA256: 5b8402a0676d98c69fe6f75918207f13875342dc5adbf277fd0510a37ba1a27f
+Homepage: https://www.mozilla.org/firefox
+Description: Mozilla Firefox web browser
+
+Package: libevdev
+Version: 1.14.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Filename: pool/debs-20261103-185512-00/libevdev_1.14.0_aarch64.deb
+Size: 44208
+MD5sum: c52ebde3c58c3d2da42c410ac33d13e3
+SHA1: d52c09e043238dc534bca31e52aa840aa5ded4d5
+SHA256: d720727f92a35d3508601b7d688dfdb2b47527103386de144b34d8291993edfb
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Description: Wrapper library for evdev devices
+
+Package: libevdev-static
+Version: 1.14.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: libevdev (= 1.14.0)
+Filename: pool/debs-20261103-185512-00/libevdev-static_1.14.0_aarch64.deb
+Size: 27376
+MD5sum: 8784bc61366dd9f4b0e9a5a5f705429d
+SHA1: 3dbff90478272417107c75dea8e9d074b7f6039d
+SHA256: eaa8d218b621949d755742846140ab5587a73e8c7afdf3bdf6e2f6bf730e4d74
+Homepage: https://www.freedesktop.org/wiki/Software/libevdev/
+Description: Static libraries for libevdev
+
+Package: sxhkd
+Version: 0.6.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: libxcb, xcb-util-keysyms
+Filename: pool/debs-20261103-185512-00/sxhkd_0.6.3_aarch64.deb
+Size: 29920
+MD5sum: 7dda4a74fdd984c38431a62b39b2e051
+SHA1: d2f031166463b730b36ab42122118ed862c4619f
+SHA256: ee2edf4cf9f7c58b46fce576cdc9867f4faa256613755ec7ca94fb40a9add68d
+Homepage: https://github.com/baskerville/sxhkd
+Description: Simple X hotkey daemon
+

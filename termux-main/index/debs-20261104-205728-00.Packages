@@ -1,0 +1,1466 @@
+Package: aspnetcore-runtime-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 11120
+Depends: dotnet-runtime-10.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-10.0_10.0.13_aarch64.deb
+Size: 2897468
+MD5sum: 2ee2881419db98d0ebbc29f4a6bfb3c8
+SHA1: 5e6b0fb36e6e82108b2827eef02df503c5ba00d0
+SHA256: 990cbbd21fbbc68c6b46a67ad05ca39fbf32c7a577b686807d070a10dd5381f1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 10.0 Runtime
+
+Package: aspnetcore-runtime-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 11088
+Depends: dotnet-runtime-8.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-8.0_8.0.32_aarch64.deb
+Size: 2856220
+MD5sum: 44083c8efb35b1e05c3971e98946971f
+SHA1: 869935d8c6cb94425a797f771681688c68b4177c
+SHA256: e5cbb7c51326ed0e262ee12c763104258428d14bf982e68b1642df5834ed957f
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Runtime
+
+Package: aspnetcore-runtime-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 10888
+Depends: dotnet-runtime-9.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-9.0_9.0.21_aarch64.deb
+Size: 2798960
+MD5sum: 6421fc55afbe65bdac6714e0cba0938b
+SHA1: f8c7848ee3de80320e8c720399eb157a1f191bbf
+SHA256: b09f6b438edd9b2a234d085b8311fc71c571e7312cf238e40f0aae1cea66b100
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Runtime
+
+Package: aspnetcore-runtime-dbg-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 5852
+Depends: aspnetcore-runtime-10.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-dbg-10.0_10.0.13_aarch64.deb
+Size: 1554540
+MD5sum: a4711a1616b3383ec7637f99ae6ac0e6
+SHA1: a872ff8de6ac6dabc04f97009ed96c8a22720bf2
+SHA256: a3b55d0b5ce1553c8aa5a1e6965833ac45eff818eeb902c3310d2e08e75eff33
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 10.0 Runtime Managed Debug Symbols
+
+Package: aspnetcore-runtime-dbg-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 11424
+Depends: aspnetcore-runtime-8.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-dbg-8.0_8.0.32_aarch64.deb
+Size: 6722488
+MD5sum: d062ba88a12d0fe9084c5a7a372e4809
+SHA1: 6b93328d7412d9ba4a9465c31a869277b51b0fee
+SHA256: b7abf78928a4336c47b4541183b886d535e3626e341288f4914d6aa0342323f3
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Runtime Managed Debug Symbols
+
+Package: aspnetcore-runtime-dbg-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 5644
+Depends: aspnetcore-runtime-9.0
+Filename: pool/debs-20261104-205728-00/aspnetcore-runtime-dbg-9.0_9.0.21_aarch64.deb
+Size: 1505492
+MD5sum: 67eb0c5624ee32e6a317796619ca600e
+SHA1: 40aa2e7ecbec76c8e97bb6d5b2a4dfa777da16b2
+SHA256: 72e0df68e75e0eb440fc9a68da07d2b6175fa646b46cfc241ad0a6bfe792833e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Runtime Managed Debug Symbols
+
+Package: aspnetcore-targeting-pack-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 47260
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/aspnetcore-targeting-pack-10.0_10.0.13_aarch64.deb
+Size: 3413580
+MD5sum: f23b1b25e9cf3995ae9cb19a770cb4c5
+SHA1: b438bc393332ae061d9e1738b37c6fe1a2274548
+SHA256: 00d6f0a8c31e94fd38581a5490afc2fc57ed2333dd9f76b7e65186c0b39fce04
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 10.0 Targeting Pack
+
+Package: aspnetcore-targeting-pack-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 15696
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/aspnetcore-targeting-pack-8.0_8.0.32_aarch64.deb
+Size: 1741200
+MD5sum: ec02c93ec90f7208e1563e441fe845e9
+SHA1: 9b7c8d606e1b117cc47cb3e705a815cd2477d075
+SHA256: 77078c2da09eb5c8c3df776cd6b3fa42c69d7a84218387339563653fc0c64c37
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Targeting Pack
+
+Package: aspnetcore-targeting-pack-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 15768
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/aspnetcore-targeting-pack-9.0_9.0.21_aarch64.deb
+Size: 1739880
+MD5sum: a0f7f7b15b12347454abeffa65de76b5
+SHA1: 7e449f50f4069bfdc3ee5095ea311da678ad281e
+SHA256: 07821190d08f5ca958c86d0b1b4c20a189c65d0364447f7c66d1eaa45752c73b
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Targeting Pack
+
+Package: dotnet-apphost-pack-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 2016
+Filename: pool/debs-20261104-205728-00/dotnet-apphost-pack-10.0_10.0.13_aarch64.deb
+Size: 277180
+MD5sum: 7d4ca3de45e02403a03242839a1b301c
+SHA1: 447b3448523b56cb695f4a75431a81727bec4270
+SHA256: 6c7f773c03915e48536ee4f2db26669e9f0b93d6146ad44857e70229a6181354
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Targeting Pack
+
+Package: dotnet-apphost-pack-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 2720
+Filename: pool/debs-20261104-205728-00/dotnet-apphost-pack-8.0_8.0.32_aarch64.deb
+Size: 395392
+MD5sum: d5f75a1ce523ac164d54d569cefc9cfb
+SHA1: 625ec26c1f1173bfd359d0c8ae67bfb20428848b
+SHA256: 21c8866d2572378ce1d6b03e88c6cc3051efab95c1b11c9171d0992c520acd4e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+
+Package: dotnet-apphost-pack-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 2828
+Filename: pool/debs-20261104-205728-00/dotnet-apphost-pack-9.0_9.0.21_aarch64.deb
+Size: 412808
+MD5sum: 98a1c69151d9dc8cfd8b2ca87402426e
+SHA1: bc64e475fe202a040b408c96aeefa36d9b01f783
+SHA256: b501b51c54ea1dcf67e4b3746cb51b88979e5209490d8945c980a1a59ffa5cbe
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+
+Package: dotnet-host
+Version: 10.0
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 4
+Depends: dotnet-host-10.0 | dotnet-host-9.0 | dotnet-host-8.0
+Filename: pool/debs-20261104-205728-00/dotnet-host_10.0_aarch64.deb
+Size: 712
+MD5sum: f0242c2285e0ee84101b7de2cdf21b1f
+SHA1: 73b4f18049f29f96bf4346819d2f7be5b3018602
+SHA256: 4fa652870f201f42a7b645bc8b05db45fcde9053c196bcc4923065717d88b650
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: A metapackage for .NET Host
+
+Package: dotnet-host-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 552
+Conflicts: dotnet-host-8.0, dotnet-host-9.0
+Filename: pool/debs-20261104-205728-00/dotnet-host-10.0_10.0.13_aarch64.deb
+Size: 179004
+MD5sum: 303e12803b74ae68b8dba80e57e8a1cb
+SHA1: 2ee825b60b48867a0df79755d69c1b1d074134db
+SHA256: 450546ead428805680b28c7866c75387e7d5c143bf3e4c6ccc9d7c74d031ef1b
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Host
+
+Package: dotnet-host-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 744
+Filename: pool/debs-20261104-205728-00/dotnet-host-8.0_8.0.32_aarch64.deb
+Size: 213852
+MD5sum: b692ad28f1dd10f61845834a0d21189a
+SHA1: c26b76d83d0d9a96d94c109c554052539cda1691
+SHA256: a46fa6773a4bfabf6f27bb91fb7dfe9c9ec8f27a3fb871f84c97516c91874355
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host
+
+Package: dotnet-host-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 768
+Conflicts: dotnet-host-8.0
+Filename: pool/debs-20261104-205728-00/dotnet-host-9.0_9.0.21_aarch64.deb
+Size: 228988
+MD5sum: 7deee7a5c2bd372676c709d5d1195342
+SHA1: 7e8e903274af2a036ea9433ce51523aca6b1fe6d
+SHA256: b1e4cbe166519ae107f846554047687da965c300c438a7e91789b74fef7d5a2c
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Host
+
+Package: dotnet-hostfxr-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 480
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-hostfxr-10.0_10.0.13_aarch64.deb
+Size: 144864
+MD5sum: 2463eed4e793352a53b00b62cfed752e
+SHA1: 684c8b64632fcf2274f2cd3aad1756bafe58ae54
+SHA256: e55c1052d904ab9ebbee517a4d609fb08527c30df4ca39c581ddeb88039a8cdd
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Host Resolver
+
+Package: dotnet-hostfxr-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 884
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-hostfxr-8.0_8.0.32_aarch64.deb
+Size: 219196
+MD5sum: a22b452352c3459b43f17f2d5fb25fb2
+SHA1: 5e9d725a2d3ead2d1b709cdb7966204baa5fb348
+SHA256: b776288b1dd944855546b099571ef16e792348c4aa7615dc7b783eec72a742a9
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host Resolver
+
+Package: dotnet-hostfxr-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 888
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-hostfxr-9.0_9.0.21_aarch64.deb
+Size: 221344
+MD5sum: a5dadd3fe316e1b0a5b8d2856ec722dd
+SHA1: b8c4dce63ecb042b12589a04999f238587016deb
+SHA256: 6e5915f4a5dd33a754f67475894f30efbe690b8f5a06903a7ecfcfd0ff109ba4
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Host Resolver
+
+Package: dotnet-runtime-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 72012
+Depends: dotnet-hostfxr-10.0, libicu, openssl, zlib
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-10.0_10.0.13_aarch64.deb
+Size: 14521364
+MD5sum: ff98ea5421965e06d442a9d229f72c94
+SHA1: 8bf20000d2e3894a57ceb8861b2bcbe8e6ee8f7f
+SHA256: 93250c5e054548d1cfb3e942a753a29c687815646ba8a1e8489a9445856fe4a3
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Runtime
+
+Package: dotnet-runtime-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 32788
+Depends: dotnet-hostfxr-8.0, libicu, openssl, zlib
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-8.0_8.0.32_aarch64.deb
+Size: 8222136
+MD5sum: b79d429787cb29d0cb4fe70ac15c6a00
+SHA1: a5f0b8d56c244756cc8f7fcf27ed99217e610061
+SHA256: 120bb0130675c2ede855428345915555d181a111c0ec6cd926408caefa512136
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Runtime
+
+Package: dotnet-runtime-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 33492
+Depends: dotnet-hostfxr-9.0, libicu, openssl, zlib
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-9.0_9.0.21_aarch64.deb
+Size: 8392448
+MD5sum: fb4f0b28c36bb8ca0d5c9f8f3d3f3cd8
+SHA1: 16bc59e4139dbf275d165a0875711c19eff4d0b0
+SHA256: 1295886dcc4e1a03792569a860d6a3a1be9805783e826fa8727c7b7f7bf8911a
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Runtime
+
+Package: dotnet-runtime-dbg-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 8832
+Depends: dotnet-runtime-10.0
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-dbg-10.0_10.0.13_aarch64.deb
+Size: 2589416
+MD5sum: 3127bc09bf334c69b688d366fafb571b
+SHA1: fe069667c6955f46131c7fc9544f43dbb8f38182
+SHA256: 6e86534f2d44be2fc17580fa564ab085e6994766b19b2f7abac7eea7cce2fa13
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Runtime Managed Debug Symbols
+
+Package: dotnet-runtime-dbg-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 20948
+Depends: dotnet-runtime-8.0
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-dbg-8.0_8.0.32_aarch64.deb
+Size: 15258216
+MD5sum: d9cc0c2fa0ec6c4d29a6861fcf9cb21d
+SHA1: 3fdfa75804a66504bd90b3616f0da0bfe5e3c8ae
+SHA256: f54152b41e3cdcfcd886cf8f78f11580764ff2ba8fcf57a96b53c9a2afd0fd1c
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Runtime Managed Debug Symbols
+
+Package: dotnet-runtime-dbg-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 8608
+Depends: dotnet-runtime-9.0
+Filename: pool/debs-20261104-205728-00/dotnet-runtime-dbg-9.0_9.0.21_aarch64.deb
+Size: 2790752
+MD5sum: ab997891026385e65bd4c771f3fde482
+SHA1: f70ad86177cea1d3fd39a7beed76b0c1cb807bee
+SHA256: d5e6e13621be0c7b66fb86f72619c9f585612762b066e9399790dde36fb6f4ec
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Runtime Managed Debug Symbols
+
+Package: dotnet-sdk-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 268892
+Depends: aspnetcore-runtime-10.0, aspnetcore-targeting-pack-10.0, dotnet-apphost-pack-10.0, dotnet-runtime-10.0, dotnet-targeting-pack-10.0, dotnet-templates-10.0
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-10.0_10.0.13_aarch64.deb
+Size: 72261088
+MD5sum: bada1195d9511b97fdca7d78c3d8e742
+SHA1: fae71b750845e5495448508a572822ca84e3c8ce
+SHA256: eff64f87b10dd455ad2d9bd7aa1f36b413378e45d5da2754d563668e29526591
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 SDK
+
+Package: dotnet-sdk-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 208800
+Depends: aspnetcore-runtime-8.0, aspnetcore-targeting-pack-8.0, dotnet-apphost-pack-8.0, dotnet-runtime-8.0, dotnet-targeting-pack-8.0, dotnet-templates-8.0, netstandard-targeting-pack-2.1
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-8.0_8.0.32_aarch64.deb
+Size: 46332952
+MD5sum: 918102a1977828b5f668849bb3b26206
+SHA1: 04b367dc4989df12ed681548784a42954d390bc3
+SHA256: a9626972f5738dce7011fa3393b8fbe50d3b82dc3df9505dde515ffea3f71d36
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 SDK
+
+Package: dotnet-sdk-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 218548
+Depends: aspnetcore-runtime-9.0, aspnetcore-targeting-pack-9.0, dotnet-apphost-pack-9.0, dotnet-runtime-9.0, dotnet-targeting-pack-9.0, dotnet-templates-9.0, netstandard-targeting-pack-2.1
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-9.0_9.0.21_aarch64.deb
+Size: 48594240
+MD5sum: 7d45ae99aad9bc61c6a64259691e3e80
+SHA1: a3021fd8ff7ffbbe7f0bf6020faca59d3f372eed
+SHA256: d4e41b2dc8dcfe5ade17522c2cabfde060d64dd2511c4446a452a2dbac52ede5
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 SDK
+
+Package: dotnet-sdk-dbg-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 16472
+Depends: dotnet-sdk-10.0
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-dbg-10.0_10.0.13_aarch64.deb
+Size: 2851328
+MD5sum: e5886414c2cd431ec23aec24d4b1b870
+SHA1: 110a4b97da7b4790ce1ee51d58260b0c8e18b74d
+SHA256: 170af9fd35bb6111d6ea05e7bf0dd45b3b18579ee2d49eea057f7d7cc82ce78c
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 SDK Managed Debug Symbols
+
+Package: dotnet-sdk-dbg-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 126852
+Depends: dotnet-sdk-8.0
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-dbg-8.0_8.0.32_aarch64.deb
+Size: 82763212
+MD5sum: c241319ab592452090b9327119d0b346
+SHA1: 9d12adc89896ec8f1274670bfc51db63195f8e9d
+SHA256: 62ab99830bbf487735e0c60988a1ce45d2f7a0a1bb639f1ba2db0e21258d7e59
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 SDK Managed Debug Symbols
+
+Package: dotnet-sdk-dbg-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 47948
+Depends: dotnet-sdk-9.0
+Filename: pool/debs-20261104-205728-00/dotnet-sdk-dbg-9.0_9.0.21_aarch64.deb
+Size: 15658428
+MD5sum: 00f63fe93d2cb4301278dcd1889af3f1
+SHA1: af55c6666242ef004602bbcbbb22541c1248d3c7
+SHA256: 6ba0ff51ca1a608ab7c252616d8d33ca2200976187df5fca95490e350205ff9e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 SDK Managed Debug Symbols
+
+Package: dotnet-targeting-pack-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 40552
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-targeting-pack-10.0_10.0.13_aarch64.deb
+Size: 2982520
+MD5sum: 335b4259f9c05a9a938afc33cc64990e
+SHA1: 509fe880da6edbbe7b39f3ec34b4d58aa7919701
+SHA256: 2245a014cbc9a63e8f6f7fd7c091bebd9b0d641a9c8ef6d662bf9c77328019f4
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Targeting Pack
+
+Package: dotnet-targeting-pack-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 36400
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-targeting-pack-8.0_8.0.32_aarch64.deb
+Size: 2780796
+MD5sum: da63d3dae738dd72be6c02dad9f57b76
+SHA1: ac9e5171b2fd5fe8c461003a04f2054928799f16
+SHA256: a46857f68eda2726e79dee8cc520f34ce68599ee696f40e3903d817e45624ed1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+
+Package: dotnet-targeting-pack-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 38564
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-targeting-pack-9.0_9.0.21_aarch64.deb
+Size: 2885656
+MD5sum: 93106bfed25a81b4ec83152e50b0fc67
+SHA1: efe8859b231f0dd973bcbb2fde20d22dc7817e09
+SHA256: 81ecd244a0e77e78e3ef9e84b8495cc0a73b50db414d16ef1268eb28505b284e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+
+Package: dotnet-templates-10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 10312
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-templates-10.0_10.0.13_aarch64.deb
+Size: 2932680
+MD5sum: 837ee98cb521909665c75377039928b1
+SHA1: 4abb77b6e2cda6884940b2de2917232109cfa344
+SHA256: 70c43bf81c5eb12fa82365930dc126c281a4987c469e22ace3474a206699d847
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Templates
+
+Package: dotnet-templates-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 5884
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-templates-8.0_8.0.32_aarch64.deb
+Size: 2174148
+MD5sum: 2627310264f8c7a0b3e8389f65349d40
+SHA1: f9934b5c82c6db590a133ef35b8b1d47ae8d1e1d
+SHA256: c5b1d002c5524049305eeaba84bd4aa2533cff407060f3a01fb1ef8869407f41
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Templates
+
+Package: dotnet-templates-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 9988
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/dotnet-templates-9.0_9.0.21_aarch64.deb
+Size: 2720032
+MD5sum: 0d4579f36bcd69a41ed01037cfcf783d
+SHA1: 72e5a0fa038d3164df0a81762ffac39bb4fe1164
+SHA256: 2fe89482772a9da1db644dc03fa4acf4516f34ba5715bdd1681220925f8f2a66
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Templates
+
+Package: dotnet10.0
+Version: 10.0.13
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 100
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0
+Suggests: dotnet-sdk-10.0
+Conflicts: dotnet8.0, dotnet9.0
+Filename: pool/debs-20261104-205728-00/dotnet10.0_10.0.13_aarch64.deb
+Size: 1700
+MD5sum: ffafc1e45ad7bfea591f61f81fa4c287
+SHA1: 6d9114206555e7075b9319eb22543a3bd21e770f
+SHA256: 1357d99835bcf46032c2103e7d10bdb59db17e027ddb48c14e2ea761d77bc019
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0
+
+Package: dotnet8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 92
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
+Suggests: dotnet-sdk-8.0
+Filename: pool/debs-20261104-205728-00/dotnet8.0_8.0.32_aarch64.deb
+Size: 1552
+MD5sum: 7d9f519b5189939945e45a1cc3c10f8c
+SHA1: 9e40ca051cf5e049e0b944655cd85a7a36c6edbd
+SHA256: 2b845d435bd7c95d4c562edf9d67449a091ffad80a531cd25555b11e58c4e061
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0
+
+Package: dotnet9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 92
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Suggests: dotnet-sdk-9.0
+Conflicts: dotnet8.0
+Filename: pool/debs-20261104-205728-00/dotnet9.0_9.0.21_aarch64.deb
+Size: 1556
+MD5sum: 9f4cbd7accf54b8ce7356816aaa1ff3e
+SHA1: fac63cc222ee78291f6fe9d042c2d8759cc00443
+SHA256: a16147c31707e3c1b480622d4b5bbce3f3a51fb6268d0f8ae675bff79da13d8c
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0
+
+Package: draco
+Version: 1.5.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3624
+Depends: libc++
+Filename: pool/debs-20261104-205728-00/draco_1.5.9_aarch64.deb
+Size: 482900
+MD5sum: 11b5202a9ee8ac689de6e35992a1b5e6
+SHA1: 8ca3a3e3a065aa3e3abf05fe62650fa46ea9a6ac
+SHA256: 5033e1e2cc57c6b12c9c9a2a81a1d5fae80f32ad116c7fbd58c5a29c35008dda
+Homepage: https://google.github.io/draco/
+Description: Library for compressing and decompressing 3D geometric meshes and point clouds
+
+Package: draco-static
+Version: 1.5.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4220
+Depends: draco (= 1.5.9)
+Filename: pool/debs-20261104-205728-00/draco-static_1.5.9_aarch64.deb
+Size: 412016
+MD5sum: 60ba11efa57675c08b976800845b5e00
+SHA1: 0557ea3b6eca78d5fbfcef1a3833148be1653871
+SHA256: 52e31b95592a92f8dae3378337441b985e6571208e71599c92232e5908429e38
+Homepage: https://google.github.io/draco/
+Description: Static libraries for draco
+
+Package: drawy
+Version: 1.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3072
+Depends: kf6-kcolorscheme, kf6-kconfig, kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-ki18n, kf6-kiconthemes, kf6-kwidgetsaddons, kf6-kxmlgui, kf6-syntax-highlighting, libc++, qt6-qtbase, zstd
+Filename: pool/debs-20261104-205728-00/drawy_1.0.2_aarch64.deb
+Size: 797732
+MD5sum: b112afe66e9c5fd79b5c57eb6581636a
+SHA1: 0c5e6a06604613f77360fe42c9dbd824fa0e51ca
+SHA256: cea5342544052530ed9d6c1b99b6ba1fc5c09ecf4ee344c9b0fd3568c333beb7
+Homepage: https://invent.kde.org/graphics/drawy
+Description: Handy, infinite brainstorming tool
+
+Package: dtach
+Version: 0.9-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Filename: pool/debs-20261104-205728-00/dtach_0.9-2_aarch64.deb
+Size: 9468
+MD5sum: caf9a713679f93a7d03477ce1c81e030
+SHA1: 500b7f0f00a54af497494dea669e6de59fd87694
+SHA256: 40f5261235ec810a3a5165ac3de06be63da6ebb611b0e68887748560dfa4bb3e
+Homepage: https://dtach.sourceforge.net/
+Description: Emulates the detach feature of screen
+
+Package: dtc
+Version: 1.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Breaks: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Replaces: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Filename: pool/debs-20261104-205728-00/dtc_1.8.1_aarch64.deb
+Size: 87896
+MD5sum: 01870df5ad39907a09fc2d256d964cdd
+SHA1: ee8f0bb0252c49056ed113770cf60391a4377aff
+SHA256: 8444cdf2706668780f50c377df2efe4ca118ccc9c537f090cf40f3ab788e21e8
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Description: Device Tree Compiler
+
+Package: dtc-static
+Version: 1.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: dtc (= 1.8.1)
+Filename: pool/debs-20261104-205728-00/dtc-static_1.8.1_aarch64.deb
+Size: 16216
+MD5sum: 427cb4783180310e1203eb08f84b71b4
+SHA1: 74286765f0f920a1af262b5c9350c5c12fc0d05a
+SHA256: 4f77ca6e4c28c682b76dc925fa5ea99ba1a3883cc0b851f4bdab88049b7b32b2
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Description: Static libraries for dtc
+
+Package: dua
+Version: 2.46.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4620
+Filename: pool/debs-20261104-205728-00/dua_2.46.0_aarch64.deb
+Size: 1470124
+MD5sum: e65734449b9f9988965bc3949ab723b8
+SHA1: 6882856e010ab882ce55337753edef78c02f08ee
+SHA256: 16aebccd57f2fcb7be2fcd2b6fd0f02c0753fa184617d50f376e9b5ae808f53e
+Homepage: https://github.com/Byron/dua-cli
+Description: View disk space usage and delete unwanted data, fast
+
+Package: duc
+Version: 1.4.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: leveldb, ncurses
+Filename: pool/debs-20261104-205728-00/duc_1.4.6_aarch64.deb
+Size: 44332
+MD5sum: 179504013b0fef19c3d8078c838b32e9
+SHA1: 53348ae9080d4bdce160e2b8a4c04f12db565952
+SHA256: 63b5022220228f666d3f8eee8f9069976d18447d7957cd89c53e2f41dc586fc4
+Homepage: http://duc.zevv.nl/
+Description: High-performance disk usage analyzer
+
+Package: duf
+Version: 0.9.1-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 4312
+Filename: pool/debs-20261104-205728-00/duf_0.9.1-1_aarch64.deb
+Size: 1153216
+MD5sum: 3adfe3d7c943574a68d21d1549cdfac7
+SHA1: e0b549027226b9fca57a89387002b53a87da0a68
+SHA256: 9c841b489a3145a19c577a1b8516e80be383affc82a96554177c058b11549874
+Homepage: https://github.com/muesli/duf
+Description: Disk usage/free utility
+
+Package: dufs
+Version: 0.47.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3664
+Filename: pool/debs-20261104-205728-00/dufs_0.47.0_aarch64.deb
+Size: 1435632
+MD5sum: 8bd2dd9891e44911de5d4ed193f9692f
+SHA1: 3b4b8d9036a184e529340892cc70814de076b2b2
+SHA256: e98c8c9270bcb420413faa61e831926899fee444ebdd97f97470de7910f64c6f
+Homepage: https://github.com/sigoden/dufs
+Description: A file server that supports static serving, uploading, searching, accessing control, webdav...
+
+Package: dumbpipe
+Version: 0.40.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7128
+Depends: resolv-conf
+Filename: pool/debs-20261104-205728-00/dumbpipe_0.40.1_aarch64.deb
+Size: 2455152
+MD5sum: 758562898cb657431cb1fa220b96d271
+SHA1: 2ace9b52f94f15f506743fade92034638a96d904
+SHA256: 4dfbc43aa83a869579c00c6881b28d3e364927c6c64b3332bdba328856b7e6a2
+Homepage: https://www.dumbpipe.dev/
+Description: A CLI tool to pipe data over the network, with NAT hole punching
+
+Package: dunst
+Version: 1.13.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: libandroid-wordexp, dbus, gdk-pixbuf, glib, harfbuzz, libcairo, libnotify, libx11, libxext, libxinerama, libxrandr, libxss, pango
+Filename: pool/debs-20261104-205728-00/dunst_1.13.2_aarch64.deb
+Size: 96508
+MD5sum: 53c988c7e9eb1b776a5f5a27280ff87c
+SHA1: 330ab4091426f04ee1ac70afec8f5b10e5acb621
+SHA256: 26cb09fa493da0029edfe64f3d8ec72c67799b89bc6ec76f7783453c70958f61
+Homepage: https://dunst-project.org/
+Description: Lightweight and customizable notification daemon
+
+Package: dust
+Version: 1.2.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2648
+Filename: pool/debs-20261104-205728-00/dust_1.2.7_aarch64.deb
+Size: 773836
+MD5sum: 8c8d1f387f086f2ff6a9dce41262c59c
+SHA1: f1421d7d700e0291bfe8358559d1bf7bb3c7e650
+SHA256: 1336d2df66a86fa129140170eb5aa1047f82e32f31407666bc47a3bd3a7b3b7c
+Homepage: https://github.com/bootandy/dust
+Description: A more intuitive version of du in rust
+
+Package: dvdauthor
+Version: 0.7.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: fontconfig, freetype, fribidi, graphicsmagick, libdvdread, libpng, libxml2
+Filename: pool/debs-20261104-205728-00/dvdauthor_0.7.2-4_aarch64.deb
+Size: 151252
+MD5sum: 8b1d804c3489bbd693072e8886f46fcd
+SHA1: 02a0b5de86f6d676e73b99caa68fa249228fbac7
+SHA256: 1410eadd321fae4edb1877643f5540394531aec4b561ce13f953129c344bd5d6
+Homepage: https://dvdauthor.sourceforge.net/
+Description: Generates a DVD-Video movie from a valid MPEG-2 stream
+
+Package: dwarves
+Version: 1.32
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1164
+Depends: argp, libandroid-spawn, libdw, libelf, zlib
+Filename: pool/debs-20261104-205728-00/dwarves_1.32_aarch64.deb
+Size: 309060
+MD5sum: d5789ff07420da0458dc292348d24a3e
+SHA1: 2ef8c061b900d163844f2f5890397d7851725a62
+SHA256: 43cd66d23befe47ddfb901e3802628938d69c983dea0898bbf44c23ca9972d75
+Homepage: https://git.kernel.org/cgit/devel/pahole/pahole.git/
+Description: Pahole and other DWARF utils
+
+Package: dwm
+Version: 6.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: dmenu, fontconfig, libx11, libxft, libxinerama, st
+Filename: pool/debs-20261104-205728-00/dwm_6.8-1_aarch64.deb
+Size: 21724
+MD5sum: d11c31eb8aef9f5594e785150b1f9bdd
+SHA1: 2602bb2e5b514a7857467995ac87e79f31c040bb
+SHA256: 3bfd8bb5d689806a5c55b558a1d9b52855180bb9e987d5f3e68ab0b53fa0359c
+Homepage: https://dwm.suckless.org/
+Description: A dynamic window manager for X
+
+Package: dx
+Version: 1:1.16-7
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1520
+Filename: pool/debs-20261104-205728-00/dx_1_1.16-7_all.deb
+Size: 1433688
+MD5sum: ca093d30a15546052d2700b6d5af4ec3
+SHA1: 71f00952bd910d4f6ac5e9770620ec51c3994730
+SHA256: 6fd2aac1b4a69b8c022ed545b7402d1049e5cc1c8c7746f87eadd0180dafa0ab
+Homepage: http://developer.android.com/tools/help/index.html
+Description: Command which takes in Java class files and converts them to format executable by Dalvik VM
+
+Package: e16
+Version: 1.0.32
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3100
+Depends: glib, imlib2, libiconv, libx11, libxext, libxft, libxrender, pango
+Filename: pool/debs-20261104-205728-00/e16_1.0.32_aarch64.deb
+Size: 683236
+MD5sum: 368ca8dfd523a328b09a9c99c18f61cf
+SHA1: 0701638a203004770e8193c43086f075318ba3e5
+SHA256: 569bd47e1b8bab56c4e0b322a1d94674961b611a54540549b127641700e62c3f
+Homepage: https://www.enlightenment.org/e16
+Description: Enlightenment DR16 window manager
+
+Package: e16-static
+Version: 1.0.32
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: e16 (= 1.0.32)
+Filename: pool/debs-20261104-205728-00/e16-static_1.0.32_aarch64.deb
+Size: 2616
+MD5sum: e271ed86525bda9ebd700b82be8cef3d
+SHA1: 28fdba5aef68686fe3afcbd1932f833e638f63e7
+SHA256: d7c4b4811fe9970a835407f0214db6898b5ee75653c324342e28052222ca2e04
+Homepage: https://www.enlightenment.org/e16
+Description: Static libraries for e16
+
+Package: ecl
+Version: 26.5.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13228
+Depends: libandroid-support, libgmp, libgc, libffi
+Filename: pool/debs-20261104-205728-00/ecl_26.5.5_aarch64.deb
+Size: 2346608
+MD5sum: 42e6320fe418de86dd437c090b617c88
+SHA1: 166cedaa8379878fe54ef1ac77cfa0c0180938fe
+SHA256: 583a4fd7f00bb8a1080eb10d8b10dd729475adcd936d41aa107898998c806f45
+Homepage: https://common-lisp.net/project/ecl/
+Description: ECL (Embeddable Common Lisp) is an interpreter of the Common Lisp language
+
+Package: ed
+Version: 1.22.6
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 228
+Filename: pool/debs-20261104-205728-00/ed_1.22.6_aarch64.deb
+Size: 43072
+MD5sum: 62278725d257b5e97e777cb616993c51
+SHA1: b4c61fa5c4dffe5ab4ecc53ba5043f67989d450a
+SHA256: a562699e495d644c8a8060b8934e3d652be57d5b314707c7439a01da7bbd0205
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
+
+Package: edbrowse
+Version: 3.8.19
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2724
+Depends: libandroid-glob, libcurl, openssl, pcre2, quickjs-ng, readline, unixodbc
+Filename: pool/debs-20261104-205728-00/edbrowse_3.8.19_aarch64.deb
+Size: 685104
+MD5sum: 6585cc7c9b9dabc363c5ae6ea08be319
+SHA1: 8ea8f2583f0cea2cd3d4aa07a0371006bd342796
+SHA256: 97ed4816b262652e666f9ac7cfed31ef259b843b77f91c3e00b22c6b53f9650e
+Homepage: https://edbrowse.org/
+Description: Line based editor, browser, and mail client
+
+Package: eja
+Version: 18.4.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Filename: pool/debs-20261104-205728-00/eja_18.4.19-1_aarch64.deb
+Size: 49288
+MD5sum: 00888168a263a035287c2b0a9893ebc7
+SHA1: 9941d8375e7b34cde46e6d02fddc572865543df4
+SHA256: 43296325b5d37b19e6482cc319e369669733096299c063bbefe118d20fb0f8de
+Homepage: https://github.com/eja/eja
+Description: eja micro web server
+
+Package: electric-fence
+Version: 2.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Filename: pool/debs-20261104-205728-00/electric-fence_2.2.7-1_aarch64.deb
+Size: 12176
+MD5sum: 3162567650e8fb3e9be3188d4c524799
+SHA1: cd4797e6fed5016c1d92b5324d7284c122cacae7
+SHA256: 8006be0c2ff4199bbc5339a2448eb741547b16022760633e89d9a1c534bfd23d
+Homepage: https://elinux.org/Electric_Fence
+Description: Electric Fence (eFence) malloc memory debugger
+
+Package: electric-fence-static
+Version: 2.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: electric-fence (= 2.2.7-1)
+Filename: pool/debs-20261104-205728-00/electric-fence-static_2.2.7-1_aarch64.deb
+Size: 14324
+MD5sum: a5ea5f4c096cef9e8a791981c01a9c9f
+SHA1: 3e8ef813c73dc478efda4ae68d2ca1a92734f767
+SHA256: becd139e2ddf320235aff06ce3bf154092394a8ad23a8f59856366a8dc483cd7
+Homepage: https://elinux.org/Electric_Fence
+Description: Static libraries for electric-fence
+
+Package: electrum
+Version: 4.8.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 21296
+Depends: python, libsecp256k1, python-pip, python-cryptography
+Conflicts: asciinema (<< 1.4.0-1)
+Filename: pool/debs-20261104-205728-00/electrum_4.8.3_all.deb
+Size: 5326948
+MD5sum: e13559ef1ebd524f6b9f2909ee6d0f13
+SHA1: 6f9d6bc4b60ae53f930933cdaf3bf5f5652e5365
+SHA256: 5423b2945e9ac8f1a0bfa76f1740eb0a7cfdf668ff60b7836e262bc70c0aafc0
+Homepage: https://electrum.org
+Description: Electrum is a lightweight Bitcoin wallet
+
+Package: elinks
+Version: 0.20.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1448
+Depends: libandroid-execinfo, libexpat, libiconv, libidn, openssl, libbz2, zlib
+Filename: pool/debs-20261104-205728-00/elinks_0.20.0_aarch64.deb
+Size: 417812
+MD5sum: 0bec4155230e565c6cd9cd2cb813e3c0
+SHA1: 83765076672415f866bd0f379aaaeb3563b51d15
+SHA256: eaae3357eaac8e3979c477583e337e0743bf63ef3ed4bf999af395a238c4454d
+Homepage: https://github.com/rkd77/elinks
+Description: Full-Featured Text WWW Browser
+
+Package: elisa
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5720
+Depends: kf6-kcodecs, kf6-kcolorscheme, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kfilemetadata, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kirigami, kf6-kitemviews, kf6-kxmlgui, kf6-qqc2-desktop-style, kirigami-addons, libc++, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia, vlc-qt
+Filename: pool/debs-20261104-205728-00/elisa_26.08.2_aarch64.deb
+Size: 1675864
+MD5sum: a445950542181b99228a2aaee89401e8
+SHA1: 262485e4eecd123024fe103e2c22e42e62d9cae4
+SHA256: eb085aa1e87e4ee105e1b7a33c15444a36b7bd5242746d081e912d9d7c732e16
+Homepage: https://apps.kde.org/elisa/
+Description: A simple music player developed by KDE
+
+Package: elixir
+Version: 1.20.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 17060
+Depends: dash, erlang
+Suggests: clang, make
+Filename: pool/debs-20261104-205728-00/elixir_1.20.5_all.deb
+Size: 6826880
+MD5sum: 548918e5d1fa73aabadd374ee2a60bdb
+SHA1: 507a92612747c0e598ed668e5e959edd47e550b7
+SHA256: e2d7b3435b7d8530fab02e54b3c4d8d1a38c52fa9e52b0e8737c1164bb66c3b1
+Homepage: https://elixir-lang.org/
+Description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
+
+Package: eltclsh
+Version: 1.20-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 280
+Depends: libandroid-support, libedit, tcl
+Suggests: tk
+Filename: pool/debs-20261104-205728-00/eltclsh_1.20-1_aarch64.deb
+Size: 31152
+MD5sum: ecfa65bc0b5b2f598ad1f183830fd005
+SHA1: f8a55ca25cc707e95a45e7a83caf513b30594045
+SHA256: 85321f3fb76de2452de75cb61707ba4ec0b8fdd17a4dc19d033595a68b17433e
+Homepage: https://homepages.laas.fr/mallet/soft/shell/eltclsh
+Description: Interactive shell for TCL programming language
+
+Package: elvish
+Version: 0.21.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8232
+Filename: pool/debs-20261104-205728-00/elvish_0.21.0-2_aarch64.deb
+Size: 2194920
+MD5sum: 3af1ced252ffadfaaa6f313f88ea46e6
+SHA1: d5a371b76d845617ea2bf2562286b68ab7e67f84
+SHA256: 01e2ff95102401e775cdb2f6b3dde5f0e14f0414229a5823f52bcb10405a7b3d
+Homepage: https://github.com/elves/elvish
+Description: A friendly and expressive Unix shell
+
+Package: emacs
+Version: 31.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 123844
+Depends: libacl, libgmp, libgnutls, libsqlite, libxml2, ncurses, tree-sitter, zlib
+Breaks: emacs-dev
+Replaces: emacs-dev
+Filename: pool/debs-20261104-205728-00/emacs_31.1-3_aarch64.deb
+Size: 46083184
+MD5sum: 3631ab02df40a6eabf3bb72e9df0a6db
+SHA1: 883aafadbfc070c407ca8da147999dd5c2dbc753
+SHA256: 85d918713d40ae92e63f41d1979775039c555090169eabc3925150847e26c6b3
+Homepage: https://www.gnu.org/software/emacs/
+Description: Extensible, customizable text editor-and more
+
+Package: emacs-exwm
+Version: 0.34-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 528
+Depends: emacs-x, emacs-xelb
+Recommends: dbus
+Filename: pool/debs-20261104-205728-00/emacs-exwm_0.34-3_all.deb
+Size: 65700
+MD5sum: df1d8f99e2cddd7853682ad2ffbbab69
+SHA1: a70a6bfce9e45efe32a4d041f2164f76d1844400
+SHA256: a1a5bee0983f4cd66bff9ceaa1ecc1efb60ecb9e6135173e2f66e38e1cb2d17c
+Homepage: https://github.com/emacs-exwm/exwm
+Description: Emacs X Window Manager
+
+Package: emacs-x
+Version: 31.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124608
+Depends: dbus, fontconfig, freetype, gdk-pixbuf, giflib, glib, harfbuzz, libacl, libcairo, libgmp, libgnutls, libice, libjpeg-turbo, libpng, librsvg, libsm, libsqlite, libtiff, libwebp, libx11, libxaw, libxcb, libxext, libxfixes, libxft, libxinerama, libxml2, libxmu, libxpm, libxrandr, libxrender, libxt, littlecms, ncurses, tree-sitter, zlib
+Conflicts: emacs
+Replaces: emacs
+Provides: emacs
+Filename: pool/debs-20261104-205728-00/emacs-x_31.1-4_aarch64.deb
+Size: 46367600
+MD5sum: 9bc0a4f3ba27d064f7847161d5d5281a
+SHA1: 0e93c8c46d131f9c5b4f202a8d128b9e4013abfd
+SHA256: 5c3bc8bbaf66b3f05d57dd379f7fd9ef407f9ecc35850d739c3990fe9e9645f7
+Homepage: https://www.gnu.org/software/emacs/
+Description: Extensible, customizable text editor-and more
+
+Package: emacs-xelb
+Version: 0.19-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1060
+Depends: emacs-x
+Filename: pool/debs-20261104-205728-00/emacs-xelb_0.19-3_all.deb
+Size: 93308
+MD5sum: d13276705f12d04e63dc2dee7f21f19c
+SHA1: 844d48cccb7a2ff806d308fb55138cf6ba22a280
+SHA256: 682eab7f950a2680d2da09c1767a165b1d029bdd13c059bba3369ea181aa35f7
+Homepage: https://github.com/emacs-exwm/xelb
+Description: X protocol Emacs Lisp Binding
+
+Package: emmylua-ls
+Version: 0.25.1
+Architecture: aarch64
+Maintainer: Steven Xu @stevenxxiu
+Installed-Size: 37332
+Filename: pool/debs-20261104-205728-00/emmylua-ls_0.25.1_aarch64.deb
+Size: 10218528
+MD5sum: c730269fb6eb8d6b3d7f98694702a8cb
+SHA1: 57923507ffdc3056049b23fe1e144094462b5e6b
+SHA256: a895e01c8679f60b8c8a5a69aed13acb02df3dbe32dccfe038339f28c7820987
+Homepage: https://github.com/EmmyLuaLs/emmylua-analyzer-rust
+Description: Emmy Lua Language Server coded in Rust
+
+Package: leveldb
+Version: 1.23-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Depends: libc++, libsnappy
+Breaks: leveldb-dev
+Replaces: leveldb-dev
+Filename: pool/debs-20261104-205728-00/leveldb_1.23-4_aarch64.deb
+Size: 110012
+MD5sum: e9ee3b0b86ed48ce8e9334e6f897075d
+SHA1: 4c0244bbeca3eb13a7c885f9610035517848e401
+SHA256: 4d5bc906c2cbb0be7277e91c2e4110c7607c692bba72c513118e77c8c9c98055
+Homepage: https://github.com/google/leveldb
+Description: Fast key-value storage library
+
+Package: libcddb
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 292
+Depends: libiconv
+Filename: pool/debs-20261104-205728-00/libcddb_1.3.2-1_aarch64.deb
+Size: 38960
+MD5sum: 3b49b1d0c4c9bb0fd131a45e92e0e85e
+SHA1: 36ca1fd1b1b5fc71330f58696249c98b0e725415
+SHA256: 827e6ce2f5a32e2d3a802cf442d64f05b52ba3ed06208527d410129d70d42324
+Homepage: https://libcddb.sourceforge.net/
+Description: A C library to access data on a CDDB server
+
+Package: libcddb-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libcddb (= 1.3.2-1)
+Filename: pool/debs-20261104-205728-00/libcddb-static_1.3.2-1_aarch64.deb
+Size: 24636
+MD5sum: 498d165d15512f9e7cd2a9274bd539fc
+SHA1: cd56e34d438589bbf58bfc8078c724e5389070b9
+SHA256: 17f003b2a4d284c1382d636ed762f05a8c93d7d39e684a7204089b085693b606
+Homepage: https://libcddb.sourceforge.net/
+Description: Static libraries for libcddb
+
+Package: libdvbpsi
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 776
+Filename: pool/debs-20261104-205728-00/libdvbpsi_1.3.3-1_aarch64.deb
+Size: 71584
+MD5sum: 80642f7ec1ea7d25bfe768dba93db168
+SHA1: cdc9eaa682392ac2b8a9e6c97e5d316bfa8da0a3
+SHA256: c14e65854ab62968cd89771d473f660e728fdb8706fd87f7e1589ad135144459
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Simple MPEG TS PSI parser library supporting various standards
+
+Package: libdvbpsi-static
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: libdvbpsi (= 1.3.3-1)
+Filename: pool/debs-20261104-205728-00/libdvbpsi-static_1.3.3-1_aarch64.deb
+Size: 41288
+MD5sum: e46a26cad2dcfaf445b21b0bdaadad46
+SHA1: 39669c9774f3856832e484d52b2ff1d6f593f981
+SHA256: 3ada2e6206b3b1d3192f962f3760cca98caec28853d3a0d931960b235e405276
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Static libraries for libdvbpsi
+
+Package: libebml
+Version: 1.4.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 484
+Depends: libc++
+Filename: pool/debs-20261104-205728-00/libebml_1.4.7_aarch64.deb
+Size: 66124
+MD5sum: 8a8b60e1613da8c9a3daf07df0580c26
+SHA1: 6404439f0fa64d41fe8e2a733f0b4c92000f7aef
+SHA256: 25510fb73dcee4e2d42370af9c4f6e13dcb44d7b67bb89c3994e6b7780d3ed2d
+Homepage: https://github.com/Matroska-Org/libebml
+Description: Extensible Binary Meta Language library
+
+Package: libmatroska
+Version: 1.7.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1012
+Depends: libc++, libebml
+Filename: pool/debs-20261104-205728-00/libmatroska_1.7.2_aarch64.deb
+Size: 119916
+MD5sum: 77fd088a7cf4a50e6c05dd54256a74f5
+SHA1: 0c219e2673610a00cb4ff40bc4c40b22bc812644
+SHA256: d53c11c5b645d67ae5f5c774caa8134cc665fd79643cea3d69559b980e62a92f
+Homepage: https://dl.matroska.org/downloads/libmatroska/
+Description: Matroska library
+
+Package: libmpeg2
+Version: 0.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 324
+Filename: pool/debs-20261104-205728-00/libmpeg2_0.5.1-2_aarch64.deb
+Size: 56320
+MD5sum: 6cbd3add48b62fa981cd956fac8eeb15
+SHA1: ffd718abaad70b4257cff4ec15dbfab5d853f5c7
+SHA256: d717bc2d5b208e102c44a71a14194a769c5c64fb43961813c4f88923dbae518f
+Homepage: https://libmpeg2.sourceforge.io/
+Description: MPEG-2 decoder libraries
+
+Package: libmpeg2-static
+Version: 0.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libmpeg2 (= 0.5.1-2)
+Filename: pool/debs-20261104-205728-00/libmpeg2-static_0.5.1-2_aarch64.deb
+Size: 38208
+MD5sum: 7e663ce3f8c0b9bcae920d5c8f6bb95b
+SHA1: fde71003a4cac50fa6771b40965b5cf0e5bfe4d7
+SHA256: e31b17dc5c29e4f307fe92e38d2ceb42b7c8a3b3d550c085872158deb2456476
+Homepage: https://libmpeg2.sourceforge.io/
+Description: Static libraries for libmpeg2
+
+Package: libnfs
+Version: 8.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1184
+Depends: libgnutls
+Breaks: libnfs-dev
+Replaces: libnfs-dev
+Filename: pool/debs-20261104-205728-00/libnfs_8.0.0_aarch64.deb
+Size: 187016
+MD5sum: f6206dfbabfbc2b797ebb0842fd029c7
+SHA1: 4035b8b0c923de5c662448a28c244d8cb9ce0159
+SHA256: 9fd2ea5e654d24cb54f99582406df8f18f7defc1a7c27b771382fe014c993060
+Homepage: https://github.com/sahlberg/libnfs
+Description: NFS client library
+
+Package: librist
+Version: 0.2.20
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 716
+Depends: cjson, libmicrohttpd, liblz4, mbedtls
+Filename: pool/debs-20261104-205728-00/librist_0.2.20_aarch64.deb
+Size: 138324
+MD5sum: ae699ed4396472fb623721d6ddf2510a
+SHA1: f50dc03a3b610c0814a8de58518a3289bf88f8c7
+SHA256: 7a2a264deeb242a3005a662b8b8d27800dd1090fbe5a7aaff6314b2eefb34716
+Homepage: https://code.videolan.org/rist/librist
+Description: Library to add the RIST protocol to applications
+
+Package: libsecp256k1
+Version: 1:0.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1476
+Filename: pool/debs-20261104-205728-00/libsecp256k1_1_0.8.0_aarch64.deb
+Size: 1206748
+MD5sum: de3848efd1156345734ec93aa51ddedd
+SHA1: a5b3001c357e12e403cadcc703e7ea9f60ee0219
+SHA256: 3e5b8cabe54cb9c10bfe3b1d29b5f82226c59cf5c20db3fb2b312183fda2b7f3
+Homepage: https://github.com/bitcoin-core/secp256k1
+Description: Optimized c library for ECDSA signatures and seret/public key operations on curve secp256k1
+
+Package: libsecp256k1-static
+Version: 1:0.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1288
+Depends: libsecp256k1 (= 1:0.8.0)
+Filename: pool/debs-20261104-205728-00/libsecp256k1-static_1_0.8.0_aarch64.deb
+Size: 1186392
+MD5sum: a161c68c639b839b0497db1f65668680
+SHA1: a56139b7bd10c975ef43fb83b5d9620a821ac1c0
+SHA256: bb3eea9c897b33784fb10eaa3342553721741b2adc025ae0ef218865bab956f8
+Homepage: https://github.com/bitcoin-core/secp256k1
+Description: Static libraries for libsecp256k1
+
+Package: libxaw
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1984
+Depends: libx11, libxext, libxmu, libxpm, libxt
+Filename: pool/debs-20261104-205728-00/libxaw_1.0.16-1_aarch64.deb
+Size: 286664
+MD5sum: c01db5dd89d920d2056dd58a4f402653
+SHA1: ea11ee32ad49e1270f239b5048a635daebfbdaed
+SHA256: 0962f3b38225ffd2aae71900abd07d697d5b4d0ae2970590ffa3bb2554dae464
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Athena Widget library
+
+Package: libxaw-static
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1248
+Depends: libxaw (= 1.0.16-1)
+Filename: pool/debs-20261104-205728-00/libxaw-static_1.0.16-1_aarch64.deb
+Size: 194380
+MD5sum: 84d2fa8ff87779ddf6de62798dbd9e71
+SHA1: c4620cd136fba2e19f09c2acb2850239ff2a08df
+SHA256: 4dc2d7ecd1f89547e8814082ed2b8fe9423d42a0cdbde60660b0fe61222638bc
+Homepage: https://xorg.freedesktop.org/
+Description: Static libraries for libxaw
+
+Package: netstandard-targeting-pack-2.1
+Version: 9.0-3
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 4
+Depends: netstandard-targeting-pack-2.1-9.0 | netstandard-targeting-pack-2.1-8.0
+Filename: pool/debs-20261104-205728-00/netstandard-targeting-pack-2.1_9.0-3_aarch64.deb
+Size: 748
+MD5sum: 84f876a9b7900dd110e78df6997a67c6
+SHA1: a0698ca81be3d9b244d8bcd648b81401badc5390
+SHA256: 21781f0c21eeefb91231c22abd5521d2d5fff3989ca812ea589cd6ae288bbaf8
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: A metapackage for NETStandard.Library 2.1 Targeting Pack
+
+Package: netstandard-targeting-pack-2.1-8.0
+Version: 8.0.32
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 18480
+Depends: dotnet-host
+Filename: pool/debs-20261104-205728-00/netstandard-targeting-pack-2.1-8.0_8.0.32_aarch64.deb
+Size: 1318988
+MD5sum: 5defabf082794949c262780ebeea6f67
+SHA1: d43d613dceff6bf85039b9176b164b6622a85a5a
+SHA256: 8d0ebdbec690884c76a50337a8b9d8678b43e94093a504a2c952be4a72fef0b3
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 8.0)
+
+Package: netstandard-targeting-pack-2.1-9.0
+Version: 9.0.21
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 18480
+Depends: dotnet-host
+Conflicts: netstandard-targeting-pack-2.1-8.0
+Filename: pool/debs-20261104-205728-00/netstandard-targeting-pack-2.1-9.0_9.0.21_aarch64.deb
+Size: 1318308
+MD5sum: 1098196d3a377a0d5ea85ae2d5c0e8b4
+SHA1: 4e999d03fbb8ed6dbd125042200360df95200a5c
+SHA256: e796cf5444962d10b7098579c721bb6dcf842724aae29c6770066625f1b9e123
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 9.0)
+
+Package: qt5-qtbase
+Version: 5.15.18-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 70460
+Depends: dbus, double-conversion, freetype, glib, harfbuzz, krb5, libandroid-execinfo, libandroid-posix-semaphore, libandroid-shmem, libc++, libglvnd-dev, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, opengl, openssl, pcre2, postgresql, ttf-dejavu, vulkan-loader, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, xdg-utils, zlib
+Suggests: qt5-qmake
+Breaks: qt5-x11extras, qt5-tools, qt5-declarative
+Replaces: qt5-base
+Filename: pool/debs-20261104-205728-00/qt5-qtbase_5.15.18-6_aarch64.deb
+Size: 9944988
+MD5sum: 4dd021725ec94808a44afd957f516461
+SHA1: bb769512e6e2687a2e5f4499b734ae0f46f6eafb
+SHA256: b802413b8f6ae5e9bac6e22407fc528cb5bab51adc01770336799d4a3ec6facc
+Homepage: https://www.qt.io/
+Description: A cross-platform application and UI framework
+
+Package: qt5-qtbase-cross-tools
+Version: 5.15.18-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 55264
+Depends: qt5-qtbase, qt5-qtbase (= 5.15.18-6)
+Filename: pool/debs-20261104-205728-00/qt5-qtbase-cross-tools_5.15.18-6_aarch64.deb
+Size: 13440680
+MD5sum: 1768b5e8a0b7837d576fd0bbdedf9b73
+SHA1: 547e324d1b996e725cc6af2751c89b4f3e4d5f3c
+SHA256: 28ba90c535b456bfe51749b8b9b5cb48e2469e73f17c46143b4cb7d8adbd283a
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: qt5-qtbase-gtk-platformtheme
+Version: 5.15.18-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: qt5-qtbase, gtk3, qt5-qtbase (= 5.15.18-6)
+Filename: pool/debs-20261104-205728-00/qt5-qtbase-gtk-platformtheme_5.15.18-6_aarch64.deb
+Size: 71152
+MD5sum: 3122143b6e4c16031d352a3cfcf82621
+SHA1: 46aa5fa51408df5cdfe7f3ee9662ea27a0cc6f26
+SHA256: 05ae29d9605ad0fbd9fcf9c9c956b0327056941d0b429188957513ade7b701a4
+Homepage: https://www.qt.io/
+Description: GTK+ 3 platform theme for Qt 5
+
+Package: qt5-qtsvg
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Depends: libc++, qt5-qtbase
+Filename: pool/debs-20261104-205728-00/qt5-qtsvg_5.15.18_aarch64.deb
+Size: 116188
+MD5sum: 0110cf86fd7523be96f1095e402170f6
+SHA1: 9e5ae4ccca50645df2b2c172c8df2404f88e2b5d
+SHA256: abf930cbdcb68ca747c29e7133afedb8fba7a8f22fe84fccc249299c25e07123
+Homepage: https://www.qt.io/
+Description: Qt SVG Library
+
+Package: qt5-qtx11extras
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: qt5-qtbase
+Replaces: qt5-x11extras
+Filename: pool/debs-20261104-205728-00/qt5-qtx11extras_5.15.18_aarch64.deb
+Size: 11048
+MD5sum: eae53b3cb1f7a1c6af27bdbcd1a081fe
+SHA1: 4ea3d5cd6081c3677021bac18e674eb9901e3697
+SHA256: f0fa33f0f77959a0def3cf075b6735d6faa3a3955e89d7baf1b35ba35921238b
+Homepage: https://www.qt.io/
+Description: Qt X11 Extras enables the Qt programmer to write applications for the Linux/X11 platform
+
+Package: quickjs-ng
+Version: 0.18.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1636
+Conflicts: quickjs
+Replaces: quickjs
+Provides: quickjs
+Filename: pool/debs-20261104-205728-00/quickjs-ng_0.18.0_aarch64.deb
+Size: 460036
+MD5sum: 3879494f5f76f75c29a794e91af43d15
+SHA1: 3f2bb7a419d95a593a5bf831fbd6e13655d48b4c
+SHA256: 9a0ccf86b2508c75f3bd80fc653308366434cce8cec4bc783eb918c29d8a3f84
+Homepage: https://quickjs-ng.github.io/quickjs/
+Description: Embeddable JavaScript engine in C (NG fork)
+
+Package: st
+Version: 0.9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: fontconfig, freetype, libx11, libxft
+Filename: pool/debs-20261104-205728-00/st_0.9.3_aarch64.deb
+Size: 30860
+MD5sum: 6a84f2dea697b98af25729fb66d0d7de
+SHA1: 84beb61a89a3bdb65fb61665fe466b4b8926b1a6
+SHA256: 9bdb381a25ee4c5036f75ad12cbf5293ac2d7138de0ce86307b7124fcfa09b27
+Homepage: https://st.suckless.org/
+Description: A simple virtual terminal emulator for X
+
+Package: tree-sitter
+Version: 0.27.1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 8952
+Breaks: libtreesitter
+Replaces: libtreesitter
+Filename: pool/debs-20261104-205728-00/tree-sitter_0.27.1_aarch64.deb
+Size: 2472800
+MD5sum: 367eae1a0dffb886b31bab4dfd2d992c
+SHA1: 163860a462759dc80f85ed6aa761b188bd8fb34f
+SHA256: 84b52b71612e893cec612e6232fe1b321cf35d77b7c6f6406a3a6f5e90f85b7d
+Homepage: https://tree-sitter.github.io/
+Description: An incremental parsing system for programming tools
+
+Package: unixodbc
+Version: 2.3.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Depends: libiconv, libltdl, readline
+Conflicts: libiodbc
+Filename: pool/debs-20261104-205728-00/unixodbc_2.3.14-1_aarch64.deb
+Size: 193468
+MD5sum: 7d12980002dfb793e49bb5a05cc097f3
+SHA1: 3623eb339c4b855dfbfbcdbb0d02b8793f5d162e
+SHA256: 1a1594258bde88f5d7f1bb42913d2944ddac704031df938e170af7346ac43876
+Homepage: https://www.unixodbc.org/
+Description: An Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX
+
+Package: unixodbc-static
+Version: 2.3.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1484
+Depends: unixodbc (= 2.3.14-1)
+Filename: pool/debs-20261104-205728-00/unixodbc-static_2.3.14-1_aarch64.deb
+Size: 168080
+MD5sum: e83b67e5a15220443671c45b8a141e99
+SHA1: 28ba16b94ea9ad1ab8909b045fe80520fc02e967
+SHA256: d5e3bf087836c5762088607f9af932ad8fe503d9e78dd91bd60f0f7fe7f5aaa2
+Homepage: https://www.unixodbc.org/
+Description: Static libraries for unixodbc
+

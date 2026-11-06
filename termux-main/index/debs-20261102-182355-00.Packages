@@ -1,0 +1,599 @@
+Package: abiword
+Version: 3.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22736
+Depends: atk, enchant, fontconfig, fribidi, gdk-pixbuf, glib, goffice, gtk3, libc++, libcairo, libgsf, libical, libjpeg-turbo, libpng, librsvg, libwv, libx11, libxml2, libxslt, pango, readline, zlib
+Filename: pool/debs-20261102-182355-00/abiword_3.0.8-2_aarch64.deb
+Size: 4171692
+MD5sum: c330c7ff32af9d8b06e3e73cc794347e
+SHA1: b8040a06169ddda400d651be86fdfc08a4624211
+SHA256: 94f0d481859303a1fb6cc2d78afe4abba144802be0c6805dcbcfd4273880dd6d
+Homepage: https://gitlab.gnome.org/World/AbiWord
+Description: A free word processing program
+
+Package: abiword-static
+Version: 3.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39672
+Depends: abiword (= 3.0.8-2)
+Filename: pool/debs-20261102-182355-00/abiword-static_3.0.8-2_aarch64.deb
+Size: 3157976
+MD5sum: ff7e6b9d8d0b3fb9a8c39ce40ef0aecd
+SHA1: 379215ea67a102ef5737f161fc9d9fe6b0caea13
+SHA256: 53568a89e30f8179eb2019d55c2a80e66b8abedb2b21502fe953994e7c84154f
+Homepage: https://gitlab.gnome.org/World/AbiWord
+Description: Static libraries for abiword
+
+Package: abook
+Version: 0.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: libandroid-support, ncurses, readline
+Filename: pool/debs-20261102-182355-00/abook_0.6.2-1_aarch64.deb
+Size: 46156
+MD5sum: 52c57f980d5bcbef3264f94abcbcd3a6
+SHA1: 9831b3704a2dce34cb054e064c599c962f96db10
+SHA256: 433d90e83db31d280a4e2ea6a6f23f93dce4624c8f350bdd797a415c042caf52
+Homepage: http://abook.sourceforge.net/
+Description: Abook is a text-based addressbook program designed to use with mutt mail client
+
+Package: abootimg
+Version: 0.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: util-linux, libblkid
+Filename: pool/debs-20261102-182355-00/abootimg_0.6-3_aarch64.deb
+Size: 7968
+MD5sum: 722fd5055eaadabdeb8651060b28c2ec
+SHA1: 0d608f29f0c9f437fdd1a10f422f7cb458140c1a
+SHA256: 00bb867970009da1c6ebaa9d6880de62d93a7ac72de2fb3fb6f49586fe610ab6
+Homepage: https://gitlab.com/ajs124/abootimg
+Description: Pack or unpack android boot images
+
+Package: aosp-libs
+Version: 9.0.0-r76-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38560
+Depends: resolv-conf
+Breaks: bionic-host
+Replaces: bionic-host
+Filename: pool/debs-20261102-182355-00/aosp-libs_9.0.0-r76-4_aarch64.deb
+Size: 9739824
+MD5sum: 13ef46d80b8ccc1a887cb9ddeccfc87b
+SHA1: e72eab96a51416fb08f532182adb1261cf9d2f6a
+SHA256: 1773f2efca431956306c7b7c0b14b3b4a49545d26b2c99a63b53101e53093ccd
+Homepage: https://source.android.com/
+Description: bionic libc, libicuuc, liblzma, zlib, and boringssl for package builder and termux-docker
+
+Package: aosp-utils
+Version: 9.0.0-r76-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1320
+Depends: aosp-libs (= 9.0.0-r76-4)
+Filename: pool/debs-20261102-182355-00/aosp-utils_9.0.0-r76-4_aarch64.deb
+Size: 336560
+MD5sum: 2bf54c76fa8162283651d987b161694a
+SHA1: e16fb01da0b6abdb5d0456911f282dd0301e2c34
+SHA256: 50201de1ff9a8dc4f50d3e7156f15cd3631c676a44d61034aa9e6643d68cb948
+Homepage: https://source.android.com/
+Description: AOSP-based mksh, toybox, grep and iputils for termux-docker
+
+Package: bsdtar
+Version: 3.8.11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1528
+Depends: libarchive (= 3.8.11)
+Filename: pool/debs-20261102-182355-00/bsdtar_3.8.11_aarch64.deb
+Size: 356624
+MD5sum: e4e1a4b354bcb2d402c475a205f712bc
+SHA1: d1e7fa75f80037485153e41b61b1ea3c30a4cd3f
+SHA256: aff78ab963e9a2570017cf68fb1449627c263268594fe55a64071235a92bc0a5
+Homepage: https://www.libarchive.org/
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: ghostscript
+Version: 10.08.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 41772
+Depends: fontconfig, freetype, jbig2dec, leptonica, libandroid-support, libc++, libiconv, libidn, libjpeg-turbo, libpng, libtiff, littlecms, openjpeg, zlib
+Filename: pool/debs-20261102-182355-00/ghostscript_10.08.0_aarch64.deb
+Size: 20428320
+MD5sum: 4389cc1c61e15742b938f4b42c351b62
+SHA1: df1bc62e8997c3ca2d3c152f9d614019ed91155a
+SHA256: 39911f6bdee5ffe9af10513caf16af814eb546ed59fd6d6686129d74f5e2e2df
+Homepage: https://www.ghostscript.com/
+Description: Interpreter for the PostScript language and for PDF
+
+Package: giflib
+Version: 6.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Breaks: giflib-dev
+Replaces: giflib-dev
+Filename: pool/debs-20261102-182355-00/giflib_6.1.3_aarch64.deb
+Size: 43892
+MD5sum: 860b96d9b1a544efe23330e5380b7133
+SHA1: f5e84c52f95d0d14e221c6746db3d342c7bf2260
+SHA256: 1272ad28b6443549f4da9f855019d8bbc2798acb866a4f3bfe704306f90ce965
+Homepage: https://giflib.sourceforge.net/
+Description: A library for reading and writing gif images
+
+Package: giflib-static
+Version: 6.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: giflib (= 6.1.3)
+Filename: pool/debs-20261102-182355-00/giflib-static_6.1.3_aarch64.deb
+Size: 17216
+MD5sum: 8ac36f04157be096a3869c91f632822c
+SHA1: f658463a1bd486e2ce4302881d391b38c3ea72ef
+SHA256: b1e3c4d46c6152e347f06f077682a19800ed227de34fb00bc824172ce0ea282d
+Homepage: https://giflib.sourceforge.net/
+Description: Static libraries for giflib
+
+Package: giflib-utils
+Version: 6.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: giflib (= 6.1.3)
+Conflicts: giflib (<< 5.1.4-4)
+Filename: pool/debs-20261102-182355-00/giflib-utils_6.1.3_aarch64.deb
+Size: 45524
+MD5sum: 6b6881c9aac3bc5c173f03c2c837e8ba
+SHA1: a7e5083092e84de87a7dcd8caf950d374f9d6d5a
+SHA256: 4f6db3ef8746e1a3a124fa525400b63f1d62efed3d3c0fa6de2b8a40b2bb974a
+Homepage: https://giflib.sourceforge.net/
+Description: A set of utilities that comes with giflib package
+
+Package: goffice
+Version: 0.10.62
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6176
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libgsf, librsvg, libspectre, libxml2, libxslt, pango, zlib
+Filename: pool/debs-20261102-182355-00/goffice_0.10.62_aarch64.deb
+Size: 1061128
+MD5sum: 385309093bb8d98934bf91fa0f0103de
+SHA1: 658b18fc86f5dfc7f0f513f9c980d6645ffdead0
+SHA256: 8dc1700b596f198e87bebe0b342e8e8f3218cf998fa0be490c85be110595f7ea
+Homepage: https://gitlab.gnome.org/GNOME/goffice/
+Description: A GLib/GTK+ set of document-centric objects and utilities
+
+Package: goffice-static
+Version: 0.10.62
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4112
+Depends: goffice (= 0.10.62)
+Filename: pool/debs-20261102-182355-00/goffice-static_0.10.62_aarch64.deb
+Size: 889552
+MD5sum: fff7fc18129c8e4e8fd61a78e615b848
+SHA1: 68acaba5eb0e41d1cc94cb312cc15283ab7a7b3a
+SHA256: 400a9b7c666eb9106389de9b3949a8385b24569149ae492f9a99df095a79dcd8
+Homepage: https://gitlab.gnome.org/GNOME/goffice/
+Description: Static libraries for goffice
+
+Package: jbig2dec
+Version: 0.20-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Depends: libpng
+Breaks: jbig2dec-dev
+Replaces: jbig2dec-dev
+Filename: pool/debs-20261102-182355-00/jbig2dec_0.20-2_aarch64.deb
+Size: 49020
+MD5sum: 5b6dbd9da7d009cb46ec3b37cade10d1
+SHA1: ad8f4e05de7b84b17b01263f040f396d26eb6978
+SHA256: 5f13ec80a20ec236881153e9d9e45fa441eddc4393d05d8720d0ac3bb9251736
+Homepage: https://jbig2dec.com/
+Description: Decoder implementation of the JBIG2 image compression format
+
+Package: jbig2dec-static
+Version: 0.20-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: jbig2dec (= 0.20-2)
+Filename: pool/debs-20261102-182355-00/jbig2dec-static_0.20-2_aarch64.deb
+Size: 44412
+MD5sum: 7e136ce376753274276289ec57cb42f4
+SHA1: 40e651a683e1b1fabfcc72760294c4874a5b18f7
+SHA256: eca1af5780ae9fb2dba6504c985b2bd4052b7af12ac16bf882b320535c72803d
+Homepage: https://jbig2dec.com/
+Description: Static libraries for jbig2dec
+
+Package: jsoncpp
+Version: 1.9.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: libc++
+Breaks: jsoncpp-dev
+Replaces: jsoncpp-dev
+Filename: pool/debs-20261102-182355-00/jsoncpp_1.9.8_aarch64.deb
+Size: 96240
+MD5sum: 4560069f8e0b927336a60d815828faff
+SHA1: 732a48aee59ef87f427add4939b388a237d95dee
+SHA256: 301f31d6daa0fcb9f2c5f136f62cbfa680f57e13dca51c8fbd2d86bb3accea22
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: C++ library for interacting with JSON
+
+Package: jsoncpp-static
+Version: 1.9.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Depends: jsoncpp (= 1.9.8)
+Filename: pool/debs-20261102-182355-00/jsoncpp-static_1.9.8_aarch64.deb
+Size: 73312
+MD5sum: e1e6af2d031e741e83fec4a933b7730f
+SHA1: 9d588663d04219120381deb437de8353dffc291c
+SHA256: dc7e4cbee062636d7c0b096775d3556377f8cf57c1c61cbc668bc241f3d7a62c
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: Static libraries for jsoncpp
+
+Package: leptonica
+Version: 1.87.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3100
+Depends: giflib, libjpeg-turbo, libpng, libtiff, libwebp, openjpeg, zlib
+Breaks: leptonica-dev
+Replaces: leptonica-dev
+Filename: pool/debs-20261102-182355-00/leptonica_1.87.0_aarch64.deb
+Size: 940056
+MD5sum: b32733da2175561406ba6da081834a5a
+SHA1: ab9cde53210712cd079db039656f53b2d42ca40f
+SHA256: e2cd2302e60bd95cec115f1c03a6a615f6ac5ae32612d575014fa98145b692fa
+Homepage: http://www.leptonica.com/
+Description: Library for image processing and image analysis
+
+Package: leptonica-static
+Version: 1.87.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4540
+Depends: leptonica (= 1.87.0)
+Filename: pool/debs-20261102-182355-00/leptonica-static_1.87.0_aarch64.deb
+Size: 996276
+MD5sum: 7a13e47abea208ba9c83fad2c4d91c75
+SHA1: 43a14e8946b0eb10182e9faeff0863f6b0c16bf8
+SHA256: 91cbf1d972a1bb7865ceb3305713d37546172b4153d676d6bf0f95095c1a43b0
+Homepage: http://www.leptonica.com/
+Description: Static libraries for leptonica
+
+Package: libarchive
+Version: 3.8.11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1044
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Breaks: libarchive-dev
+Replaces: libarchive-dev
+Filename: pool/debs-20261102-182355-00/libarchive_3.8.11_aarch64.deb
+Size: 397252
+MD5sum: 7a6ca3d3a54108a6485afe3ec5a35541
+SHA1: d52b67ba3b5b1bff7caf7be0f5374f2008d7489f
+SHA256: 98b37c4f81091c98595c11d59dcef86c7b82706b4c916325fac5337cf7e5edfc
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library
+
+Package: libarchive-static
+Version: 3.8.11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2060
+Depends: libarchive (= 3.8.11)
+Filename: pool/debs-20261102-182355-00/libarchive-static_3.8.11_aarch64.deb
+Size: 367172
+MD5sum: d784a27651421c7f864a564806633b3a
+SHA1: 0842a5afb327ee0c646d84963fcbb9ff45bb212f
+SHA256: 14b3ae66ac83def667b638cb972c5ec2f814c1b8f9bd92112814717f104fcc63
+Homepage: https://www.libarchive.org/
+Description: Static libraries for libarchive
+
+Package: libgcrypt
+Version: 1.12.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1688
+Depends: libgpg-error
+Breaks: libgcrypt-dev
+Replaces: libgcrypt-dev
+Filename: pool/debs-20261102-182355-00/libgcrypt_1.12.4_aarch64.deb
+Size: 513728
+MD5sum: 15c2d98f8c19f64e41b659ab127d4440
+SHA1: c93913bd4fa68d301286d42c59ce046159d3b9f0
+SHA256: 9123f61f35a489fb824cdfe95b8be87ff583ba4ea728f99ed59d9230325dffd8
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: General purpose cryptographic library based on the code from GnuPG
+
+Package: libgcrypt-static
+Version: 1.12.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1888
+Depends: libgcrypt (= 1.12.4)
+Filename: pool/debs-20261102-182355-00/libgcrypt-static_1.12.4_aarch64.deb
+Size: 484564
+MD5sum: 0927deb98f80b1f9b4be3dbf5ce94fec
+SHA1: 705d04f6a7d5212a6286781c5e406404acb83948
+SHA256: f0055eb269ab0a22bd2a6b15c5adaf682b30b34d1fcd74f986449e6e320f45e0
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: Static libraries for libgcrypt
+
+Package: libgpg-error
+Version: 1.61
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 604
+Breaks: libgpg-error-dev
+Replaces: libgpg-error-dev
+Filename: pool/debs-20261102-182355-00/libgpg-error_1.61_aarch64.deb
+Size: 121364
+MD5sum: 864fb63ffac7d6d37a63112b451ff41f
+SHA1: 5525b64c63386f9044ae198a590e0e84218e9dc8
+SHA256: 9b86448801ea1ee63e982faf96f29decdc4a1b7b7a75c6c8323cdf76af341915
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Small library that defines common error values for all GnuPG components
+
+Package: libgpg-error-static
+Version: 1.61
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: libgpg-error (= 1.61)
+Filename: pool/debs-20261102-182355-00/libgpg-error-static_1.61_aarch64.deb
+Size: 65924
+MD5sum: cfa11456f2f392856bdca89b8707dc63
+SHA1: 0593730a22ea42d7ff9581d984dcc7a9fbd5340e
+SHA256: 4758d6ad6820744a3f6a121001e36e8b98f9521eda97830ff686fe135bfd274c
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Static libraries for libgpg-error
+
+Package: libical
+Version: 4.0.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4828
+Depends: libc++, libicu
+Breaks: libical-dev
+Replaces: libical-dev
+Filename: pool/debs-20261102-182355-00/libical_4.0.7_aarch64.deb
+Size: 408048
+MD5sum: 4f0285a0a3d93cd0666a4779c5ca1f62
+SHA1: a9cdc4316f679747ebadac8041ed297414535f1e
+SHA256: e27b46eff3a727d28e723f44431b2a4509575dd106a11f4a52b88af4bd9c370f
+Homepage: https://libical.github.io/libical/
+Description: Libical is an Open Source implementation of the iCalendar protocols and protocol data units
+
+Package: libidn
+Version: 1.44
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 720
+Depends: libiconv
+Breaks: libidn-dev
+Replaces: libidn-dev
+Filename: pool/debs-20261102-182355-00/libidn_1.44_aarch64.deb
+Size: 171800
+MD5sum: 72ada4e977eaf7cf13e5c34c61a4b434
+SHA1: dd1f776232f899946ea14ca552848c70e74dcab4
+SHA256: aeefb350872dcdfd422db2f0e95dba0b722d7bb24c243071a98391498c4479ed
+Homepage: https://www.gnu.org/software/libidn/
+Description: GNU Libidn library, implementation of IETF IDN specifications
+
+Package: libidn-static
+Version: 1.44
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: libidn (= 1.44)
+Filename: pool/debs-20261102-182355-00/libidn-static_1.44_aarch64.deb
+Size: 42348
+MD5sum: be8a501003c90f38954bf83bd5c3a378
+SHA1: 7971580e136b400a8e855c67d8506b2913a15530
+SHA256: 99920b15a4f220b1f3bd5e5d9f93f0a33cc9c6893f361ba2c9fbc9ce91dae4ae
+Homepage: https://www.gnu.org/software/libidn/
+Description: Static libraries for libidn
+
+Package: libspectre
+Version: 0.2.12-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: ghostscript
+Filename: pool/debs-20261102-182355-00/libspectre_0.2.12-3_aarch64.deb
+Size: 24524
+MD5sum: 1de1d245e19b92d3798ed711252ac024
+SHA1: a8a3a13fd2c1cef0f9f56cc17db932155bcf67cd
+SHA256: 4c238cc4211f364642dc47be79d914faed1c728898a8f1e18bd65333ac1cb8c4
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Description: A small library for rendering Postscript documents
+
+Package: libspectre-static
+Version: 0.2.12-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: libspectre (= 0.2.12-3)
+Filename: pool/debs-20261102-182355-00/libspectre-static_0.2.12-3_aarch64.deb
+Size: 24664
+MD5sum: a3234cc5594c123d42e4c00fb90b70c9
+SHA1: d7794caa3ca568bb4c9a39b80c1e9d5a0066b41b
+SHA256: f70cb8e7a38d7dc1ecbe87fc7ce2f83cec984d27f1d5432fbd03eeaf74a5a65d
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Description: Static libraries for libspectre
+
+Package: libwebp
+Version: 1.6.0.0.0.1+really1.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1252
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Breaks: libwebp-dev
+Replaces: libwebp-dev
+Filename: pool/debs-20261102-182355-00/libwebp_1.6.0.0.0.1_really1.6.0_aarch64.deb
+Size: 330176
+MD5sum: 1ac0e7a5d103eda899f6d1d2dcc864d2
+SHA1: 2f3a4c859b16a5cb6b8b52dfd9e0d0a982496fb3
+SHA256: 9426e6a2ec693c79a99149af29e09653b1f9586666ca0dde867a425de73adb95
+Homepage: https://github.com/webmproject/libwebp
+Description: Library to encode and decode images in WebP format
+
+Package: libwv
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2328
+Depends: glib, libgsf, libpng, libxml2, zlib
+Filename: pool/debs-20261102-182355-00/libwv_1.2.9-6_aarch64.deb
+Size: 148084
+MD5sum: 5619923f9ef9b5050ed60582eab4eb76
+SHA1: 54f0bc9c24b16e01aba7a7dc041f299d722210c8
+SHA256: c879d2b94f36a662c5aa0b6ce01da48e22b18bbf95abd681eb396e11923bddd3
+Homepage: https://wvware.sourceforge.net/
+Description: A library which allows access to Microsoft Word files
+
+Package: libwv-static
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 560
+Depends: libwv (= 1.2.9-6)
+Filename: pool/debs-20261102-182355-00/libwv-static_1.2.9-6_aarch64.deb
+Size: 105524
+MD5sum: c49896474b2cb581a51120495e1b59e3
+SHA1: e1b500a4818dc8b26d1ce0768d2337a2ba556b7e
+SHA256: 2402712b49327fc6f0e9156767518d91d760335e63e4a79af6103f9b5be5b23c
+Homepage: https://wvware.sourceforge.net/
+Description: Static libraries for libwv
+
+Package: libxslt
+Version: 1.1.45-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1788
+Depends: libgcrypt, libgpg-error, libxml2, libandroid-glob
+Breaks: libxslt-dev
+Replaces: libxslt-dev
+Filename: pool/debs-20261102-182355-00/libxslt_1.1.45-1_aarch64.deb
+Size: 225136
+MD5sum: cc224e1cd0694e115638a65d310a0c36
+SHA1: 01c504d72cbc2d1291f8efca96de8a452fd462ff
+SHA256: 51a9571300167e8466383538c5f08233b53a170525f96871076e4663a60ca9d9
+Homepage: http://xmlsoft.org/libxslt/
+Description: XSLT processing library
+
+Package: littlecms
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 540
+Breaks: littlecms-dev
+Replaces: littlecms-dev
+Filename: pool/debs-20261102-182355-00/littlecms_2.19.1_aarch64.deb
+Size: 143768
+MD5sum: 8203822db209cbfc1dd376418cb6c9b3
+SHA1: c067429b72ed0e7db745ead4d909336b0bc84c4c
+SHA256: eff2e605da67ea0e02671ff8266b1da66372c9dfcb51549116949ed27ca70f1a
+Homepage: http://www.littlecms.com/
+Description: Color management library
+
+Package: littlecms-static
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: littlecms (= 2.19.1)
+Filename: pool/debs-20261102-182355-00/littlecms-static_2.19.1_aarch64.deb
+Size: 146296
+MD5sum: 1bb0ee4896302efebcbde6672de37886
+SHA1: 89a6f2a7ad68600a79989ec90767df5b4dd75575
+SHA256: 7d866e328b6c5376cde2972dec2cf597d3db9d3ff0c751bc171f6eaabf8c8d3b
+Homepage: http://www.littlecms.com/
+Description: Static libraries for littlecms
+
+Package: littlecms-utils
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libjpeg-turbo, libtiff, littlecms (= 2.19.1)
+Filename: pool/debs-20261102-182355-00/littlecms-utils_2.19.1_aarch64.deb
+Size: 35304
+MD5sum: 5288b15464021d4f441901a315867136
+SHA1: cd1ac7e6493c10dccf0259406cd0214e572667e7
+SHA256: 1a1acc0b9f5451471cda465c2c6614ba61dda12c482bfa23554bb7ad08ee23b0
+Homepage: http://www.littlecms.com/
+Description: Color management utilities
+
+Package: openjpeg
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Breaks: openjpeg-dev
+Replaces: openjpeg-dev
+Filename: pool/debs-20261102-182355-00/openjpeg_2.5.4_aarch64.deb
+Size: 150692
+MD5sum: 52593f6f5013cf064f0d6755976b9faf
+SHA1: 77266ff4e19a9ed8b81e20c431e64b5e43cd35a2
+SHA256: b3a586825a5e2e5640b1c1247372dd0774b8c697d12ba6445e8e3a117dbd0555
+Homepage: https://www.openjpeg.org/
+Description: JPEG 2000 image compression library
+
+Package: openjpeg-tools
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: libtiff, littlecms, libpng, openjpeg (= 2.5.4)
+Filename: pool/debs-20261102-182355-00/openjpeg-tools_2.5.4_aarch64.deb
+Size: 69872
+MD5sum: 108e1947857f512e76bad02e46e947d5
+SHA1: 9a523f4cc93f9eaaebbaa67517a466634d2dce3f
+SHA256: 5e78c7742ed1f4c95016d3262dc0835a312aae2b66fc523c3ab310d7c704e461
+Homepage: https://www.openjpeg.org/
+Description: Command-line tools using the JPEG 2000 library
+
+Package: wv-tools
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: libwv (= 1.2.9-6)
+Filename: pool/debs-20261102-182355-00/wv-tools_1.2.9-6_aarch64.deb
+Size: 27056
+MD5sum: e8cc584173d143f88613606e6ec1052e
+SHA1: 31d26ec03ed93b486e89387d1a3b7cbb3a41d348
+SHA256: 4137fa37ba15cdbc0d40c08984f39f18598cd8c60b04c8218f2b2b67c6b410b8
+Homepage: https://wvware.sourceforge.net/
+Description: Command-line tools for libwv
+
+Package: xsltproc
+Version: 1.1.45-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: libxslt (= 1.1.45-1)
+Filename: pool/debs-20261102-182355-00/xsltproc_1.1.45-1_aarch64.deb
+Size: 11956
+MD5sum: 82c43bfab36bca8c4aa0c67b27637912
+SHA1: 69715f826a9016560087f31a28d0311ef8e9595f
+SHA256: 43217006ba32ffb62f0c5a4a80682b3fc881127570f792894b47b3e6e321e32c
+Homepage: http://xmlsoft.org/libxslt/
+Description: XSLT command line processor
+

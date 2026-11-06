@@ -1,0 +1,1562 @@
+Package: cgdb
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Depends: libc++, ncurses, readline, gdb
+Filename: pool/debs-20261104-024908-00/cgdb_0.8.0-1_aarch64.deb
+Size: 141516
+MD5sum: 83ce381040c04cff3c8d2df255dfc6c6
+SHA1: 6912089310806630a884b65b357c167dc3cebcbb
+SHA256: 41cf9795b114f9e5af05f4ef641c77dae5430729cfcfbabe5d0056ed361c2f96
+Homepage: https://cgdb.github.io/
+Description: A lightweight curses (terminal-based) interface to the GNU Debugger (GDB)
+
+Package: cgif
+Version: 0.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Filename: pool/debs-20261104-024908-00/cgif_0.5.4_aarch64.deb
+Size: 8940
+MD5sum: 09936c0ff573f39c6b10dca2ed8c5fe4
+SHA1: 75294615ccf2c3672e72c4d7bf95fd94af77523e
+SHA256: 44214f5e45432db936c596733a4264227ba4bc04cca4d17721f474cbfa791ca0
+Homepage: https://github.com/dloebl/cgif
+Description: A fast and lightweight GIF encoding library
+
+Package: chafa
+Version: 1.18.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 844
+Depends: freetype, glib, libavif, libcairo, libheif, libjpeg-turbo, libjxl, librsvg, libtiff, libwebp
+Filename: pool/debs-20261104-024908-00/chafa_1.18.3_aarch64.deb
+Size: 177932
+MD5sum: 66007fb43c0981b8bc8ddfcce6644529
+SHA1: 7b029c6e9ecc2bd9113175d4805c8efd21bb1a8e
+SHA256: 6a95fa3a46220dcb18e77d495adcac429c1a3833461d9cf0f3da0c2099a4b45f
+Homepage: https://hpjansson.org/chafa/
+Description: Image-to-text converter supporting a wide range of symbols, etc.
+
+Package: chafa-static
+Version: 1.18.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 536
+Depends: chafa (= 1.18.3)
+Filename: pool/debs-20261104-024908-00/chafa-static_1.18.3_aarch64.deb
+Size: 104384
+MD5sum: d9a15825a569d9ab375d1ba8c9f72dfb
+SHA1: 5585f32adfd09a8fe858cb12124b20a11aac46ff
+SHA256: 0acc7a83bbfc44da93c8c790a24ed7348685abb7fa1dfe595a7e6a4f579ca52d
+Homepage: https://hpjansson.org/chafa/
+Description: Static libraries for chafa
+
+Package: cherrytree
+Version: 1.7.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5952
+Depends: fmt, fribidi, glib, gspell, gtk3, gtkmm3, gtksourceview4, libatkmm-1.6, libc++, libcairo, libcairomm-1.0, libcurl, libglibmm-2.4, libpangomm-1.4, libsigc++-2.0, libsqlite, libuchardet, libvte, libxml++-2.6, libxml2, pango
+Filename: pool/debs-20261104-024908-00/cherrytree_1.7.2-1_aarch64.deb
+Size: 2224676
+MD5sum: 676a5381d3c44eafc14beb0fee7daa46
+SHA1: be99479da1718a777021ff1801cbd616627c13cd
+SHA256: 6b5bf31bff279c95faa51a4fc3a2b54d38f9cbfebeca7358b5b1859f7393512e
+Homepage: https://www.giuspen.net/cherrytree/
+Description: A hierarchical note taking application
+
+Package: chezmoi
+Version: 2.74.0
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 42496
+Filename: pool/debs-20261104-024908-00/chezmoi_2.74.0_aarch64.deb
+Size: 10720808
+MD5sum: 8174161ec9e6a336019da6bdf5931324
+SHA1: 08910bf4a5004c2809506e3ab031cab10d87a481
+SHA256: 80a4cac047b8d1dfa0514c7d2dbef9491b68d88b5a7083e626e1d3346f41cd79
+Homepage: https://chezmoi.io
+Description: Manage your dotfiles across multiple machines
+
+Package: chicken
+Version: 6.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11908
+Filename: pool/debs-20261104-024908-00/chicken_6.0.0_aarch64.deb
+Size: 2111896
+MD5sum: 70249a509ce38c61ff3e7a95b8f911ed
+SHA1: bff6296e4495e95b18c1763d4471f31650125a0e
+SHA256: 173d93e32116a551f3f7dea52fff8a8923c211cc1ba1a1ffcbe0bd027fabac0a
+Homepage: https://www.call-cc.org
+Description: A feature rich Scheme compiler and interpreter
+
+Package: chicken-static
+Version: 6.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8680
+Depends: chicken (= 6.0.0)
+Filename: pool/debs-20261104-024908-00/chicken-static_6.0.0_aarch64.deb
+Size: 1124940
+MD5sum: 5980bc4dccf258dea836bd873a947cc9
+SHA1: 14bc610df76703ea5b362d35a6397521d7c0c2e5
+SHA256: 055361a114ab2c2890f3e6d0f7133fb87f68b6927c68b7eb3bd35f4dee56b253
+Homepage: https://www.call-cc.org
+Description: Static libraries for chicken
+
+Package: chntpw
+Version: 140201
+Architecture: aarch64
+Maintainer: @xingguangcuican6666
+Installed-Size: 732
+Filename: pool/debs-20261104-024908-00/chntpw_140201_aarch64.deb
+Size: 97128
+MD5sum: c8d434651e03b8dd974216139e6054d2
+SHA1: 8e3a672c8d7bdd35ce2ab770ade7ca9db3145c6a
+SHA256: a4836039df452a02d283634aa112128a20b2000ebe9721cacd7adb64a304a40c
+Homepage: https://pogostick.net/~pnh/ntpasswd/
+Description: Offline Windows NT Password & Registry Editor
+
+Package: chocolate-doom
+Version: 3.1.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5476
+Depends: sdl2 | sdl2-compat, sdl2-mixer, sdl2-net
+Filename: pool/debs-20261104-024908-00/chocolate-doom_3.1.1_aarch64.deb
+Size: 798080
+MD5sum: ec5a7f8d9c28978c2bd0e16406797fd2
+SHA1: 1e648e91bce8e422afec68665aa297494e522f2b
+SHA256: df29fc6cea948d3efe5cf829651b27f33829e46560cde2261f83161601f968a1
+Homepage: https://www.chocolate-doom.org
+Description: Historically-accurate Doom, Heretic, Hexen, and Strife ports.
+
+Package: choose
+Version: 1.3.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2308
+Filename: pool/debs-20261104-024908-00/choose_1.3.7_aarch64.deb
+Size: 605604
+MD5sum: 65bfc2f215b36072f484ec95cf924257
+SHA1: 09fe2f55ce16e5012a35822f958e57437c9c86e8
+SHA256: d4f4efa622bf264809fdb5de091691dac7e3a2ef4eafbe03e7c36158a43fe7cb
+Homepage: https://github.com/theryangeary/choose
+Description: A human-friendly and fast alternative to cut and (sometimes) awk
+
+Package: chroma-visualizer
+Version: 0.0.0.20260922+g1b98379
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7248
+Depends: vulkan-icd, alsa-lib
+Filename: pool/debs-20261104-024908-00/chroma-visualizer_0.0.0.20260922_g1b98379_aarch64.deb
+Size: 2067452
+MD5sum: f9b881aaf949e4ae339350411ee45e4a
+SHA1: 3dfe74380ab0aa1beff087bb75a9c0cac968cced
+SHA256: 30a69bcf7c33182ea728a45114fdac0ad7fa91937cd228e6769035883634874e
+Homepage: https://github.com/yuri-xyz/chroma.git
+Description: Shader-based audio visualizer for the terminal
+
+Package: chrony
+Version: 4.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 544
+Depends: libandroid-glob, libandroid-shmem, libcap, libgnutls, libnettle, libnss, libtomcrypt, readline
+Filename: pool/debs-20261104-024908-00/chrony_4.9_aarch64.deb
+Size: 216520
+MD5sum: 1df07f8417748bf49291a14a4830c842
+SHA1: 2a0ff3472043dae0bd9ade0b064b9baec149312f
+SHA256: dca7725252e03e8fd9bef0f849104280526a8b3806b1eacfa4d2b7554a8e2b2e
+Homepage: https://chrony-project.org/
+Description: chrony is an implementation of the Network Time Protocol (NTP)
+
+Package: cicada
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4616
+Filename: pool/debs-20261104-024908-00/cicada_1.3.1_aarch64.deb
+Size: 1548492
+MD5sum: 16aa146dbbadc9711940391f835b5efb
+SHA1: 3328ca2cef455aab3851fe62ca8ae2c8238c64b0
+SHA256: 6c20021ffbdcdcac3ab15f2954f0d0bb21e3be10d4529b555ca5206235eb7363
+Homepage: https://github.com/mitnk/cicada
+Description: A bash like Unix shell
+
+Package: cinnamon-control-center
+Version: 6.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Depends: glib, gtk3, libgnomekbd, libnotify, libx11, libxklavier, python-pip, upower, cinnamon-desktop, cinnamon-menus, cinnamon-settings-daemon
+Filename: pool/debs-20261104-024908-00/cinnamon-control-center_6.8.0_aarch64.deb
+Size: 59836
+MD5sum: e01973832fa8b03bd05002f88c9b0bfd
+SHA1: e6928e467aaf1c269b373460e835bfe652e08999
+SHA256: 6ed9adcbcb7b20625fef07933def19153098fa42fb8a56baf21f0f7c27153bcd
+Homepage: https://github.com/linuxmint/cinnamon-control-center
+Description: Cinnamon control center
+
+Package: cinnamon-desktop
+Version: 6.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1288
+Depends: glib, gtk3, libcairo, libx11, libxext, xkeyboard-config, libxkbfile, gobject-introspection, libxrandr, iso-codes, pulseaudio, gdk-pixbuf, gigolo, cinnamon-menus
+Filename: pool/debs-20261104-024908-00/cinnamon-desktop_6.6.2-1_aarch64.deb
+Size: 172824
+MD5sum: 0cf55804e3d02df272206737a5e9f2b8
+SHA1: 4b320a09a3ce34d912a52aade13c150dc042f8aa
+SHA256: 4d314cdbf9dac0c6ca53e15e6b76334dc543cd248f72c3e886863e588937568c
+Homepage: https://github.com/linuxmint/cinnamon-desktop
+Description: The cinnamon-desktop library
+
+Package: cinnamon-menus
+Version: 6.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: glib, gobject-introspection
+Filename: pool/debs-20261104-024908-00/cinnamon-menus_6.8.0_aarch64.deb
+Size: 45632
+MD5sum: 58860bc3d8449e9525bc2c74a45311f6
+SHA1: dd1bc5e18557a30bc50eb40152f203bb4e85fd32
+SHA256: 997bde87d84224a433f5a9b4c7a89d23fe0d32cd1f4528203f96a35b953cd441
+Homepage: https://github.com/linuxmint/cinnamon-menus
+Description: The cinnamon-menu library
+
+Package: cinnamon-session
+Version: 6.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 580
+Depends: cinnamon-desktop, glib, gtk3, keybinder, libcanberra, libice, libsm, libx11, libxau, libxcomposite, libxext, opengl, pango, pygobject, python, python-pip, python-psutil, xapp
+Filename: pool/debs-20261104-024908-00/cinnamon-session_6.8.0_aarch64.deb
+Size: 98196
+MD5sum: 8b44b4f6fb54bb6a40cafd22b80a973e
+SHA1: 04c071c9f6f0f81d4a3ccbe5efd418008aaf8c03
+SHA256: 79b3627ff1ed98d996999af64573ed31053c9daa55eef36ae8617de2738169be
+Homepage: https://github.com/linuxmint/cinnamon-session
+Description: The Cinnamon session manager
+
+Package: cinnamon-settings-daemon
+Version: 6.6.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2256
+Depends: glib, cinnamon-desktop, libcanberra, libcolord, fontconfig, libgnomekbd, gtk3, libnotify, pango, libxfixes, pulseaudio-glib, upower, libx11, libxklavier, littlecms
+Filename: pool/debs-20261104-024908-00/cinnamon-settings-daemon_6.6.4_aarch64.deb
+Size: 304080
+MD5sum: ab4fd36e2ebf66957452fe606e0decdc
+SHA1: 5c9c3f20ce859cf8874801276b4baf9f4d59859b
+SHA256: 939c6b602e5bf43a95bed00c8057c260b2627ef3ec4c1504482e4f3281ef47b3
+Homepage: https://github.com/linuxmint/cinnamon-settings-daemon
+Description: The settings daemon for the Cinnamon desktop
+
+Package: cinnamon-settings-daemon-static
+Version: 6.6.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: cinnamon-settings-daemon (= 6.6.4)
+Filename: pool/debs-20261104-024908-00/cinnamon-settings-daemon-static_6.6.4_aarch64.deb
+Size: 4768
+MD5sum: 45f8f17af1aa4b0d8665c270b9e0fa55
+SHA1: 9fc621ebdf2018a1e2b4a9062679950d91283e61
+SHA256: b3ab9cbd4072466fd25114b1583aabe401cc50516192d2a4a7881b0035b8a9f8
+Homepage: https://github.com/linuxmint/cinnamon-settings-daemon
+Description: Static libraries for cinnamon-settings-daemon
+
+Package: ciso
+Version: 1.0.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: zlib
+Filename: pool/debs-20261104-024908-00/ciso_1.0.2-2_aarch64.deb
+Size: 4728
+MD5sum: eece3c119e7e8fdbde6c344853bb18d7
+SHA1: 0e8c964fa3785d3feb0a3df8d8dd3b461943579d
+SHA256: 56ef999d1edeca76b1ac72a49ebf6de082139ce3a67a9d5fab90562eea62f9ea
+Homepage: https://github.com/jamie/ciso
+Description: PSP ISO compression tool
+
+Package: cjs
+Version: 140.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1692
+Depends: glib, gobject-introspection, libcairo, libffi, libx11, readline, spidermonkey
+Filename: pool/debs-20261104-024908-00/cjs_140.2_aarch64.deb
+Size: 346916
+MD5sum: 8256a34de05be72d35874493c247b635
+SHA1: 624c3e7939bf8186bb06b5c6bae7d5efb2d0c094
+SHA256: f5ec4214926b4994e416e75613ac5e5f53b2e82dde9ff02c2786a4476af44560
+Homepage: https://github.com/linuxmint/cjs
+Description: JavaScript Bindings for Cinnamon
+
+Package: cjson
+Version: 1.7.19
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/debs-20261104-024908-00/cjson_1.7.19_aarch64.deb
+Size: 25452
+MD5sum: 9867cc187d4de7b7144ef2e0ea785f3d
+SHA1: 3516e00e2f9b9b2ab09abe44e1c3fb1aa6e3e9cf
+SHA256: 64626ded3e1a83b498c7800dc7cf9d03bfefcd07d5cba31a3a94ab43e5d05c8c
+Homepage: https://github.com/DaveGamble/cJSON
+Description: Ultralightweight JSON parser in ANSI C
+
+Package: clamav
+Version: 1.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27964
+Depends: json-c, libandroid-support, libbz2, libc++, libcurl, libiconv, libxml2, ncurses, openssl, pcre2, zlib
+Breaks: clamav-dev
+Replaces: clamav-dev
+Filename: pool/debs-20261104-024908-00/clamav_1.5.4_aarch64.deb
+Size: 7341664
+MD5sum: eaa7b1d75c46f84c5b1ebebe626eccb0
+SHA1: a6460a9fd2845b9f02ae6feddb5d2b60c27405fc
+SHA256: 4e65a37d8f9a37f34cb4917dfcb6a8b2171e0a1a34823350cc7fa0b1027e59fd
+Homepage: https://github.com/Cisco-Talos/clamav
+Description: Anti-virus toolkit for Unix
+
+Package: clamav-static
+Version: 1.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 54932
+Depends: clamav (= 1.5.4)
+Filename: pool/debs-20261104-024908-00/clamav-static_1.5.4_aarch64.deb
+Size: 8587572
+MD5sum: 2ad5b0c0d546125407b63b6c09bd637b
+SHA1: b52b09c39704477d1982c833d197e6095357f304
+SHA256: 3ac899ef74ff8eba2976d39c2a05e3accbd40332d09d2c8e7f3416327dfeff83
+Homepage: https://github.com/Cisco-Talos/clamav
+Description: Static libraries for clamav
+
+Package: clblast
+Version: 1.7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12704
+Depends: libc++, ocl-icd
+Filename: pool/debs-20261104-024908-00/clblast_1.7.0_aarch64.deb
+Size: 1092420
+MD5sum: a9eb3c640782a5c23472820cf8fb1cd4
+SHA1: 478d1e2d67e4fa92f57e892c2de1d55ae898fee4
+SHA256: 54fddbeea66b40a50f0e53c00df239695118776b9c8e15c8672e3da13aafb7db
+Homepage: https://github.com/CNugteren/CLBlast
+Description: Tuned OpenCL BLAS
+
+Package: cli11
+Version: 2.7.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 704
+Depends: libc++
+Filename: pool/debs-20261104-024908-00/cli11_2.7.2_aarch64.deb
+Size: 86228
+MD5sum: 7d8cfb595a30e7f48e1bba70ed0958cd
+SHA1: 8a42830b6abbe3eb4557571d4a45e8d5b36aa099
+SHA256: eb079e587b0518744743bd4dc9847d9d26688294a396fb65896c5f09fe5155ea
+Homepage: https://github.com/CLIUtils/CLI11
+Description: Command line parser for C++11
+
+Package: clifm
+Version: 1.29
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2184
+Depends: libcap, libacl, readline, libandroid-glob, libandroid-support, libmagic
+Filename: pool/debs-20261104-024908-00/clifm_1.29_aarch64.deb
+Size: 576828
+MD5sum: c2fa2417d3fd500834fc13aa8d8f1d8c
+SHA1: 109800494e29940d468fc34e7ce07e202ee7df5f
+SHA256: b129b3e03a6462ef0f893446617745cbfc22e9f9d9399efdd8f4c8d8c34985a1
+Homepage: https://github.com/leo-arch/clifm
+Description: The shell-like, command line terminal file manager: simple, fast, extensible, and lightweight as hell
+
+Package: clinfo
+Version: 3.1.26.09.26
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: ocl-icd
+Filename: pool/debs-20261104-024908-00/clinfo_3.1.26.09.26_aarch64.deb
+Size: 47468
+MD5sum: e0c708b69fb793202eb9c1b7a557b84f
+SHA1: 51106d38f42e4ffe9f7465be1ef4d2db879a7943
+SHA256: ab8b0b9bd664490909e33ad9f91744b1317caa4f00ed5d552d3fd6a948505911
+Homepage: https://github.com/Oblomov/clinfo
+Description: Print all known information about all available OpenCL platforms and devices in the system
+
+Package: clipp
+Version: 1.2.3-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 316
+Filename: pool/debs-20261104-024908-00/clipp_1.2.3-1_all.deb
+Size: 30816
+MD5sum: b758049372230a7c17756754507a8395
+SHA1: e0de2ec0962b9b2cc39628e0c67bf2b2f3427ff3
+SHA256: a040653f51f314db8d1de15238bf9d1b8ea7f9278b06254030d8846ebf8c79f8
+Homepage: https://github.com/muellan/clipp
+Description: Command line interfaces for modern C++
+
+Package: cloneit
+Version: 20250722
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4084
+Depends: openssl
+Filename: pool/debs-20261104-024908-00/cloneit_20250722_aarch64.deb
+Size: 1342224
+MD5sum: 2afad77fe87c6d3d6102ae91c0cc0b24
+SHA1: 9435f963e879d48b3fc72dbdf14f10f0caf2b1e6
+SHA256: 9feaa2a107b4ed16c6dfe9fb7dee6c3048ec954cadc71f72961317174373ac99
+Homepage: https://github.com/alok8bb/cloneit
+Description: A cli tool to download specific GitHub directories or files
+
+Package: cloudflared
+Version: 2026.10.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28596
+Filename: pool/debs-20261104-024908-00/cloudflared_2026.10.7_aarch64.deb
+Size: 6738516
+MD5sum: 4827ed2d899c109870a9a678cf0d7ff6
+SHA1: 1c78ce36455f530f299fbb3d702fea6ec3a458d6
+SHA256: ff741ed38860e2d5da3a50baf75ec55a015bbf07fe4294c589829c58a2e3cd8d
+Homepage: https://github.com/cloudflare/cloudflared
+Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
+
+Package: clucene
+Version: 2.3.3.4-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4664
+Depends: boost, zlib
+Filename: pool/debs-20261104-024908-00/clucene_2.3.3.4-8_aarch64.deb
+Size: 716364
+MD5sum: 5437c3dd293aec7e4000d156504e2a0a
+SHA1: be7585b97856461fcef63d64fffbfa6e2cf4d322
+SHA256: a59797dc003db57c62eb84828b65917bad21d068ac7b9f0bde73d281d23d7311
+Homepage: https://clucene.sourceforge.net/
+Description: C++ port of the high-performance text search engine Lucene
+
+Package: clutter
+Version: 1.26.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8120
+Depends: atk, cogl, fontconfig, freetype, gdk-pixbuf, glib, gtk3, harfbuzz, json-glib, libcairo, libx11, libxcomposite, libxdamage, libxext, libxfixes, libxi, libxrandr, pango
+Filename: pool/debs-20261104-024908-00/clutter_1.26.4-1_aarch64.deb
+Size: 879316
+MD5sum: 6c107e67bc0717977aa4902f0dda64b4
+SHA1: beef9cb53612bf237deb17d9d05d4328c36641a5
+SHA256: 3c96ce5b556521814c68cce5ec642fd884ad47b484488b6b1580d8f145ecb9c8
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: An open source software library for creating fast, compelling, portable, and dynamic graphical user interfaces
+
+Package: clutter-gst
+Version: 3.0.27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 632
+Depends: atk, clutter, cogl, fontconfig, freetype, gdk-pixbuf, glib, gst-plugins-base, gstreamer, gtk3, harfbuzz, json-glib, libcairo, libx11, libxcomposite, libxdamage, libxext, libxfixes, libxi, libxrandr, pango
+Filename: pool/debs-20261104-024908-00/clutter-gst_3.0.27-1_aarch64.deb
+Size: 70640
+MD5sum: aec03f36f5e8c3c79bf06c58ad434524
+SHA1: e774b37db6051c94dca0d428dca613830eba2195
+SHA256: 077c532d57039d50c08be25b27ef95286804ef86a31b115bb9eafde66dd40d37
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: An integration library for using GStreamer with Clutter
+
+Package: clutter-gst-static
+Version: 3.0.27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1256
+Depends: clutter-gst (= 3.0.27-1)
+Filename: pool/debs-20261104-024908-00/clutter-gst-static_3.0.27-1_aarch64.deb
+Size: 216028
+MD5sum: c45434cb4ed86b73964edccaa6e2bb93
+SHA1: d13e06b5be6975ebf26f283ed0b2a65fc4c280c1
+SHA256: 15b9ab3d5e77ab5ec388bb944e0f930d79ee888d49aa9a3ea026b632572aa638
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: Static libraries for clutter-gst
+
+Package: clutter-gtk
+Version: 1.8.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: atk, clutter, cogl, fontconfig, freetype, gdk-pixbuf, glib, gtk3, harfbuzz, json-glib, libcairo, libx11, libxcomposite, libxdamage, libxext, libxfixes, libxi, libxrandr, pango
+Filename: pool/debs-20261104-024908-00/clutter-gtk_1.8.4-1_aarch64.deb
+Size: 24072
+MD5sum: fe4e136d5b28446090bf3a344acc7fb9
+SHA1: 387bcc2e1ce382324f45a417077989bc75ac85b8
+SHA256: 2c4ecce48d0847dfb5a8e3080f7997fc10d0d53a89870f1e192b9abfe1fe802e
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: A library providing facilities to integrate Clutter into GTK+ applications and vice versa
+
+Package: clutter-gtk-static
+Version: 1.8.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: clutter-gtk (= 1.8.4-1)
+Filename: pool/debs-20261104-024908-00/clutter-gtk-static_1.8.4-1_aarch64.deb
+Size: 16828
+MD5sum: 56edac17c561c9cd46010d6cce291825
+SHA1: fe6c44999edc6d387780b91ef0fa3e94b3518426
+SHA256: 5f4a88da1970a04fff1b09d9343917efb3739cd7812a6c45d830c94f17a9e8fe
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: Static libraries for clutter-gtk
+
+Package: clutter-static
+Version: 1.26.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2940
+Depends: clutter (= 1.26.4-1)
+Filename: pool/debs-20261104-024908-00/clutter-static_1.26.4-1_aarch64.deb
+Size: 479408
+MD5sum: e17a288f26078430598a3c80a8ea7fb7
+SHA1: f519a9fa13b219ef1a54482ab2d1c526df41dab2
+SHA256: 30b413be3be2066d0356f97b4010f7610b216f4a7855250c520548256450e4f7
+Homepage: https://wiki.gnome.org/Projects/Clutter
+Description: Static libraries for clutter
+
+Package: cmark
+Version: 0.31.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 400
+Breaks: cmark-dev
+Replaces: cmark-dev
+Filename: pool/debs-20261104-024908-00/cmark_0.31.2-1_aarch64.deb
+Size: 78996
+MD5sum: d61981de84e8598e5792b0dcd5bd3805
+SHA1: 9eb206735916c9c7d984ac26c7719b871c3dedbd
+SHA256: 58c506ba0341096cd57d2824f3b3100d0e4a63bafdc27a1a576f1d252c289fd0
+Homepage: https://github.com/commonmark/cmark
+Description: CommonMark parsing and rendering program
+
+Package: cmatrix
+Version: 2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: ncurses
+Filename: pool/debs-20261104-024908-00/cmatrix_2.0-1_aarch64.deb
+Size: 7800
+MD5sum: 24e1db75d871a59d541cdf541cce0930
+SHA1: 84b2e60b64625f708ae7fda598f7756a1f4a41eb
+SHA256: 4b31bf958c1ac883bf0d6436726294a72abbbf555445f2d48da9a3d43d6448b4
+Homepage: https://github.com/abishekvashok/cmatrix
+Description: Command producing a Matrix-style animation
+
+Package: cmocka
+Version: 2.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 480
+Filename: pool/debs-20261104-024908-00/cmocka_2.0.2_aarch64.deb
+Size: 48552
+MD5sum: fd779ee2a783cc58e15cfffcb75c6f08
+SHA1: ad56d97a324bfc0d6dda44ad658cdcd6d2f12256
+SHA256: 0810e4d0a6ee878dc5cca9524d442903b642960b81584a86bc6134b34c5916f0
+Homepage: https://cmocka.org/
+Description: cmocka is an unit testing framework for C
+
+Package: cmus
+Version: 2.13.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 840
+Depends: ffmpeg, libandroid-support, libflac, libiconv, libmad, libmodplug, libvorbis, libwavpack, ncurses, opusfile, pulseaudio, alsa-lib
+Filename: pool/debs-20261104-024908-00/cmus_2.13.0_aarch64.deb
+Size: 199604
+MD5sum: d8516c73a74784d54ad1f674f5a2623b
+SHA1: 31a11d949e857a787bf6997259f7ffd0ffec818e
+SHA256: 7263277eff888f86074170ed83697d9673c1cc167621662bf7ee3d8a22e31caf
+Homepage: https://cmus.github.io/
+Description: Small, fast and powerful console music player
+
+Package: cmusfm
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: libandroid-spawn, libcurl, openssl
+Filename: pool/debs-20261104-024908-00/cmusfm_0.5.0-1_aarch64.deb
+Size: 11396
+MD5sum: 1f845fe77eb67551a51faa7faafc88bd
+SHA1: 011292b2a160f868874f401e86e2308e3cc10263
+SHA256: 31e65b5af4c7b74ddca05b1d92c5c5ee4bfa431abd32280e4008e2cd158d491e
+Homepage: https://github.com/Arkq/cmusfm
+Description: Last.fm standalone scrobbler for the cmus music player
+
+Package: cogl
+Version: 1.22.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4364
+Depends: gdk-pixbuf, glib, harfbuzz, libandroid-shmem, libcairo, libx11, libxcomposite, libxdamage, libxext, libxfixes, libxrandr, opengl, pango
+Filename: pool/debs-20261104-024908-00/cogl_1.22.8-2_aarch64.deb
+Size: 641536
+MD5sum: afb795c4505d7bfc49a2b96c3cbffe66
+SHA1: c0f71741de26368fde8f094280588deba0ce48a8
+SHA256: 65e8dd3730d00880998a822f2f0f21ef293fffa2459d5e2df5054c5b95889d50
+Homepage: https://gitlab.gnome.org/Archive/cogl
+Description: A small open source library for using 3D graphics hardware for rendering
+
+Package: cogl-static
+Version: 1.22.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1716
+Depends: cogl (= 1.22.8-2)
+Filename: pool/debs-20261104-024908-00/cogl-static_1.22.8-2_aarch64.deb
+Size: 316572
+MD5sum: 2c54cc1716491de68e83e14461a55c3e
+SHA1: 5c83028c6de1226770183cdf96838680cb755754
+SHA256: 8e90f090a08aa91672803a55db5faf37e4781ea4aa53588dc800e24d036ffad5
+Homepage: https://gitlab.gnome.org/Archive/cogl
+Description: Static libraries for cogl
+
+Package: dbus-python
+Version: 1.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: dbus, glib, python
+Filename: pool/debs-20261104-024908-00/dbus-python_1.5.1_aarch64.deb
+Size: 68980
+MD5sum: 1e1198743263fd6f22034e6d45aac914
+SHA1: c71ccd05b6614c0f90980c2f6cfe04ad2e7044bd
+SHA256: 697963c3c297a00ceb6563f1f331f6f658fdb9f79fe8b4d2edcad695dbd44726
+Homepage: https://dbus.freedesktop.org/doc/dbus-python/
+Description: Python bindings for D-Bus
+
+Package: gcr
+Version: 3.41.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3400
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libgcrypt, p11-kit, pango
+Recommends: gnupg
+Filename: pool/debs-20261104-024908-00/gcr_3.41.2_aarch64.deb
+Size: 474844
+MD5sum: 6ce6f379eddc17376b002325a0b21a72
+SHA1: 65707847d6e3e9c22fd8361e92a43411ebdc6b00
+SHA256: e004d240dfb3d0cfa1d5db65b3309d8d9dd43cd064cc91d7b445ae207957b859
+Homepage: https://gitlab.gnome.org/GNOME/gcr
+Description: A library for displaying certificates and crypto UI, accessing key stores
+
+Package: gcr4
+Version: 4.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2356
+Depends: glib, libgcrypt, p11-kit
+Recommends: gnupg
+Filename: pool/debs-20261104-024908-00/gcr4_4.4.1_aarch64.deb
+Size: 321204
+MD5sum: 74bb94aef3c07bc62a0343a1fdc793ac
+SHA1: 3d8d3eef762a1f39fee349ad580cca87b1110e2e
+SHA256: 01678536a918c2c56ca53076ae0f1a71b3f7f83089a6ee1a87973e9d0c6dc631
+Homepage: https://gitlab.gnome.org/GNOME/gcr
+Description: A library for displaying certificates and crypto UI, accessing key stores
+
+Package: gdb
+Version: 18.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17036
+Depends: guile, libc++, libexpat, libgmp, libiconv, liblzma, libmpfr, libthread-db, ncurses, python, readline, zlib, zstd
+Breaks: gdb-dev
+Replaces: gdb-dev
+Filename: pool/debs-20261104-024908-00/gdb_18.1-1_aarch64.deb
+Size: 4053452
+MD5sum: 4a005d7c8e2f657d172af464d934459e
+SHA1: 4958438ea9b646abbfc28db2bc7fa2ffda85a436
+SHA256: 73cb4d81c75af8eac5eb289489b4cd91620982bc2644f353a48044c6b07f2ebe
+Homepage: https://www.gnu.org/software/gdb/
+Description: The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages
+
+Package: gdbserver
+Version: 18.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 680
+Depends: libc++, libthread-db
+Breaks: gdb (<< 13.1)
+Replaces: gdb (<< 13.1)
+Filename: pool/debs-20261104-024908-00/gdbserver_18.1-1_aarch64.deb
+Size: 222644
+MD5sum: fc3299a0bde05ac233744b7f9b2d2d74
+SHA1: 908259e39e359fb03577f54cb0330b1dacfddf38
+SHA256: 251e3df2cea97d09ae7a605db408f627071b273f1ca9a80e9f28915a11dd5461
+Homepage: https://www.gnu.org/software/gdb/
+Description: The gdbserver program
+
+Package: gigolo
+Version: 0.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 500
+Depends: glib, gtk3
+Filename: pool/debs-20261104-024908-00/gigolo_0.6.0-1_aarch64.deb
+Size: 84036
+MD5sum: 894f9e6a3dfcce1e32b74fa2c3b92c86
+SHA1: 4585a0a408eb1f71def6594a98fe2e862aecc3d8
+SHA256: e1535ea541ed4fbc3525c974a206b6c8c00880336fdf30a1af58d9f7d3cc93b3
+Homepage: https://docs.xfce.org/apps/gigolo/start
+Description: Gigolo is a frontend to easily manage connections to local and remote filesystems using GIO/GVfs.
+
+Package: gnome-backgrounds
+Version: 51.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40600
+Filename: pool/debs-20261104-024908-00/gnome-backgrounds_51.0.1_aarch64.deb
+Size: 40593432
+MD5sum: ca49324cfbed4da5cba0012c136a4009
+SHA1: 029535d18d2ebad87a8340a70132791b0486a7e9
+SHA256: 94fc842501e0b6ac0c4ad055bb24d85bd56672b9401e5a97cada77a1fa958183
+Homepage: https://gitlab.gnome.org/GNOME/gnome-backgrounds
+Description: A collection of GNOME desktop wallpapers
+
+Package: gnome-desktop4
+Version: 51.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 636
+Depends: gdk-pixbuf, glib, gsettings-desktop-schemas, gtk4, iso-codes, libcairo, libxkbcommon, xkeyboard-config
+Filename: pool/debs-20261104-024908-00/gnome-desktop4_51.0_aarch64.deb
+Size: 82660
+MD5sum: 2b841f3ab35105c57e6a9d0688e5daea
+SHA1: 59c08bd46f607994cb0c71fa4bf822b81c7d5c7b
+SHA256: 44d09370b6a005439bcc3d1cbe93610573f023631d94e9feddcc49ddbc95ec4e
+Homepage: https://gitlab.gnome.org/GNOME/gnome-desktop
+Description: Utility library for loading .desktop files
+
+Package: gsound
+Version: 1.0.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 260
+Depends: glib, libcanberra, gobject-introspection
+Filename: pool/debs-20261104-024908-00/gsound_1.0.3-2_aarch64.deb
+Size: 20308
+MD5sum: fb2ff193719c91d806e8bd232571ca39
+SHA1: 7e0d0945a2057adcaaf254ecdb3c6c124f132ed8
+SHA256: 221f19e566327f5de4c9c51bf6bcb6b12d33b742f6fb22f83abb9fd79ebd9c2a
+Homepage: https://gitlab.gnome.org/GNOME/gsound
+Description: Small gobject library for playing system sounds
+
+Package: gspell
+Version: 1.14.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 464
+Depends: enchant, glib, gtk3, libicu, pango
+Filename: pool/debs-20261104-024908-00/gspell_1.14.5_aarch64.deb
+Size: 53012
+MD5sum: 00d00287a8b65ca6c7482395fba19413
+SHA1: 8af6135957cf6503e0896cc3780ee1790a8bde59
+SHA256: 1cdd38e38dbe54424e4ec2de1662e31e2c59e17a798b55fe2fc3d7ab10060470
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Description: Spell-checking for GTK applications
+
+Package: gtkmm3
+Version: 3.24.11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12800
+Depends: gdk-pixbuf, glib, gtk3, libatkmm-1.6, libc++, libcairomm-1.0, libglibmm-2.4, libpangomm-1.4, libsigc++-2.0
+Filename: pool/debs-20261104-024908-00/gtkmm3_3.24.11_aarch64.deb
+Size: 1442392
+MD5sum: 2a3c8a2d86b8c7c3463d4a2d6f37b340
+SHA1: 9e89289212c39671a09025b3a302cb2b07aa217f
+SHA256: 651db1cccbb51c49e44d4f20738973d797787b86540479e73315477780e35200
+Homepage: https://www.gtkmm.org/
+Description: The C++ API for GTK
+
+Package: gtksourceview4
+Version: 4.8.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4684
+Depends: atk, fribidi, gdk-pixbuf, glib, gtk3, libcairo, libxml2, pango
+Filename: pool/debs-20261104-024908-00/gtksourceview4_4.8.4-4_aarch64.deb
+Size: 515604
+MD5sum: ea6636764683bc8b7d021f668a21f617
+SHA1: 48aae7a77c00488b110fe85bc15607c2c28d0ca3
+SHA256: ba4976e82789e644d31b71ffde2b04b2cb8ba83d7a2245a8675d73956ff5e36f
+Homepage: https://wiki.gnome.org/Projects/GtkSourceView
+Description: A GNOME library that extends GtkTextView
+
+Package: guile
+Version: 3.0.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 61056
+Depends: libandroid-spawn, libandroid-support, libffi, libgc, libgmp, libiconv, libunistring, ncurses, readline
+Conflicts: guile18
+Breaks: guile-dev
+Replaces: guile-dev
+Filename: pool/debs-20261104-024908-00/guile_3.0.11-1_aarch64.deb
+Size: 7692924
+MD5sum: 8eb4befade34b3205e0aae60e95f765b
+SHA1: f0a7190dad3480fd7d8bfbd1bf6cfaa0ad13ea8d
+SHA256: 1e73373bef6569c5b098852087578fea83da1139eb7d1534a4e6da39f65dc999
+Homepage: http://www.gnu.org/software/guile/
+Description: Portable, embeddable Scheme implementation written in C
+
+Package: guile-static
+Version: 3.0.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5972
+Depends: guile (= 3.0.11-1)
+Filename: pool/debs-20261104-024908-00/guile-static_3.0.11-1_aarch64.deb
+Size: 1471252
+MD5sum: 117f9c267ace029a0d82a433c1672be1
+SHA1: 786248a751eb1de7ceebdbced10ce33cc83b13b9
+SHA256: 5519052d83e885e5805e2854a5d87eea29eb63483e4b88e837b4d734eb3d913c
+Homepage: http://www.gnu.org/software/guile/
+Description: Static libraries for guile
+
+Package: gvfs
+Version: 1.62.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1540
+Depends: dbus, gcr4, glib, gsettings-desktop-schemas, libarchive, libsecret, libsoup3, libxml2
+Recommends: gnome-keyring
+Filename: pool/debs-20261104-024908-00/gvfs_1.62.0_aarch64.deb
+Size: 287728
+MD5sum: 0993ba428838065d0ced026e473a9278
+SHA1: 182c272063e6c0b73a10bd81a0a7ed631dbfe0b7
+SHA256: 5886855c2e97fa504e62cfc5212dc56deb020df87fcd8c7b4fd50275dd744078
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Description: A userspace virtual filesystem implementation for GIO
+
+Package: hwdata
+Version: 0.412
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10416
+Filename: pool/debs-20261104-024908-00/hwdata_0.412_aarch64.deb
+Size: 1699688
+MD5sum: a3387a34c398d55abddce798ec0bef7b
+SHA1: 03be714e9469dab6be75609aaef840836889b3fe
+SHA256: c5e2ef51a8ff06ebdb60d02f650bb57e1ae817ac8705fb80e291930e5355b9e8
+Homepage: https://github.com/vcrhonek/hwdata
+Description: Database of hardware identification and configuration data
+
+Package: keybinder
+Version: 0.3.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libcairo, libx11, libxext, libxrender, pango
+Filename: pool/debs-20261104-024908-00/keybinder_0.3.2-2_aarch64.deb
+Size: 7964
+MD5sum: 56a7faee641a8aa33f36b9c57e6be3da
+SHA1: 2fc9ee2b9ad47d2fbc3fabcecd5c82521f053f92
+SHA256: 51f571717d7cc165d4e18f08dbbaf9f31ca2f52a75738c4906eece41f4cc9038
+Homepage: https://github.com/kupferlauncher/keybinder
+Description: A library for registering global keyboard shortcuts
+
+Package: keybinder-static
+Version: 0.3.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44
+Depends: keybinder (= 0.3.2-2)
+Filename: pool/debs-20261104-024908-00/keybinder-static_0.3.2-2_aarch64.deb
+Size: 4704
+MD5sum: bd85063c17a3fa6d4f35c5c71fcd448c
+SHA1: 598704a2c2571b79ea3a7bd0b13fdc7ece0cee46
+SHA256: 8ced4f6238de7d1d5b93d33c5fd7bdd8f323033df89a00aad8052ffef426cb13
+Homepage: https://github.com/kupferlauncher/keybinder
+Description: Static libraries for keybinder
+
+Package: libadapta
+Version: 1.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5516
+Depends: appstream, sassc, fribidi, glib, graphene, gtk4, pango
+Filename: pool/debs-20261104-024908-00/libadapta_1.5.0_aarch64.deb
+Size: 516036
+MD5sum: 0a4b3d529f5b54674d4ad3d540295fef
+SHA1: e4765be7c26dae4f0c12dc21a5bb21ee3a46ba0e
+SHA256: 8ecc95ab0c3aca1f69ff8470ef8b090516e72fe6e20187a1f2255fb926a455db
+Homepage: https://github.com/xapp-project/libadapta
+Description: libAdapta is libAdwaita with theme support and a few extra
+
+Package: libadapta-demo
+Version: 1.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: libadapta (= 1.5.0)
+Filename: pool/debs-20261104-024908-00/libadapta-demo_1.5.0_aarch64.deb
+Size: 46704
+MD5sum: 28821e6e22dd9ff6ec385cafc02a77d5
+SHA1: 8aee09ff6dda3035d8abb79e17fe76a0905a72a8
+SHA256: dd462a2b7fd9cf4ba972999e62f04333e7ab2c7e915a3b58dd6a42492683e72f
+Homepage: https://github.com/xapp-project/libadapta
+Description: Example programs for libadapta
+
+Package: libcolord
+Version: 1.4.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1684
+Depends: glib, gobject-introspection, hwdata, libsqlite, littlecms
+Filename: pool/debs-20261104-024908-00/libcolord_1.4.8_aarch64.deb
+Size: 194236
+MD5sum: 5341a361255854ba209d8c14bd7451de
+SHA1: 34571ea4688c42331eb10c53c3369e2489bf36fd
+SHA256: 4f06f3c752bc26a479b66479038101f958e5a25b3562ceb17e6f9905d66633a5
+Homepage: https://www.freedesktop.org/software/colord
+Description: Client library of the daemon for managing color devices
+
+Package: libdbusmenu
+Version: 16.04.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 608
+Depends: glib, json-glib
+Filename: pool/debs-20261104-024908-00/libdbusmenu_16.04.0-1_aarch64.deb
+Size: 65672
+MD5sum: 62b2f3a94b2272763def019c67751ed4
+SHA1: 4d9b4f7b7002f3e6d4cc35c16a8a292c227092f8
+SHA256: cbb054494357b7245dc8865c97e599f726ab6173bc715cc6c69897240cc0cfe9
+Homepage: https://launchpad.net/libdbusmenu
+Description: A small library designed to make sharing and displaying of menu structures over DBus
+
+Package: libdbusmenu-gtk3
+Version: 16.04.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: atk, gdk-pixbuf, gtk3, harfbuzz, libcairo, pango, zlib, libdbusmenu (= 16.04.0-1)
+Filename: pool/debs-20261104-024908-00/libdbusmenu-gtk3_16.04.0-1_aarch64.deb
+Size: 28464
+MD5sum: a81549f2b619e58b5c117d28ec48f4d7
+SHA1: 3522eeccbcb37d4bc232dde6f88f7d25bdf1c803
+SHA256: 84901c9eced76340f464e8abcca23f9c74302aad14f85649e04b4633cee33b39
+Homepage: https://launchpad.net/libdbusmenu
+Description: GTK+3 support for libdbusmenu
+
+Package: libdbusmenu-gtk3-static
+Version: 16.04.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libdbusmenu-gtk3, libdbusmenu (= 16.04.0-1)
+Filename: pool/debs-20261104-024908-00/libdbusmenu-gtk3-static_16.04.0-1_aarch64.deb
+Size: 24816
+MD5sum: baa5dcdb34cbd587a90d46a0416a9e71
+SHA1: 1fac121a1de3e23d533ba2bed103d7c736a8df9e
+SHA256: 82013399519cb15b5bf646e586fa19079be85110a4b6681d77d08c0bc7db9cf7
+Homepage: https://launchpad.net/libdbusmenu
+Description: Static libraries for libdbusmenu-gtk3
+
+Package: libdbusmenu-static
+Version: 16.04.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 260
+Depends: libdbusmenu (= 16.04.0-1)
+Filename: pool/debs-20261104-024908-00/libdbusmenu-static_16.04.0-1_aarch64.deb
+Size: 41956
+MD5sum: 711023a70ba8d0abc7e431c251f75deb
+SHA1: 37f49dbf8113adab6211b6598e9e92958d9af836
+SHA256: 367bceed45f1ced87f30864737a5ae90d2fd496bd9e30a76152278a6c3a7e68e
+Homepage: https://launchpad.net/libdbusmenu
+Description: Static libraries for libdbusmenu
+
+Package: libdisplay-info
+Version: 0.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 496
+Filename: pool/debs-20261104-024908-00/libdisplay-info_0.4.0_aarch64.deb
+Size: 107256
+MD5sum: ad8fbc3c2fd634a82e1952992e4d75d2
+SHA1: 85a2d0362271a351e3cc700df858d81dda2e7c12
+SHA256: 69e93ff429e5140331a653c99aad8490c247690ef34681639a60bac18b0fd783
+Homepage: https://emersion.pages.freedesktop.org/libdisplay-info/
+Description: EDID and DisplayID library
+
+Package: libei
+Version: 1.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Filename: pool/debs-20261104-024908-00/libei_1.6.0_aarch64.deb
+Size: 86728
+MD5sum: 7311613f4691e2aacca6628c8bd56eee
+SHA1: ae28a3120b4f1337688aa3b927f2a9ef572941b5
+SHA256: 2ad851fa95bde5c438c0416418e94a3bd683dce464002f0f30dc8e6a50db6f67
+Homepage: https://libinput.pages.freedesktop.org/libei/
+Description: Library for Emulated Input
+
+Package: libgnomekbd
+Version: 3.28.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 344
+Depends: gdk-pixbuf, glib, gtk3, gobject-introspection, libxml2, libxklavier, gigolo, libx11
+Filename: pool/debs-20261104-024908-00/libgnomekbd_3.28.1_aarch64.deb
+Size: 43212
+MD5sum: 178f4717db2a6ef4bf3af3b7ca8ce907
+SHA1: fd0d6523473da0559c1b3e856587470492098e84
+SHA256: 5dca64b4cd86fde7a339c44e79f96e0e6f6b694a513811817e67b331d8582a02
+Homepage: https://gitlab.gnome.org/Archive/libgnomekbd
+Description: GNOME keyboard library
+
+Package: libmodplug
+Version: 0.8.9.1.r461-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Depends: libc++
+Filename: pool/debs-20261104-024908-00/libmodplug_0.8.9.1.r461-1_aarch64.deb
+Size: 130192
+MD5sum: 98f496171afc4abc875a28f94034c86c
+SHA1: 4b061ecd915655d74529f44901fedda9c03ed034
+SHA256: 07bb50e00a61127724eb2e12aeaa5f2530f818b3b5e068d3570bcc5806586bf9
+Homepage: https://modplug-xmms.sourceforge.net/
+Description: The ModPlug mod file playing library
+
+Package: libmodplug-static
+Version: 0.8.9.1.r461-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 948
+Depends: libmodplug (= 0.8.9.1.r461-1)
+Filename: pool/debs-20261104-024908-00/libmodplug-static_0.8.9.1.r461-1_aarch64.deb
+Size: 172428
+MD5sum: 9a419bae1e28144767cd9c7c08de346c
+SHA1: 468ef7e68194e47a0e3e7d5caebe7ab3c31d197f
+SHA256: 6d44b9120ade2b5bc4da9d41da9220e8790b28a092d72cb61ebd78145af428eb
+Homepage: https://modplug-xmms.sourceforge.net/
+Description: Static libraries for libmodplug
+
+Package: libpciaccess
+Version: 0.19
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Depends: zlib
+Filename: pool/debs-20261104-024908-00/libpciaccess_0.19_aarch64.deb
+Size: 16956
+MD5sum: 92223751e31224b856c8173dbcf1d28d
+SHA1: 0e440a03fc17790ab175ad5a939f874ce5645466
+SHA256: 90d8e54ea7d9ff58549b3313ffeb6715aa2b01b15c44102c2586bcfd6addc1d6
+Homepage: https://xorg.freedesktop.org/
+Description: X11 PCI access library
+
+Package: libsimdutf
+Version: 9.3.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1244
+Filename: pool/debs-20261104-024908-00/libsimdutf_9.3.3_aarch64.deb
+Size: 134016
+MD5sum: d61e8a05c6f099ab2ecd41e371ecfb7d
+SHA1: fb18b62e03717118358f0b1c6b63edd933171be1
+SHA256: 6c10827d04dbc0f79d83e82754d72faa291661ffe1ef70a0621aacfad1749105
+Homepage: https://simdutf.github.io/simdutf/
+Description: Unicode validation and transcoding at billions of characters per second
+
+Package: libspdlog
+Version: 1.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1224
+Depends: libc++, fmt
+Filename: pool/debs-20261104-024908-00/libspdlog_1.17.0-1_aarch64.deb
+Size: 154352
+MD5sum: 7fe11d9420a932db72d49dff8e7de50e
+SHA1: ce428462d905cd672daa0d31ce4b4ce21251015c
+SHA256: 78a836f06ce98d593b3bf403aebfb944999e859678a143af3e45050bf7cc16e9
+Homepage: https://github.com/gabime/spdlog
+Description: Very fast, header-only/compiled, C++ logging library
+
+Package: libthread-db
+Version: 22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Filename: pool/debs-20261104-024908-00/libthread-db_22-2_aarch64.deb
+Size: 4332
+MD5sum: b04bf35163f581232ed3d295e7f11ae1
+SHA1: 9c5d30a36783bee696714e8892016199751c81e3
+SHA256: 3927e543bb1d8dea39d5ceb64996f74a657f4956af00e175dd6ddd832ebb73b4
+Homepage: https://android.googlesource.com/platform/ndk/
+Description: Thread debugging library
+
+Package: libtomcrypt
+Version: 1.18.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 976
+Filename: pool/debs-20261104-024908-00/libtomcrypt_1.18.2-1_aarch64.deb
+Size: 292708
+MD5sum: 0bfc26ea7aa32a31892c0cf4c0ba9157
+SHA1: 2d0c5ddcd77b1a581c1eef596d8d05d91fd41ac7
+SHA256: dc24d2af6b12189d002da1c84c86c7a8cffdc170f09596e20d192a38f37f4f1a
+Homepage: https://www.libtom.net/LibTomCrypt/
+Description: A fairly comprehensive, modular and portable cryptographic toolkit
+
+Package: libtomcrypt-static
+Version: 1.18.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1548
+Depends: libtomcrypt (= 1.18.2-1)
+Filename: pool/debs-20261104-024908-00/libtomcrypt-static_1.18.2-1_aarch64.deb
+Size: 308984
+MD5sum: 0daf8eba324f7ede1aa5e52d5b221ead
+SHA1: a0738a57774be9d745275f38d8a3e5ae364e705d
+SHA256: b90f44a171a04a87db50da3f18403fd0ed3f64102030ba2301f3d41f58c24201
+Homepage: https://www.libtom.net/LibTomCrypt/
+Description: Static libraries for libtomcrypt
+
+Package: libvte
+Version: 2:0.84.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3700
+Depends: atk, fribidi, gdk-pixbuf, glib, gtk3, gtk4, libc++, libcairo, libgnutls, libicu, liblz4, libsimdutf, pango, pcre2, zlib
+Filename: pool/debs-20261104-024908-00/libvte_2_0.84.1_aarch64.deb
+Size: 503168
+MD5sum: cec0139d0b630f2591cff84b08b9a4b1
+SHA1: c712ff9d375a8ceac89274fe9f35804b5d0119a8
+SHA256: 31b61aff5fc8f9a2a8acf417dc039531de7022359a030779ca21c0d7bcaa6dc1
+Homepage: https://gitlab.gnome.org/GNOME/vte/
+Description: Virtual Terminal library
+
+Package: libxcvt
+Version: 0.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Filename: pool/debs-20261104-024908-00/libxcvt_0.1.3-1_aarch64.deb
+Size: 7668
+MD5sum: 5f073bc862802323d61557f0373d0453
+SHA1: 89104fa704215ff43e07824b17d7ddbe77110212
+SHA256: 090b4cab0cfc3cb66e2a8af3f31b23fd6909036cf70bdc1cee9d641b2b886be4
+Homepage: https://xorg.freedesktop.org/
+Description: A Library to generate VESA CVT standard timing modelines
+
+Package: libxfont2
+Version: 2.0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: freetype, libfontenc, zlib
+Filename: pool/debs-20261104-024908-00/libxfont2_2.0.9_aarch64.deb
+Size: 73480
+MD5sum: 272951323ca903829122e38f61949864
+SHA1: 447327dee023831f6c9c9d84b4593c67b588744d
+SHA256: c78d283d13844bc0b4982bb3611a542f8ffe59dfd8b28307a88b682af197b00f
+Homepage: https://xorg.freedesktop.org/
+Description: X11 font rasterisation library
+
+Package: libxfont2-static
+Version: 2.0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 324
+Depends: libxfont2 (= 2.0.9)
+Filename: pool/debs-20261104-024908-00/libxfont2-static_2.0.9_aarch64.deb
+Size: 85396
+MD5sum: fb2dd1ed8f329f5de89b9d8156a3816c
+SHA1: 4d56f505ce40c6a168ad3e4fb551b959d6efa20f
+SHA256: 5240ed8115bda682eeca12fd9bc50b20f98e41e6dfe16dc83124048ae67c9d91
+Homepage: https://xorg.freedesktop.org/
+Description: Static libraries for libxfont2
+
+Package: libxklavier
+Version: 5.4-28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: glib, iso-codes, libx11, libxi, libxkbfile, libxml2, xkeyboard-config, xorg-xkbcomp
+Filename: pool/debs-20261104-024908-00/libxklavier_5.4-28_aarch64.deb
+Size: 41192
+MD5sum: f9478bf20cd8b3ab5074299ac0379aa0
+SHA1: c82d9748bbd6e700f362def87b63b3577873683d
+SHA256: e08b7b2cf2e0ac3a96b71cd8ac7cfd8cf00a5bff0c75c8d5a9ef7beb7537b1ad
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Description: High-level API for X Keyboard Extension
+
+Package: libxklavier-static
+Version: 5.4-28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: libxklavier (= 5.4-28)
+Filename: pool/debs-20261104-024908-00/libxklavier-static_5.4-28_aarch64.deb
+Size: 41928
+MD5sum: 773381e8238d81aba31e275a522eb1e4
+SHA1: 7896d6de7282a2814458f01a53e02bba55a0f595
+SHA256: e654db623e19e52ff2e4b05bfce0d70fa8ec61003266b5197927e1a1e42d791c
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier/
+Description: Static libraries for libxklavier
+
+Package: libxml++-2.6
+Version: 2.42.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 624
+Depends: libc++, libglibmm-2.4, libxml2
+Filename: pool/debs-20261104-024908-00/libxml__-2.6_2.42.2-3_aarch64.deb
+Size: 85076
+MD5sum: 5cda47097922292fba1862b8b5855f5d
+SHA1: 5cfab9a0daf9814b26cba9aafc1b19690b323c96
+SHA256: 50d722ad33b4f98f604ea6e14341b6fae50a9648871e98ce62b9ebe5fa0cbada
+Homepage: https://libxmlplusplus.github.io/libxmlplusplus/
+Description: A C++ wrapper for the libxml2 XML parser library
+
+Package: libxmp
+Version: 4.7.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 972
+Filename: pool/debs-20261104-024908-00/libxmp_4.7.4_aarch64.deb
+Size: 302816
+MD5sum: 7d54fcf8ed822e32c2095d4e788f40a9
+SHA1: ed377e71a95579e1bb4af700e4bad69bedb134d1
+SHA256: e9db5cf397d11bed00b35a5869411653d5b295ca708af1f5b203dff184a36247
+Homepage: https://github.com/libxmp/libxmp
+Description: Extended Module Player C Library that renders tracker and module music (MOD, S3M, IT, XM etc.)
+
+Package: libxmp-static
+Version: 4.7.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1472
+Depends: libxmp (= 4.7.4)
+Filename: pool/debs-20261104-024908-00/libxmp-static_4.7.4_aarch64.deb
+Size: 333968
+MD5sum: 6c18badff0bd40634d2e53eabb3f09e4
+SHA1: f22881848fcc6db960212b7c99b5252711d39afc
+SHA256: 7ee6734d2d9cd14f2b12891d663f2fb47fa4504323cd8341f02daed6ac0994e2
+Homepage: https://github.com/libxmp/libxmp
+Description: Static libraries for libxmp
+
+Package: libxmu
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: libx11, libxext, libxt
+Filename: pool/debs-20261104-024908-00/libxmu_1.3.1_aarch64.deb
+Size: 63156
+MD5sum: a347d8d64086a024f65c2e0ec15606d3
+SHA1: 15a7febfe24ddfacd8101f0aa164ac1d0b5a3712
+SHA256: 9e554dfb39ed3d43f2b7b58dbdb8780e72a0033bbbeb1cc063f534c98543ee73
+Homepage: https://xorg.freedesktop.org/
+Description: X11 miscellaneous micro-utility library
+
+Package: libxmu-static
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: libxmu (= 1.3.1)
+Filename: pool/debs-20261104-024908-00/libxmu-static_1.3.1_aarch64.deb
+Size: 43504
+MD5sum: 3a3fbeacf73c388e42fd2d03985cee83
+SHA1: 154a2f3f20b97dea83548a5643be38f2035617f5
+SHA256: bb1e19dfe5682d8af4d4c7cc4ecf4eaa711c255ac5ef41d830431bc7f3e698ad
+Homepage: https://xorg.freedesktop.org/
+Description: Static libraries for libxmu
+
+Package: mint-themes
+Version: 2.4.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 151104
+Suggests: mint-x-icon-theme, mint-y-icon-theme
+Filename: pool/debs-20261104-024908-00/mint-themes_2.4.3_all.deb
+Size: 2090444
+MD5sum: 11bc8bc9f309a3bba4403a7984f18dc7
+SHA1: 713552b7469f735199144ee5e585509f2360531e
+SHA256: cf09546e549f91bb4eb4d922e3b1e2a9ec9eed1553154b2164e6885fb0e4df2d
+Homepage: https://github.com/linuxmint/mint-themes
+Description: Mint Mint-X, Mint-Y for cinnamon
+
+Package: mint-x-icon-theme
+Version: 1.8.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 127280
+Depends: hicolor-icon-theme, adwaita-icon-theme, adwaita-icon-theme-legacy, gtk-update-icon-cache
+Filename: pool/debs-20261104-024908-00/mint-x-icon-theme_1.8.1_all.deb
+Size: 12575368
+MD5sum: 3650d30dbcf2491e07678f980b7ffcde
+SHA1: 96c75daf3729c35bd5f3eb75ccc24ed1f7459ad5
+SHA256: 5f0a892227f038cf7fb91857f3cba448d0aea153eeb37961c32f0910a625ecfa
+Homepage: https://github.com/linuxmint/mint-x-icons
+Description: The Mint-X icon theme for cinnamon
+
+Package: mint-y-icon-theme
+Version: 1.9.8
+Architecture: all
+Maintainer: @termux
+Installed-Size: 132160
+Depends: hicolor-icon-theme, adwaita-icon-theme, adwaita-icon-theme-legacy, mint-x-icon-theme, gtk-update-icon-cache
+Filename: pool/debs-20261104-024908-00/mint-y-icon-theme_1.9.8_all.deb
+Size: 71892660
+MD5sum: e587711c78eafb6f6787317310e25b6b
+SHA1: 44cff7576ede4d173b25a8fc8fe8d2f50fb99ddd
+SHA256: b0b2634c3c2b766793427a28b324ef9f1502165714ea60284fa4e0bc31a17b43
+Homepage: https://github.com/linuxmint/mint-y-icons
+Description: The Mint-Y icon theme for cinnamon
+
+Package: nemo
+Version: 6.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6376
+Depends: glib, gtk3, gobject-introspection, gstreamer, gst-plugins-base, pygobject, json-glib, cinnamon-desktop, libx11, xapp, libexif, pango, libgsf, dbus-python, libcairo, gvfs, libheif-progs, tinysparql
+Filename: pool/debs-20261104-024908-00/nemo_6.8.1_aarch64.deb
+Size: 930828
+MD5sum: c75e82924bd738b7f6abcd830180daa5
+SHA1: 4e234238f9310311c3fa49217a066f3e98df4826
+SHA256: 757c608a1a9e4a396926e24855a40db3e4a1b1c01024dc012d109d83fec4a158
+Homepage: https://github.com/linuxmint/nemo
+Description: Cinnamon File manager
+
+Package: opencl-clhpp
+Version: 2026.05.29
+Architecture: all
+Maintainer: @termux
+Installed-Size: 556
+Filename: pool/debs-20261104-024908-00/opencl-clhpp_2026.05.29_all.deb
+Size: 49116
+MD5sum: 30c4643b672a0546a34d4dc3af09aa50
+SHA1: f356b1bc835f3ced76828d7729425571d6f05d15
+SHA256: dc1b5b2c3665bd8857f823420175d69f8a060be102d69129dad49dab77330aab
+Homepage: https://github.com/KhronosGroup/OpenCL-CLHPP
+Description: Khronos OpenCL C++ Headers
+
+Package: python-libsass
+Version: 0.23.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: libsass, python
+Filename: pool/debs-20261104-024908-00/python-libsass_0.23.0-3_aarch64.deb
+Size: 32756
+MD5sum: 19a6ae115e68dc771286046e76b695fd
+SHA1: 0526e2c4a7666a0e52d9deb840d60f18535fbd35
+SHA256: 0fedf4a14620741c907741f300ec8e8578315ec2a77cf5e44bd823f27bfcf690
+Homepage: https://github.com/sass/libsass-python
+Description: A straightforward binding of libsass for Python
+
+Package: python-xapp
+Version: 3.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: python, xapp
+Conflicts: python3-xapp
+Breaks: python3-xapp
+Replaces: python3-xapp
+Filename: pool/debs-20261104-024908-00/python-xapp_3.0.3-1_aarch64.deb
+Size: 17104
+MD5sum: 327bedb389ee942b104be42dfa6f90e5
+SHA1: 87a797c495d2390064b508f2109fcd204ed8c340
+SHA256: 7dd2b0b03baf4e5e898d4d7071f1f536bee1b78204bc711ebc8988b1935538d4
+Homepage: https://github.com/linuxmint/python3-xapp
+Description: XApp library Python bindings
+
+Package: sdl2-mixer
+Version: 2.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 504
+Depends: fluidsynth, libxmp, libflac, libmodplug, libvorbis, libmpg123, opusfile, sdl2 | sdl2-compat
+Filename: pool/debs-20261104-024908-00/sdl2-mixer_2.8.2_aarch64.deb
+Size: 100688
+MD5sum: 7864a8f04aeae83930a45f2507815168
+SHA1: a5a56095d1906974f005648090a1c34dfbd527aa
+SHA256: 53f1026dc0e70d22ac2ab252a035ca024b4d88583df728068c504d80957f0f08
+Homepage: https://github.com/libsdl-org/SDL_mixer
+Description: A simple multi-channel audio mixer
+
+Package: sdl2-mixer-static
+Version: 2.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: sdl2-mixer (= 2.8.2)
+Filename: pool/debs-20261104-024908-00/sdl2-mixer-static_2.8.2_aarch64.deb
+Size: 93016
+MD5sum: 2c9b835a9c462079476d66caccad3ac8
+SHA1: c91821f6b77ab088aef8131772bb7f6b5a5983a8
+SHA256: 2b31d160b49469d53415185265ec4265dc3f1e097a90f2d1f73f54108eded581
+Homepage: https://github.com/libsdl-org/SDL_mixer
+Description: Static libraries for sdl2-mixer
+
+Package: sdl2-net
+Version: 2.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: sdl2 | sdl2-compat
+Filename: pool/debs-20261104-024908-00/sdl2-net_2.4.0_aarch64.deb
+Size: 16700
+MD5sum: 2c383504cc5c28af308673fc8d8ac178
+SHA1: 99561abdf1b69118a3863397179bc1eadde4f481
+SHA256: 0dc817384c2c0c1114104393f6ea0cdf5f82ad1aea71530f3ac56e26378b3628
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Description: A small sample cross-platform networking library (version 2)
+
+Package: sdl2-net-static
+Version: 2.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: sdl2-net (= 2.4.0)
+Filename: pool/debs-20261104-024908-00/sdl2-net-static_2.4.0_aarch64.deb
+Size: 7180
+MD5sum: 11cd587b0d6b5e4b8e84a93fe871e84c
+SHA1: 6579fa3799fdcd345bff1b80f34c00f99c5d5013
+SHA256: 4e572c92cca51585e6a3532994ab285c44bf323ba08d97ddfb4dcad32a1c7d72
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Description: Static libraries for sdl2-net
+
+Package: spidermonkey
+Version: 140.17.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42404
+Depends: libicu, libnspr, libnss, zlib
+Filename: pool/debs-20261104-024908-00/spidermonkey_140.17.0_aarch64.deb
+Size: 12316260
+MD5sum: 6c9c26805f90e99cb08f23edde26d661
+SHA1: a8e8ea022d744840cd56b873812e45a79d13e00b
+SHA256: c92ed1f68bc354c16c3008995253043cec76526407ad5b830eaf1c54a1e027e4
+Homepage: https://spidermonkey.dev
+Description: Mozilla's JavaScript engine
+
+Package: tinysparql
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2216
+Depends: libicu, dbus, pygobject, python, json-glib, libxml2, sqlite
+Filename: pool/debs-20261104-024908-00/tinysparql_3.12.0_aarch64.deb
+Size: 688196
+MD5sum: b1aa0061e080419d2755434584e25d26
+SHA1: aaa0e9e6a0f6a70354efbda749eaa62a624edcc3
+SHA256: e26f6ee94550035af069dc8fed695cac2ac0db02b46f88801ceedd16cebce39a
+Homepage: https://gnome.pages.gitlab.gnome.org/tinysparql
+Description: Desktop-neutral metadata-based search framework
+
+Package: unicode-cldr
+Version: 49
+Architecture: all
+Maintainer: @termux
+Installed-Size: 296976
+Filename: pool/debs-20261104-024908-00/unicode-cldr_49_all.deb
+Size: 21221892
+MD5sum: 809bfe185734242433edfe72432a320b
+SHA1: ead3d9dbb5581943749586d7533da721c625bb10
+SHA256: a10c7aa177f060c2a32e82364a3ab648e31e45fb0f8c454b87b2556e0a2efbe1
+Homepage: http://cldr.unicode.org/
+Description: Unicode Common Locale Data Repository
+
+Package: unicode-emoji
+Version: 18.0.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1224
+Filename: pool/debs-20261104-024908-00/unicode-emoji_18.0.0_all.deb
+Size: 75112
+MD5sum: 248a97b2d24b7b865e2f1dc26c9c4cc7
+SHA1: 577b187aaf2e76a610916b1c91beee42bda70668
+SHA256: d82617ae083c7f3641be821eb3c44e040ed892c2a86e996d2a1319dcc1134bf4
+Homepage: https://unicode.org/emoji/
+Description: Unicode Emoji Data Files
+
+Package: xapp
+Version: 3.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1428
+Depends: glib, dbus, gigolo, gtk3, gdk-pixbuf, libcairo, libx11, libgnomekbd, pygobject, gobject-introspection, libdbusmenu, libdbusmenu-gtk3, xapp-symbolic-icons
+Filename: pool/debs-20261104-024908-00/xapp_3.4.0_aarch64.deb
+Size: 142396
+MD5sum: 8e12a887b09bb56b710f63594cd3ed6e
+SHA1: d0778af685007b9f21eddfeefc101ddc0ab93dd6
+SHA256: ad1c83ed744589b2b1ce1f132c1a8893d4f02650af54eed82ea03c9c5cf93f6d
+Homepage: https://github.com/linuxmint/xapp
+Description: Cross-desktop libraries and common resources
+
+Package: xapp-symbolic-icons
+Version: 1.1.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3024
+Depends: hicolor-icon-theme, python
+Filename: pool/debs-20261104-024908-00/xapp-symbolic-icons_1.1.1_aarch64.deb
+Size: 129636
+MD5sum: 36c67168fcce17d5c27cca20e0a6aa47
+SHA1: 8e963b1bd1243bf9d252cfb5a6d54d59ab7c922b
+SHA256: fea647eef78b41f5cb2f852edef048dcd43ab400ab5e15e5f0e8bb65807e2b00
+Homepage: https://github.com/xapp-project/xapp-symbolic-icons
+Description: A set of symbolic icons for Gtk applications and projects
+
+Package: xorg-xauth
+Version: 1.1.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libx11, libxau, libxext, libxmu
+Filename: pool/debs-20261104-024908-00/xorg-xauth_1.1.5_aarch64.deb
+Size: 20604
+MD5sum: 6afe765123b56fc64bfc67883943b6ab
+SHA1: 87edf7f7c24ccd20efb33a168c0f843625fe51cd
+SHA256: 2f1981ca9f901b433bd24abe1720beca6ac2e18c55a778ee0ff6c64aa138f3af
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org authorization settings program
+
+Package: xorg-xkbcomp
+Version: 1.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: libx11, libxkbfile
+Filename: pool/debs-20261104-024908-00/xorg-xkbcomp_1.5.0_aarch64.deb
+Size: 70708
+MD5sum: e0672dd7080c9d82f46f63e27287586c
+SHA1: d7d022ebc48df90a09f00fc7457ad9cdd84ce096
+SHA256: a7462b6e476e6f9739b05afa3b87e5c30e2c615259e307a890d110f67d046293
+Homepage: https://xorg.freedesktop.org/
+Description: X Keyboard description compiler
+

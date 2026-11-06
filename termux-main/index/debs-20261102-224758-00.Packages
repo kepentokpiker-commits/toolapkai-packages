@@ -1,0 +1,815 @@
+Package: accessibility-inspector
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 400
+Depends: kf6-kconfigwidgets, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-ki18n, kf6-kxmlgui, libc++, libqaccessibilityclient-qt6, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/accessibility-inspector_26.08.2_aarch64.deb
+Size: 68584
+MD5sum: 20e28404ea971c5e3160731cb3604722
+SHA1: 40104d8eda6d94e5dada606f38e1d556234b5d51
+SHA256: 9cf338320e6b257ab9cc9c736d5881d80691d92e7ed821486f8806822bca50bd
+Homepage: https://invent.kde.org/accessibility/accessibility-inspector
+Description: Inspect your application accessibility tree
+
+Package: ack-grep
+Version: 3.10.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 216
+Depends: perl
+Filename: pool/debs-20261102-224758-00/ack-grep_3.10.0_all.deb
+Size: 42240
+MD5sum: 5e691d112e6f1fefd81813f15fbfb6f6
+SHA1: 53b3839001f90ca1244c05f7fae1f3e46ff83602
+SHA256: 50eb8ea7fa9bd7076354ade7011757d5cb7413c68a4c2da08d5d42ce8b09d869
+Homepage: https://beyondgrep.com/
+Description: Tool like grep optimized for programmers
+
+Package: acr
+Version: 2.2.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: dash
+Filename: pool/debs-20261102-224758-00/acr_2.2.8_aarch64.deb
+Size: 52920
+MD5sum: aae7cec0cf8ea849fd398fa2f37974ed
+SHA1: 1c03b86a9a3b72ed2223cfd861baa48eb7ea5a32
+SHA256: e22320ed1816f04898bbcff53648792cfd1841c9dfa5caa9fc3f73a8d34abcb4
+Homepage: https://github.com/radareorg/acr
+Description: A fully compatible autoconf replacement
+
+Package: ada
+Version: 4.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1304
+Depends: libc++
+Filename: pool/debs-20261102-224758-00/ada_4.0.0_aarch64.deb
+Size: 251932
+MD5sum: 0ef833dcba2ea199192303ca8c28761b
+SHA1: 5c7b18bc5f42decfe24cebf5e4989fb587c2568d
+SHA256: 8527f21a7aca03da84b2bc40b42c8f18d57e7a74c3df6cf6525effd6a68d515e
+Homepage: https://github.com/ada-url/ada
+Description: WHATWG-compliant and fast URL parser written in modern C++
+
+Package: adms
+Version: 2.3.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 712
+Filename: pool/debs-20261102-224758-00/adms_2.3.7-1_aarch64.deb
+Size: 155524
+MD5sum: 6d0484419dbb42f7775c802489961574
+SHA1: aa852e718bdf8569409fc856486703173f5993d2
+SHA256: 110a1d3b34f5deb944ee79b1980061dfa850a75ce3ff701ff5f194af880121ed
+Homepage: https://github.com/qucs/adms
+Description: A code generator for the Verilog-AMS language
+
+Package: aerc
+Version: 0.22.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19028
+Filename: pool/debs-20261102-224758-00/aerc_0.22.0-1_aarch64.deb
+Size: 5121556
+MD5sum: d0314307da9c40fd07be9a932a6d25cd
+SHA1: 3912ec840041ad47a99f19ada5b586520e1a5e21
+SHA256: 3f0215517a1512be02f382b8b571684b025aceb4bb4e83c956ec919e6df675d0
+Homepage: https://aerc-mail.org/
+Description: A pretty good email client
+
+Package: agate
+Version: 3.3.25
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2124
+Filename: pool/debs-20261102-224758-00/agate_3.3.25_aarch64.deb
+Size: 796564
+MD5sum: 55fb8d7a86e82390cd255bfd70c17f72
+SHA1: 8b70d2828570b0e47e3599cb0121129f32d70ad6
+SHA256: c38ecfb70d742b80cdefb5ab74d5ebe0bdc74d87be2991911c5be20c7fa22498
+Homepage: https://github.com/mbrubeck/agate
+Description: Very simple server for the Gemini hypertext protocol
+
+Package: age
+Version: 1:1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10528
+Filename: pool/debs-20261102-224758-00/age_1_1.3.2-1_aarch64.deb
+Size: 2062188
+MD5sum: 5e1497c59f13c2fc3f4ec16903f22970
+SHA1: 8305cfc0156db5635d1f8a5807db828c9d47b230
+SHA256: fd13d144d81bc0b23f861badac3fc9969051ea3d2ebc3ae8096a818b947a06c0
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+
+Package: agg
+Version: 1.9.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13520
+Recommends: asciinema
+Filename: pool/debs-20261102-224758-00/agg_1.9.0_aarch64.deb
+Size: 4895464
+MD5sum: 29e25a5a50b82dfaafbbdef85db80dcb
+SHA1: 0cf2a89feed4580785ceabf36c49afe0b0340023
+SHA256: cbb28f9719640169ea11dbd569e36af0ed587f6e59f3b7eb94d993f41f4cb1df
+Homepage: https://github.com/asciinema/agg
+Description: asciinema gif generator
+
+Package: aha
+Version: 0.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/debs-20261102-224758-00/aha_0.5.1-2_aarch64.deb
+Size: 27052
+MD5sum: 73a4a90279bfe363312407c6d9fe241c
+SHA1: 0bb66f5c31db2522c607be97f7b8c610ac63d7c9
+SHA256: c11e64e2761fb7bd9d228e9bcb75a9c3392c8b33c8ce8f9a2e52666cbd065e32
+Homepage: https://github.com/theZiz/aha
+Description: Converts ANSI escape sequences of a unix terminal to HTML code
+
+Package: aichat
+Version: 0.30.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10396
+Filename: pool/debs-20261102-224758-00/aichat_0.30.0-1_aarch64.deb
+Size: 4003108
+MD5sum: 250fa98e92d1e2cca876c3a1cb9fdcda
+SHA1: 9730b724d26f044e9efc143e838b73d340f614a5
+SHA256: c82a6eaec10e933aee12acbcd7f044b85d2f8a7be0f803e6fe409f37642dcf34
+Homepage: https://github.com/sigoden/aichat
+Description: A powerful chatgpt cli
+
+Package: air
+Version: 1.67.4-1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 12176
+Filename: pool/debs-20261102-224758-00/air_1.67.4-1_aarch64.deb
+Size: 3258736
+MD5sum: 21648803060f3bed7ee661f78c5de52e
+SHA1: 4e4481f1c553591304313e5cb07f8b6185b36853
+SHA256: a2bf4d8710811c70c3b31ea37de188b6f989fe6928dad94a7ea43bc48fbde279
+Homepage: https://github.com/air-verse/air
+Description: Live reload for Go apps - rebuilds and restarts your binary on file change
+
+Package: docbook-xml
+Version: 5.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2420
+Depends: libxml2-utils
+Breaks: docbook-xsl (<= 1.79.2-1)
+Filename: pool/debs-20261102-224758-00/docbook-xml_5.1-1_all.deb
+Size: 78212
+MD5sum: 5fb4f18e1adb6ac47fa36f17afbdcaf7
+SHA1: 500da9db33ebf485ca26180546314aa82c48e462
+SHA256: ab945fd11cedb10f26e365752e6c953e2bfa28bb08fd6d0db82df29f86cf614b
+Homepage: https://www.oasis-open.org/docbook/
+Description: A widely used XML scheme for writing documentation and help
+
+Package: docbook-xsl
+Version: 1.79.2-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 33412
+Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
+Filename: pool/debs-20261102-224758-00/docbook-xsl_1.79.2-4_all.deb
+Size: 1390712
+MD5sum: 833d51ea15ec1cce979deeeb5c2d79cd
+SHA1: 57841398f4ab7051d7acd7eebabf8cbb6060fed4
+SHA256: 532a4e5bf59135bf1ecc12238b216444c755abaa77418d02770fdefc2a9f1ff3
+Homepage: https://docbook.org/
+Description: XML stylesheets for Docbook-xml transformations
+
+Package: gettext
+Version: 1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32032
+Depends: attr, libc++, libiconv, libunistring, libxml2, ncurses
+Breaks: gettext-dev
+Replaces: gettext-dev
+Filename: pool/debs-20261102-224758-00/gettext_1.0_aarch64.deb
+Size: 3041328
+MD5sum: 9b6f30e7e0c1178a695edb53a87ad4e2
+SHA1: b90d9c888e89b17670ebae574e541d135c225642
+SHA256: 9c9fb5b78c565f8ab5fb04666bb587faea59c27a94f7b97e95723b254fad5dab
+Homepage: https://www.gnu.org/software/gettext/
+Description: GNU Internationalization utilities
+
+Package: gettext-static
+Version: 1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4056
+Depends: gettext (= 1.0)
+Filename: pool/debs-20261102-224758-00/gettext-static_1.0_aarch64.deb
+Size: 571672
+MD5sum: 88235244d5ed409365983e0792b20a63
+SHA1: cae354c567f1de8a101918dc20321b6454ab5829
+SHA256: 6790fec4eaf18ebf9deb5dfbab821b3526ec9f7b071a13edbf1435849c87b222
+Homepage: https://www.gnu.org/software/gettext/
+Description: Static libraries for gettext
+
+Package: gstreamer
+Version: 1.28.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9584
+Depends: glib
+Suggests: gst-plugins-base, gst-plugins-libav, gst-plugins-good, gst-plugins-bad, gst-plugins-ugly
+Breaks: gstreamer-dev
+Replaces: gstreamer-dev
+Filename: pool/debs-20261102-224758-00/gstreamer_1.28.8_aarch64.deb
+Size: 1345996
+MD5sum: 444734acd804233bab1410478ed50ef2
+SHA1: a1baf3858e053121c972eef5550e767997195484
+SHA256: 2c93e9b16f4d1589f5dfa5b7089efebcc66ee8cc01bd5f0443fb06c2bbf320bd
+Homepage: https://gstreamer.freedesktop.org/
+Description: Open source multimedia framework
+
+Package: iso-codes
+Version: 4.20.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3064
+Filename: pool/debs-20261102-224758-00/iso-codes_4.20.1_all.deb
+Size: 258416
+MD5sum: b55ea88eeff038420b61923bef5abb8e
+SHA1: 0902350d4442981ae4a19e6755e3392dd37a03b7
+SHA256: 5884bb8dbea6d8badd646c3620813bd43071528262e134261f6d4a69be76d4fb
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: Lists of the country, language, and currency names
+
+Package: kf6-breeze-icons
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10368
+Depends: qt6-qtbase, kf6-breeze-icons-data
+Filename: pool/debs-20261102-224758-00/kf6-breeze-icons_6.31.0_aarch64.deb
+Size: 2691504
+MD5sum: 4d5f26cf0a6e527369745ead595d31c7
+SHA1: bf1d1c8888fc7a93a6c9a33cc1378a9d5271c3ad
+SHA256: d454d38204a06def9a7c6bd8362e21a8367c974d0f2cb52852877c6b3a5c6336
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Description: Breeze icon theme
+
+Package: kf6-breeze-icons-data
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 73496
+Filename: pool/debs-20261102-224758-00/kf6-breeze-icons-data_6.31.0_all.deb
+Size: 6560384
+MD5sum: addb4028497efacbe9e2d3ebdea21d9d
+SHA1: 06c07e2c1df9e417b469cd00d6c188adf0ab234c
+SHA256: efcaa9aad699f74e4cd9c7700624947d68f30d24b31d01bdb030c2a96651e640
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Description: Platform-independent data for kf6-breeze-icons
+
+Package: kf6-karchive
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: libbz2, libc++, liblzma, qt6-qtbase, zlib, zstd
+Filename: pool/debs-20261102-224758-00/kf6-karchive_6.31.0_aarch64.deb
+Size: 101572
+MD5sum: fd7c25084e4b3b8bfaeef788a26a58c4
+SHA1: 6f6f1190d626cac22a4a5eb52da81435230dbe74
+SHA256: cc928f1d9d9aa5b8e9443b31dea2e9446fa05dd8daabc95bad1bee3118c009ba
+Homepage: https://invent.kde.org/frameworks/karchive
+Description: Qt addon providing access to numerous types of archives (KDE)
+
+Package: kf6-karchive-cross-tools
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1608
+Depends: qt6-qtbase-cross-tools, kf6-karchive (= 6.31.0)
+Filename: pool/debs-20261102-224758-00/kf6-karchive-cross-tools_6.31.0_all.deb
+Size: 213512
+MD5sum: 40b1cc6d29a80e80cac0b7af95ad9698
+SHA1: e6eb4cdebc94fcc062b2a3c0d689fb33876a670c
+SHA256: 24c9a0245cc8cec61fa2e3612623aaad4eb4b9e28df6b310a1f11a8a7ccdf687
+Homepage: https://invent.kde.org/frameworks/karchive
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: kf6-kauth
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: libc++, qt6-qtbase, kf6-kcoreaddons (>= 6.31)
+Filename: pool/debs-20261102-224758-00/kf6-kauth_6.31.0_aarch64.deb
+Size: 53864
+MD5sum: 6c083adc41134c118aa2996fcaf5a631
+SHA1: 74727eb2d1eb41992c527d7b26b4363957f2f9aa
+SHA256: 5677b90e6c1bb81ccc9f6eba74991563a07e76fa6d6c8bd26e770f4b1b51abf7
+Homepage: https://invent.kde.org/frameworks/kauth
+Description: Framework which lets applications perform actions as a privileged user (KDE)
+
+Package: kf6-kbookmarks
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: kf6-kconfig (>= 6.31), kf6-kconfigwidgets (>= 6.31), kf6-kcoreaddons (>= 6.31), kf6-kwidgetsaddons (>= 6.31), libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kbookmarks_6.31.0_aarch64.deb
+Size: 64484
+MD5sum: 758ef0d77050b8942649a53fb2120fce
+SHA1: a95028aed8bfcb18271053f15077faeb72884cb9
+SHA256: 9de797b940425a3c36741bc68804cce82406bb4b62f5dc231e01baa07fc005c4
+Homepage: https://invent.kde.org/frameworks/kbookmarks
+Description: Support for bookmarks and the XBEL format
+
+Package: kf6-kcodecs
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kcodecs_6.31.0_aarch64.deb
+Size: 118576
+MD5sum: ad8501557cbf9b4f2a3b7682af7656a9
+SHA1: 9f1ba95447cc548f7f45b416f4791425db84c142
+SHA256: 6584239b059819f42cc8c40e4a0a5566fac30ce291c342de9d22888d388f0e5c
+Homepage: https://invent.kde.org/frameworks/kcodecs
+Description: Method collection to manipulate strings using various encodings (KDE)
+
+Package: kf6-kcolorscheme
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: kf6-kconfig (>= 6.31), kf6-kguiaddons (>= 6.31), kf6-ki18n (>= 6.31), libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kcolorscheme_6.31.0_aarch64.deb
+Size: 39688
+MD5sum: dd775851efbc048b7f0edc99c4b34ed9
+SHA1: e0cb4440a9a338af5dad97a0f2a6f647acb45d35
+SHA256: c785b9b1e8e0d7928250e9510ae3c3c57d94b64912bbd796f46d57e06513da5a
+Homepage: https://invent.kde.org/frameworks/kcolorscheme
+Description: Classes to read and interact with KColorScheme
+
+Package: kf6-kcompletion
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: kf6-kcodecs (>= 6.31), kf6-kconfig (>= 6.31), kf6-kwidgetsaddons (>= 6.31), libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kcompletion_6.31.0_aarch64.deb
+Size: 85728
+MD5sum: 360563da2aaf913bf58245a9d7d85ca5
+SHA1: 27245dfdf0bd7513583b7e7859302dd45d5242d6
+SHA256: af26745964a44788c2303a07ff1a68964c94aba90645fa36ea99b69443dfdb08
+Homepage: https://invent.kde.org/frameworks/kcompletion
+Description: Text completion helpers and widgets
+
+Package: kf6-kconfig
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1772
+Depends: libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261102-224758-00/kf6-kconfig_6.31.0_aarch64.deb
+Size: 292344
+MD5sum: 559ac26b2275d13f81f0657fb74b90ac
+SHA1: 2c32871e4adef3e03d89494a9137188af5cb9b1a
+SHA256: c727d365959afbaf676a77538ea4081195c1439e05fe45379663719794d3de55
+Homepage: https://invent.kde.org/frameworks/kconfig
+Description: Advanced configuration system (KDE)
+
+Package: kf6-kconfig-cross-tools
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 452
+Depends: qt6-qtbase-cross-tools, kf6-kconfig (= 6.31.0)
+Filename: pool/debs-20261102-224758-00/kf6-kconfig-cross-tools_6.31.0_all.deb
+Size: 106028
+MD5sum: 2566e02490c7a54dca0a6cf21bce60dc
+SHA1: c989509ce3c5a022a6d976bdd8975c3c095fbebc
+SHA256: 40496437cfc389c2354dae023ef160f0b05d047d84e38814480223f6f770fa2d
+Homepage: https://invent.kde.org/frameworks/kconfig
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: kf6-kconfigwidgets
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: kf6-kcodecs (>= 6.31), kf6-kcolorscheme (>= 6.31), kf6-kconfig (>= 6.31), kf6-kcoreaddons (>= 6.31), kf6-ki18n (>= 6.31), kf6-kwidgetsaddons (>= 6.31), libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kconfigwidgets_6.31.0_aarch64.deb
+Size: 110692
+MD5sum: 914551450aca352b7bbbae01d3aac0ab
+SHA1: 6f7592bb921f6e811cdbe79cf9ccf24e293c89ab
+SHA256: 10ced1ae918bc4175095b5f475bb80ce50a7683aa6dded75acb27a90e327a647
+Homepage: https://invent.kde.org/frameworks/kconfigwidgets
+Description: Widgets for KConfig
+
+Package: kf6-kcoreaddons
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2300
+Depends: libc++, libmount, qt6-qtbase, qt6-qtdeclarative, shared-mime-info
+Filename: pool/debs-20261102-224758-00/kf6-kcoreaddons_6.31.0_aarch64.deb
+Size: 404748
+MD5sum: 5a1f110bbf67ce0c4b2b87c54982a555
+SHA1: 268578ea8f9827ca55a4f984aba44b69fbe9ffc0
+SHA256: e0fab4e1bfaf74325788800d130469da0d4483b76542cd7e616ce174e778d9a3
+Homepage: https://invent.kde.org/frameworks/kcoreaddons
+Description: Utilities for core application functionality and accessing the OS (KDE)
+
+Package: kf6-kcoreaddons-cross-tools
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 5012
+Depends: qt6-qtbase-cross-tools, kf6-kcoreaddons (= 6.31.0)
+Filename: pool/debs-20261102-224758-00/kf6-kcoreaddons-cross-tools_6.31.0_all.deb
+Size: 653276
+MD5sum: 708df28cb925622036e7b4024a077b70
+SHA1: d3b763907a9c4e20cf89ce6ac56e6bd0da4c16c6
+SHA256: 8631691bfb5dec325435c39df4ad181e4790077aea2e27d7978cf1b65af74254
+Homepage: https://invent.kde.org/frameworks/kcoreaddons
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: kf6-kcrash
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: kf6-kcoreaddons (>= 6.31), libc++, libx11, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kcrash_6.31.0_aarch64.deb
+Size: 34020
+MD5sum: b875a497d9de895de00222d48460c557
+SHA1: fe4130aef949dc52bc9d5235bb819a414afd141a
+SHA256: ec89cb358606c56f327224480695497d75639f972f8693487050e613f054f530
+Homepage: https://invent.kde.org/frameworks/kcrash
+Description: Support for application crash analysis and bug report from apps
+
+Package: kf6-kdbusaddons
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Depends: qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kdbusaddons_6.31.0_aarch64.deb
+Size: 47876
+MD5sum: 2a2369ace58462142602a9fd6daeb4ea
+SHA1: fb4d6b355c2dcab2c4fd885c0bdaf6d6deba9d65
+SHA256: a7dca05a814918c2ff40ee58770dbc556b25ab75e34c1691ceba0541471029cd
+Homepage: https://invent.kde.org/frameworks/kdbusaddons
+Description: Addons to QtDBus
+
+Package: kf6-kdoctools
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6284
+Depends: docbook-xsl, kf6-karchive, libc++, libxml2, libxslt, perl, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kdoctools_6.31.0_aarch64.deb
+Size: 365556
+MD5sum: 1fde4ef8115cab921c4ac4b414a70ba0
+SHA1: 88bc4578b9e135882b2de5dcd4ea386909c6a539
+SHA256: 8c7d824ddac8f692526b465c2393efc6d58b4bf5f6c2ebad1a196a6bf00829f6
+Homepage: https://invent.kde.org/frameworks/kdoctools
+Description: Documentation generation from docbook
+
+Package: kf6-kdoctools-cross-tools
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 7756
+Depends: qt6-qtbase-cross-tools, kf6-kdoctools (= 6.31.0)
+Filename: pool/debs-20261102-224758-00/kf6-kdoctools-cross-tools_6.31.0_all.deb
+Size: 411324
+MD5sum: 0f9b90ea0abe356d4dbc37e55b997835
+SHA1: 9e3d8aee0c9dfc7a3c14634ccc02f24aa217efcf
+SHA256: 4ce6c3c0d1180593bd7779689798263545c725bb28341b95c6e09ff4c555839c
+Homepage: https://invent.kde.org/frameworks/kdoctools
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: kf6-kglobalaccel
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Depends: qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kglobalaccel_6.31.0_aarch64.deb
+Size: 65244
+MD5sum: 70db28885a81cbf001e78b4c6fd8f93a
+SHA1: a250d8259e568dcad9a1e48ece8515ed7f6c04e4
+SHA256: ed27578bf68c4f320ed93485932af4e887d45ae4c8faca9d55e28848039694e2
+Homepage: https://invent.kde.org/frameworks/kglobalaccel
+Description: Add support for global workspace shortcuts
+
+Package: kf6-kguiaddons
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 924
+Depends: libc++, libwayland, libx11, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261102-224758-00/kf6-kguiaddons_6.31.0_aarch64.deb
+Size: 132284
+MD5sum: 6321b2a1d24dc8268f39344aa5f7d182
+SHA1: 05a689c4375ba7650c7b9afb0bc94d92e70d72e4
+SHA256: ab1a60fc362ea7c9bd121a7a82ae0088e19920aa27fa920384dc944aa6a3eb20
+Homepage: https://invent.kde.org/frameworks/kguiaddons
+Description: The KDE GUI Add-ons
+
+Package: kf6-ki18n
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2564
+Depends: gettext, iso-codes, libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261102-224758-00/kf6-ki18n_6.31.0_aarch64.deb
+Size: 439464
+MD5sum: d84ea70dc7f5859eaf7e20d4f513b468
+SHA1: ac8374e30d0522bc5812f9555dda96fb76600ff5
+SHA256: 65df2e845b2fef93d8639d8f71f0a7f35a367d6f9da9c32a4b6f19b066cda9e2
+Homepage: https://invent.kde.org/frameworks/ki18n
+Description: KDE Gettext-based UI text internationalization
+
+Package: kf6-ki18n-cross-tools
+Version: 6.31.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 20000
+Depends: qt6-qtbase-cross-tools, kf6-ki18n (= 6.31.0)
+Filename: pool/debs-20261102-224758-00/kf6-ki18n-cross-tools_6.31.0_all.deb
+Size: 1583640
+MD5sum: ebce01d42021073d9897ead3d07369ff
+SHA1: be9f1ca8018d48a2ae19b4d9251f6253a6d27556
+SHA256: 97c5316b86c16e026d5c32ac2c2d96d83904fa9b360ba070a6a5f71a2d8d8c2f
+Homepage: https://invent.kde.org/frameworks/ki18n
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: kf6-kiconthemes
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 680
+Depends: kf6-breeze-icons (>= 6.31), kf6-karchive (>= 6.31), kf6-kcolorscheme (>= 6.31), kf6-kconfig (>= 6.31), kf6-kconfigwidgets (>= 6.31), kf6-ki18n (>= 6.31), kf6-kwidgetsaddons (>= 6.31), libc++, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261102-224758-00/kf6-kiconthemes_6.31.0_aarch64.deb
+Size: 112140
+MD5sum: db0cc0d4b2c5eca000b3972ed39468a8
+SHA1: 65c652559d232740153e04913aebf5edeeb153db
+SHA256: fee9b6f8f76dfd94b3fc2bc44076c75ee4b62a2a19ad649e83ce9682226b1c02
+Homepage: https://invent.kde.org/frameworks/kiconthemes
+Description: Support for icon themes
+
+Package: kf6-kitemviews
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 520
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kitemviews_6.31.0_aarch64.deb
+Size: 88028
+MD5sum: 23481b74229a6c20eeff11c472561fa8
+SHA1: 11b72559a5082e03c254b4dff820f8c0217e9da1
+SHA256: 92c6d539ed9dcf8fccb41eb96b45a25cc4e365714a7bf0f9441a0b83b4cff8bb
+Homepage: https://invent.kde.org/frameworks/kitemviews
+Description: Set of item views extending the Qt model-view framework (KDE)
+
+Package: kf6-kwidgetsaddons
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5916
+Depends: libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kwidgetsaddons_6.31.0_aarch64.deb
+Size: 1226940
+MD5sum: 5b1167dfeeecb57b7030579da1ff017a
+SHA1: 7210477a46494a893b83a8261ae17b730e4921b4
+SHA256: bc77bae5d5b065aecf72554ea0461cc48e233acdc35afac6c45548c07959c972
+Homepage: https://invent.kde.org/frameworks/kwidgetsaddons
+Description: Large set of desktop Qt widgets (KDE)
+
+Package: kf6-kxmlgui
+Version: 6.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1280
+Depends: kf6-kcolorscheme (>= 6.31), kf6-kconfig (>= 6.31), kf6-kconfigwidgets (>= 6.31), kf6-kcoreaddons (>= 6.31), kf6-kglobalaccel (>= 6.31), kf6-kguiaddons (>= 6.31), kf6-ki18n (>= 6.31), kf6-kiconthemes (>= 6.31), kf6-kitemviews (>= 6.31), kf6-kwidgetsaddons (>= 6.31), libc++, qt6-qtbase
+Filename: pool/debs-20261102-224758-00/kf6-kxmlgui_6.31.0_aarch64.deb
+Size: 252428
+MD5sum: 421ed90e294f25a7732bdc34574be199
+SHA1: 259ba71d51acccdf302d297bca96d7bb0a9138b5
+SHA256: 1a06197ee1f6ef13e83e765b29f66e049708987caec013116b0c937f2d8a25a1
+Homepage: https://invent.kde.org/frameworks/kxmlgui
+Description: User configurable main windows
+
+Package: libltdl
+Version: 2.6.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Breaks: libtool (<< 2.4.7-2)
+Replaces: libtool (<< 2.4.7-2)
+Filename: pool/debs-20261102-224758-00/libltdl_2.6.2_aarch64.deb
+Size: 18084
+MD5sum: 5fc7a06608d7a96503f5526869ac69d4
+SHA1: 2b3cec619c53c56313dfe7bb57ca48e2f70ed094
+SHA256: 317ac8f7da59d8843e403667ae72ae02d16f896c3a4d7837e76b60c47e856276
+Homepage: https://www.gnu.org/software/libtool/
+Description: Library for dlopening libraries
+
+Package: libogg
+Version: 1.3.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Breaks: libogg-dev
+Replaces: libogg-dev
+Filename: pool/debs-20261102-224758-00/libogg_1.3.6-1_aarch64.deb
+Size: 188704
+MD5sum: 1132cf998eb7610f0afbfeb599d70d82
+SHA1: 676db9a4e17a7d4697c2f4e84a53879ba0d2c0c3
+SHA256: af82ade1a39bfe542165d1c82a94095fa8052f017078aae8f12a93b12fb10366
+Homepage: https://xiph.org/ogg/
+Description: Library for working with the Ogg multimedia container format
+
+Package: libogg-static
+Version: 1.3.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: libogg (= 1.3.6-1)
+Filename: pool/debs-20261102-224758-00/libogg-static_1.3.6-1_aarch64.deb
+Size: 16604
+MD5sum: 020bd997695af30cca59a9bc3193b7e7
+SHA1: bba4a943e20fbfb2131892ed0d5ab2f5fb1becca
+SHA256: 8c9b3495785dd34eabde60681360799060877ecc6cf400ef63b034fe6e60e4ad
+Homepage: https://xiph.org/ogg/
+Description: Static libraries for libogg
+
+Package: libqaccessibilityclient-qt6
+Version: 0.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 464
+Depends: libc++
+Filename: pool/debs-20261102-224758-00/libqaccessibilityclient-qt6_0.6.0_aarch64.deb
+Size: 83064
+MD5sum: eb2e045142a86584ec1d896c0537f9a6
+SHA1: e585c7c9d0d2b9082908febbc6903b897cfb6e57
+SHA256: e2a6c80748e83a76c8b0933ccf01b6035a1a88082d452312c63410649bad4168
+Homepage: https://invent.kde.org/libraries/libqaccessibilityclient
+Description: Helper library to make writing accessibility tools easier
+
+Package: libtool
+Version: 2.6.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2884
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Replaces: libtool-dev, libtool-static
+Filename: pool/debs-20261102-224758-00/libtool_2.6.2_aarch64.deb
+Size: 401632
+MD5sum: f4a2675a8273bbc215ae58e9e5763389
+SHA1: de683d1c00881b0584f33ff4c5fc0621e48c3684
+SHA256: c040cd5dbfd2bbc13773850166241d299c87a681647a09035d587a6e31554060
+Homepage: https://www.gnu.org/software/libtool/
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+
+Package: libvorbis
+Version: 1.3.7-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1780
+Depends: libogg
+Breaks: libvorbis-dev
+Replaces: libvorbis-dev
+Filename: pool/debs-20261102-224758-00/libvorbis_1.3.7-4_aarch64.deb
+Size: 262960
+MD5sum: 32fab92c90d33655670ef8cb2453f0ee
+SHA1: 3e5491433726c50e0d6caa5fb8f066a7af00793f
+SHA256: a7debeefeb17fee56f9c6b0e16e29e463f97c8df182ef7eb49e1a99aae34b129
+Homepage: https://xiph.org/vorbis/
+Description: Library for using the Ogg Vorbis compressed audio format
+
+Package: libvorbis-static
+Version: 1.3.7-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1020
+Depends: libvorbis (= 1.3.7-4)
+Filename: pool/debs-20261102-224758-00/libvorbis-static_1.3.7-4_aarch64.deb
+Size: 157304
+MD5sum: fc7944c25b8088854ca371408483763a
+SHA1: 000bf4d672bf2cfb0e751a927fba460d11e2ec09
+SHA256: 6ee83f9b63b43f812c18353addb1a8fe322cfe7cf9767394aaf4c0d843efa247
+Homepage: https://xiph.org/vorbis/
+Description: Static libraries for libvorbis
+
+Package: pkg-config
+Version: 0.29.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: glib
+Filename: pool/debs-20261102-224758-00/pkg-config_0.29.2-3_aarch64.deb
+Size: 32852
+MD5sum: 2aef8992932284d60c9d0a287f11528b
+SHA1: 4c9a16a4e91dd028c9b8488cf246719dfc35a007
+SHA256: 1bda2dde6044d665945dc9985cf4f602b6d0727fb01208cc02d7873e47c3f9d8
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Description: Helper tool used when compiling applications and libraries
+
+Package: plasma-wayland-protocols
+Version: 1.23.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Filename: pool/debs-20261102-224758-00/plasma-wayland-protocols_1.23.0_aarch64.deb
+Size: 36420
+MD5sum: 87665ca71a5dc338454dd593c3d69a33
+SHA1: 007130f24e5549aeee9daaf67facedfa8306e020
+SHA256: 71a339d1e5fb84525f0edd164e0ed69f58efb7394af28c13518cd197dca0523e
+Homepage: https://kde.org/plasma-desktop
+Description: Plasma Specific Protocols for Wayland
+
+Package: python-lxml
+Version: 6.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4508
+Depends: libxml2, libxslt, python, python-pip
+Filename: pool/debs-20261102-224758-00/python-lxml_6.1.3_aarch64.deb
+Size: 1052748
+MD5sum: ff435ec7ad50cd6a21d72bc254f65fc1
+SHA1: 510efd92083bc5ee6f3187bdb622ae527911d2ca
+SHA256: 04fcdbd374a5504f326465392e12f5eb3a1bfb6868a104c43a72064beccf3136
+Homepage: https://github.com/lxml/lxml
+Description: Python binding for the libxml2 and libxslt libraries
+
+Package: qt6-qtsvg
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1388
+Depends: libc++, qt6-qtbase (>= 6.12.0), zlib
+Filename: pool/debs-20261102-224758-00/qt6-qtsvg_6.12.0_aarch64.deb
+Size: 216724
+MD5sum: 28e6991ca9ff3b31cf859b8aaf42ad38
+SHA1: 23a6c305f9235ee6331026b7b40304e5b459b4d2
+SHA256: 2961b1c025bb630abcd3d4b8e2ee78d46a8b20f954bdb06429edde846c761c17
+Homepage: https://www.qt.io/
+Description: Qt6 SVG Library
+
+Package: qt6-qtsvg-cross-tools
+Version: 6.12.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1612
+Depends: qt6-qtsvg (= 6.12.0)
+Filename: pool/debs-20261102-224758-00/qt6-qtsvg-cross-tools_6.12.0_all.deb
+Size: 260964
+MD5sum: 71b98d0e32459514ee2a3d10086081b6
+SHA1: 6655b4556994fa727083014a23f9282f94c46d7c
+SHA256: 90fa2baaae595113b77f05e1bc4d10b4684725176120728c9e6d23e7f700be9d
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: texinfo
+Version: 7.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11032
+Depends: gawk, libiconv, ncurses, perl
+Recommends: update-info-dir
+Filename: pool/debs-20261102-224758-00/texinfo_7.3_aarch64.deb
+Size: 1212616
+MD5sum: 95e50325fce8a1922f6311b490af9d91
+SHA1: a52bca1188f13ca7fee65cc2bc91420fe1b53812
+SHA256: 4d3a92a6aac62f421a1c45a4edb9fabc678d641e9079ea423ca0e07a9eec92e7
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Documentation system for on-line information and printed output
+
+Package: update-info-dir
+Version: 7.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 48
+Depends: texinfo (= 7.3)
+Filename: pool/debs-20261102-224758-00/update-info-dir_7.3_all.deb
+Size: 2488
+MD5sum: 4cd316e5242669f32fbe4da06342fe31
+SHA1: 7cffed94daeb725d03712d5a3fad3adacd763c32
+SHA256: bb569dcdb94d89576bd93c3984b4e22402b194a68be7cd97b32d65d39230276f
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Update or create index file from all installed info files in directory
+
