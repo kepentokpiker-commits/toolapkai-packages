@@ -1,0 +1,27 @@
+Architectures: aarch64
+Codename: stable
+Components: main
+Date: Tue, 10 Nov 2026 09:20:39 +0000
+Label: toolAPKAI
+Origin: toolAPKAI
+Suite: stable
+MD5Sum:
+ 2cd489c6b240e18f6c6d896756762259             1938 Release
+ 5d3831275d62c317b508ec0e9f76867a          1899023 main/binary-aarch64/Packages
+ 9ed7671b3d33861f95f7436e8562b579           629139 main/binary-aarch64/Packages.gz
+ 7c6bfb1d79940b001bc8af8e0ca37f60           498524 main/binary-aarch64/Packages.xz
+SHA1:
+ 8f15504cb8fca6d9467572e55696c23427df1cd8             1938 Release
+ 33e584707786f5893abf7cd203f734f0d470c6d8          1899023 main/binary-aarch64/Packages
+ 15ae2f8c3f49c9bf73049bfc28578c59e5c65e97           629139 main/binary-aarch64/Packages.gz
+ 2fa856220be2eb22245f561e31afd7e1212bcd74           498524 main/binary-aarch64/Packages.xz
+SHA256:
+ b386aecfffe908aacb86b969a5b19a910c815389a3072dd2640b4cc33e7b7b9c             1938 Release
+ f9018634c93656be457ab5f46cf9e58a12989f52065952a905286122767f6ded          1899023 main/binary-aarch64/Packages
+ 7efcbc655238f52676f8db445caf8dc811e8d6675fb0291c86c171907fdd0c88           629139 main/binary-aarch64/Packages.gz
+ be80ab55f6938a35b1f1ddf91a20a1a50bc32b5cd3cedf6a6698c84fcd924675           498524 main/binary-aarch64/Packages.xz
+SHA512:
+ 288b42fa421849d82fce156d3b8d8a2ac1788affb4c2e24356257fc4107a8b73b4c39722a63a7b293413fd5a873dac4487593e61267adfa73e3672cb9121aa87             1938 Release
+ 8b43c5f5df2ee6f6deaa044775c5749ce896aa2af65142077dd0711c90cea05984e333f15213b4f0dc1445688138e1a42493d396f80f4ce5784e8a13f9146c7f          1899023 main/binary-aarch64/Packages
+ e40568b07f70754c9208cd7a77bc5ad89f3c65aaf32a3a456de64f81352aecbead61d5ec31e33787589c08f6ff9df172641a3dc9b1840a2f91bbef071366ddec           629139 main/binary-aarch64/Packages.gz
+ 26eae0a2422a59ede75c392a35950007ae13505aa614694ffaee84b11514890ffdeaa534ba32b6dc775341613bec8c7b7d656348747413861b736817d650d262           498524 main/binary-aarch64/Packages.xz

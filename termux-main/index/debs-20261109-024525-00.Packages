@@ -1,0 +1,829 @@
+Package: plasma
+Version: 6.7
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: aurorae, breeze, breeze-gtk, kactivitymanagerd, kde-cli-tools, kde-gtk-config, kdecoration, kglobalacceld, kinfocenter, kmenuedit, knighttime, kpipewire, kscreen, ksystemstats, kwayland, kwin-x11, layer-shell-qt, libkscreen, libksysguard, libplasma, milou, ocean-sound-theme, oxygen, oxygen-sounds, plasma-activities, plasma-activities-stats, plasma-browser-integration, plasma-desktop, plasma-integration, plasma-nm, plasma-pa, plasma-systemmonitor, plasma-welcome, plasma-workspace, plasma-workspace-wallpapers, print-manager, spectacle, systemsettings, xdg-desktop-portal-kde
+Recommends: kdeplasma-addons
+Suggests: plasma-sdk
+Filename: pool/debs-20261109-024525-00/plasma_6.7_all.deb
+Size: 1008
+MD5sum: 9e20061cc6a5ea30b6fd17ce666c5012
+SHA1: 145a90a6a4ad52f5a93ce533485fd3e48adcf203
+SHA256: d24d96259f738fe3c934262d918a39b305053cb4e416d99fd1cf5ebd3ec72c2b
+Homepage: https://kde.org/plasma-desktop/
+Description: Meta package to install KDE Plasma
+
+Package: plasma-sdk
+Version: 6.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2484
+Depends: kf6-karchive, kf6-kcmutils, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdbusaddons, kf6-kdeclarative, kf6-ki18n, kf6-kiconthemes, kf6-kio, kf6-kirigami, kf6-kitemmodels, kf6-knewstuff, kf6-kpackage, kf6-ksvg, kf6-ktexteditor, kf6-kwidgetsaddons, libc++, libplasma, plasma5support, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative
+Filename: pool/debs-20261109-024525-00/plasma-sdk_6.7.5_aarch64.deb
+Size: 376488
+MD5sum: 15169f2ed0a22f7a70d981fc1d6c5828
+SHA1: a7a631b10f0c4b0988e576b418926254f37e85a1
+SHA256: f2a131512595106102a0d243aa05eb023e6b1ae85d3eb3b3f3df3cc495e74db5
+Homepage: https://invent.kde.org/plasma/plasma-sdk
+Description: Applications useful for Plasma development
+
+Package: play-audio
+Version: 0.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 168
+Depends: libc++
+Filename: pool/debs-20261109-024525-00/play-audio_0.6-2_aarch64.deb
+Size: 4644
+MD5sum: 50d4fa4344c05f5667d3508beb047471
+SHA1: 05ae457d239b55add2995ee8490129d5ff87006b
+SHA256: 626590ffcb0001d08f4368fa812c38ee275a4bcf42a44fc119e8a2557790a4b9
+Homepage: https://github.com/termux/play-audio
+Description: Simple command line audio player for Android
+
+Package: playwright
+Version: 1.64.1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 19128
+Depends: chromium, nodejs | nodejs-lts
+Recommends: ffmpeg, firefox
+Filename: pool/debs-20261109-024525-00/playwright_1.64.1_aarch64.deb
+Size: 2548252
+MD5sum: 2fb8feffcbdb416529753a06ca06fdb3
+SHA1: 8a93ef0f4c31ae1b8c3533b7cbe0f9c129c2616c
+SHA256: cace49efcd0de92dccab5b6895aeec79a628434dde0430cabfcb10958062d2cc
+Homepage: https://playwright.dev
+Description: Browser automation library and test runner for JavaScript/TypeScript
+
+Package: plocate
+Version: 1.1.25
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: libc++, zstd
+Suggests: cronie
+Breaks: mlocate
+Replaces: mlocate
+Provides: locate, mlocate
+Filename: pool/debs-20261109-024525-00/plocate_1.1.25_aarch64.deb
+Size: 98792
+MD5sum: 8ae06a379f1d1a0cbab6e06e1f7c647d
+SHA1: 85e2c7a1afa38084d0b72a4cf71477851581e9e6
+SHA256: a22047c4ddeed069c7f844b969529d7ea4d23e1004db05a5a2fc4d7270591d9f
+Homepage: https://plocate.sesse.net/
+Description: A much faster locate
+
+Package: plotutils
+Version: 2.6-33
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2736
+Depends: libice, libpng, libsm, libx11, libxaw, libxext, libxmu, libxt, zlib
+Filename: pool/debs-20261109-024525-00/plotutils_2.6-33_aarch64.deb
+Size: 584072
+MD5sum: f207772d5e86679e1d80ab8a006f72ab
+SHA1: 741e2d261f5afd35c55d585241dc0f030baf04e7
+SHA256: 565fdd971934c13e92011f0d93d05dbd72ec70df75fd23435ebbaf4d890f1769
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Description: Set of utilities and libraries for plotting.
+
+Package: plotutils-static
+Version: 2.6-33
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1872
+Depends: plotutils (= 2.6-33)
+Filename: pool/debs-20261109-024525-00/plotutils-static_2.6-33_aarch64.deb
+Size: 315840
+MD5sum: 59a7eb0a642f02480f654526588a96fe
+SHA1: 8891832ab2cc2eb93a32fba3237df84a50aeb279
+SHA256: e78e37eeb235e0d972fc1025270a77817428e422f655bd172fa0a6b6ed1019f7
+Homepage: https://directory.fsf.org/wiki/Plotutils
+Description: Static libraries for plotutils
+
+Package: plzip
+Version: 1.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: libc++, lzlib
+Filename: pool/debs-20261109-024525-00/plzip_1.13_aarch64.deb
+Size: 54348
+MD5sum: 60c95ac77a4b18becde67135da43cfc7
+SHA1: 93d4cb102174a5247aa4f3fd57c56a47133465fd
+SHA256: 0af4dedce1e8dcb58553df68046c34ed1f5ec0ca6a96c75d8b2121564ff7e8f4
+Homepage: https://www.nongnu.org/lzip/plzip.html
+Description: A massively parallel lossless data compressor based on the lzlib compression library
+
+Package: pngcrush
+Version: 1.8.13-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: libpng, zlib
+Filename: pool/debs-20261109-024525-00/pngcrush_1.8.13-2_aarch64.deb
+Size: 37388
+MD5sum: cf61048a1360f272d66b2c31cb1df71c
+SHA1: 1d2cfabc4aa7629da3b28e338723210466692cb0
+SHA256: 6eac5c4b8a11e1ba67d36300f83ac22114342fb6a845938a2cf1c6523dec9e0b
+Homepage: https://pmt.sourceforge.io/pngcrush/
+Description: Recompresses png files
+
+Package: pngquant
+Version: 3.0.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 720
+Depends: littlecms, zlib
+Filename: pool/debs-20261109-024525-00/pngquant_3.0.3-2_aarch64.deb
+Size: 236312
+MD5sum: a62b852d2255a20a3378ca18583a1806
+SHA1: da76d1e456d5bad20c2d8fffbca3a737fb26f702
+SHA256: 0af98cd4ffc0d183e5cedbfe35d6addf96f80c5d274bd3a3cd241cd5faca548f
+Homepage: https://pngquant.org
+Description: PNG image optimising utility
+
+Package: pnpm
+Version: 12.17.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 46192
+Depends: git, nodejs | nodejs-lts
+Filename: pool/debs-20261109-024525-00/pnpm_12.17.0_aarch64.deb
+Size: 13957220
+MD5sum: 57c86426d29178d1940150f1cc983c34
+SHA1: c6e49247494b0b8755912e909e8099d4e9f770cf
+SHA256: 01d28062f76c52099499eb39abd11916811cd0245a1068bdd1c609067970a4a2
+Homepage: https://pnpm.io
+Description: Fast, disk space efficient package manager for JavaScript
+
+Package: pocketbase
+Version: 0.40.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33716
+Depends: resolv-conf
+Filename: pool/debs-20261109-024525-00/pocketbase_0.40.6_aarch64.deb
+Size: 8661332
+MD5sum: 5a6f543e21a91942080c67275428b5f8
+SHA1: a179c4351ad0ee96f37e1ef2a71500eeeab68c2c
+SHA256: 1c9e231b968b46e7685ce76088e3c1253efeae085b56317462b196b0a64e059e
+Homepage: https://github.com/pocketbase/pocketbase
+Description: An open source Go backend
+
+Package: poke
+Version: 5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4032
+Depends: gettext, libgc, ncurses, readline
+Filename: pool/debs-20261109-024525-00/poke_5.0_aarch64.deb
+Size: 653036
+MD5sum: 7fd65197364410c50987cacbf6601d82
+SHA1: 889224c44be00b347714d82a1f0c0b8a27e0ed4b
+SHA256: 2ffd8b63ed55080ef3a1292ee4bc32be3ac4c8299a14508ede1a79a09dd2da28
+Homepage: https://www.jemarch.net/poke.html
+Description: Interactive, extensible editor for binary data.
+
+Package: poke-static
+Version: 5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1912
+Depends: poke (= 5.0)
+Filename: pool/debs-20261109-024525-00/poke-static_5.0_aarch64.deb
+Size: 343688
+MD5sum: a0daf17a753fb4ae0ad8fa1478a11f15
+SHA1: b963aec514ba5871e29762a2ef86a119f7309c8b
+SHA256: 82c67f71b5e993abf35c9275a0ebe776cacfa9739ac824b4dd4438e968b98f15
+Homepage: https://www.jemarch.net/poke.html
+Description: Static libraries for poke
+
+Package: polyml
+Version: 5.9.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20028
+Depends: libandroid-posix-semaphore, libc++, libffi, libgmp
+Filename: pool/debs-20261109-024525-00/polyml_5.9.2-1_aarch64.deb
+Size: 1943272
+MD5sum: 51edb91d6d65f33366734676a683bbcf
+SHA1: df5ddc1dc3b6754c4dcf52a7a8b314395190f9f7
+SHA256: 41b4542cdcb282645bb3fbabea935c5aae83fd5ae9d4e28f9b90faaf49c2a0b0
+Homepage: https://www.polyml.org/
+Description: A Standard ML implementation
+
+Package: polyphone
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5936
+Depends: glib, libc++, libflac, libogg, librtmidi, libvorbis, libsndfile, openssl, pulseaudio, qcustomplot, qt5-qtbase, qt5-qtsvg, zlib
+Filename: pool/debs-20261109-024525-00/polyphone_2.6.0_aarch64.deb
+Size: 1720980
+MD5sum: 73836248db65b0d5ac3aeea18b0392e3
+SHA1: dbf6607e0f4811b52802c08a23a23b0a4b2932bf
+SHA256: 03cfb25e92e2d614743a8c39ef60013bad660a523fcade2f21a0a2d14e20d573
+Homepage: https://www.polyphone-soundfonts.com/
+Description: An open-source soundfont editor for creating musical instruments
+
+Package: pomodoro-curses
+Version: 2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: libinih, ncurses
+Filename: pool/debs-20261109-024525-00/pomodoro-curses_2.5-1_aarch64.deb
+Size: 9116
+MD5sum: e04d18fc40ea316b32244572da20de0f
+SHA1: 93b1ef52347ca1a708917aee2229ca994e476104
+SHA256: 49f2201e52b12560d7121d86d2d53bccc64fa013e06f7056effe6101eec5b978
+Homepage: https://github.com/chunga2020/pomodoro_curses
+Description: A simple pomodoro timer written with the Ncurses library
+
+Package: pong2
+Version: 0.1.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1212
+Depends: glu, libc++, opengl, openssl, sdl, sdl-image
+Filename: pool/debs-20261109-024525-00/pong2_0.1.3-3_aarch64.deb
+Size: 946816
+MD5sum: f0ddcfd9bdfb2fd1bc968376baf56c9a
+SHA1: 676da7c010a7b06336be4b3be35d1ca6dd386f29
+SHA256: 7ffcde30509d0ea83fc9ab3177f9160f566202a5856f5d2905a782aa8b4e396b
+Homepage: https://sourceforge.net/projects/pong2.berlios/
+Description: A Three Dimensional Pong Game
+
+Package: posixvala
+Version: 0.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 248
+Filename: pool/debs-20261109-024525-00/posixvala_0.2_all.deb
+Size: 4668
+MD5sum: 9e3e44721e25dc591cfbc4b37787b205
+SHA1: 34a2e633eeeb8ac9bbd92ab2cc93db4679a3eb8d
+SHA256: 1ba4c1c459844aef0fa12d2306153af5158fd657095a891ca3908a8136e8ac0a
+Homepage: https://github.com/radare/posixvala
+Description: Aims to bring back the posix profile for Vala
+
+Package: postgis
+Version: 3.7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38388
+Depends: gdal, json-c, libc++, libgeos, libiconv, libprotobuf-c, libxml2, pcre2, postgresql, proj
+Filename: pool/debs-20261109-024525-00/postgis_3.7.0_aarch64.deb
+Size: 1669032
+MD5sum: aa5038bb7230f242cf3950585234d7f2
+SHA1: d2d7726c92454ed174189e26afda976bcef0b2bd
+SHA256: 6d51a7233aef4ff9749a59cf7edd37242cdd569f5df0045a58fdbbae67b4c718
+Homepage: https://postgis.net
+Description: Spatial database extender for PostgreSQL object-relational database
+
+Package: pounce
+Version: 3.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libcrypt, libretls
+Filename: pool/debs-20261109-024525-00/pounce_3.2_aarch64.deb
+Size: 30636
+MD5sum: 886c9098346ca0b7e9b86167158baa8a
+SHA1: 5de3f8b83eb5e9cd65437fccd65952dd27ae435c
+SHA256: a700233b7ef5e7f96c2af49e7877838eadd8db647136546c619447f3834bfed5
+Homepage: https://git.causal.agency/pounce
+Description: A multi-client, TLS-only IRC bouncer
+
+Package: povray
+Version: 3.8.0-beta.2-22
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2668
+Depends: boost, imath, libc++, libjpeg-turbo, libpng, libtiff, openexr, povray-data, zlib
+Filename: pool/debs-20261109-024525-00/povray_3.8.0-beta.2-22_aarch64.deb
+Size: 740084
+MD5sum: a79c9921e0aa03b7fc2e1bba9e847b90
+SHA1: 86764531d74822fcd84ea27a8039f34a85d9b572
+SHA256: d77c23f3ed8ab12ca807827dda71d087f5c1011dd07314a308ec4b06c1b69b99
+Homepage: https://www.povray.org/
+Description: The Persistence of Vision Raytracer
+
+Package: povray-data
+Version: 3.8.0-beta.2-22
+Architecture: all
+Maintainer: @termux
+Installed-Size: 23064
+Breaks: povray (<< 3.8.0-beta.2-2)
+Replaces: povray (<< 3.8.0-beta.2-2)
+Filename: pool/debs-20261109-024525-00/povray-data_3.8.0-beta.2-22_all.deb
+Size: 10357488
+MD5sum: 63ca9580b56df9c76222fda739ec2cbe
+SHA1: 5d4cb679d0318b7a0c5061b3c762f0585957e889
+SHA256: 03114fce9ad6ee0a0fac85177dd3e68e6d75011e969400a5e75a23fc92e0b900
+Homepage: https://www.povray.org/
+Description: Platform-independent data for povray
+
+Package: praat
+Version: 7.0.02
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88352
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libc++, libcairo, pango, pulseaudio, zlib
+Filename: pool/debs-20261109-024525-00/praat_7.0.02_aarch64.deb
+Size: 45383624
+MD5sum: 6c50e5a144e334c8280416f5f4c651db
+SHA1: 9067a389c7694c2f7671b90c4b33519d04521746
+SHA256: c79f927cd8c3f2a4f677678248d889c4275e2adac26f6143959c572a447a1d18
+Homepage: https://www.praat.org
+Description: Doing phonetics by computer
+
+Package: predict
+Version: 3.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1912
+Depends: libcurl, ncurses, ncurses-ui-libs,play-audio
+Filename: pool/debs-20261109-024525-00/predict_3.0.2_aarch64.deb
+Size: 1255448
+MD5sum: b3a0f6664530fe10c1f40b235709bb88
+SHA1: 9a4bc49e3b3d6a7c3529ce36e3c2fa6114b6c639
+SHA256: bf39b510347824046415d47782e3c9ad97ef03535a5c15be6b1015a41d6338c2
+Homepage: https://www.qsl.net/kd2bd/predict.html
+Description: A Satellite Tracking/Orbital Prediction Program
+
+Package: privoxy
+Version: 4.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2904
+Depends: pcre2, zlib
+Filename: pool/debs-20261109-024525-00/privoxy_4.2.0_aarch64.deb
+Size: 572860
+MD5sum: d583a31c465e53ec8b028d7811cc6e77
+SHA1: 53a760482a36cd12b997b7abac5569d24b5840ef
+SHA256: 457852015c293a2c6256e7c05e302ce3753c73479df675094c0883a5878e78dd
+Homepage: https://www.privoxy.org
+Description: Non-caching web proxy with advanced filtering capabilities
+
+Package: procs
+Version: 0.14.12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5144
+Filename: pool/debs-20261109-024525-00/procs_0.14.12_aarch64.deb
+Size: 1425680
+MD5sum: 153168d5f1c0a9a28eef76e891271986
+SHA1: 14e8c02a2fef64ad07d00d086ae5b962242d6edd
+SHA256: 867c271b58adbbe444c69d871f591d1951bc85f3d907e89434e6074cc1b33e8a
+Homepage: https://github.com/dalance/procs
+Description: A modern replacement for ps
+
+Package: procyon-decompiler
+Version: 0.6.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2132
+Depends: openjdk-21
+Filename: pool/debs-20261109-024525-00/procyon-decompiler_0.6.0-2_all.deb
+Size: 1847980
+MD5sum: f63f5aa6a897d36068ed2b625dc5ed65
+SHA1: 27d417160825cf969fc2177e9e985c072e13eaef
+SHA256: 36f3777f91f936e64856a2169018c15644db0b7cc5e421d2c052f12f3137846c
+Homepage: https://github.com/mstrobel/procyon
+Description: A standalone front-end for the Java decompiler in Procyon Compiler Toolset
+
+Package: progress
+Version: 0.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: libandroid-wordexp, ncurses
+Filename: pool/debs-20261109-024525-00/progress_0.17-1_aarch64.deb
+Size: 11292
+MD5sum: 40e007d5f2a514dc7a7c0aafb845428b
+SHA1: 3f26a1b393e5576ffbc5d64329aac1bdc970cb24
+SHA256: 8a70eec2944235b9baeaa0b5b717201ce7b6e878177f0e6efd0dc97a0a9fc776
+Homepage: https://github.com/Xfennec/progress
+Description: Linux tool to show progress for cp, mv, dd and more
+
+Package: proot-distro
+Version: 5.10.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1836
+Depends: proot (>= 5.1.107-71), python, python-pip
+Suggests: bash-completion, termux-api, zsh-completions
+Filename: pool/debs-20261109-024525-00/proot-distro_5.10.3_all.deb
+Size: 294176
+MD5sum: 48b4e14491b0c40a3d27d8b568683cd3
+SHA1: e0bd180337b1a39853920d70ab2444741813d210
+SHA256: f633233174cf70aaae35ad2e94b30d87cdc69a5a9b17cb9b1256055004f19392
+Homepage: https://github.com/termux/proot-distro
+Description: Termux official utility for managing proot'ed Linux distributions
+
+Package: proton-bridge
+Version: 3.27.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32268
+Depends: glib, libsecret
+Filename: pool/debs-20261109-024525-00/proton-bridge_3.27.1-1_aarch64.deb
+Size: 7988708
+MD5sum: 3f008ff8a8d70c328dde9d0291e97433
+SHA1: eecdbf1d70407f950379237a8340509b0dee23f7
+SHA256: d8f63002008a9611987cac2cf541c9245555348957624bfab665c772573de0aa
+Homepage: https://github.com/ProtonMail/proton-bridge
+Description: ProtonMail Bridge application
+
+Package: proton-pass-cli
+Version: 2.5.1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 27516
+Depends: openssl, protobuf, sqlcipher, zlib
+Filename: pool/debs-20261109-024525-00/proton-pass-cli_2.5.1_aarch64.deb
+Size: 6869008
+MD5sum: e202ad33726b9f3d3f760d9d3219e511
+SHA1: bd77605975d3caf9c48c16f340b4133e11eb7707
+SHA256: 6dcf25c7a7f4d6ee4fdfbce60a8b59d9490873b0d0aa11f92e8ae9986da2ba62
+Homepage: https://protonpass.github.io/pass-cli/
+Description: Proton Pass Command Line Interface (CLI)
+
+Package: prover9
+Version: 2009-11A-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10048
+Filename: pool/debs-20261109-024525-00/prover9_2009-11A-2_aarch64.deb
+Size: 904668
+MD5sum: 755d93d4fac60b97341ef6e387e41674
+SHA1: e302c9713b6d03b4c6be7ec7548aeae7f357f79c
+SHA256: b6a79f1735298f73b2f48d96da9b122777b061411563ffd0953a357cbaf15b09
+Homepage: https://www.cs.unm.edu/~mccune/prover9/
+Description: An automated theorem prover for first-order and equational logic
+
+Package: prowlarr
+Version: 2.7.0.5723-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39888
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, mono, libesqlite3, libcurl
+Filename: pool/debs-20261109-024525-00/prowlarr_2.7.0.5723-2_aarch64.deb
+Size: 11216432
+MD5sum: 1a89ee520e781230b17a6125f55ce195
+SHA1: ff28be35bac9843a7d36fe5585b9ec22c9307ce4
+SHA256: 56a3e57ef218308e87d0f1ecafe2b14a27b79e874e0220d09e9801c1e8756fd9
+Homepage: https://prowlarr.com
+Description: An indexer manager/proxy built on the popular arr stack (server)
+
+Package: proxmark3
+Version: 1:4.23346
+Architecture: aarch64
+Maintainer: Marlin Sööse <marlin.soose@esque.ca>
+Installed-Size: 47440
+Depends: libbz2, libc++, liblz4, readline, python
+Filename: pool/debs-20261109-024525-00/proxmark3_1_4.23346_aarch64.deb
+Size: 6276672
+MD5sum: 85037a84516eea6646b0157168b92e73
+SHA1: fbfd3adf9a49a9686600a562274ba569b935edb7
+SHA256: 4a63bb78a5f5980860353ee275b100462f02b6bd7692f85e4e2e082c8a78ac3d
+Homepage: https://github.com/RfidResearchGroup/proxmark3
+Description: The Swiss Army Knife of RFID Research - RRG/Iceman repo
+
+Package: proxychains-ng
+Version: 4.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/debs-20261109-024525-00/proxychains-ng_4.17-1_aarch64.deb
+Size: 24156
+MD5sum: a1ee4bbb12323928e7f601e674adcf48
+SHA1: 5f086c5760e24fedf43485f3a34652bf81e546d3
+SHA256: 2f877b16406e660899f09d16ff6fb3e60f7db827aa655b96036ab552066f2a11
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies
+
+Package: ptunnel-ng
+Version: 1.43-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Filename: pool/debs-20261109-024525-00/ptunnel-ng_1.43-1_aarch64.deb
+Size: 21044
+MD5sum: bb1c6502bbb4fbaa59dfd7c4a8846baf
+SHA1: 72608ffe95ce7fc43708cf505a49d7bb0fcb0545
+SHA256: 5b8c1f28c6b4419d587b2edc0d96ed74fd4b1596937c35153e0d032c61f400ac
+Homepage: https://github.com/lnslbrty/ptunnel-ng
+Description: Tunnel TCP connections through ICMP
+
+Package: pueue
+Version: 4.0.4
+Architecture: aarch64
+Maintainer: @stevenxxiu
+Installed-Size: 10652
+Filename: pool/debs-20261109-024525-00/pueue_4.0.4_aarch64.deb
+Size: 2453540
+MD5sum: 6aecb3299ed773300b755bdaab5569a8
+SHA1: e4fc9a8beca09e090c34a3b2377e4d8d29501ea0
+SHA256: cc69ac8f168d5b542798adbcfa12e98803c5db707d9cf1a9e0617c9485372171
+Homepage: https://github.com/Nukesor/pueue
+Description: A command-line task management tool for sequential and parallel execution of long-running tasks
+
+Package: pup
+Version: 0.4.0-8
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 4376
+Filename: pool/debs-20261109-024525-00/pup_0.4.0-8_aarch64.deb
+Size: 1271916
+MD5sum: 449e5df54fdbf60726181e526c87d665
+SHA1: fda159829b5d88a1b5c230b68742eb4a4ed4d062
+SHA256: 075e3214ecf41a71be747802f754729a0246d768df0d4be003206ba2bc3d60c8
+Homepage: https://github.com/ericchiang/pup
+Description: command line tool for processing HTML
+
+Package: pure-ftpd
+Version: 1.0.54
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 628
+Depends: libcrypt, openssl
+Filename: pool/debs-20261109-024525-00/pure-ftpd_1.0.54_aarch64.deb
+Size: 133672
+MD5sum: 6ab6f7d5e61a69fdc8a26e1aa6767415
+SHA1: 39f73d945d518b20366fb1a4bf4cf9ed5c7d2071
+SHA256: bd46afe66d1380d5cf0f29819c202fdc5448a2f0f30bad35b7f0935aaed96614
+Homepage: https://www.pureftpd.org/project/pure-ftpd
+Description: Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server
+
+Package: putty
+Version: 0.85
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2844
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libx11, pango
+Filename: pool/debs-20261109-024525-00/putty_0.85_aarch64.deb
+Size: 579556
+MD5sum: 837d227452457cebad50c5ff9c245653
+SHA1: 41041bf9cebb27dac6ff624530c0647db1f3841b
+SHA256: 7f790e5e737e57a10ea21c77440301ddcc9f7d9d3c1642d66f1e6023d98768ba
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+Description: A terminal integrated SSH/Telnet client
+
+Package: putty-tools
+Version: 0.85
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4644
+Depends: libandroid-glob
+Filename: pool/debs-20261109-024525-00/putty-tools_0.85_aarch64.deb
+Size: 624444
+MD5sum: 55a60e2507f0317db5bdd4959b9f90d7
+SHA1: 7d0b1ca473387b9f72ece084b95751fb93b09a7e
+SHA256: dd3e36b070ba36910c92497ee17484b94acd28b6a49cf66212f43601fd9a915a
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+Description: Command-line tools from the PuTTY suite
+
+Package: pv
+Version: 1.12.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1432
+Filename: pool/debs-20261109-024525-00/pv_1.12.7_aarch64.deb
+Size: 453608
+MD5sum: d339a0284400cfb506c51c7c4a195c1e
+SHA1: 1bf16f48e72a987bb9112c06d2bdbcffab0ddbab
+SHA256: 423a1d04edd6832f5743bceb306e3d4b2e6aa5a3df12aabadf8128f3a2bce893
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Terminal-based tool for monitoring the progress of data through a pipeline
+
+Package: pwgen
+Version: 2.08-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Filename: pool/debs-20261109-024525-00/pwgen_2.08-2_aarch64.deb
+Size: 12176
+MD5sum: 7d8f411f7df8c7977445ae72413f11c2
+SHA1: 8436dc1907374c58b9d35aa9c27ebc5e69ab5a27
+SHA256: 9952e85b8a6f8a143ac215a768e8baa5f0645bc670ca4f6be313b16c712f5713
+Homepage: http://pwgen.sourceforge.net/
+Description: Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords
+
+Package: pypy
+Version: 8.0.1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 62392
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy-tkinter
+Filename: pool/debs-20261109-024525-00/pypy_8.0.1_aarch64.deb
+Size: 10933316
+MD5sum: 3cb66bc23c0810d5ec621935104b0d70
+SHA1: 181db908245b5514be2e09b94b87aab9fe082490
+SHA256: f0ba9631be885aab135e1e58f67e799a33602099375e795bbea398e064e7863d
+Homepage: https://pypy.org
+Description: A fast, compliant alternative implementation of Python
+
+Package: pypy-tests
+Version: 8.0.1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 16956
+Depends: pypy (= 8.0.1)
+Filename: pool/debs-20261109-024525-00/pypy-tests_8.0.1_aarch64.deb
+Size: 2187816
+MD5sum: 4aaa4b842c37981bc6c638fca1413af7
+SHA1: 9a4dac1b0ff26cd6fb76fb115fe1f08a0ff2cb9a
+SHA256: 13a6951b3a53fc272069a5a63c3fdf9ee122564073fc8bf59c8f6623f3a1b1e6
+Homepage: https://pypy.org
+Description: Test files for PyPy
+
+Package: pypy-tkinter
+Version: 8.0.1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 124
+Depends: tk, pypy (= 8.0.1)
+Filename: pool/debs-20261109-024525-00/pypy-tkinter_8.0.1_aarch64.deb
+Size: 15628
+MD5sum: 6e1c7165dea16ac04cba9f89994cec56
+SHA1: c45ff3b89c9f5dfdbdaa881e23e7c1ad834597e5
+SHA256: a5ce413b736c5b0b86f8d4a451e65c7c979702a8d6a5ef1f449985b4045b5e3b
+Homepage: https://pypy.org
+Description: Tkinter support for PyPy
+
+Package: pypy3
+Version: 8.0.0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 72904
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy3-tkinter
+Filename: pool/debs-20261109-024525-00/pypy3_8.0.0_aarch64.deb
+Size: 13603432
+MD5sum: d1e326788e967703219ad1c19398904b
+SHA1: d3da1cbb6021b4a7b6dd65d98f5c4eaf9c25f1be
+SHA256: be1374d3ea49e827804852f16da7608e6a4acefd5189b2971bed756892892d37
+Homepage: https://pypy.org
+Description: A fast, compliant alternative implementation of Python 3
+
+Package: pypy3-tests
+Version: 8.0.0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 29360
+Depends: pypy3 (= 8.0.0)
+Filename: pool/debs-20261109-024525-00/pypy3-tests_8.0.0_aarch64.deb
+Size: 3498236
+MD5sum: 0cdf29a2d72709d2ab027f8486ef7dc8
+SHA1: 67be933d8c0368eb52afa95af53955d35ced1063
+SHA256: 468402f6decf311366972d1fbf04d00707f32f494536d455c2646ad793be47a2
+Homepage: https://pypy.org
+Description: Test files for PyPy 3
+
+Package: pypy3-tkinter
+Version: 8.0.0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 136
+Depends: tk, pypy3 (= 8.0.0)
+Filename: pool/debs-20261109-024525-00/pypy3-tkinter_8.0.0_aarch64.deb
+Size: 16596
+MD5sum: 76fc91906ed536e3f8e6a22d691ac246
+SHA1: 74c5d248743a24ead51ad76cc72dcad957c7c1ec
+SHA256: 9efb2ce717e39c0dec39f596d6e097a8d5ff4136f9aa521a40b3edbad43312c3
+Homepage: https://pypy.org
+Description: Tkinter support for PyPy 3
+
+Package: qcustomplot
+Version: 2.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2008
+Depends: libc++, qt5-qtbase
+Filename: pool/debs-20261109-024525-00/qcustomplot_2.1.1-1_aarch64.deb
+Size: 401436
+MD5sum: 24b5792da0495ef2e8c096137a614b04
+SHA1: f16c11593a3aa153c9174c52acac91b4b5a8db8f
+SHA256: 93b52fd02a017798bc56bd68b99fcb05d974a70aead0d7ed58b12bdbebc0a707
+Homepage: https://www.qcustomplot.com/
+Description: A Qt C++ widget for plotting and data visualization
+
+Package: qt5-qtsensors
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1620
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Filename: pool/debs-20261109-024525-00/qt5-qtsensors_5.15.18_aarch64.deb
+Size: 137104
+MD5sum: 22b3e971ade7aeaa805b63973fd484f1
+SHA1: b755dc0f6cab8a6737f8f25168cfbf16e5b06c7a
+SHA256: a90ceecc5a1b1b9eaeb7c14629536a6949cee54cf9fd281117518373483ec0c0
+Homepage: https://www.qt.io/
+Description: Qt 5 Sensors Library
+
+Package: qt5-qtwebchannel
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 580
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative, qt5-qtwebsockets
+Filename: pool/debs-20261109-024525-00/qt5-qtwebchannel_5.15.18_aarch64.deb
+Size: 60776
+MD5sum: 63b63d33d4804603ed90465f44149973
+SHA1: b9233d7c739707c6c10eaa50bba86f2d3b865465
+SHA256: 6e1bb0bbfd7e36524b53b893f188248a782ea76a1dd38a24c04a0c9e7b442644
+Homepage: https://www.qt.io/
+Description: Qt 5 WebChannel Library
+
+Package: qt5-qtwebsockets
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 700
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Filename: pool/debs-20261109-024525-00/qt5-qtwebsockets_5.15.18_aarch64.deb
+Size: 68512
+MD5sum: 5d4584e027ce834ffe0aed92bced9153
+SHA1: ad2aff76f12ea542b63ad32631ac7adb43e3d7b2
+SHA256: 73bd128e2a774d8042e3abf4cdbdcf5a17a58f7dc04e45d8d3acb09c81f54cff
+Homepage: https://www.qt.io/
+Description: Qt 5 WebSockets Library
+
+Package: qt5-qtxmlpatterns
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7808
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Filename: pool/debs-20261109-024525-00/qt5-qtxmlpatterns_5.15.18_aarch64.deb
+Size: 1014208
+MD5sum: a8d882d4babb0018ca88f75a31987506
+SHA1: d31de2755654f0e050525070638f304a31f3d3d2
+SHA256: e22655611cf3bf9c0f2f674c6d9ffff8f841a7b8fe2683ff43ced35bd0fea179
+Homepage: https://www.qt.io/
+Description: Qt XmlPatterns Library
+
+Package: sdl-image
+Version: 1.2.12-p20230130-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: libjpeg-turbo, libpng, libtiff, libwebp, sdl
+Filename: pool/debs-20261109-024525-00/sdl-image_1.2.12-p20230130-2_aarch64.deb
+Size: 22792
+MD5sum: 3708159d3b537b9b1a5cda6fecd6316f
+SHA1: e67b00a8e03fadc675c95c4120675ec713868e43
+SHA256: f407a81ca1a3e68caad96b718b8bde2b63c4e5c6ca4156b9a990dbc47d62cb1f
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Description: A simple library to load images of various formats as SDL surfaces
+
+Package: sdl-image-static
+Version: 1.2.12-p20230130-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: sdl-image (= 1.2.12-p20230130-2)
+Filename: pool/debs-20261109-024525-00/sdl-image-static_1.2.12-p20230130-2_aarch64.deb
+Size: 24876
+MD5sum: 3a3efea945554d3f089d231caeda0fa2
+SHA1: f88f34263205d5b8e67d1b1a950fd62fdb439eea
+SHA256: 4d240ac7b8a48e706549c58ab97b79b0d0adb85a0d31fcc36f9105077b0a9877
+Homepage: https://www.libsdl.org/projects/SDL_image/
+Description: Static libraries for sdl-image
+
+Package: sqlcipher
+Version: 4.20.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5140
+Depends: libedit, openssl
+Filename: pool/debs-20261109-024525-00/sqlcipher_4.20.0_aarch64.deb
+Size: 1106640
+MD5sum: 16e296b5108b20a90d62a5f75b414a7b
+SHA1: 84b96714d5decb3fe15fcaad871cfe6b87bfe866
+SHA256: af24a27d2faa85235e8937d744228f2ddb65f068e575d69f60262d48d98e2723
+Homepage: https://github.com/sqlcipher/sqlcipher
+Description: SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files
+
+Package: tomlplusplus
+Version: 3.4.0
+Architecture: aarch64
+Maintainer: @CosmyBeyondStars
+Installed-Size: 1032
+Filename: pool/debs-20261109-024525-00/tomlplusplus_3.4.0_aarch64.deb
+Size: 91564
+MD5sum: a5349b2b7c3d0dd6432899e7a9e83c89
+SHA1: 9d4258a2b5eb6468a909578a1a276e4122b3ac32
+SHA256: a76cb040f966c234633cce9adc312a7855f6255971c34d71daa33018d437fc25
+Homepage: https://marzer.github.io/tomlplusplus/
+Description: Header-only TOML config file parser and serializer for C++ 17
+

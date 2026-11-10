@@ -1,0 +1,105 @@
+Package: qt6-qtbase
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 79472
+Depends: brotli, double-conversion, freetype, glib, harfbuzz, krb5, libandroid-posix-semaphore, libandroid-shmem, libc++, libdrm, libglvnd-dev, libice, libicu, libjpeg-turbo, libpng, libsm, libsqlite, libuuid, libx11, libxcb, libxi, libxkbcommon, libwayland, opengl, openssl, pcre2, vulkan-loader, xcb-util-cursor, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, xdg-utils, zlib, zstd
+Conflicts: qt6-qtwayland (<< 6.10.0)
+Filename: pool/debs-20261102-210523-00/qt6-qtbase_6.12.0_aarch64.deb
+Size: 13020924
+MD5sum: 871ae06ebdcd9982c8e409a36205d904
+SHA1: fbe05d47c52e3c133343586cdfb8b88da927810a
+SHA256: f622087b471b804dedd1aa78838118907143a91cc2a01329420480d01898282a
+Homepage: https://www.qt.io/
+Description: A cross-platform application and UI framework
+
+Package: qt6-qtbase-cross-tools
+Version: 6.12.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 83892
+Depends: qt6-qtbase (= 6.12.0)
+Filename: pool/debs-20261102-210523-00/qt6-qtbase-cross-tools_6.12.0_all.deb
+Size: 15374008
+MD5sum: 34115bb49bf4ee3dadba39d2c22ba8aa
+SHA1: 8b0156d4113d0b4cf92e478296cd0d1d510ac942
+SHA256: 151add061813a423af9c6ea60012765fdc7d31f39f5017ad9d5ea8afd34eef3e
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: qt6-qtbase-gtk-platformtheme
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: gdk-pixbuf, gtk3, pango, qt6-qtbase (= 6.12.0)
+Filename: pool/debs-20261102-210523-00/qt6-qtbase-gtk-platformtheme_6.12.0_aarch64.deb
+Size: 55320
+MD5sum: 4e0e92f2542369148e6796eab060cab4
+SHA1: 047707aa8ea06ad72a67c2f2882967a9f50d7633
+SHA256: ad1ea81386734c2d7d26d455506e5517bed2ace2eb79b2a1640df72616094014
+Homepage: https://www.qt.io/
+Description: GTK+ 3 platform theme for Qt 6
+
+Package: qt6-qtlanguageserver
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8512
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Filename: pool/debs-20261102-210523-00/qt6-qtlanguageserver_6.12.0_aarch64.deb
+Size: 496856
+MD5sum: 039167d636caaeffe04d86e10e19fa50
+SHA1: b5a62f4cb56e0ad85f5b3c624de87ebacdfe4d1c
+SHA256: b438420e9dae7dab64ce710acd9ef457082a1fec9193b92142b69cffb6888b08
+Homepage: https://www.qt.io/
+Description: An implementation of the Language Server Protocol
+
+Package: qt6-qtlanguageserver-cross-tools
+Version: 6.12.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6144
+Depends: qt6-qtlanguageserver (= 6.12.0)
+Filename: pool/debs-20261102-210523-00/qt6-qtlanguageserver-cross-tools_6.12.0_all.deb
+Size: 387572
+MD5sum: 79458bfaf62cbe301978c1cde8660351
+SHA1: 967e758f5b0f71839e28a0d0e2264037d3082109
+SHA256: 0541da147486348a7d35c4d96ef759acaaf49f43299f019e0d5e79f9b8f919a4
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: qt6-qtshadertools
+Version: 6.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5804
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Breaks: qt6-shadertools
+Replaces: qt6-shadertools
+Provides: qt6-shadertools
+Filename: pool/debs-20261102-210523-00/qt6-qtshadertools_6.12.0-1_aarch64.deb
+Size: 1307948
+MD5sum: 77ada56c9013cd73ef057573e3f06f9b
+SHA1: 72ae8c37b34301ada19df71004e8ead3f32ae0e3
+SHA256: 5a07a80807cfd47858d8287bd9882569395dcb052f314ae72fa3b461119974e6
+Homepage: https://www.qt.io/
+Description: Qt6 Shader Tools
+
+Package: qt6-qtshadertools-cross-tools
+Version: 6.12.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 5328
+Depends: qt6-qtshadertools (= 6.12.0-1)
+Breaks: qt6-shadertools-cross-tools
+Replaces: qt6-shadertools-cross-tools
+Provides: qt6-shadertools-cross-tools
+Filename: pool/debs-20261102-210523-00/qt6-qtshadertools-cross-tools_6.12.0-1_all.deb
+Size: 1324232
+MD5sum: 4c71298a788f053463d5aafb0b9e1a20
+SHA1: 1d005c0e005e436a6c492f83e0de7648215a831b
+SHA256: 54ca40e90a6f8027d3e2cd8581e9ba5bb9b6b19768c27f74d6866823d7a1a387
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+

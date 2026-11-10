@@ -1,0 +1,186 @@
+Package: youtubedr
+Version: 2.10.6-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 17116
+Filename: pool/debs-20261110-045953-00/youtubedr_2.10.6-1_aarch64.deb
+Size: 4260808
+MD5sum: 8139f42ae9e75b78b61c6c6c6002ece5
+SHA1: 2cdea87ebb21e4314dc084ede6df552500765862
+SHA256: 90a6b41da2be5d67231cdd4f31a014575a35fda7732763f0bc4da8524e73a728
+Homepage: https://github.com/kkdai/youtube
+Description: Download youtube video in Golang
+
+Package: yq
+Version: 4.54.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14160
+Replaces: xpup
+Filename: pool/debs-20261110-045953-00/yq_4.54.1-1_aarch64.deb
+Size: 3820412
+MD5sum: 9f3fb2abaece649bb650ce6da357c7c9
+SHA1: d8ed778ac5e7c68a643607bd7b2620dcc06a687e
+SHA256: 59e1ebb39987f6a6ccc1b0c215080753cd819536bb3027d32aa5cf904333227d
+Homepage: https://mikefarah.gitbook.io/yq/
+Description: A lightweight and portable command-line YAML, JSON and XML processor
+
+Package: yt-dlp-ejs
+Version: 0.8.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 400
+Depends: deno | nodejs | nodejs-lts, python
+Filename: pool/debs-20261110-045953-00/yt-dlp-ejs_0.8.0-1_all.deb
+Size: 46356
+MD5sum: cda4f719a1f06434f5dc7a515f2b10ef
+SHA1: aeb673107b668eaae8b15c33f27fdd21bd693834
+SHA256: 5e2b9441430b682bb320ecbb25e566afd57cad32792bbd002fee43b63f580ac4
+Homepage: https://github.com/yt-dlp/ejs
+Description: External JavaScript for yt-dlp supporting many runtimes
+
+Package: ytfzf
+Version: 2.6.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 364
+Depends: curl, jq
+Recommends: fzf, mpv
+Filename: pool/debs-20261110-045953-00/ytfzf_2.6.2_all.deb
+Size: 62508
+MD5sum: eb15e236b4ff2031c58669cf5a313c35
+SHA1: 688d5d2032dda026088a273752984c25940448bb
+SHA256: 1a362d0724b1c5d0a5e29ec384ba2978dc898fb0e904a033846b5b386e51c7ee
+Homepage: https://github.com/pystardust/ytfzf
+Description: A POSIX script that helps you find Youtube videos (without API)
+
+Package: yuma123
+Version: 2.14
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5144
+Depends: libssh2, libxml2, openssl, readline
+Filename: pool/debs-20261110-045953-00/yuma123_2.14_aarch64.deb
+Size: 845656
+MD5sum: 70c444574c0c5bae576080a5519a41e2
+SHA1: dec57a96f724e26f6c1161ce2fbe30594443ca54
+SHA256: 09eb380bff394781f3577bb179452ef21c94aa6327e2405af60604191c295094
+Homepage: https://yuma123.org/
+Description: Provides an opensource YANG API in C
+
+Package: yuma123-static
+Version: 2.14
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14104
+Depends: yuma123 (= 2.14)
+Filename: pool/debs-20261110-045953-00/yuma123-static_2.14_aarch64.deb
+Size: 2151232
+MD5sum: 239c0e96dbf563407fd7199d5f524bfa
+SHA1: 95efee31865d69836b2e75b046ba58017a51d774
+SHA256: 0bd3c4f68c5b9339ad55c1ec45adb8020dd22bf8d42ea06f8d4416ef2c5db6a7
+Homepage: https://yuma123.org/
+Description: Static libraries for yuma123
+
+Package: z-push
+Version: 2.7.7
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4548
+Depends: apache2, php
+Filename: pool/debs-20261110-045953-00/z-push_2.7.7_all.deb
+Size: 506768
+MD5sum: a3b05214cca974f90427641e0acb7f94
+SHA1: f7ee5f87baf468d68d2641dbf1e60f3554fcac20
+SHA256: feccd4f35aaf5f069e395284ce93224b4d8a5807f1a6760643341fe8a88aba10
+Homepage: https://z-push.org/
+Description: An open-source application to synchronize ActiveSync compatible devices and Outlook
+
+Package: z3
+Version: 5.3.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 53660
+Depends: libc++
+Filename: pool/debs-20261110-045953-00/z3_5.3.3_aarch64.deb
+Size: 13676960
+MD5sum: db7c3bbd4b11a1b1d91fe51925d97a14
+SHA1: 276d151d4fd91d78cd59be41365170f31eca12ae
+SHA256: d978a6a5caa2af6ff44348433ff997ff4018f5001ff2dd3ad744f439e94389ea
+Homepage: https://github.com/Z3Prover/z3
+Description: Z3 is a theorem prover from Microsoft Research
+
+Package: zbar
+Version: 0.23.95
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 620
+Depends: imagemagick, libiconv, libjpeg-turbo
+Breaks: zbar-dev
+Replaces: zbar-dev
+Filename: pool/debs-20261110-045953-00/zbar_0.23.95_aarch64.deb
+Size: 119612
+MD5sum: 292fbea63889f55b7e23a1da5bd12009
+SHA1: a439b5d2e75c41fb54c1da657d329cc06a87824d
+SHA256: 94e9a8732cf07dc2f02a8ac9c435db925c9109498dabb2d12cab7cc5e66c361d
+Homepage: https://github.com/mchehab/zbar
+Description: Software suite for reading bar codes from various sources
+
+Package: zbar-static
+Version: 0.23.95
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: zbar (= 0.23.95)
+Filename: pool/debs-20261110-045953-00/zbar-static_0.23.95_aarch64.deb
+Size: 87520
+MD5sum: 916fddf987227c9cec9d4c92f15aebe6
+SHA1: 59db7142e59053025998da674c7178d933dcc88c
+SHA256: d3c71d5c35d7c89a104db9958e7be021b6d79b8da42ed7cbec58c9db70ffe22a
+Homepage: https://github.com/mchehab/zbar
+Description: Static libraries for zbar
+
+Package: zed
+Version: 1.26.2
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 327100
+Depends: alsa-lib, fontconfig, freetype, libwayland, libx11, libxcb, libxkbcommon, openssl, vulkan-loader-generic, zlib
+Recommends: git, vulkan-icd
+Filename: pool/debs-20261110-045953-00/zed_1.26.2_aarch64.deb
+Size: 70946208
+MD5sum: 9a15c2e43fe33829b74b38caba02d836
+SHA1: 8e3c89afddf8722a2346ab0ee52482bf8dd2649c
+SHA256: 09934d2a3a6ae231d89606dd471c699a42592b3b1a8c90f32c958fc4ecf32424
+Homepage: https://zed.dev
+Description: High-performance, multiplayer code editor
+
+Package: zen-browser
+Version: 1.24b
+Architecture: aarch64
+Maintainer: @sabamdarif
+Installed-Size: 306156
+Depends: ffmpeg, fontconfig, freetype, gdk-pixbuf, glib, gtk3, libandroid-shmem, libandroid-spawn, libc++, libcairo, libevent, libffi, libice, libicu, libjpeg-turbo, libnspr, libnss, libpixman, libsm, libvpx, libwayland, libwebp, libx11, libxcb, libxcomposite, libxdamage, libxext, libxfixes, libxkbcommon, libxrandr, libxtst, pango, pulseaudio, zlib
+Filename: pool/debs-20261110-045953-00/zen-browser_1.24b_aarch64.deb
+Size: 86647476
+MD5sum: f057cd3daf0883d403ac6179c2e99a60
+SHA1: 4e24267c7f6a6659fcde99999fe52360b76a4a94
+SHA256: 3fc38123bdf245d81b08587800eb5347aab732d63349ed1c06f185d209dc6182
+Homepage: https://zen-browser.app
+Description: Zen is a firefox-based browser with the aim of pushing your productivity to a new level!
+
+Package: zeronet
+Version: 0.7.1-9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6384
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Filename: pool/debs-20261110-045953-00/zeronet_0.7.1-9_all.deb
+Size: 1106144
+MD5sum: 5aab901ee52bbd7692a0fd40bdcc4ae8
+SHA1: 4698296127c10607060fa48a19b1f6b29d5ae2a9
+SHA256: d452479908e2479b61727b2fcb2432e688e7301c68ce078709bdf61b909fd5a8
+Homepage: https://zeronet.io/
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+

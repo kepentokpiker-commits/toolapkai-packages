@@ -1,0 +1,195 @@
+Package: pyqt5
+Version: 5.15.11-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22092
+Depends: libc++, python, qt5-qtbase, qt5-qtdeclarative, qt5-qtlocation, qt5-qtmultimedia, qt5-qtsensors, qt5-qtsvg, qt5-qttools, qt5-qtwebchannel, qt5-qtwebsockets, qt5-qtx11extras, qt5-qtxmlpatterns, python-pip
+Filename: pool/debs-20261109-053439-00/pyqt5_5.15.11-5_aarch64.deb
+Size: 2400552
+MD5sum: a877893603318a7d0a9919df70c016e6
+SHA1: a2f1537b27f2c6cd0c16a6d6ec445ce6d69f065b
+SHA256: fe7dfbd3500779a13d1cb301aa99b4695b44a7658c0d1f668fccfeed04022147
+Homepage: https://www.riverbankcomputing.com/software/pyqt/
+Description: Comprehensive Python Bindings for Qt v5
+
+Package: pyrefly
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @AhmadNaruto
+Installed-Size: 25400
+Filename: pool/debs-20261109-053439-00/pyrefly_1.4.0_aarch64.deb
+Size: 10004296
+MD5sum: bc27986ebf9420103190178997872f41
+SHA1: 6d060fe0f73daec6910d5a94ff8478fd17a1fa8d
+SHA256: 9a4eb16bb694e13c0f8b4e0ca6e6f2d43649024bbc2b504af21ba136f1428d5c
+Homepage: https://github.com/facebook/pyrefly.git
+Description: A fast type checker and language server for Python
+
+Package: python-apt
+Version: 3.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1032
+Depends: apt, libandroid-support, libc++, python
+Filename: pool/debs-20261109-053439-00/python-apt_3.1.0-2_aarch64.deb
+Size: 166748
+MD5sum: b2f7e2871c39cb41212b17f55dd2ba7b
+SHA1: fdbcf99be9ee9c208aad74a822ea28a8c4aaa8be
+SHA256: 37297ab5a5936347e83ed97dc2a856d1de60afc111e1c8dd6d964312c95362c0
+Homepage: https://apt-team.pages.debian.net/python-apt/
+Description: Python bindings for APT
+
+Package: python-cmake
+Version: 4.4.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: cmake, cmake-curses-gui, python, python-pip
+Filename: pool/debs-20261109-053439-00/python-cmake_4.4.4_aarch64.deb
+Size: 9212
+MD5sum: 7e04eee7b817cf41b56a1d601dd86e65
+SHA1: 6d36c1d13f414d838cf9699e7065b2f10c1b2e17
+SHA256: 623f766fc00153e3da1371040fa47acdf76d9dd06ab1ffbf159138d0b534f3cb
+Homepage: https://cmake-python-distributions.readthedocs.io/
+Description: Python wrapper for CMake
+
+Package: python-grpcio
+Version: 1.85.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21220
+Depends: abseil-cpp, c-ares, ca-certificates, libc++, libre2, openssl, python, python-pip, zlib
+Filename: pool/debs-20261109-053439-00/python-grpcio_1.85.1_aarch64.deb
+Size: 3953352
+MD5sum: b8dac8c199419371b63e8b6af9ec5626
+SHA1: 9d992643b3e2885b7b7652db41436762b1d07e7b
+SHA256: f1442d82f5da17bcd4740d651be91d67666a4a219c027ef8f0edda1340f65093
+Homepage: https://grpc.io/
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+
+Package: python-jellyfish
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 912
+Depends: python, python-pip
+Filename: pool/debs-20261109-053439-00/python-jellyfish_1.3.0_aarch64.deb
+Size: 240116
+MD5sum: 82492cdb093d4b70a0d303f96919a334
+SHA1: d7b025200235c9b8cda57d9c5d792d3d598236c9
+SHA256: ebfa27c491596a76a0fb7f90a80b0024094256130e94f10d017f31d4d25cddf3
+Homepage: https://codeberg.org/jpt/jellyfish
+Description: Library for approximate and phonetic matching of strings
+
+Package: python-lameenc
+Version: 1.9.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libandroid-support, libmp3lame, python
+Filename: pool/debs-20261109-053439-00/python-lameenc_1.9.0_aarch64.deb
+Size: 9004
+MD5sum: 4f02d7a4cefed813aa091f31e28de3d5
+SHA1: c93dac1a18bcb081dd7333eb3faade51af51ad3b
+SHA256: 910e77730c795f11856315d9c81b897b2dccdbcdfc98d83298a8c8e21b2ce3a5
+Homepage: https://github.com/chrisstaite/lameenc
+Description: Python bindings around the LAME encoder
+
+Package: python-llvmlite
+Version: 0.50.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 111472
+Depends: libc++, libffi, python, python-pip
+Filename: pool/debs-20261109-053439-00/python-llvmlite_0.50.0_aarch64.deb
+Size: 22163152
+MD5sum: 93ee317add22b8787edd6763440a829b
+SHA1: 4259539da138402315979515ba4f15c3f9f4c0d1
+SHA256: 5c43c9c4807e861c13525c330f82fa70d6e690a5af11ace7368b2a5c82f1170b
+Homepage: https://llvmlite.pydata.org/
+Description: A lightweight LLVM python binding for writing JIT compilers
+
+Package: python-playwright
+Version: 1.64.1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 2764
+Depends: playwright, python, python-pip, python-greenlet
+Filename: pool/debs-20261109-053439-00/python-playwright_1.64.1_aarch64.deb
+Size: 162324
+MD5sum: db21655a368dd4391b3fae4e9992e6e0
+SHA1: c8c62d576b4856d8e6065cc30a50b52f5d043d09
+SHA256: b5f6583571783bed050fe8b5da6e65ae43c65963b01d89784588f71c27a3c517
+Homepage: https://playwright.dev/python
+Description: Python bindings for Playwright browser automation
+
+Package: python-pynvim
+Version: 0.6.0-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 432
+Depends: python-pip, python-greenlet, python-msgpack
+Filename: pool/debs-20261109-053439-00/python-pynvim_0.6.0-3_all.deb
+Size: 35020
+MD5sum: ee3a87383f77dabfa89262ab5de34c48
+SHA1: 7b619fc10974c7a14f28c74c9676cf19380b67f0
+SHA256: 2f78667e9e17aa8b7ab5cc74c7cf55801f3fefedea9d3e3dc6afdc3ab321809f
+Homepage: https://github.com/neovim/pynvim
+Description: Python client for Neovim
+
+Package: python-rpds-py
+Version: 2026.9.1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 956
+Depends: python, python-pip
+Filename: pool/debs-20261109-053439-00/python-rpds-py_2026.9.1_aarch64.deb
+Size: 235496
+MD5sum: 101cb693ccdee55417a9287bb7a8e1f8
+SHA1: 2b201055561891285e0594aec130cd5acf3abe47
+SHA256: 742e5c2718ac242ef3b7ee6971bd9e09c49260f94dcecbe32a12175737f4a694
+Homepage: https://github.com/crate-py/rpds
+Description: Python bindings to Rust's persistent data structures (rpds)
+
+Package: python-sabyenc3
+Version: 9.7.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libc++, python
+Filename: pool/debs-20261109-053439-00/python-sabyenc3_9.7.3_aarch64.deb
+Size: 43344
+MD5sum: 146ab4fc934e29e02bd423d616063f9c
+SHA1: dcea44ea90067a7d8391031e088895724fb7507a
+SHA256: ba36527c08446c38af52cf91f17686bb6e99756e3435d2ea0120cdbe90d83f9e
+Homepage: https://github.com/sabnzbd/sabctools
+Description: C implementations of functions for use within SABnzbd
+
+Package: python-soxr
+Version: 1.1.0-2
+Architecture: aarch64
+Maintainer: DevGitPit <106362593+DevGitPit@users.noreply.github.com>
+Installed-Size: 440
+Depends: python, python-numpy, python-pip, libc++, libsoxr
+Filename: pool/debs-20261109-053439-00/python-soxr_1.1.0-2_aarch64.deb
+Size: 81344
+MD5sum: e2c957d91bbbe9e42860d5d616bc523d
+SHA1: 748b66a2c1daeee3e65e66a45120ffcaffa59b0d
+SHA256: 776bc7e74bbdd7beb8134f4a69119388e76651fe0e2e6b17a5ae5a4bc906908f
+Homepage: https://github.com/dofuuz/python-soxr
+Description: Fast and high quality sample-rate conversion library for Python
+
+Package: python-tldp
+Version: 0.7.5-8
+Architecture: all
+Maintainer: @termux
+Installed-Size: 440
+Depends: python, python-pip
+Filename: pool/debs-20261109-053439-00/python-tldp_0.7.5-8_all.deb
+Size: 34476
+MD5sum: ee770d5c17b033b6c07f4aac447a8384
+SHA1: 2d1357bee3c2c05f0291477a065fa6f57aeda16b
+SHA256: c7ba9c95c6ebeea13f09aa7c8e04b1eafa5e79b9b895690c81f4430a029cec27
+Homepage: https://github.com/tLDP/python-tldp
+Description: Tools for publishing from TLDP sources
+

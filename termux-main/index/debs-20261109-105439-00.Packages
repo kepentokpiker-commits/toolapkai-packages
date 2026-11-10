@@ -1,0 +1,2194 @@
+Package: python-ruff
+Version: 0.17.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 532
+Depends: python, python-pip, ruff (= 0.17.3)
+Filename: pool/debs-20261109-105439-00/python-ruff_0.17.3_aarch64.deb
+Size: 50616
+MD5sum: d3aee99c8f4e3e18e8b497b4a7509bbf
+SHA1: a173efab69f08d0f812ecc8124962becd1dae8c0
+SHA256: 0461b30f423cc78f8ec0f4cf2cdc7acf3cd6012f3b983f955ea4f2c89c89b3ab
+Homepage: https://github.com/charliermarsh/ruff
+Description: An extremely fast Python linter, written in Rust (Python bindings)
+
+Package: rawtherapee
+Version: 5.13-1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 124056
+Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, libraw, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
+Filename: pool/debs-20261109-105439-00/rawtherapee_5.13-1_aarch64.deb
+Size: 21260564
+MD5sum: be767628af630ac17b7ccd58db0719e4
+SHA1: 29993a8b96595d75255920275ad803a0dbc51f11
+SHA256: 21a0f9a7ffdc3b2d765c76bfbb9901be243ff36c32ddb56103707ea38271cc59
+Homepage: https://www.rawtherapee.com/
+Description: raw image converter and digital photo processor
+
+Package: raylib
+Version: 6.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2376
+Depends: glfw
+Filename: pool/debs-20261109-105439-00/raylib_6.2_aarch64.deb
+Size: 647312
+MD5sum: e37b8d52401716fc8eb66c63bf64887c
+SHA1: 62e4c67dc4425a16453dcfa0e287f168436134af
+SHA256: b80fc7f714c644952ae93972c7f45ef3290cef766f00949df8703892130d4a15
+Homepage: https://www.raylib.com/
+Description: A simple and easy-to-use library to enjoy videogames programming
+
+Package: rbw
+Version: 1.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14460
+Depends: pinentry
+Filename: pool/debs-20261109-105439-00/rbw_1.15.0_aarch64.deb
+Size: 2898876
+MD5sum: 03e5bf97fc79fe5a1d8b20be6354341c
+SHA1: 3929f1b779c308de4a5a148fa88b134dbce289f1
+SHA256: c5e10c2c02c41951b2a452bdf75d15f7791810154098c0294e7dda2c24026294
+Homepage: https://github.com/doy/rbw
+Description: An unofficial command line client for Bitwarden
+
+Package: rc
+Version: 1.7.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: readline
+Breaks: rcshell
+Replaces: rcshell
+Filename: pool/debs-20261109-105439-00/rc_1.7.4-2_aarch64.deb
+Size: 50244
+MD5sum: b747d30bac44ac85b8be87d776ff65f5
+SHA1: fd4fade146ac40a75d7c0bd4cfe240089334c5d6
+SHA256: 707a4cb79d5ed021fd0439807fcf2332e52869b6e47c25c269bf87d48f2f68f4
+Homepage: https://github.com/rakitzis/rc
+Description: An alternative implementation of the plan 9 rc shell
+
+Package: rclone
+Version: 1.75.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 86084
+Filename: pool/debs-20261109-105439-00/rclone_1.75.2-1_aarch64.deb
+Size: 19678972
+MD5sum: 8ad4f4ad683efa0f4f7695a439fc90bf
+SHA1: dbcecf1cb72a144d80522ef79498ce04616cc39e
+SHA256: 51c01adee8bb9abc1fe399ba6f68b917d9dc86b9acd0c1647dbdc14cc6c8e256
+Homepage: https://rclone.org/
+Description: rsync for cloud storage
+
+Package: rcm
+Version: 1.3.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 232
+Depends: bash
+Filename: pool/debs-20261109-105439-00/rcm_1.3.6_all.deb
+Size: 20204
+MD5sum: 38087c13fa35d74eeafc8e6269a77f0c
+SHA1: 9117671f69191a52546b0319bdf9e8db9cbad34c
+SHA256: e121201abbf73a3b858271115e9a0fe03f37153148b8e089e3bd2dfb1bbf8716
+Homepage: https://github.com/thoughtbot/rcm
+Description: Dotfiles management
+
+Package: rcs
+Version: 5.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 792
+Depends: diffutils
+Filename: pool/debs-20261109-105439-00/rcs_5.10.1-1_aarch64.deb
+Size: 166544
+MD5sum: 5fb0918e2b831e57e539d62739119011
+SHA1: 5d809b645c58a0345f7ebdf6cfa43c16daf3e7dd
+SHA256: 5e6c2c20c205e8f61fcf36a8e43200a09c83f04fdd2784dea32d8de9170c1dc1
+Homepage: https://www.gnu.org/s/rcs
+Description: The GNU Revision Control System
+
+Package: rdfind
+Version: 1.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: libc++, libnettle
+Filename: pool/debs-20261109-105439-00/rdfind_1.8.0_aarch64.deb
+Size: 41568
+MD5sum: 3f5f05de415b7fe25d5dc0206f705d53
+SHA1: 64d84e4a497a27a89fb44d38b7a13a2a4102dda1
+SHA256: faac4733b8fcac52f5d7a936d4c7714c0305c1136d80fef97f626b22bb0f3d78
+Homepage: https://github.com/pauldreik/rdfind
+Description: A tool for finding duplicate files
+
+Package: rdiff-backup
+Version: 2.2.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1684
+Depends: librsync, python, python-pip
+Filename: pool/debs-20261109-105439-00/rdiff-backup_2.2.7_aarch64.deb
+Size: 267104
+MD5sum: 6fa792caec10933110a0b6c720d745b5
+SHA1: c47c088daa615417de8a105d7c59dc1cd6cafde4
+SHA256: b777144efde68ab5533d82ee6a33d9190db95f47cc29c1e6b382a1e5cc2a0028
+Homepage: https://rdiff-backup.net
+Description: A utility for local/remote mirroring and incremental backups
+
+Package: rdircd
+Version: 2023.02.07-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 320
+Depends: python, python-pip
+Filename: pool/debs-20261109-105439-00/rdircd_2023.02.07-3_all.deb
+Size: 51824
+MD5sum: 36c64e05d50c8da2231ac5c961bb023d
+SHA1: 9af4a8b402ec42a69efab17261b83567b6c7caae
+SHA256: d0e78478ffb8f846a53ecd19b90780559e95456e4067f481ceb6026d6ae0024c
+Homepage: https://github.com/mk-fg/reliable-discord-client-irc-daemon
+Description: A daemon that allows using a personal Discord account through an IRC client
+
+Package: rdrview
+Version: 1:0.1.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libcurl, libiconv, libseccomp, libxml2
+Filename: pool/debs-20261109-105439-00/rdrview_1_0.1.5-1_aarch64.deb
+Size: 23308
+MD5sum: 9c3b375d9c834856e21819f3aec208fd
+SHA1: a21207fe32a69bbf5d9960f30d73867c6455d909
+SHA256: 4f68dced174bc9810c83c54d98ac6213a76b3d1f4c601b2d7ed49ecdb63216d0
+Homepage: https://github.com/eafer/rdrview
+Description: Command line tool to extract the main content from a webpage
+
+Package: re2c
+Version: 4.6
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 13072
+Depends: libc++
+Filename: pool/debs-20261109-105439-00/re2c_4.6_aarch64.deb
+Size: 869840
+MD5sum: 268a1ca02c11da6dc194118259370b90
+SHA1: 0dadb2a6088d7cdac85e7ea5b45611e40548b9b4
+SHA256: c5b291c4f0ef30a2133cfcb01f00125226bd2aecc0bbe26fac7a76fabc49c33d
+Homepage: https://re2c.org/
+Description: Lexer generator for C, C++ and Go.
+
+Package: recode
+Version: 3.7.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1696
+Depends: libiconv
+Filename: pool/debs-20261109-105439-00/recode_3.7.17_aarch64.deb
+Size: 319932
+MD5sum: 11ea13e2cf27f54326beafe5f40987a7
+SHA1: ddccf4d927f74db42f109351cab9d0bdbc41cc2e
+SHA256: d8c02454c2219daa4013068404b244a54a51c0fbe15dde0dbb08b8c1dbb15cc3
+Homepage: https://github.com/pinard/Recode
+Description: Charset converter tool and library
+
+Package: recode-static
+Version: 3.7.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1828
+Depends: recode (= 3.7.17)
+Filename: pool/debs-20261109-105439-00/recode-static_3.7.17_aarch64.deb
+Size: 240364
+MD5sum: 2e5503d08c901db19b8daaedafee2568
+SHA1: 4186f648d1e7d6719ad28f67e2f20214fea23404
+SHA256: 25110e25a4205f995dc68ccbb8a13b71fa89bf4b3b8d84737e9fe9be3e98d123
+Homepage: https://github.com/pinard/Recode
+Description: Static libraries for recode
+
+Package: recoll
+Version: 1.44.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5004
+Depends: aspell, jsoncpp, libc++, libiconv, libmagic, libxapian, libxml2, libxslt, zlib
+Filename: pool/debs-20261109-105439-00/recoll_1.44.2_aarch64.deb
+Size: 1216904
+MD5sum: 73c1b630bf301c9abd36d137cb7d09a2
+SHA1: a65c54d4513668104932f1df34a4ccdb543848c6
+SHA256: 8e572e1be68b1a634ac675292315ce4bad83fc94d8fe06141ae3b369fabb1bed
+Homepage: https://www.recoll.org/
+Description: Full-text search for your desktop
+
+Package: recoll-python
+Version: 1.44.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: python, recoll (= 1.44.2)
+Filename: pool/debs-20261109-105439-00/recoll-python_1.44.2_aarch64.deb
+Size: 59316
+MD5sum: acf74a18b726205ab1252f11e7513fed
+SHA1: 6552ff3b6481e1f5a7a733ef97543a13a6e2082e
+SHA256: 7abee772a1e4e17d27a5da84efe25866e5e3d269eb24b39a194067a231cb17e1
+Homepage: https://www.recoll.org/
+Description: Python interface for Recoll
+
+Package: recordmydesktop
+Version: 0.4.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: libandroid-shmem, libice, libogg, libpopt, libsm, libtheora, libvorbis, libx11, libxdamage, libxext, libxfixes, zlib
+Filename: pool/debs-20261109-105439-00/recordmydesktop_0.4.0-2_aarch64.deb
+Size: 38032
+MD5sum: 5aa5c58c8ad2931e36d8f8d28a509c0e
+SHA1: e0f29ae68d37824fb3c7b6abd70a16abc84aab30
+SHA256: e2cdfca4952cdd51327973e38f42c032dc13829a72154a1e928babcb6e6ea396
+Homepage: https://github.com/Enselic/recordmydesktop
+Description: Produces a OGG encapsulated Theora/Vorbis recording of your desktop
+
+Package: redir
+Version: 3.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Filename: pool/debs-20261109-105439-00/redir_3.3-3_aarch64.deb
+Size: 13764
+MD5sum: 490db0e8cb8c24ed95f3be10c2d5c8df
+SHA1: 81ded354816afb7939fc9d0216a721b880c113ea
+SHA256: 1096305a021d302d6e8808a1c87cf77a887fb34467e6a8615630546dccddfebe
+Homepage: https://github.com/troglobit/redir
+Description: TCP port redirector for UNIX
+
+Package: redis
+Version: 1:8.10.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3888
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: valkey
+Breaks: valkey
+Filename: pool/debs-20261109-105439-00/redis_1_8.10.3_aarch64.deb
+Size: 1096508
+MD5sum: 40349496eebf55ad576a03d73cc9a1b4
+SHA1: bbf2ca4a3570ebbb3c2b90d32e14b278dc408a30
+SHA256: 6a8fed9e55d22a100d502ba17d555f5bbe9491fd1b582aff1ca2039d501dd852
+Homepage: https://redis.io/
+Description: In-memory data structure store used as a database, cache and message broker
+
+Package: remind
+Version: 1:06.03.06
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3232
+Depends: libandroid-glob
+Filename: pool/debs-20261109-105439-00/remind_1_06.03.06_aarch64.deb
+Size: 325332
+MD5sum: a8c75d7514d64cf2c7e3de0c34bae464
+SHA1: 4e8f196dd91952f5298e85a7fec02b6af90b11e7
+SHA256: c95ea5d07f9872b1528cb2ad047c4fba2b84d6ffcff5064368c540253a4f93ad
+Homepage: https://dianne.skoll.ca/projects/remind/
+Description: Sophisticated calendar and alarm program
+
+Package: reptyr
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Filename: pool/debs-20261109-105439-00/reptyr_0.10.0-1_aarch64.deb
+Size: 15596
+MD5sum: 7860e4a809500776e8221613a2c4a1f8
+SHA1: ac53f06ced219daf126c6aac9106ed6fa8be50cb
+SHA256: 8ce0a54f97610088afc2b0833a5f71d6e4a3703c8b9e75a56d69eb0bb2ee1bbb
+Homepage: https://github.com/nelhage/reptyr
+Description: Tool for reparenting a running program to a new terminal
+
+Package: restic
+Version: 0.19.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44396
+Suggests: openssh, rclone, restic-server
+Filename: pool/debs-20261109-105439-00/restic_0.19.1-1_aarch64.deb
+Size: 9247176
+MD5sum: b1629de5135ed3137ced4c37d380ac37
+SHA1: 0e0707755540e522c32fb344c1ab5b510d4e42f5
+SHA256: 1813fb0fcebaa14c58f406450bb0df2e7e62ed459204c8ed41df6c7b7a0faf88
+Homepage: https://restic.net/
+Description: Fast, secure, efficient backup program
+
+Package: restic-server
+Version: 0.14.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12572
+Filename: pool/debs-20261109-105439-00/restic-server_0.14.0-2_aarch64.deb
+Size: 3251264
+MD5sum: 6a031e9e503283cfcdf197b47765045d
+SHA1: 67a4d86afc56c7a7e0d13b732f688b93d691d207
+SHA256: 936edf798e4e8daf9f8e512d2cc3891861b6b36c22a31bc1e592a6d83ccca688
+Homepage: https://restic.net/
+Description: Restic's REST backend API server
+
+Package: restish
+Version: 2.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33708
+Filename: pool/debs-20261109-105439-00/restish_2.3.0-1_aarch64.deb
+Size: 7101100
+MD5sum: 4dff95ad255276ad402df4ad8278ed43
+SHA1: 17128d31e78bab9be4f5431956bb2120e2c613c3
+SHA256: 059f2e1e1485fbd47b734709a03b65c854fec2ff1704c7e0101e6c39a31b8fd4
+Homepage: https://github.com/rest-sh/restish
+Description: A CLI for interacting with REST-ish HTTP APIs
+
+Package: rgbds
+Version: 1.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1116
+Depends: libandroid-spawn, libandroid-support, libc++, libpng
+Filename: pool/debs-20261109-105439-00/rgbds_1.0.4_aarch64.deb
+Size: 312072
+MD5sum: 68c21669bc8012600d69146a6c6f4dae
+SHA1: 1542d6387ea60f7d490af4b0cd2f536f41d3bee9
+SHA256: e92df971b7d8d5fac8cab532b48121780a83b2dd33ea12dfa01e82e8de9bb76b
+Homepage: https://rgbds.gbdev.io
+Description: Rednex Game Boy Development System - An assembly toolchain for the Nintendo Game Boy & Game Boy Color
+
+Package: rhythmbox
+Version: 3.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5576
+Depends: at-spi2-core, gdk-pixbuf, glib, gobject-introspection, gst-plugins-base, gstreamer, gtk3, json-glib, libcairo, libnotify, libpeas, libsoup3, libtdb, libx11, libxml2, pango, pygobject, python, totem-pl-parser
+Recommends: rhythmbox-help
+Filename: pool/debs-20261109-105439-00/rhythmbox_3.5.1_aarch64.deb
+Size: 798084
+MD5sum: aaa782eb4bb30444ca338ed5ac8730cd
+SHA1: 2450837f507af3ae1a93ae90d1f5b40c3aa9c8a3
+SHA256: 47803df72fd7ee2ee34c922038797d6617dbe415e53bf0ef12a8f503c5afaf26
+Homepage: https://gitlab.gnome.org/GNOME/rhythmbox
+Description: Music playback and management application
+
+Package: rhythmbox-help
+Version: 3.5.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3028
+Depends: rhythmbox (= 3.5.1)
+Filename: pool/debs-20261109-105439-00/rhythmbox-help_3.5.1_all.deb
+Size: 937992
+MD5sum: f2d4d4a98e78824739c195826aa278cb
+SHA1: cf2aea9b5a61f5bec8c2cd12ac45e4afa1a64177
+SHA256: faa71c0d5e19efe08aec30734ef50230f5d9972fa9cda4d78560e66b237af175
+Homepage: https://gitlab.gnome.org/GNOME/rhythmbox
+Description: Rhythmbox help files
+
+Package: rig
+Version: 1.11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: libc++
+Filename: pool/debs-20261109-105439-00/rig_1.11-2_aarch64.deb
+Size: 31812
+MD5sum: 998f92940a02fb80483094dda518fc56
+SHA1: fd18d0c4d9471af35dc615cc12865157db1e6d8b
+SHA256: fde9f28f79d1541e4da7194bde88b2c25458b401e68f06aef2620c3e7b8cb594
+Homepage: https://rig.sourceforge.net/
+Description: A program that generates fake identities
+
+Package: rinetd
+Version: 1:0.73-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Filename: pool/debs-20261109-105439-00/rinetd_1_0.73-2_aarch64.deb
+Size: 15116
+MD5sum: 3b4d75759ea9f4dd16ea974d1d84423c
+SHA1: 125e525e4486f1199918c35c9c7f8aef8d6fad82
+SHA256: b89d02b620a9b9ca57183277d9fd086b41d2ee21550009836da272964c085c9b
+Homepage: https://github.com/samhocevar/rinetd
+Description: A user-mode TCP port redirection server
+
+Package: rip2
+Version: 0.9.7
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 1372
+Breaks: rip
+Replaces: rip
+Filename: pool/debs-20261109-105439-00/rip2_0.9.7_aarch64.deb
+Size: 401828
+MD5sum: fbf7a66930fc278da6c4e47410c7d79a
+SHA1: 5226f7e3969d6728b23dac715b88f7cf954feba7
+SHA256: d4cf2cf0f9eea4f14e2ec2e91c1728de43f27fe6ee933603ffe94397af46d52e
+Homepage: https://github.com/MilesCranmer/rip2
+Description: A safe and ergonomic alternative to rm
+
+Package: ripsecrets
+Version: 0.1.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3256
+Filename: pool/debs-20261109-105439-00/ripsecrets_0.1.11-1_aarch64.deb
+Size: 912984
+MD5sum: 221df96b69df5c2f877ea16b78ffbdb1
+SHA1: fd65ba4dd4edfaa16e7c862dbddcb01de51ad2e7
+SHA256: 95266d01ce122665913dbe37f51caf96d8c0be636911ffcd4185f586243eaf14
+Homepage: https://github.com/sirwart/ripsecrets
+Description: A command-line tool to prevent committing secret keys into your source code
+
+Package: rirc
+Version: 0.1.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: ca-certificates, mbedtls
+Filename: pool/debs-20261109-105439-00/rirc_0.1.7-2_aarch64.deb
+Size: 46672
+MD5sum: 4acddf44e2dfe39906f15be5b799b2ad
+SHA1: a136f9e903f6a3f487060b33cc119cff439d3daf
+SHA256: 03510525f6b1e25d5b1b0cae9dc2c0bb023f32e54cca1b53bb61422c3fd81c55
+Homepage: https://github.com/rcr/rirc
+Description: A terminal IRC client in C
+
+Package: ristretto
+Version: 0.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 576
+Depends: exo, gdk-pixbuf, glib, gtk3, libcairo, libexif, libmagic, libx11, libxfce4ui, libxfce4util, pango, xfconf
+Recommends: tumbler
+Filename: pool/debs-20261109-105439-00/ristretto_0.14.0-1_aarch64.deb
+Size: 109320
+MD5sum: c1b03d0687c91e6572312360aa844586
+SHA1: d46e142d491339f1f86b24e388c1ffcff1b4ddaa
+SHA256: 25ed6483b2f45e57732d9ab5b71f2d22e8527a8e6cd9f69c45064d35d8e8c564
+Homepage: https://docs.xfce.org/apps/ristretto/start
+Description: The Ristretto Image Viewer is an application that can be used to view, and scroll through images.
+
+Package: rizin
+Version: 0.9.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27892
+Depends: capstone, libandroid-execinfo, liblz4, liblzma, libmagic, libzip, openssl, tree-sitter, xxhash, zlib, zstd
+Suggests: python, apk-tools, apktool, apksigner
+Filename: pool/debs-20261109-105439-00/rizin_0.9.1-2_aarch64.deb
+Size: 6074240
+MD5sum: 2f3852ad6f003d2bf29c5b7a5101a694
+SHA1: dd0761fbbb0296f388c4373c08fe8c221ec5670a
+SHA256: 31b8eed1f5cf4efab799706b2e50058ef983a5e4d4e6ee4afac5f775aafadc74
+Homepage: https://rizin.re
+Description: UNIX-like reverse engineering framework and command-line toolset.
+
+Package: rmlint
+Version: 2.10.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 464
+Depends: glib, json-glib, libblkid, libelf
+Filename: pool/debs-20261109-105439-00/rmlint_2.10.4_aarch64.deb
+Size: 115160
+MD5sum: cb760971be888f9154926a9881890c9f
+SHA1: 4823ab1eb3cd0fcf87a738a2346d2227a508089b
+SHA256: a50a26483cba4c2b7bb5d85c88a523e54012debc2f5392e77798405262813735
+Homepage: https://github.com/sahib/rmlint
+Description: Extremely fast tool to find space waste and duplicate files
+
+Package: rmlint-shredder
+Version: 2.10.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 608
+Depends: glib, gtk3, gtksourceview4, librsvg, pygobject, python, python-pip, rmlint
+Filename: pool/debs-20261109-105439-00/rmlint-shredder_2.10.4_all.deb
+Size: 84544
+MD5sum: 9882513f5effa9998399bb85074446ba
+SHA1: d2a812d630e686b15c7a014a2c3255d872051a6d
+SHA256: c145f31aefe756c0d09db6c2d42bcceb79d55b2a1742b08c3ceb4749bfa018c1
+Homepage: https://github.com/sahib/rmlint
+Description: GTK+ GUI for rmlint
+
+Package: rmpc
+Version: 0.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12304
+Suggests: cava, ffmpeg, python-yt-dlp
+Filename: pool/debs-20261109-105439-00/rmpc_0.11.0_aarch64.deb
+Size: 3107604
+MD5sum: a9442f2f6df624147773d1146f86b96f
+SHA1: d0ca3813e4472ae97145f85d2fbd0be0a3afe63f
+SHA256: 90669f649e4cb61eb28eaaa11d771ec1d3144fca34c739629ff7ab66672d6254
+Homepage: https://mierak.github.io/rmpc/
+Description: A configurable TUI MPD client with album art support
+
+Package: rmw
+Version: 0.10.0
+Architecture: aarch64
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Installed-Size: 324
+Depends: glib, ncurses
+Filename: pool/debs-20261109-105439-00/rmw_0.10.0_aarch64.deb
+Size: 51108
+MD5sum: 6e8065fcbaa773ac294e25f4bb253cc8
+SHA1: 6ff2062b5bbb26cd38c93f5031227d4baa1cb252
+SHA256: f1b27ad56c64346f3a5ef67f970f10cee5fd094c4d51275902d6c2ed3accb06d
+Homepage: https://theimpossibleastronaut.com/rmw-website/
+Description: A command-line recycle bin utility (ReMove to Waste)
+
+Package: rnote
+Version: 0.14.2-1
+Architecture: aarch64
+Maintainer: @EDLLT
+Installed-Size: 33164
+Depends: alsa-lib, gdk-pixbuf, gettext, glib, graphene, gtk4, hicolor-icon-theme, libadwaita, libcairo, pipewire, pango, poppler
+Filename: pool/debs-20261109-105439-00/rnote_0.14.2-1_aarch64.deb
+Size: 11897832
+MD5sum: 98fe0718c15709c5a68d45437fb8611f
+SHA1: 95e654fb55324fd6e8cd22f6a12afd06831f9cd9
+SHA256: ca99b68ec3006944314141ffdaa69bc553dc018c7159bf08d5827cfd3dd3df76
+Homepage: https://github.com/flxzt/rnote
+Description: An infinite canvas vector-based drawing application for handwritten notes
+
+Package: rnr
+Version: 0.5.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 3436
+Filename: pool/debs-20261109-105439-00/rnr_0.5.1_aarch64.deb
+Size: 957756
+MD5sum: 8e845fe25f88aaee53920a8d0fb42c82
+SHA1: cc4f1173ce0aa22044e20f67cd39c65ab432956a
+SHA256: 14bd7d042ed1e7bce83787f47a2a33fe7e87a662cb8d03ff7a4fd4949755f8a8
+Homepage: https://github.com/ismaelgv/rnr
+Description: Batch rename files and directories using regular expression (rust)
+
+Package: rofi
+Version: 2.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1416
+Depends: gdk-pixbuf, glib, libandroid-glob, libcairo, libwayland, libxcb, libxkbcommon, pango, startup-notification, xcb-util, xcb-util-cursor, xcb-util-keysyms, xcb-util-wm
+Filename: pool/debs-20261109-105439-00/rofi_2.0.0_aarch64.deb
+Size: 549456
+MD5sum: e472e045c04b3c7dbc03708ec737c9de
+SHA1: 4cc53f519b0bb2ddae45532f64bdf8b4e157ef1c
+SHA256: 92712a487009d62480e272080c025ab788d9a343ce78f907d9dc5936e2c02e35
+Homepage: https://davatorium.github.io/rofi/
+Description: A window switcher, application launcher and dmenu replacement
+
+Package: root-repo
+Version: 2.4-2
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 160
+Depends: termux-keyring
+Filename: pool/debs-20261109-105439-00/root-repo_2.4-2_all.deb
+Size: 1228
+MD5sum: 4702b9c8466edad8d05527cf80321f01
+SHA1: 552e74d78bc9c752cde98182b4efbade57e121b8
+SHA256: f328dced1b409480db881bc428967f4040740be84b141a0e163db81f26026d95
+Homepage: https://github.com/termux/termux-root-packages
+Description: Package repository containing programs for rooted devices
+
+Package: roxterm
+Version: 3.18.2-1
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 1940
+Depends: dbus, dbus-glib, glib, gtk3, libcairo, libvte, pango
+Filename: pool/debs-20261109-105439-00/roxterm_3.18.2-1_aarch64.deb
+Size: 448524
+MD5sum: dfda5ee6d6380113464b09cd62fa566b
+SHA1: 9a04f1b786c100fc27b88d14a4a4f78a19dbb5db
+SHA256: 7dd51f714dcf0e3069c5642aa4ba418725801557fa92dd34646b42d96748b696
+Homepage: https://github.com/realh/roxterm
+Description: ROXTerm is a terminal emulator based on the VTE library
+
+Package: rp-pppoe
+Version: 4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Filename: pool/debs-20261109-105439-00/rp-pppoe_4.0-1_aarch64.deb
+Size: 67412
+MD5sum: fb088ea0c521d02e325b84f21f1057d0
+SHA1: bbffd3ed19f82b446b624d6fd70ddaa84fdd28e8
+SHA256: 58d3c21f0ca8b6b380685f5ff01b0e4ca2058dc20757b68a922d0b4951e9c3c3
+Homepage: https://dianne.skoll.ca/projects/rp-pppoe/
+Description: A PPP-over-Ethernet redirector for pppd
+
+Package: rpm
+Version: 6.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3684
+Depends: libandroid-glob, libandroid-spawn, libarchive, libbz2, libgcrypt, libiconv, liblzma, libmagic, libpopt, libsqlite, lua54, readline, zlib, zstd
+Filename: pool/debs-20261109-105439-00/rpm_6.1.0_aarch64.deb
+Size: 684160
+MD5sum: dcc8cd8fd10b9355832dfe5aa236a909
+SHA1: 0bd3180901865d96aae03cbc412d6564ac024c98
+SHA256: 2f41154dbd57d031a07b4d3428b3f7500165f536e400486b0bdca95fc1cf7fa8
+Homepage: https://rpm.org/
+Description: RPM Package Manager
+
+Package: rq
+Version: 1.0.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3452
+Filename: pool/debs-20261109-105439-00/rq_1.0.4-2_aarch64.deb
+Size: 938884
+MD5sum: 3cb0b8b75c193cb999e45323bdd682c7
+SHA1: 4ea4bc8bd734851db55c6a139c7c3b795c75b763
+SHA256: 0476e27401558213eea64f7cecebafacd679421bc11d44483809b61c9ca8763b
+Homepage: https://github.com/dflemstr/rq
+Description: A tool for doing record analysis and transformation
+
+Package: rqbit
+Version: 9.1.0
+Architecture: aarch64
+Maintainer: DevGitPit <106362593+DevGitPit@users.noreply.github.com>
+Installed-Size: 14684
+Depends: openssl
+Filename: pool/debs-20261109-105439-00/rqbit_9.1.0_aarch64.deb
+Size: 3979192
+MD5sum: 4042190bdb5a56d6c5f7f090d690a197
+SHA1: ba2074dcf34fd4ac1a1659247dd3110c16c78c3d
+SHA256: df8b3597d4449b3937d412fd4343b43bb5a9bc0df925d579a5e44b16daa616a4
+Homepage: https://github.com/ikatson/rqbit
+Description: A bittorrent command line client and server
+
+Package: rubiks-cube
+Version: 1.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: ncurses
+Filename: pool/debs-20261109-105439-00/rubiks-cube_1.2-1_aarch64.deb
+Size: 20956
+MD5sum: afef7c544ca852a8c5f894b8cb2ca123
+SHA1: b3614cfaed5a848a12a3ebcbc968d6e24b937f6c
+SHA256: 1b6bef3bc48c2a231ec9c7e4f71b63937f62c6fb2f93c75f7a9b49331c6ddab1
+Homepage: https://github.com/been-jamming/rubiks_cube
+Description: A rubik's cube that runs in your terminal
+
+Package: ruff
+Version: 0.17.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21256
+Filename: pool/debs-20261109-105439-00/ruff_0.17.3_aarch64.deb
+Size: 6113080
+MD5sum: fc684c7262e56084f8a8c5720c5f60d0
+SHA1: 5b663072ee2fdedbef167d4b2d34c59b6505fc32
+SHA256: e0bacaf35bee3e87ee36dd328903fbcad38c8e37c51b25942d74e3a42491cffd
+Homepage: https://github.com/charliermarsh/ruff
+Description: An extremely fast Python linter, written in Rust
+
+Package: ruffle
+Version: 0.7.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29400
+Depends: alsa-lib, alsa-plugins, fontconfig, gtk3, openh264
+Filename: pool/debs-20261109-105439-00/ruffle_0.7.1_aarch64.deb
+Size: 8313376
+MD5sum: 92b2795e22b7172c12c33b0c0431beaa
+SHA1: b09ab736a981a70bff0a3c84c39e7a3ea977e3f9
+SHA256: 59ddd11e4ff663bd63e72e055472d61a28a1ad260010fa7d2699e28675428467
+Homepage: https://ruffle.rs/
+Description: A Flash Player emulator written in Rust
+
+Package: rush
+Version: 0.11.1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 10992
+Filename: pool/debs-20261109-105439-00/rush_0.11.1_aarch64.deb
+Size: 2957108
+MD5sum: 0a69768f0fcb37f956621685463d578b
+SHA1: 4df22bc0249e0675cf479ea6bb274aeb5e79d0d9
+SHA256: 5ecafff265171fcda56a0b8764f54080273c0c3b8239da05150f2adb43323421
+Homepage: https://github.com/shenwei356/rush
+Description: A cross-platform command-line tool for executing jobs in parallel
+
+Package: rust-analyzer
+Version: 20261026
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 35144
+Depends: rust-src
+Filename: pool/debs-20261109-105439-00/rust-analyzer_20261026_aarch64.deb
+Size: 8051224
+MD5sum: 49ea6f0883ec1a4f17d4ff7d12f56a78
+SHA1: 79cece5a52a3f985fbdcda78092caf6760dfc7f7
+SHA256: cb0ed44f5b84cad693a8c066ac491514b629c6c26b8172710d65249346369f90
+Homepage: https://rust-analyzer.github.io/
+Description: A Rust compiler front-end for IDEs
+
+Package: rust-bindgen
+Version: 0.73.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6568
+Filename: pool/debs-20261109-105439-00/rust-bindgen_0.73.2_aarch64.deb
+Size: 1657276
+MD5sum: 8f1fc237f83bfa52ff80e54a2cac26b6
+SHA1: 5c2374dc5d07926fb2b97c2b9718cde71c38ac77
+SHA256: 01b1ec30b7af9f691c28c86f785eef988469c2dff6d392a6b73cd53ec694445a
+Homepage: https://github.com/rust-lang/rust-bindgen
+Description: Automatically generates Rust FFI bindings to C (and some C++) libraries
+
+Package: rustscan
+Version: 2.4.1-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 4004
+Depends: nmap
+Filename: pool/debs-20261109-105439-00/rustscan_2.4.1-1_aarch64.deb
+Size: 1465484
+MD5sum: 41ec8cc545939b247797be853ab37121
+SHA1: afb8392fa5d6f75963b023334b86af49a846afb1
+SHA256: e8db2d5b295a6710a5ac62657a5554ea78fcd789e8545ced421cefbcbed282b4
+Homepage: https://github.com/bee-san/RustScan
+Description: The modern,fast,smart and effective port scanner
+
+Package: rxfetch
+Version: 2023.01.07
+Architecture: all
+Maintainer: @termux
+Installed-Size: 160
+Depends: bash
+Conflicts: rxfetch-termux
+Replaces: rxfetch-termux
+Filename: pool/debs-20261109-105439-00/rxfetch_2023.01.07_all.deb
+Size: 3900
+MD5sum: 0245b184b4dee49a92f0c495fe211e33
+SHA1: c4cecde503c5b1ee2466eefc143b784e65962146
+SHA256: cf552bbd9c71ecb1def9416327a03d3a75f66b3b05f10de460015b23be4f4b90
+Homepage: https://github.com/Mangeshrex/rxfetch
+Description: A custom system info fetching tool
+
+Package: sabnzbd
+Version: 5.1.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 8752
+Depends: python, python-cryptography, python-sabyenc3, termux-tools, par2, unrar, 7zip, unzip
+Filename: pool/debs-20261109-105439-00/sabnzbd_5.1.3_all.deb
+Size: 1152528
+MD5sum: 1b9cb0f5c985d10f60bed82a3761c3dc
+SHA1: 82728dde6c5bb188f22c66882e65b78b33c4af5b
+SHA256: 597653a286f9e82396ac1ab9e5e3fd3682889d0cc491559899ca500cc3354e65
+Homepage: https://sabnzbd.org/
+Description: Fully automated Usenet Binary Downloader
+
+Package: samefile
+Version: 2.15-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Filename: pool/debs-20261109-105439-00/samefile_2.15-6_aarch64.deb
+Size: 12912
+MD5sum: 77467a432861dfcd06314e2f7e27cde6
+SHA1: 70211996d16cbe785659c660b827229b2ee24ee0
+SHA256: 07f8f9bad49d7a761d0fccc640ffd97d7dafd50a0f2dcb8670af6542501def10
+Homepage: http://www.schweikhardt.net/samefile/
+Description: Finds files with identical contents, independent of file name
+
+Package: samurai
+Version: 1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libandroid-spawn
+Filename: pool/debs-20261109-105439-00/samurai_1.3_aarch64.deb
+Size: 23496
+MD5sum: d5ae32c2c397f303e8aaef504293d0be
+SHA1: 203531d0a9a14676335bb7a31e4176265d6fa88e
+SHA256: 3751eb77fb4b08e666bb5d92dff9220bead1faa492394df50bfbe101752a048a
+Homepage: https://github.com/michaelforney/samurai
+Description: ninja-compatible build tool written in C
+
+Package: sc-im
+Version: 0.8.5-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: libandroid-support, libandroid-wordexp, lua54, libxls, libxlsxwriter, libxml2, libzip, ncurses
+Suggests: gnuplot
+Filename: pool/debs-20261109-105439-00/sc-im_0.8.5-4_aarch64.deb
+Size: 158684
+MD5sum: 56ae16ff53d3068683df81fe6493ba99
+SHA1: d7ac8429eba71f44e5633dfd685856bacf36d6d0
+SHA256: ebe584e0b7ec6757f70c6243f9efc7620b14e4f08ee47f241d116ebce7be8044
+Homepage: https://github.com/andmarti1424/sc-im
+Description: An improved version of sc, a spreadsheet calculator
+
+Package: scala
+Version: 3.10.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 185160
+Depends: openjdk-21, which
+Filename: pool/debs-20261109-105439-00/scala_3.10.0_all.deb
+Size: 174456612
+MD5sum: 6928721c87080bb193b83713fc712095
+SHA1: 6a2d5cd065f651d9437b22ed539c56b0f3eedd90
+SHA256: d7225d157db575a3c92aa730857ffe2425b42d61a41d7a1658e216d635132dc8
+Homepage: https://www.scala-lang.org
+Description: Scala 3 compiler and standard library.
+
+Package: scc
+Version: 4.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18144
+Filename: pool/debs-20261109-105439-00/scc_4.1.0-1_aarch64.deb
+Size: 4638928
+MD5sum: 62ed31a988e2aad4fd581917151a53b7
+SHA1: 3f5ab6ecf7d4d5ed9b4b216fe13e67eed5960ae9
+SHA256: 6efd838800899355bd48a8468f5028e8da56397b57dd724ad568056926e67ae6
+Homepage: https://github.com/boyter/scc
+Description: Counts physical the lines of code, blank lines, comment lines, and physical lines of source code
+
+Package: sccache
+Version: 0.19.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17464
+Depends: openssl
+Filename: pool/debs-20261109-105439-00/sccache_0.19.0_aarch64.deb
+Size: 5621872
+MD5sum: c63a3f61ef0c20a355cac42d494eb90f
+SHA1: 6257e05839be4cfa1f29947765d9f523b909d325
+SHA256: 916a88ef8a76aa5e783d16fed13b50c1378f1bc10e77b5468af1e1d4a6c66541
+Homepage: https://github.com/mozilla/sccache
+Description: sccache is ccache with cloud storage
+
+Package: schismtracker
+Version: 20260524
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1216
+Depends: libflac, libx11, libxv, sdl2 | sdl2-compat, utf8proc
+Filename: pool/debs-20261109-105439-00/schismtracker_20260524_aarch64.deb
+Size: 391864
+MD5sum: a1cf6a17767ee7b266d8aefe4954ddce
+SHA1: fcca52b53e704b4c58ce5b70b57aa80eb15f6e3d
+SHA256: e52af9ccac6e87f30793ab79f2734957fa09605a8701187a2c5ab93288bf46fc
+Homepage: https://schismtracker.org/
+Description: A free and open-source reimplementation of Impulse Tracker, a program used to create high quality music
+
+Package: scite
+Version: 5.6.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6036
+Depends: at-spi2-core, gdk-pixbuf, glib, gtk3, libc++, libcairo, pango
+Filename: pool/debs-20261109-105439-00/scite_5.6.9_aarch64.deb
+Size: 1329228
+MD5sum: a0d024709c4a9a7a692129b880c8f09c
+SHA1: e82e08c2cb7bd3c052748b25ebc4741d743a8678
+SHA256: a287c4f8d2c4f71040940706897c536708dd719b4e80a94da24a1c48a4053df8
+Homepage: https://www.scintilla.org/SciTE.html
+Description: A free source code editor
+
+Package: screen
+Version: 5.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1172
+Depends: libandroid-support, ncurses, termux-auth
+Filename: pool/debs-20261109-105439-00/screen_5.0.2_aarch64.deb
+Size: 442896
+MD5sum: 2f81cec9c89639b6d977fcbadbf9bed6
+SHA1: aa657aeca7c7df32b174c3697b3224af4e8b06a0
+SHA256: a69a7d260ed3d7d88ab2b25cc470d00c0e17acd28a26326186257f6995a7a092
+Homepage: https://www.gnu.org/software/screen/
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+
+Package: screenfetch
+Version: 3.9.9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 416
+Depends: bash
+Filename: pool/debs-20261109-105439-00/screenfetch_3.9.9_all.deb
+Size: 52820
+MD5sum: 26156530b1b56ea296fb07beb0193669
+SHA1: 339764eebf6df408ba5af5ba0ebd7516dbd76ff7
+SHA256: 301f778e71baf7d61585270a3704242a5617a20da475848309b65957af0625a8
+Homepage: https://github.com/KittyKatt/screenFetch
+Description: Bash Screenshot Information Tool
+
+Package: screengrab
+Version: 3.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1188
+Depends: kf6-kwindowsystem, layer-shell-qt, libc++, libx11, libxcb, libqtxdg, qt6-qtbase
+Filename: pool/debs-20261109-105439-00/screengrab_3.2.0_aarch64.deb
+Size: 173896
+MD5sum: 259cbe1c73eccedc1b36a88583562e5f
+SHA1: acc9755c25ad8811939000caa9a675cfa6ecc7e5
+SHA256: f8bd4538a57ef9d2357c5b7bc41a35efaaa1ab6b0c446e53422fa252fa9a8570
+Homepage: https://lxqt.github.io
+Description: Cross-platform tool for creating screenshots
+
+Package: scrot
+Version: 2.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Depends: imlib2, libx11, libxcomposite, libxfixes, libxrandr
+Filename: pool/debs-20261109-105439-00/scrot_2.0.0_aarch64.deb
+Size: 71736
+MD5sum: eb10e4ced62f0a43cc8124bb9e5f972c
+SHA1: e041506efb68eea977b67d7eaf1c3442f9ffceff
+SHA256: a123e7e74ac4ede5886a13df06de3e9999237b66d4b7da8496098d74a64b85b5
+Homepage: https://github.com/dreamer/scrot
+Description: Simple command-line screenshot utility for X
+
+Package: scrub
+Version: 2.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/debs-20261109-105439-00/scrub_2.6.1-2_aarch64.deb
+Size: 20128
+MD5sum: b4b5325e2328e1661eeeb3db8323ae75
+SHA1: 15695e1231235d7d2a23cf0151544f76e5d3b8e6
+SHA256: 8393400e1bed0a47026fce3cd35eda46f6ead0d069fff12cf235f78149630333
+Homepage: https://github.com/chaos/scrub
+Description: Iteratively writes patterns on files or disk devices to make retreiving the data more difficult
+
+Package: scrypt
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: openssl
+Filename: pool/debs-20261109-105439-00/scrypt_1.3.3-1_aarch64.deb
+Size: 24460
+MD5sum: 8d747850a2ab257d4ac67811c030fe81
+SHA1: 348889f998bd0256d837361336a386b41fb4de0b
+SHA256: d75bee10037e6305e66274b1125d99e63f2a1df3909051e5181989809fe1fb10
+Homepage: https://www.tarsnap.com/scrypt.html
+Description: scrypt KDF library and file encryption tool
+
+Package: sd
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2272
+Filename: pool/debs-20261109-105439-00/sd_1.1.0_aarch64.deb
+Size: 618408
+MD5sum: 6e762ad375df61c3e88070655e9aba35
+SHA1: 8654c8b86ffed03beb36aeb6359556e2109bd877
+SHA256: 0baa81d472c5eeba3143e2251ce44fcedfda14405c8521b73efc7c33f06dc3d8
+Homepage: https://github.com/chmln/sd
+Description: An intuitive find & replace CLI
+
+Package: sdcv
+Version: 0.5.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Depends: glib, libc++, readline, zlib
+Filename: pool/debs-20261109-105439-00/sdcv_0.5.5-2_aarch64.deb
+Size: 53140
+MD5sum: 93381d8a052d2e52fdadc8ac686d9fb1
+SHA1: 9574baae3da4cccada64cb20771fc0706f31409e
+SHA256: 7219838f7328b2887a11a618a54dad3536eecd35652203ac0d30e0a332e7c5a6
+Homepage: http://dushistov.github.io/sdcv/
+Description: StarDict Console Version
+
+Package: sdl2-gfx
+Version: 1.0.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Depends: sdl2 | sdl2-compat
+Filename: pool/debs-20261109-105439-00/sdl2-gfx_1.0.4-4_aarch64.deb
+Size: 26028
+MD5sum: df392616ceec52c38daa1811cf60e1ab
+SHA1: efb6a19b3887e8dce27038d27bc2ae50547cf510
+SHA256: 858e934fe1d90365ee891dfe2d23ecb1b01da831616eb5916320af8064f7d690
+Homepage: https://www.ferzkopp.net/joomla/content/view/19/14/
+Description: Graphics primitives and surface functions for SDL2
+
+Package: sdl2-gfx-static
+Version: 1.0.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: sdl2-gfx (= 1.0.4-4)
+Filename: pool/debs-20261109-105439-00/sdl2-gfx-static_1.0.4-4_aarch64.deb
+Size: 23068
+MD5sum: ebab47c2fc8c4276e300e7a40f93012f
+SHA1: 44d8f4d5632a13c4cd4aafead054922dbf80a701
+SHA256: 7676e582c972dc3536b7c6a5dc443858500b9956b5a495a27c5634d5db59d3ff
+Homepage: https://www.ferzkopp.net/joomla/content/view/19/14/
+Description: Static libraries for sdl2-gfx
+
+Package: sdl2-pango
+Version: 2.1.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: glib, pango, sdl2 | sdl2-compat
+Filename: pool/debs-20261109-105439-00/sdl2-pango_2.1.5-3_aarch64.deb
+Size: 7600
+MD5sum: fb15d74bd2bc770e3d11bfa34c78d0d7
+SHA1: a90403bca9d655dc1144c7ec31eb4f4ba8fd6882
+SHA256: 5995a35252adf17ed20d4dd47a1b84521f4ada4c3939386f93a24666a83367d5
+Homepage: https://github.com/markuskimius/SDL2_Pango
+Description: SDL2 library for internationalized text rendering
+
+Package: sdl2-pango-static
+Version: 2.1.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: sdl2-pango (= 2.1.5-3)
+Filename: pool/debs-20261109-105439-00/sdl2-pango-static_2.1.5-3_aarch64.deb
+Size: 5820
+MD5sum: b11617bdabcfe2affb6d4e25579deeec
+SHA1: fc437e9b2a1522bbc64d83540b48fa2e0e44d22c
+SHA256: 0aad14b3bb145788dea12642b453bdad5a926825873df1bc23502a730716c2c0
+Homepage: https://github.com/markuskimius/SDL2_Pango
+Description: Static libraries for sdl2-pango
+
+Package: sea-orm-cli
+Version: 2.0.4
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 6024
+Depends: openssl
+Filename: pool/debs-20261109-105439-00/sea-orm-cli_2.0.4_aarch64.deb
+Size: 1992940
+MD5sum: 127ae423e489df7748fd9fa99f03ffb3
+SHA1: 3a22a15dce3a35fd1fca1673e5f4212aec0cd645
+SHA256: df36fa17e981c981f4349e9eeff6523fc99e33583b7f879f66d70b4d37388484
+Homepage: https://github.com/SeaQL/sea-orm
+Description: Command line utility for SeaORM, an async & dynamic ORM for Rust
+
+Package: seanime
+Version: 3.10.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 82096
+Filename: pool/debs-20261109-105439-00/seanime_3.10.4-1_aarch64.deb
+Size: 19814840
+MD5sum: cc61df6ef6f689e115d1ae9753554377
+SHA1: 1babe89988b3a83264fc24ead141b992b998f933
+SHA256: fa8084e8b6aace59850275f5328524e7826521d0e4bf570853a5df5aafc78fc6
+Homepage: https://github.com/5rahim/seanime
+Description: Self-hosted anime and manga server for sea rovers.
+
+Package: seccure
+Version: 0.5-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libgcrypt
+Filename: pool/debs-20261109-105439-00/seccure_0.5-8_aarch64.deb
+Size: 23040
+MD5sum: f6c68533ee246aa01a2f7a323601d2b2
+SHA1: a9fa732fe76b76c593d0fd08ccf204c98efb0775
+SHA256: 88d96c7443aedf21eba3e192d2cae94f597a5e2c0715f7179343628ae6ccc2ff
+Homepage: http://point-at-infinity.org/seccure/
+Description: SECCURE Elliptic Curve Crypto Utility for Reliable Encryption
+
+Package: secure-delete
+Version: 3.1-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/debs-20261109-105439-00/secure-delete_3.1-6_aarch64.deb
+Size: 19344
+MD5sum: 34cb62d2b7d2925801f4df4454cf5ed8
+SHA1: 143b2d9bd3859de83d1d1cca774e01eaefdb29f2
+SHA256: dd354bea86c22eb6519d6fdbe05f4d0f43ca4a43507035883de18c44dfccfa3b
+Homepage: https://www.thc.org/
+Description: Secure file, disk, swap, memory erasure utilities
+
+Package: seerr
+Version: 3.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 931528
+Depends: nodejs | nodejs-lts, libvips, termux-services
+Filename: pool/debs-20261109-105439-00/seerr_3.5.1-1_aarch64.deb
+Size: 139961660
+MD5sum: f0a4b1defa567fcdaa8fd5c75e537bb7
+SHA1: ebfa58f6754e338ab5ece612240232f1544bb0a4
+SHA256: ccdc7bb67e5d714c65005fd212133ac6be4d551c4356a47aa0e01474eea18e77
+Homepage: https://github.com/seerr-team/seerr
+Description: A fork of Overseerr with focus on adding support for Jellyfin/Emby
+
+Package: selene
+Version: 0.32.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 7068
+Filename: pool/debs-20261109-105439-00/selene_0.32.0_aarch64.deb
+Size: 2021748
+MD5sum: 636b750074fc3f7166f9433b39ceb215
+SHA1: 08445cce26963758866d5f2619279c802143a607
+SHA256: a4e58302b2f10c1eab4f1c468a9656f3c37b201cf090889c1ca845f336318a7d
+Homepage: https://kampfkarren.github.io/selene/
+Description: A blazing-fast modern Lua linter written in Rust
+
+Package: sendme
+Version: 0.37.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10648
+Depends: resolv-conf
+Filename: pool/debs-20261109-105439-00/sendme_0.37.1_aarch64.deb
+Size: 3472244
+MD5sum: 08079f6d445d6bd9fc9220dc0af4d027
+SHA1: 62b5749321541cd0f098190e4c96e7f81a67e4a6
+SHA256: 4045b91ea11acd08d88aff95490d1d7e582f94b97a39e74735dba603816f27fe
+Homepage: https://github.com/n0-computer/sendme
+Description: A tool to send files and directories, based on iroh
+
+Package: sendxmpp
+Version: 1.24-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 176
+Depends: perl, clang, make
+Filename: pool/debs-20261109-105439-00/sendxmpp_1.24-1_all.deb
+Size: 7592
+MD5sum: 17ebf0435bb5e4b6c7e84add63b944a8
+SHA1: d4001603499bd454506c333dd14809e37eacfaff
+SHA256: 3aca7af60a8c043fff103a6fea7caa22ca2f7444ffcd0a3be95ccb714ea99f6a
+Homepage: https://sendxmpp.hostname.sk/
+Description: A perl-script to send XMPP (jabber) messages
+
+Package: senpai
+Version: 1:0.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10048
+Filename: pool/debs-20261109-105439-00/senpai_1_0.5.0-1_aarch64.deb
+Size: 2738136
+MD5sum: cb4229ab0e9727b9ac89918f4dfaea61
+SHA1: 10a4b4351f9096271aef9e085eba2c0ef4323dc6
+SHA256: 88e96d7114a1d8b535c15f6cb4ac633374d8c394eacc8af78e90031e37983cfa
+Homepage: https://git.sr.ht/~delthas/senpai
+Description: An IRC client that works best with bouncers
+
+Package: sensible-utils
+Version: 0.0.26
+Architecture: all
+Maintainer: @termux
+Installed-Size: 204
+Filename: pool/debs-20261109-105439-00/sensible-utils_0.0.26_all.deb
+Size: 6036
+MD5sum: 04f7b4fa31275735bf3b7d2543dd0114
+SHA1: 3e873a0e6e623ec566e26dea0cd836f654fe8d65
+SHA256: 3a1788c1b6420ee950c96b22e2c201b0d0bbd1188a72076bbb45cdf082f9dae6
+Homepage: https://packages.debian.org/sid/sensible-utils
+Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
+
+Package: sfeed
+Version: 2.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 560
+Depends: ncurses
+Recommends: curl
+Suggests: lynx, termux-tools
+Filename: pool/debs-20261109-105439-00/sfeed_2.4_aarch64.deb
+Size: 77540
+MD5sum: 91471c430318b9844dbeb47474d973f0
+SHA1: ddf08e6deaaa45b452f042229b9c4da8e2dbfa20
+SHA256: 2b82e5a09aa4a4a01e04ec6690c2023a479ca6f483f271f506d0a4403fcfa5fe
+Homepage: https://codemadness.org/sfeed-simple-feed-parser.html
+Description: Shell-script/crontab oriented feed aggregator and parser utility (curses-based reader included)
+
+Package: sfml
+Version: 3.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5056
+Depends: freetype, harfbuzz, libc++, libflac, libogg, libresolv-wrapper, libssh2, libvorbis, libx11, libxcursor, libxi, libxrandr, mbedtls, openal-soft, opengl
+Filename: pool/debs-20261109-105439-00/sfml_3.1.0-1_aarch64.deb
+Size: 769960
+MD5sum: ce080f503af508d835402319cbc18239
+SHA1: 273bdfc18f972261bda8f9227eafaab37710f007
+SHA256: 049e62d369029228bcdce983c9b0d9247cdac9fe16da18e5e47aacbc29c08a52
+Homepage: https://www.sfml-dev.org/
+Description: A simple, fast, cross-platform and object-oriented multimedia API
+
+Package: sftpgo
+Version: 2.7.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84868
+Filename: pool/debs-20261109-105439-00/sftpgo_2.7.6-1_aarch64.deb
+Size: 16817200
+MD5sum: eed485e8bee9e43dfba49a67aac5676d
+SHA1: 904b4db9aee74b120bfcfadd21ed83bc32bc3581
+SHA256: 1276c0a8205a636e88df6e039aedcdd0e1f60c08d063bbd53cbc354f0ff2f3d6
+Homepage: https://sftpgo.com/
+Description: Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server
+
+Package: shaderc
+Version: 2026.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5912
+Depends: glslang, spirv-tools, libc++
+Filename: pool/debs-20261109-105439-00/shaderc_2026.4_aarch64.deb
+Size: 1181908
+MD5sum: af782e75756ffb73c93b6daeb5d66cf5
+SHA1: 58fb739ef32a6c8029c1f0801350bb379e51e3b1
+SHA256: 4f371ce3c6981f089b3ee801397a6ba19094735d3f56cd2df43260966dfde6a5
+Homepage: https://github.com/google/shaderc
+Description: Collection of tools, libraries, and tests for Vulkan shader compilation
+
+Package: sharutils
+Version: 4.15.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 728
+Depends: libandroid-support
+Filename: pool/debs-20261109-105439-00/sharutils_4.15.2-4_aarch64.deb
+Size: 119800
+MD5sum: 1ea4b19f356af0557313789ae571f2d5
+SHA1: d21cf8c082d81f0a382e20c629db4f3b5f190884
+SHA256: 7aa79af2c5b1ea40ce2945797d4b479c998f9c409cdf45f3a2c3c59e7f5414a4
+Homepage: https://www.gnu.org/software/sharutils/
+Description: Utilities for packaging and unpackaging shell archives
+
+Package: shc
+Version: 4.0.3-4
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 220
+Depends: clang
+Filename: pool/debs-20261109-105439-00/shc_4.0.3-4_aarch64.deb
+Size: 17764
+MD5sum: 1dc20b21e11f3ca2132a2cec9d2e8488
+SHA1: bae1eec412b7ac308f40526b621d38d6555a157d
+SHA256: 38852dd279e1f5e16dbaef2a5352e622c967061fd03b37c05c901ce65fef0a81
+Homepage: https://github.com/neurobin/shc
+Description: Shell script compiler
+
+Package: sheldon
+Version: 0.8.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4536
+Depends: libcurl, libssh2, openssl, zlib
+Filename: pool/debs-20261109-105439-00/sheldon_0.8.5-1_aarch64.deb
+Size: 1392940
+MD5sum: da9327acb121e43626ccc64def90ea7e
+SHA1: ba2cf062e9fa93d22b2910acc6cfb928f7c29e1f
+SHA256: 2e885dde4072001e804d47865ae916dbaf37c7cdb135da487071619e60c00235
+Homepage: https://sheldon.cli.rs/
+Description: Fast, configurable, shell plugin manager
+
+Package: shell2http
+Version: 1.18.0-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 7280
+Filename: pool/debs-20261109-105439-00/shell2http_1.18.0-1_aarch64.deb
+Size: 2044428
+MD5sum: 9787b60a572f2904ecfc099aec7de737
+SHA1: 759885927e43d7fb3a350c0363a1afeb52799a59
+SHA256: 2f61d1dd90fda31a39dbb919b585bec577c2edabdc7cb5d12d20a6e9983bd1c8
+Homepage: https://github.com/msoap/shell2http
+Description: Executing shell commands via HTTP server
+
+Package: shellcheck
+Version: 0.11.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 20520
+Depends: libandroid-posix-semaphore, libandroid-utimes, libffi, libgmp, libiconv
+Filename: pool/debs-20261109-105439-00/shellcheck_0.11.0-3_aarch64.deb
+Size: 2622696
+MD5sum: d14abe143890aca57f5aced9664c4152
+SHA1: 97b040e31bc6dfa3a5358637ddf968ea26b87ae4
+SHA256: 1931a70e47cfe5fb7ff719b4b8b5237827c24951d54403a9eaf4d68a533eb23e
+Homepage: https://www.shellcheck.net/
+Description: Shell script analysis tool
+
+Package: shellharden
+Version: 4.3.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 528
+Filename: pool/debs-20261109-105439-00/shellharden_4.3.2_aarch64.deb
+Size: 147856
+MD5sum: 20392d787373ae9e5708e74edfe75633
+SHA1: 11a8dac24de3ba379831e2ee28f425c9daad83e4
+SHA256: 0e180196cd2ff6f7ba825c6cf877737e982bb87c4577da0bcec406fe5fc2f6eb
+Homepage: https://github.com/anordal/shellharden
+Description: The corrective bash syntax highlighter
+
+Package: shellinabox
+Version: 2.21-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 572
+Depends: openssl, openssl-tool, termux-auth (>= 1.2), zlib
+Filename: pool/debs-20261109-105439-00/shellinabox_2.21-1_aarch64.deb
+Size: 109688
+MD5sum: 15795ac78b34dac22f1acde4b4fe277f
+SHA1: cba66766f3144980f6d50b38c77d23ddd043424d
+SHA256: 3c00f2630eca2351babb489c03f57352d39ea1d10d8074299a862bce671574d1
+Homepage: https://github.com/shellinabox/shellinabox
+Description: Implementation of a web server that can export arbitrary command line tools to a web based terminal emulator
+
+Package: shfmt
+Version: 3.14.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3816
+Filename: pool/debs-20261109-105439-00/shfmt_3.14.1-1_aarch64.deb
+Size: 1087728
+MD5sum: 65c8e5e9990d4386a239dd002ed3727b
+SHA1: 8f7bdcb2f7460f890e858ca01fb67de4e740c5c6
+SHA256: 1d59825d5180bdbd1c7b0ef358006451bcb28d7f8626444a68a848692381657d
+Homepage: https://github.com/mvdan/sh
+Description: A shell parser and formatter
+
+Package: shiori
+Version: 1.8.0-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 42440
+Filename: pool/debs-20261109-105439-00/shiori_1.8.0-1_aarch64.deb
+Size: 14210808
+MD5sum: a92f2709d8302435818eec76d323e060
+SHA1: b6aa2fd1cf11eba924bb61cd2997f6054d73b78d
+SHA256: 70f3dede680b80e5e85c73c4d32350d73471b35dd30ffb5327d63ad8ab7ae023
+Homepage: https://github.com/go-shiori/shiori
+Description: Simple bookmark manager built with Go
+
+Package: shntool
+Version: 3.0.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Filename: pool/debs-20261109-105439-00/shntool_3.0.10-1_aarch64.deb
+Size: 58560
+MD5sum: e5fdbe7ad13f3ea950a484609be2c9ff
+SHA1: 846623a6d1b31a4f54efce78767f61d48d7d6746
+SHA256: e3961fb14c0a405ca8cc750e50ebca01ea3537a5e19e7fa7629034e06949d238
+Homepage: http://shnutils.freeshell.org/shntool/
+Description: A multi-purpose WAVE data processing and reporting utility
+
+Package: shtool
+Version: 2.0.8-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 628
+Depends: perl
+Filename: pool/debs-20261109-105439-00/shtool_2.0.8-9_aarch64.deb
+Size: 93188
+MD5sum: d75777952e26ff077052160b8de0edec
+SHA1: 668f3ea33fe6ac014162255c25e03004c3db9827
+SHA256: 23d768f4184c34f7178aa93edbcee8e436baad093a899e3205f83263bea22ee3
+Homepage: http://www.gnu.org/software/shtool/
+Description: compilation of small but very stable and portable shell scripts into a single shell tool
+
+Package: signify
+Version: 33
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: libbsd
+Filename: pool/debs-20261109-105439-00/signify_33_aarch64.deb
+Size: 50420
+MD5sum: 44d910a66dd8e777f8dd3e06459b346a
+SHA1: 37119d8ed392537e8a82091c9fd382715bf42ada
+SHA256: 303763421ee082e43c5a3ab31775d507aa3d81ce7e5c8802a4685f80bf4f0eb8
+Homepage: https://github.com/aperezdc/signify
+Description: Lightweight cryptographic signing and verifying tool
+
+Package: silicon
+Version: 0.5.3-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 7384
+Depends: fontconfig, harfbuzz
+Filename: pool/debs-20261109-105439-00/silicon_0.5.3-1_aarch64.deb
+Size: 4105328
+MD5sum: 13f1c2560c8cbb7b6e2dba0b6167f995
+SHA1: 752de9c31d41942cff52104e6aed2aa400b326bb
+SHA256: c9cd466d38afbac9b651d941256fe2a0f4bfdd7de94883386070f161192413ba
+Homepage: https://github.com/Aloxaf/silicon
+Description: Silicon is an alternative to Carbon implemented in Rust
+
+Package: silversearcher-ag
+Version: 2.2.0-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: pcre, liblzma, zlib
+Filename: pool/debs-20261109-105439-00/silversearcher-ag_2.2.0-6_aarch64.deb
+Size: 31796
+MD5sum: 6635e417aa976fbef5dedb8b4d5d4d02
+SHA1: 0a29d4b721a83b063118648d01d1e173344b95db
+SHA256: 3d478e035e98a76c128aef268c442b26ac88849011c236b2b9c0fb20146646f0
+Homepage: https://geoff.greer.fm/ag/
+Description: Fast grep-like program, alternative to ack-grep
+
+Package: simh
+Version: 1:3.12.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6756
+Filename: pool/debs-20261109-105439-00/simh_1_3.12.5-1_aarch64.deb
+Size: 1071716
+MD5sum: 41bf858ab5cf3b8af600c80ac13af0ab
+SHA1: 511d6d72d80d9538227998b4ee8c45aedabb81b9
+SHA256: c66c1c42b7e154faf355625566c133407f6d25dd95d3c5be14d069caff173ca5
+Homepage: http://simh.trailing-edge.com/
+Description: A collection of simulators for computer hardware and software from the past
+
+Package: simple-mtpfs
+Version: 0.4.0
+Architecture: aarch64
+Maintainer: @flipphoneguy
+Installed-Size: 288
+Depends: libmtp, libfuse2, libusb
+Filename: pool/debs-20261109-105439-00/simple-mtpfs_0.4.0_aarch64.deb
+Size: 43352
+MD5sum: eaf6dbc3bc8e564b28d5c298eabe8f3b
+SHA1: 329bb7a1d1410d8d69d0044687d14268b8e55143
+SHA256: 5a659967517b4eab3ca28fa62556dc09c94415386472bd518b309f14c75d1acd
+Homepage: https://github.com/phatina/simple-mtpfs
+Description: Simple MTP fuse filesystem driver
+
+Package: simulide
+Version: 2025.10.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8844
+Depends: libc++, libelf, qt5-qtbase, qt5-qtmultimedia, qt5-qtscript, qt5-qtserialport, qt5-qtsvg, simulide-data
+Filename: pool/debs-20261109-105439-00/simulide_2025.10.29-1_aarch64.deb
+Size: 2450948
+MD5sum: 269ea93afc91ee5e657cd87cc4f5eed7
+SHA1: 5978e5947ef99ad31d9f475a26aa22ebb8c0f6f0
+SHA256: 0451dec57b22cc495027a951a922920f80d0945e489c77807d9fdf451982de33
+Homepage: https://simulide.com/p/
+Description: Simple real time electronic circuit simulator
+
+Package: simulide-data
+Version: 2025.10.29-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 7688
+Filename: pool/debs-20261109-105439-00/simulide-data_2025.10.29-1_all.deb
+Size: 1037416
+MD5sum: b756255d1939591a7dd2d86592b99fda
+SHA1: cb951f312c1aa0d492db942e0dca8492b854ee6d
+SHA256: efeeeb1febba84d2309cd0e98639344eb495cce35e6c966aa1d4bf3d9ab19996
+Homepage: https://simulide.com/p/
+Description: Platform-independent data for simulide
+
+Package: sing-box
+Version: 1.14.4
+Architecture: aarch64
+Maintainer: kay9925@outlook.com
+Installed-Size: 46236
+Filename: pool/debs-20261109-105439-00/sing-box_1.14.4_aarch64.deb
+Size: 10519192
+MD5sum: f64e6bea859eb9d426f8c6458be31f71
+SHA1: 4d6c2eeffccf0b13237fca5b36ce4c72fcc96d1e
+SHA256: 05ddb91515243578c39065a89e6916a854ef81a9d27b017e20415f5092ae469a
+Homepage: https://sing-box.sagernet.org
+Description: The universal proxy platform
+
+Package: skate
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14276
+Filename: pool/debs-20261109-105439-00/skate_1.1.0-1_aarch64.deb
+Size: 3619888
+MD5sum: 963876cf43c249867b1a78dd4bed31d2
+SHA1: 17567b42bca9cb57870a7bd99f5fa48098279039
+SHA256: c34f1b3b8ef0eea71532d804576bde3bd312aa412bff98ade84c1825d09b4e5f
+Homepage: https://github.com/charmbracelet/skate
+Description: A personal key-value store
+
+Package: sl
+Version: 5.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: ncurses
+Filename: pool/debs-20261109-105439-00/sl_5.05-1_aarch64.deb
+Size: 7312
+MD5sum: 875ad802b4f7b573c4bf387777b0553a
+SHA1: f53dd83c8ce921755d6dc9acec611926f008320e
+SHA256: 46b993823c2a8782416d383ab216de5ffe11bdd5b6e21c42c443f78bb0c596fb
+Homepage: https://github.com/mtoyoda/sl
+Description: Tool curing your bad habit of mistyping
+
+Package: slashtime
+Version: 2023.01.04-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 172
+Depends: perl
+Filename: pool/debs-20261109-105439-00/slashtime_2023.01.04-1_all.deb
+Size: 4064
+MD5sum: d5e8d88dbc26da2dd4b024f58664207f
+SHA1: 7da4d1e1b7a01fa0c0a72130dcfb204a9eeb7c5f
+SHA256: 5ac584857cd578a682ad466239f490203b8aa02164ba2b45f5b754f91f3785c7
+Homepage: https://github.com/istathar/slashtime
+Description: A small program which displays the time in various places
+
+Package: sleuthkit
+Version: 4.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14896
+Depends: libc++, libsqlite, zlib
+Filename: pool/debs-20261109-105439-00/sleuthkit_4.15.0_aarch64.deb
+Size: 1413976
+MD5sum: 6e93c532dc4648de4ef477cf8b16001a
+SHA1: 01c63a0530dafc36259ef6bf9d0542ef9edecc38
+SHA256: 4ae5d27decd48fc6685c30c6a68e2de5b6a45807d83726904be8ba43ab31e7a0
+Homepage: https://sleuthkit.org/
+Description: The Sleuth Kit® (TSK) is a library for digital forensics tools.
+
+Package: sleuthkit-static
+Version: 4.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2640
+Depends: sleuthkit (= 4.15.0)
+Filename: pool/debs-20261109-105439-00/sleuthkit-static_4.15.0_aarch64.deb
+Size: 405236
+MD5sum: 97ffbcc9ccda91ec8c397632b8e13bf3
+SHA1: 90375229adc07f95b402ea46e97b6926c33201dd
+SHA256: 45781144b24d072fdf14e4837c0557cc1922a308f211084b1d1e5818d3077360
+Homepage: https://sleuthkit.org/
+Description: Static libraries for sleuthkit
+
+Package: slides
+Version: 0.9.0-6
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 18120
+Filename: pool/debs-20261109-105439-00/slides_0.9.0-6_aarch64.deb
+Size: 4377776
+MD5sum: 421f0386d3938d630b759538bf30237c
+SHA1: e71acf930400b3413fa5c89147463068f15bce18
+SHA256: 00960c7fa10214f6fbae565618d571bff44416f6686f11518f0bc4450a0fa7bc
+Homepage: https://github.com/maaslalani/slides
+Description: Slides in your terminal
+
+Package: slugify
+Version: 2016.01.23
+Architecture: all
+Maintainer: @termux
+Installed-Size: 176
+Depends: bash
+Filename: pool/debs-20261109-105439-00/slugify_2016.01.23_all.deb
+Size: 4652
+MD5sum: 26ca5d2fe038ea4deb6f44401382c7fe
+SHA1: 1c052a51e413989c8d900af2dafae5e18beab2af
+SHA256: 80751734f82f6e4aef856aed8a50d4d4a8b2c9d1e0ffdb376752ee7865534bc9
+Homepage: https://github.com/benlinton/slugify
+Description: Bash command that converts filenames and directories to a web friendly format
+
+Package: smartmontools
+Version: 7.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2572
+Depends: libandroid-glob, libc++, libcap-ng
+Filename: pool/debs-20261109-105439-00/smartmontools_7.5-1_aarch64.deb
+Size: 560240
+MD5sum: 9bb7694b02e1e8d3b02c6ec1518c5fed
+SHA1: 940765009a108bcb18e2a538e08a00f1415522e5
+SHA256: e2ef44e63efd04d81de4674aa193029d3e5f02d4094cc9025a63794e5a0529cf
+Homepage: https://www.smartmontools.org/
+Description: Utility programs (smartctl and smartd) to control and monitor storage systems
+
+Package: snapcast-client
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1688
+Depends: pulseaudio, libc++, libexpat, libflac, libogg, libopus, libsoxr, libvorbis, openssl
+Filename: pool/debs-20261109-105439-00/snapcast-client_0.35.0-1_aarch64.deb
+Size: 441476
+MD5sum: 304747af857bcd8370982b2c1083b5b4
+SHA1: 387324e18ebbceeef14e8200f288f9a5fb91e8a7
+SHA256: 92449038c20becc76542c25854b83326f79de2c23e7dc788cde968817fae2a09
+Homepage: https://github.com/snapcast/snapcast
+Description: A multiroom client-server audio player (client)
+
+Package: snapcast-server
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4596
+Depends: libc++, libexpat, libflac, libogg, libopus, libsoxr, libvorbis, openssl
+Filename: pool/debs-20261109-105439-00/snapcast-server_0.35.0-1_aarch64.deb
+Size: 854880
+MD5sum: 64ee35eabe3aadff8297d479aaf682ff
+SHA1: 2c62d733591b0c3b3b2bc229aaca92bfb02f266a
+SHA256: c986b2fa5387418dab92540a4493cbe90b10b6a110961310b48b118f32b47fa9
+Homepage: https://github.com/snapcast/snapcast
+Description: A multiroom client-server audio player (server)
+
+Package: snmptt
+Version: 1.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 504
+Depends: net-snmp, perl
+Filename: pool/debs-20261109-105439-00/snmptt_1.5_all.deb
+Size: 53208
+MD5sum: bcb016467caca264957ad7c4d6328cb7
+SHA1: f8774c5a0c88449a8ed18ffa977e9ff38200a38e
+SHA256: 2cc88e6f20efb8ee9f3a8ee2952f0603475bc3652a2758ada0877265055a6682
+Homepage: http://www.snmptt.org/
+Description: SNMP trap translator
+
+Package: snowflake
+Version: 2.15.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Filename: pool/debs-20261109-105439-00/snowflake_2.15.3_aarch64.deb
+Size: 1748
+MD5sum: 6d963c72ab38aa2ca3becb39d91c9c4b
+SHA1: 0b39286ec5be56baea570b403b2e2dde1cdc6995
+SHA256: e6097ccd6ab308a5aa5dcf349c0d0b5bc1c359353c5ff927964b1e5f7fe82794
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy
+
+Package: snowflake-client
+Version: 2.15.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17440
+Filename: pool/debs-20261109-105439-00/snowflake-client_2.15.3_aarch64.deb
+Size: 4428220
+MD5sum: 670635cbb1dbcb79f1db1aa039b41421
+SHA1: 535408d967264980e76a72d4966c1716e5b1c2c9
+SHA256: 0773d6aede1a40259009e35b844e6e0b25c12e4a8ade998768a9aa79a594dd02
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Client)
+
+Package: snowflake-proxy
+Version: 2.15.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17508
+Filename: pool/debs-20261109-105439-00/snowflake-proxy_2.15.3_aarch64.deb
+Size: 4447516
+MD5sum: ba48273920f3e4f7d82b508eebc308b6
+SHA1: 5f94677cbeeef04b1d6caacdb8c401ca68776018
+SHA256: 67087451c7790032bede4f711f6184966be0a20164b632f04a4052dc1a706325
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Proxy)
+
+Package: socat
+Version: 1.8.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 828
+Depends: openssl, readline
+Filename: pool/debs-20261109-105439-00/socat_1.8.1.3_aarch64.deb
+Size: 195444
+MD5sum: 39340c33b2afa6ce4eed36a0a6428b86
+SHA1: 8260bdae8ff855f1b0fcc1b998e4f601dd103c32
+SHA256: 12870f456b7cd12529012f161974ab39ec61cf74f96a99554f53e4d0ed939183
+Homepage: http://www.dest-unreach.org/socat/
+Description: Relay for bidirectional data transfer between two independent data channels
+
+Package: softether-vpn
+Version: 5.2.5188-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27160
+Depends: libiconv, libsodium, ncurses, openssl, readline, resolv-conf, zlib
+Filename: pool/debs-20261109-105439-00/softether-vpn_5.2.5188-1_aarch64.deb
+Size: 4194204
+MD5sum: 10efe6a6c10b5e071d2452c304d2191e
+SHA1: aebf8b279f273270751345cd77354067feb5b530
+SHA256: 22deb53fbba63aa9ae0e434079bc5a07b082afd0a4750fba90a299e845f8c12c
+Homepage: https://www.softether.org/
+Description: An open-source cross-platform multi-protocol VPN program
+
+Package: softether-vpn-static
+Version: 5.2.5188-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6328
+Depends: softether-vpn (= 5.2.5188-1)
+Filename: pool/debs-20261109-105439-00/softether-vpn-static_5.2.5188-1_aarch64.deb
+Size: 624712
+MD5sum: 14298496e18bff33f464f6949500680a
+SHA1: 00cd74d3c424ba8b26fd05baef22d12d5a64caff
+SHA256: f2cecf40ad79fdd69e1a994024bc66f9c8beb55316233571b707afbdd0c61537
+Homepage: https://www.softether.org/
+Description: Static libraries for softether-vpn
+
+Package: soju
+Version: 0.11.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 35776
+Filename: pool/debs-20261109-105439-00/soju_0.11.1-1_aarch64.deb
+Size: 9659300
+MD5sum: 346d0d834e90a589c4bd44d16a5bdb5c
+SHA1: 2fd92027e81918d6b921bf3c1c9d894045ade60d
+SHA256: b15591588ad27b71ec4fb16bf946eb9d33bc04b919a6226106c1b7c376441ef1
+Homepage: https://codeberg.org/emersion/soju
+Description: A user-friendly IRC bouncer
+
+Package: sonarr
+Version: 4.0.20.3014-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 49900
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, mono, libesqlite3, libcurl, ffmpeg
+Filename: pool/debs-20261109-105439-00/sonarr_4.0.20.3014-2_aarch64.deb
+Size: 12990068
+MD5sum: a63dad66bc846163296c73d092bc8ec6
+SHA1: f39aef9086af6b53aba5404900cbfef0cb1a9d3a
+SHA256: f0f9960fa575cbca520fa33b17e58f2f432266060b1a09518414da6648dfe0da
+Homepage: https://sonarr.tv
+Description: A PVR for Usenet and BitTorrent users (server)
+
+Package: songrec
+Version: 0.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10320
+Depends: gtk4, alsa-lib, alsa-plugins, openssl, ffmpeg, libc++, gettext, glib, pango, libcairo, dbus, hicolor-icon-theme, gdk-pixbuf, libadwaita, pulseaudio, libsoup3
+Filename: pool/debs-20261109-105439-00/songrec_0.8.0_aarch64.deb
+Size: 2617596
+MD5sum: d318ad0e7c79dbf7ca69ac403d833f02
+SHA1: ec37bec90fee7c38c3bd98627874433fcd38cf82
+SHA256: 34b74e4fd7296493e031e9e077e0f347102882c5fe205d8c243c25dea9aa671f
+Homepage: https://github.com/marin-m/SongRec
+Description: Open-source, unofficial Shazam client
+
+Package: sops
+Version: 3.13.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52680
+Filename: pool/debs-20261109-105439-00/sops_3.13.3-1_aarch64.deb
+Size: 10379020
+MD5sum: 950e2d15ae8db7d5f25f1f18ef1d1c9c
+SHA1: 89c3ca782335ad50eddc8f0042d471f6dec80bf0
+SHA256: 45039fd647adfe73915a6884f43046de8c9f7726263f31a443b0fc2a49dbb6b2
+Homepage: https://github.com/getsops/sops
+Description: Simple and flexible tool for managing secrets
+
+Package: sparsehash
+Version: 2.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 896
+Filename: pool/debs-20261109-105439-00/sparsehash_2.0.4_aarch64.deb
+Size: 76268
+MD5sum: cbeb3ed34504f8a6019646ad62cae711
+SHA1: 59bb763563e3c57b648e1c800af5c9ee785dee00
+SHA256: 494e4d16f6e8e6fff12625258c5e276cff2796eeb0fd28f6c654794d344b7ff2
+Homepage: https://github.com/sparsehash/sparsehash
+Description: Extremely memory-efficient C++ hash_map implementation
+
+Package: spatialite-tools
+Version: 5.1.0a
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: libexpat, libiconv, libspatialite, libsqlite, libxml2
+Filename: pool/debs-20261109-105439-00/spatialite-tools_5.1.0a_aarch64.deb
+Size: 165620
+MD5sum: bc2fce8404f3b4f38457c088f113fbe0
+SHA1: 127625d0d1d60755aa26212a87d1e8c5900b5d04
+SHA256: 8a42d51b5535b81a3fd3ef04c5eb6f02e3ae7dcb31acf4b5bcf64ee55e9e94fd
+Homepage: https://www.gaia-gis.it/fossil/spatialite-tools
+Description: Collection of tools supporting SpatiaLite
+
+Package: speedtest-go
+Version: 1.8.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9720
+Filename: pool/debs-20261109-105439-00/speedtest-go_1.8.3-1_aarch64.deb
+Size: 2646004
+MD5sum: 86e2677d6eb07ba1ee70172cdd70affe
+SHA1: ea9d0fad08b4a68d2a6351d49a6ffc5988f566d9
+SHA256: 5abd3df212ca7a16736ceb69e5f58bb560b79600d53a9ec9cf0413f69f2faf46
+Homepage: https://github.com/showwin/speedtest-go/
+Description: Command line interface to test internet speed using speedtest.net
+
+Package: spglib
+Version: 2.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2920
+Filename: pool/debs-20261109-105439-00/spglib_2.8.0_aarch64.deb
+Size: 399528
+MD5sum: 590f95b03ba69b9ff1ba75ad7721c522
+SHA1: 42a0b938ca65386a04e3eb7d931055fcaf10843b
+SHA256: beea1b223320e4ab72abe69d9489947fe132f5f0055e4d4bcee8a5333893cbc0
+Homepage: https://spglib.github.io/spglib/index.html
+Description: C library for finding and handling crystal symmetries
+
+Package: spiped
+Version: 1.6.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 344
+Depends: openssl
+Filename: pool/debs-20261109-105439-00/spiped_1.6.4-1_aarch64.deb
+Size: 48436
+MD5sum: 6af998c70dcb0355fcd049923ecaf8ab
+SHA1: eb6cbacfd990b3ec947663338293b0a5452606ed
+SHA256: df5adf2aea3923fbdf974e0cbb870a358bae3492789699cddcd3e8ffca3b2ebd
+Homepage: https://www.tarsnap.com/spiped.html
+Description: a utility for creating symmetrically encrypted and authenticated pipes between socket addresses
+
+Package: spotify-qt
+Version: 4.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2540
+Depends: libc++, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261109-105439-00/spotify-qt_4.0.4_aarch64.deb
+Size: 509100
+MD5sum: e13aa0e2fe77769cd2479ccc85a87803
+SHA1: 403b6f3ed12825aed378e6a11a5c571441ca038d
+SHA256: f68a642f4ad6362332e204877eede322c4292cc9f544c480fc53f9cc31a7afa0
+Homepage: https://github.com/kraxarn/spotify-qt
+Description: Lightweight Spotify client using Qt
+
+Package: sqlc
+Version: 1.31.1-2
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 59648
+Filename: pool/debs-20261109-105439-00/sqlc_1.31.1-2_aarch64.deb
+Size: 10320400
+MD5sum: e26a2e04463a16899a942c125db41da0
+SHA1: 7cfd77e60034c506ee55316d727d5381434a123d
+SHA256: 18b4d5b95a079a82007c8e25328f0c1029db12f783dfb9b8d00636e30b123e7f
+Homepage: https://sqlc.dev
+Description: Generate type-safe code from SQL
+
+Package: squashfs-tools-ng
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 756
+Depends: liblz4, liblzma, liblzo, zlib, zstd
+Filename: pool/debs-20261109-105439-00/squashfs-tools-ng_1.3.2-1_aarch64.deb
+Size: 124540
+MD5sum: 84a185aa78006935f0d351a2c025b9ae
+SHA1: c0a9afad3a1e75bad1225037ab5adbea456999e1
+SHA256: ff641613c17dab586c040625dcd1d3c085b2cbf95629d1a2dae04a51598f8bf2
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Description: New set of tools for working with SquashFS images
+
+Package: squashfs-tools-ng-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: squashfs-tools-ng (= 1.3.2-1)
+Filename: pool/debs-20261109-105439-00/squashfs-tools-ng-static_1.3.2-1_aarch64.deb
+Size: 38024
+MD5sum: 2e2c3d7d0a4cad4a10bb384f8d503c89
+SHA1: e8fea2b2626329cde2e37d82d07af98cb9f80c6f
+SHA256: 60b1a4a49c1cfa94ee99076c7ff82731e08a9f4df1e34b91e0ce32a3979ee955
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Description: Static libraries for squashfs-tools-ng
+
+Package: squashfuse
+Version: 0.6.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: libfuse2, liblz4, liblzma, liblzo, zlib, zstd
+Filename: pool/debs-20261109-105439-00/squashfuse_0.6.5_aarch64.deb
+Size: 48328
+MD5sum: 123bb47e3e3b4f24e9608e71df25c85e
+SHA1: d576493a5a15d93fac71b83745898edb42961d01
+SHA256: 4b6102744f99f89bd5090fe019515803677f93d284b5c8f82806487ce277c0d2
+Homepage: https://github.com/vasi/squashfuse
+Description: FUSE filesystem to mount squashfs archives
+
+Package: squashfuse-static
+Version: 0.6.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: squashfuse (= 0.6.5)
+Filename: pool/debs-20261109-105439-00/squashfuse-static_0.6.5_aarch64.deb
+Size: 22176
+MD5sum: c231111e6d9b667186ac8b72bbfd950c
+SHA1: 1c715ed88d5ced34c52a7303ab494650397e5117
+SHA256: 50710309c1ea7f2711a0deec0a9ed818ae692fb207852898db5596702b1e7738
+Homepage: https://github.com/vasi/squashfuse
+Description: Static libraries for squashfuse
+
+Package: squeezelite
+Version: 2.0.0.1610
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: libflac, libmad, libvorbis, libmpg123, pulseaudio
+Filename: pool/debs-20261109-105439-00/squeezelite_2.0.0.1610_aarch64.deb
+Size: 34728
+MD5sum: a86a0be7cf0ddfd230b7b95fd8a47f8d
+SHA1: 11d6a6fb1050d039df2e840f84cf192b18593b87
+SHA256: f91d05a286c4a2e2b39616abd3fc843cb33f7a542916059cf52cf708006ee6ed
+Homepage: https://ralph-irving.github.io/squeezelite.html
+Description: A small headless Logitech Squeezebox emulator
+
+Package: squid
+Version: 7.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7424
+Depends: libc++, libcrypt, libexpat, libgnutls, libltdl, libnettle, libxml2, openldap, resolv-conf
+Filename: pool/debs-20261109-105439-00/squid_7.8_aarch64.deb
+Size: 1771108
+MD5sum: d752e971015903a2f482374d6686bc2c
+SHA1: cf63a5ea7261cd1ff6576ab3b287f7032048edb0
+SHA256: 2add1f614e9ad0a38f811c1d5a3f6643fd087cbe55576e9b4f4548f9a6f5df4d
+Homepage: http://www.squid-cache.org
+Description: Full-featured Web proxy cache server
+
+Package: srelay
+Version: 0.4.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: libcrypt
+Filename: pool/debs-20261109-105439-00/srelay_0.4.9_aarch64.deb
+Size: 26668
+MD5sum: 4b4a852d2c79e8866220aac7ae92bcd8
+SHA1: a09d63454fb26a4255ba7bebe8d31497ef0fa7ba
+SHA256: e5e16d3df5310d4da6d98629782caf79655926016aae0118ff2ff480d88f71cf
+Homepage: https://sourceforge.net/projects/socks-relay/
+Description: A Free SOCKS proxy server
+
+Package: srt2vobsub
+Version: 1.0-9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 256
+Depends: bdsup2sub, ffmpeg, fontconfig-utils, imagemagick, mediainfo, python, python-pip
+Filename: pool/debs-20261109-105439-00/srt2vobsub_1.0-9_all.deb
+Size: 28172
+MD5sum: 6163ba0590f1a4e089448710f187251a
+SHA1: 9e67f370d31b255696814995c1edf4ae8a56a793
+SHA256: 72d1693f633bfecf4708978e1f25b2e15dafa0e8a1d26f273192a8e31705afdb
+Homepage: https://srt2vobsub.sourceforge.io/
+Description: A command-line tool that generates a pair of .idx/.sub subtitle files from a textual subtitles file
+
+Package: ssdb
+Version: 1.9.9-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2268
+Depends: leveldb, libc++
+Filename: pool/debs-20261109-105439-00/ssdb_1.9.9-3_aarch64.deb
+Size: 289080
+MD5sum: 1dbabf9233b7a60a285251ae1cd54b6c
+SHA1: c7ba4e00189e3c21b61737839ad5105f4e2ea32f
+SHA256: 94526891bdd27d3c34a4c4e51caf044453317a45f2ccd0e1a39f02a3d969482f
+Homepage: https://ssdb.io/
+Description: A Redis compatible NoSQL database stored on disk
+
+Package: ssdeep
+Version: 2.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Depends: libc++
+Filename: pool/debs-20261109-105439-00/ssdeep_2.14.1-2_aarch64.deb
+Size: 34156
+MD5sum: 8271df93a9187d141bcedbdbabc1d787
+SHA1: 8211631c19dc9244c30da750aa34986f8d3779f2
+SHA256: 9285f08269e85e0b2607df0d435942657655fd29674f352a5ed4cfa9510d032a
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Description: A program for computing context triggered piecewise hashes (CTPH)
+
+Package: ssdeep-static
+Version: 2.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: ssdeep (= 2.14.1-2)
+Filename: pool/debs-20261109-105439-00/ssdeep-static_2.14.1-2_aarch64.deb
+Size: 7208
+MD5sum: fa8c54b3644b606bcd0c1f5d3e35d968
+SHA1: 4c79d63d30eaea902fd93b401a4194dc41abd247
+SHA256: b6526f854a4029669726f7ad2343c20da9d5bff9f84320352bf17643647d85aa
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Description: Static libraries for ssdeep
+
+Package: sse2neon
+Version: 1.9.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 668
+Filename: pool/debs-20261109-105439-00/sse2neon_1.9.1_all.deb
+Size: 61972
+MD5sum: 9b4647b0ef4c6bb0b068faf56f89bd6a
+SHA1: 2b27593ed1ab1080829996fd2722de907ada1b62
+SHA256: 5578b230d8e31ab6971f03cd49296b765f02d398608e135f6a428e7be744b253
+Homepage: https://github.com/DLTcollab/sse2neon
+Description: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+
+Package: sshfs
+Version: 3.7.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: libfuse3, glib, openssh | dropbear
+Filename: pool/debs-20261109-105439-00/sshfs_3.7.6_aarch64.deb
+Size: 30700
+MD5sum: a493650e97dcd603a53c300dd9331507
+SHA1: f9b31875d5a2557e81cfa2e9166d3e202592e7ea
+SHA256: 416dbf742b63e4fb179ce74ef489e035e8eea481261856c57a76b4b0f7202129
+Homepage: https://github.com/libfuse/sshfs
+Description: FUSE client based on the SSH File Transfer Protocol
+
+Package: sshpass
+Version: 1.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Filename: pool/debs-20261109-105439-00/sshpass_1.10-1_aarch64.deb
+Size: 8504
+MD5sum: 3ae17ffc92f33a727f377882e8914a32
+SHA1: fe0d81c24d7b3bc63410f80f0a3028a579e8618f
+SHA256: f9486b01fb67d3e8873dc2e140ff5f36ac65bcd82a1f654eb35baad70d05ce55
+Homepage: https://sourceforge.net/projects/sshpass/
+Description: Noninteractive ssh password provider
+
+Package: sshping
+Version: 0.1.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libc++, libssh
+Filename: pool/debs-20261109-105439-00/sshping_0.1.4-3_aarch64.deb
+Size: 28884
+MD5sum: b33618f488224bff36f17cd44abf3dc2
+SHA1: d62aba9f7c604bee2a58bd04c21ea4eac5ea022f
+SHA256: d663811dc2bedddb6e2eaa1af74f24d9b468edabf02c579812a93e2fde4eeeab
+Homepage: https://github.com/spook/sshping
+Description: measure character-echo latency and bandwidth for an interactive ssh session
+
+Package: sslscan
+Version: 2.2.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: openssl (>= 3.5.0)
+Filename: pool/debs-20261109-105439-00/sslscan_2.2.3_aarch64.deb
+Size: 41756
+MD5sum: 47751413694795e0ccf6b9e80e49164b
+SHA1: e98bc379118805c4c2a4019d42dd948f31853e6e
+SHA256: 34b2a17333376072d12d8660f2c1efcbf511c4096e6f17fee56ab0ae42881e4e
+Homepage: https://github.com/rbsec/sslscan
+Description: Utility to discover supported cipher suites on SSL/TLS enabled servers
+
+Package: sssnake
+Version: 0.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Filename: pool/debs-20261109-105439-00/sssnake_0.4.0_aarch64.deb
+Size: 26236
+MD5sum: 8257203aea9f91e1f3d35841fa83b3d3
+SHA1: 880ba7ab22150ce5d83e11f911910716d4961b83
+SHA256: 32e199562e5a056e4bc26660195f9c20b6093f967c86cb327d7c9b3240edc6ed
+Homepage: https://github.com/AngelJumbo/sssnake
+Description: cli snake game that plays itself
+
+Package: ssss
+Version: 0.5.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: libgmp
+Filename: pool/debs-20261109-105439-00/ssss_0.5.7-1_aarch64.deb
+Size: 10880
+MD5sum: a4f6a7ba7dfbf1e5109d44321a4c2dd9
+SHA1: 915fb5a7e351f2b7fc2bbabe5e7c08103ddec1c9
+SHA256: afa127f8300ab8642d4436829b7b50752e381cd813d2f356cc0dd9824b024363
+Homepage: https://github.com/MrJoy/ssss
+Description: Simple command-line implementation of Shamir's Secret Sharing Scheme
+
+Package: starship
+Version: 1.27.0
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 9564
+Suggests: nerdfix, taplo
+Filename: pool/debs-20261109-105439-00/starship_1.27.0_aarch64.deb
+Size: 2748088
+MD5sum: e42d386d70f2e4fd73adb82b15f57cbb
+SHA1: 52dfbdbfe322ec084607911be2ea0ae629a4ce8b
+SHA256: 48a4de94e54af883f60dea7b2553c492198da1ce6f648827837fd32a851d0292
+Homepage: https://starship.rs
+Description: A minimal, blazing fast, and extremely customizable prompt for any shell
+
+Package: strace
+Version: 7.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2108
+Depends: libdw
+Filename: pool/debs-20261109-105439-00/strace_7.3_aarch64.deb
+Size: 472212
+MD5sum: 9a1ee657803f23ffad679a1b0aded354
+SHA1: 2494ef59c1549be796e6663fa2662092c5af9b69
+SHA256: c7fa886f5986626e0caae27dcc221995d082a881e8d6601f4433082bd11230a7
+Homepage: https://strace.io/
+Description: Debugging utility to monitor system calls and signals received
+
+Package: totem-pl-parser
+Version: 3.26.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 540
+Depends: glib, libarchive, libgcrypt, libxml2
+Filename: pool/debs-20261109-105439-00/totem-pl-parser_3.26.7_aarch64.deb
+Size: 62968
+MD5sum: 196b15cb3ae1d56929782aca7dcc08ea
+SHA1: 1ce79ff057a825152da5b260d6968849fda3657f
+SHA256: 3d7e1d393907a3f0bcff8356fe6b0338ce0879962dd9fc0503059c9b7a6f69be
+Homepage: https://gitlab.gnome.org/GNOME/totem-pl-parser
+Description: Simple GObject-based library to parse and save a host of playlist formats
+

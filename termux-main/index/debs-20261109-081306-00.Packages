@@ -1,0 +1,353 @@
+Package: python-trash-cli
+Version: 0.26.9.29
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1060
+Depends: python, python-psutil, python-pip
+Filename: pool/debs-20261109-081306-00/python-trash-cli_0.26.9.29_aarch64.deb
+Size: 65428
+MD5sum: d1214fdbe124165237069b4bb18c1cb9
+SHA1: 53fab644cda5787de91dfddd7ec1e37f7cb5f1ce
+SHA256: af47c85ccd8186869185bc86f90b489fefd1e6ffc43fd68307ae3e78329eb2cc
+Homepage: https://github.com/andreafrancia/trash-cli
+Description: Command line trashcan (recycle bin) interface
+
+Package: python-xlib
+Version: 0.33-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1060
+Depends: python, python-pip
+Filename: pool/debs-20261109-081306-00/python-xlib_0.33-4_all.deb
+Size: 122884
+MD5sum: 7ecb5b613831abb3fdbcdcfeab6fd94d
+SHA1: be4afad1d2273aa03a79de86e53c6c82c2ad32d9
+SHA256: 58e0f59b067d408d86723af7c14a73d9e3c778b5257a397506c707c038544acd
+Homepage: https://github.com/python-xlib/python-xlib
+Description: The Python X Library
+
+Package: q-dns-client
+Version: 0.19.12-1
+Architecture: aarch64
+Maintainer: kay9925@outlook.com
+Installed-Size: 12068
+Filename: pool/debs-20261109-081306-00/q-dns-client_0.19.12-1_aarch64.deb
+Size: 3134228
+MD5sum: 3dc9a7c4a085929fc8b4c2de18b60226
+SHA1: 96c61730cbaf067f2808cfa48c8857c7b24e87c8
+SHA256: 8df54664522af1c86211bdbe893e15763f46b7772fb0ad01fdef06db2ba7e5e3
+Homepage: https://github.com/natesales/q
+Description: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
+
+Package: qb64
+Version: 2.0.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72204
+Depends: glu, clang
+Filename: pool/debs-20261109-081306-00/qb64_2.0.2-3_aarch64.deb
+Size: 6524372
+MD5sum: d3092205d77b155d4f9a90cb3ca96938
+SHA1: 8363ca70d727a4e5b5c8ac69fa0bc509db05c864
+SHA256: 5b66ac67cb6442a9ca95cd8bf281b453b70fb2546865c6e44cd1fcfdfff9688c
+Homepage: https://www.qb64.org/
+Description: BASIC for the modern era.
+
+Package: qbittorrent
+Version: 5.3.0
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 15180
+Depends: libc++, libtorrent-rasterbar, openssl, qt6-qtbase, zlib
+Recommends: python
+Suggests: jackett
+Filename: pool/debs-20261109-081306-00/qbittorrent_5.3.0_aarch64.deb
+Size: 8784228
+MD5sum: 89db76db532b9f1c1e52b6ad4219d4eb
+SHA1: ec15f3dab0f94f3e4252ec78249142810c14dc67
+SHA256: 62a87d197b7c999684c1fcb5c23f7ab01302ac3cfcb11709fefc8f5698a3ea2e
+Homepage: https://www.qbittorrent.org/
+Description: A Qt6 based BitTorrent client
+
+Package: qbittorrent-nox
+Version: 5.3.0
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 12124
+Depends: libc++, libtorrent-rasterbar, openssl, qt6-qtbase, zlib
+Recommends: python
+Suggests: jackett
+Filename: pool/debs-20261109-081306-00/qbittorrent-nox_5.3.0_aarch64.deb
+Size: 8164748
+MD5sum: 31cb6ca995f47ed7d197a3dbe070ad82
+SHA1: 2e5576258be3af10da36db343d0c4e0f32e00843
+SHA256: b3867afbcf697a0a630af10b92e0f1882d29e6cb9d70e9ad5c2fcb47f01bc7ef
+Homepage: https://www.qbittorrent.org/
+Description: A Qt6 based BitTorrent client - headless version
+
+Package: qgit
+Version: 2.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1548
+Depends: git, libc++, qt6-qtbase, qt6-qt5compat
+Recommends: hicolor-icon-theme
+Filename: pool/debs-20261109-081306-00/qgit_2.13_aarch64.deb
+Size: 350392
+MD5sum: fbc3f4dfbe54fdf208eeb6896fee49c5
+SHA1: b38fdb331a7300efe4334b3829be0d0984225de9
+SHA256: 95ac7ebc32ec8218172788b2d2b99406a8469ced7f17e96624be6c06ab6aadf3
+Homepage: https://github.com/tibirna/qgit
+Description: A git GUI viewer
+
+Package: qpdf
+Version: 12.4.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4400
+Depends: libc++, libjpeg-turbo, zlib
+Breaks: qpdf-dev
+Replaces: qpdf-dev
+Filename: pool/debs-20261109-081306-00/qpdf_12.4.2_aarch64.deb
+Size: 897292
+MD5sum: 1ca3c13848cc910388813a9f0a026157
+SHA1: bd50c387d57ab9c678cf57d13dbe1c1ef2872a96
+SHA256: 3e4bf2d24319975e5a87e80c55035bf06c05d5e20a7cc993b3d55c76bb54068c
+Homepage: http://qpdf.sourceforge.net
+Description: Content-Preserving PDF Transformation System
+
+Package: qrsspig
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1412
+Depends: boost, fftw, libc++, libcurl, libgd, libliquid-dsp, libssh, libyaml-cpp, pulseaudio
+Filename: pool/debs-20261109-081306-00/qrsspig_0.8.1-1_aarch64.deb
+Size: 205916
+MD5sum: 4c4ef0f826d5390a85a50548484c93d1
+SHA1: c0e7f5d55927df9c15efd863b121ccd609d24b01
+SHA256: 7b75ffc8e502ec264b24a551ce911d889883c8b5493e9c88e28966cd1248e7fe
+Homepage: https://gitlab.com/hb9fxx/qrsspig
+Description: Headless QRSS grabber for Raspberry Pi's
+
+Package: qt-creator
+Version: 20.0.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 202660
+Depends: clang, glib, libandroid-execinfo, libarchive, libelf, libllvm, libsecret, opengl, python, qt6-qtbase, qt6-qtcharts, qt6-qtdeclarative, qt6-qttools, qt6-qtsvg, libyaml-cpp, zstd
+Recommends: gdb, git, make, cmake, plocate
+Filename: pool/debs-20261109-081306-00/qt-creator_20.0.2-3_aarch64.deb
+Size: 40711244
+MD5sum: 9271fbe7f6f8a2624dababf88d9384f8
+SHA1: 18d916954b22c916910d603b5312d19e7bc895ca
+SHA256: 093748b683105b34e182bb376fe925d0b3241c63234f1e2d9d82dffbee7bff6f
+Homepage: https://www.qt.io/
+Description: Integrated Development Environment for Qt
+
+Package: qt5-qtscript
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3744
+Depends: libc++, qt5-qtbase
+Filename: pool/debs-20261109-081306-00/qt5-qtscript_5.15.18_aarch64.deb
+Size: 634540
+MD5sum: e17fdc1c132bdaa1242b45faed568aae
+SHA1: 06af9b580b7aeb78a172985ed837ef2229d81f52
+SHA256: de39ea29e4a8bc4a04b33a60b19fe4267b231a62c52b8323aa498ae8831b7e7e
+Homepage: https://www.qt.io/
+Description: Qt script module
+
+Package: qt5ct
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1228
+Depends: libc++, qt5-qtbase
+Filename: pool/debs-20261109-081306-00/qt5ct_1.9-1_aarch64.deb
+Size: 188940
+MD5sum: 90b7b8232d3fcf056a59fff5e16378ce
+SHA1: 773486a24831660a745677e8c83180feb57864ce
+SHA256: 1f71d5e0017c0426a919774c837f367d987f8a0dac212f3274997b52d0814ede
+Homepage: https://sourceforge.net/projects/qt5ct/
+Description: Qt5 Configuration Tool
+
+Package: qt6-qttranslations
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17220
+Filename: pool/debs-20261109-081306-00/qt6-qttranslations_6.12.0_aarch64.deb
+Size: 1992760
+MD5sum: 145d9f336cb233e45ad84fe248a1bc5a
+SHA1: bb4b6587ff4d1f0e5eca9be2448cccd93db9d0cf
+SHA256: 5364a6632dc9ef58d26725767c6d842f886a9c366975c5df49942632acd2385d
+Homepage: https://www.qt.io/
+Description: A cross-platform application and UI framework (Translations)
+
+Package: qt6-qttranslations-cross-tools
+Version: 6.12.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 17108
+Depends: qt6-qttranslations (= 6.12.0)
+Filename: pool/debs-20261109-081306-00/qt6-qttranslations-cross-tools_6.12.0_all.deb
+Size: 1991560
+MD5sum: ff627593982a89160e3f823150b6fdfd
+SHA1: d23a3a655351fdbabc744a4f4fdbe86390ad7b26
+SHA256: 2c43e737d2c7d2744f22404b7c7e4aa32eee1b9ed082585f8cbed1a7bab1109b
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: qt6ct
+Version: 0.11-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1032
+Depends: libc++, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261109-081306-00/qt6ct_0.11-7_aarch64.deb
+Size: 148216
+MD5sum: 9318f43eb970b452927ec926603657d2
+SHA1: 552e7cfc3178d4b70154501c711d3d94ffe48f5a
+SHA256: 02c6e70020075a2fec92b09fb79186c50acb545cbfcfe7ef20234bc2da653d82
+Homepage: https://www.opencode.net/trialuser/qt6ct/
+Description: Qt 6 Configuration Utility
+
+Package: rabbitmq-server
+Version: 4.4.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 67152
+Depends: erlang
+Filename: pool/debs-20261109-081306-00/rabbitmq-server_4.4.0_all.deb
+Size: 31547708
+MD5sum: 004282b42e2018be13120e6f8aaa9318
+SHA1: 2224ec7ed0d7205510e2dafbe415bc2cd10c704a
+SHA256: f67a0394dc877c020f13b8ae8386f57bb59af6607eb43f1f0ab602814c758a31
+Homepage: https://github.com/rabbitmq/rabbitmq-server
+Description: Feature rich, multi-protocol messaging and streaming broker
+
+Package: racket
+Version: 9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 34168
+Depends: libffi, libiconv
+Filename: pool/debs-20261109-081306-00/racket_9.3_aarch64.deb
+Size: 5794196
+MD5sum: 9df079de4a06fefa178ac28aab52ac7d
+SHA1: 668c1de060e06d4361f76be9d0a7f6981bfec852
+SHA256: 4bf235f55ca27f19a94e5f8e94823463edc1e89947b51110f50b49bfbeacf6eb
+Homepage: https://racket-lang.org
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+
+Package: racket-static
+Version: 9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4908
+Depends: racket (= 9.3)
+Filename: pool/debs-20261109-081306-00/racket-static_9.3_aarch64.deb
+Size: 1083612
+MD5sum: 8a12e003bed14d6547c866f475d16709
+SHA1: e9ced26b60d1e740b11579ed315b8d947d7baf20
+SHA256: 628215473763d19d025f4b4c7fc11b07c2cfe908a5425e3b58f019a51424606a
+Homepage: https://racket-lang.org
+Description: Static libraries for racket
+
+Package: radarr
+Version: 6.4.4.10685-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 47452
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, mono, libesqlite3, libcurl, ffmpeg
+Filename: pool/debs-20261109-081306-00/radarr_6.4.4.10685-1_aarch64.deb
+Size: 12385604
+MD5sum: a725e2c703da0821542cabb10819fb73
+SHA1: 1c323f9eee34093f7ebe9dfce1a045cef19a9452
+SHA256: 51566c72f712cbc7c55c164178b2f6e096081e1ad4917c63794ec0d1ec50e988
+Homepage: https://radarr.video
+Description: A PVR for Usenet and BitTorrent users (server)
+
+Package: rage
+Version: 0.12.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5876
+Filename: pool/debs-20261109-081306-00/rage_0.12.1_aarch64.deb
+Size: 1246044
+MD5sum: 2da252970fda513a25e17b3ce7325cba
+SHA1: c7e4afad16c2421993856815bc8404e18b74dd43
+SHA256: 401cc9a24de354164688e9de4a22e584ec484a4ec42f562145f6ddae51f33b8d
+Homepage: https://age-encryption.org/v1
+Description: A simple, secure and modern encryption tool
+
+Package: railway-cli
+Version: 5.71.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16380
+Filename: pool/debs-20261109-081306-00/railway-cli_5.71.0_aarch64.deb
+Size: 6455792
+MD5sum: 5994403ce04f188325131e70410bfb5e
+SHA1: 4f5f9d31bedd141905eec468b1a363a483520fa5
+SHA256: 23c13dfb4c63431048ff4191985430ba7ce1c8661ba873db9449653da2a8a824
+Homepage: https://railway.com/
+Description: This is the command line interface for Railway
+
+Package: ranger
+Version: 1.9.4-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1532
+Depends: python, file
+Filename: pool/debs-20261109-081306-00/ranger_1.9.4-2_all.deb
+Size: 200232
+MD5sum: 6cb3eddbfd15b1e84d12b316f8c6cd62
+SHA1: 2aca620014b3900be2390dac035b2018f018c7fc
+SHA256: 4fe7ca57802e5c091b7c4e85e936b860c6f37a075dcaec3b209f53f11dc8e3f9
+Homepage: https://ranger.github.io/
+Description: File manager with VI key bindings
+
+Package: ratt
+Version: 2023.02.02-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11348
+Filename: pool/debs-20261109-081306-00/ratt_2023.02.02-4_aarch64.deb
+Size: 3092124
+MD5sum: 3e1a9b6db7921b9ee29a22181c385d7d
+SHA1: 3cedb27ce1ad136d90b88f01db73c7f512790941
+SHA256: a1694cbd89421c34deeea847bc43515a3adcd3545acb9843da9b38615125941b
+Homepage: https://git.sr.ht/~ghost08/ratt
+Description: A tool for converting websites to rss/atom feeds
+
+Package: ravencoin
+Version: 4.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13192
+Depends: boost, libc++, libevent, libzmq, miniupnpc, openssl
+Filename: pool/debs-20261109-081306-00/ravencoin_4.8.0-1_aarch64.deb
+Size: 3405232
+MD5sum: d763e7b0c1c60391df15a5b6ebcbd2c9
+SHA1: b2ac8ac89fc260a89f2c5978b3d3969910389773
+SHA256: bb16d49eeb1e91c13c132ce03f1be5785ad7630e8c1aa43c27b84af884b93a43
+Homepage: https://ravencoin.org/
+Description: A peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another
+
+Package: ravencoin-static
+Version: 4.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1980
+Depends: ravencoin (= 4.8.0-1)
+Filename: pool/debs-20261109-081306-00/ravencoin-static_4.8.0-1_aarch64.deb
+Size: 523652
+MD5sum: 074ed9c95378af4f6fb7a48815ec3cd0
+SHA1: 0348d5c1215865b4e8d2cca28634b66714ead339
+SHA256: a541bc15d85fdda02f8934fd4e1ab0ee970e61de0fb0bb05e042778fbff51d8a
+Homepage: https://ravencoin.org/
+Description: Static libraries for ravencoin
+

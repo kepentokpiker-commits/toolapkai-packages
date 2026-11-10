@@ -1,0 +1,268 @@
+Package: codon
+Version: 0.20.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 226976
+Depends: libc++, libxml2, zlib, zstd
+Filename: pool/debs-20261104-080355-00/codon_0.20.6_aarch64.deb
+Size: 37727756
+MD5sum: ec67d8392930a284a1cedf83224920ed
+SHA1: 11cd52c9bb22089e5f78b3e087505160eea2cc0d
+SHA256: 44ba25cc161e6dc22f4a1fd4350d97f49a3074e7296a34f294b0b81298bd45c2
+Homepage: https://github.com/exaloop/codon
+Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
+
+Package: cointop
+Version: 1.6.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13244
+Filename: pool/debs-20261104-080355-00/cointop_1.6.10-4_aarch64.deb
+Size: 3466036
+MD5sum: 5104e0b4acacf332380230dd04d05dd3
+SHA1: 428d250ecb90c8fa0dd2f7107da73ff313eab151
+SHA256: e24b4f5d826a12c53e0ccb8e4066b8a1b7ed623b683c6892ecf6bb6a625c8313
+Homepage: https://cointop.sh/
+Description: A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies
+
+Package: colm
+Version: 0.14.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3684
+Depends: libc++
+Filename: pool/debs-20261104-080355-00/colm_0.14.7-2_aarch64.deb
+Size: 567792
+MD5sum: 9b7f5a904eccfe69b57ab69dc183219b
+SHA1: b6139550c1881047f3bdbf2476b8350a4827a255
+SHA256: 4d4ca8437e03bf0e605b755130471ef6a427fd4f9f3edbfbac91f1d4d94f9ebf
+Homepage: https://www.colm.net/open-source/colm/
+Description: COmputer Language Machinery
+
+Package: colm-static
+Version: 0.14.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3984
+Depends: colm (= 0.14.7-2)
+Filename: pool/debs-20261104-080355-00/colm-static_0.14.7-2_aarch64.deb
+Size: 379132
+MD5sum: fd2c562acf514b646809f5c52f67f465
+SHA1: e22bc6d5e1dd78b54bb403fe62da8ea8dd21d53a
+SHA256: 30406ad28aa9c11ff016e1537156f08833267375f79898ba66dd11bd11e31a65
+Homepage: https://www.colm.net/open-source/colm/
+Description: Static libraries for colm
+
+Package: colordiff
+Version: 1.0.22
+Architecture: all
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 140
+Depends: perl
+Filename: pool/debs-20261104-080355-00/colordiff_1.0.22_all.deb
+Size: 10912
+MD5sum: 96df718d9cd41d975164399414fbb17e
+SHA1: 07e3d711cccb762510a28993b5b97d1dc8911cd5
+SHA256: 84af5ffa7057de78969de3c2ad870bbd4c49bbfbe7219a519b71d657158eb172
+Homepage: https://www.colordiff.org/
+Description: Tool to colorize 'diff' output
+
+Package: composer
+Version: 2.11.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3800
+Depends: php
+Filename: pool/debs-20261104-080355-00/composer_2.11.1_all.deb
+Size: 620160
+MD5sum: a04811efcb8250d7ebd98d513ed51d1c
+SHA1: 3a63b042f029b21bc4dddce3b65e610e479be18b
+SHA256: f3d835cb45b7272d3f9dcd800727916edb6b4e1f43f5c95b6345d8ad5c9529d5
+Homepage: https://getcomposer.org/
+Description: Dependency Manager for PHP
+
+Package: console-bridge
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 200
+Depends: libc++
+Filename: pool/debs-20261104-080355-00/console-bridge_1.0.2-1_aarch64.deb
+Size: 21264
+MD5sum: 3a9b1d9a789dc1ee781571e608f5da09
+SHA1: 11feac1528a96c6507a19f8a15c3f045f9b033ca
+SHA256: 8694faf608c51d04ae20272df62417a11e29fd48c5b79e7567937068c7b2ee12
+Homepage: https://github.com/ros/console_bridge
+Description: A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages
+
+Package: containerd
+Version: 1.6.21-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 111952
+Depends: runc
+Filename: pool/debs-20261104-080355-00/containerd_1.6.21-6_aarch64.deb
+Size: 25799912
+MD5sum: 44526b1c31ee3bb9490f8b220c3cf6fb
+SHA1: 9298b9cd3ab26124a162a8c9dff93448f4887d13
+SHA256: 95b810474b7b43f1e6648c0af78f9269d871bd77f8f532d3a19734b2c1dd4117
+Homepage: https://containerd.io/
+Description: An open and reliable container runtime
+
+Package: cookcli
+Version: 0.39.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25568
+Depends: openssl
+Filename: pool/debs-20261104-080355-00/cookcli_0.39.0_aarch64.deb
+Size: 8863712
+MD5sum: d2bd04a738a7165b29b152b6773bbf39
+SHA1: ff5adb8ced200d9bc3108bcfea55cd70ea4ccce8
+SHA256: 193f304d4b8f90d17544ade1ed5f05b30cf7faa3b3420ebd348bc678856dd8d5
+Homepage: https://cooklang.org
+Description: A suite of tools to create shopping lists and maintain food recipes
+
+Package: copyq
+Version: 17.0.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 9732
+Depends: kf6-kguiaddons, kf6-knotifications, kf6-kstatusnotifieritem, libc++, libx11, libxcb, libxfixes, libxtst, qca, qt6-qtbase, qt6-qtdeclarative, qt6-qtsvg, qtkeychain
+Recommends: gnupg, hicolor-icon-theme
+Filename: pool/debs-20261104-080355-00/copyq_17.0.0_aarch64.deb
+Size: 1903640
+MD5sum: 50a5e66cc8a06f41fb16cf25ecfd1a1d
+SHA1: 06a4e7d07c3925fc8d31837512aaf5a1fa86c54c
+SHA256: f95f202eade1a78a75b01a3e12512401d5322827a052f25dc6e1bfaf3bfc1d36
+Homepage: https://hluk.github.io/CopyQ/
+Description: Advanced clipboard manager with editing and scripting features
+
+Package: corgi
+Version: 0.2.4-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4004
+Recommends: fzf
+Suggests: peco
+Filename: pool/debs-20261104-080355-00/corgi_0.2.4-7_aarch64.deb
+Size: 1149964
+MD5sum: 976a1af9c24e79564e614c16f2b257fa
+SHA1: 53342973ca958b3b5eca894d0755925ab3ffab96
+SHA256: 146c495037b9af2a5c187821934613f5c71b87c38ff4e05855f09d18462c1a8e
+Homepage: https://github.com/DrakeW/corgi
+Description: CLI workflow manager
+
+Package: corkscrew
+Version: 2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: openssh
+Filename: pool/debs-20261104-080355-00/corkscrew_2.0-4_aarch64.deb
+Size: 6064
+MD5sum: ace78725d9b1a7452c75f5c24bdb5917
+SHA1: 7c2f31bce2107164ffb20a4e9a1ead29c7d50bdc
+SHA256: 18935899a48dbc7423cb0bf87e7c3b4b3dbf530963041c6935ed1072d17df000
+Homepage: https://github.com/patpadgett/corkscrew
+Description: A tool for tunneling SSH through HTTP proxies
+
+Package: cowsay
+Version: 3.8.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 324
+Depends: perl
+Filename: pool/debs-20261104-080355-00/cowsay_3.8.4_all.deb
+Size: 15088
+MD5sum: 802046132bc24cae082f65dd014fa164
+SHA1: 36b6b0c0385ae1b6b606c96669fddc47062bae1d
+SHA256: d04ce792a33f1aa9332e80a7ad5007461e63ecfc53905714bd1e8f08905549ce
+Homepage: https://cowsay.diamonds/
+Description: Program which generates ASCII pictures of a cow with a message
+
+Package: cpio
+Version: 2.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: tar
+Filename: pool/debs-20261104-080355-00/cpio_2.15-1_aarch64.deb
+Size: 66296
+MD5sum: 9ea0515cd2dd6d242771ba23b0fbf5a5
+SHA1: 5bbad8370b2b6da4c9c252dbe3600b56985d3249
+SHA256: 979ddb1e8ceabd9805e25037df4c463314c2449c2daf2ccdcd9f1a66d0972e7e
+Homepage: https://www.gnu.org/software/cpio/
+Description: CPIO implementation from the GNU project
+
+Package: cppcheck
+Version: 2.22.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10120
+Depends: libandroid-execinfo, libc++
+Filename: pool/debs-20261104-080355-00/cppcheck_2.22.0_aarch64.deb
+Size: 1884388
+MD5sum: ad0dfd821aef0cd0119189a25e889863
+SHA1: d55169b107a7ab939ebd6522bd84e6937cbf17a8
+SHA256: a2b15a1eb8078b339274cf1777eaf8770e387b4d1857d1da261d5b6b6c97882b
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+
+Package: oniguruma
+Version: 6.9.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 752
+Filename: pool/debs-20261104-080355-00/oniguruma_6.9.10-1_aarch64.deb
+Size: 136800
+MD5sum: a27c9f70e3b9b08233b936743c36160d
+SHA1: fed49e16d054027aeb14eb0a6e508f6ca672e83e
+SHA256: 1dd54f5d4f40f64f2b3810bfb05fdf2053f82bff302342add6d438f3548e04bf
+Homepage: https://github.com/kkos/oniguruma
+Description: Regular expressions library
+
+Package: oniguruma-static
+Version: 6.9.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 820
+Depends: oniguruma (= 6.9.10-1)
+Filename: pool/debs-20261104-080355-00/oniguruma-static_6.9.10-1_aarch64.deb
+Size: 143816
+MD5sum: 1ced4847d73d23c17bbe81d7afd2211a
+SHA1: 98db04c146231efb068327e10f34886bd80ddf00
+SHA256: 8240519b4b213524059cd55ce45a342e523f1754030f048c3f71b4c41b6e1782
+Homepage: https://github.com/kkos/oniguruma
+Description: Static libraries for oniguruma
+
+Package: tidy
+Version: 5.9.14-next-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2416
+Depends: libxslt
+Breaks: tidy-dev
+Replaces: tidy-dev
+Filename: pool/debs-20261104-080355-00/tidy_5.9.14-next-3_aarch64.deb
+Size: 307804
+MD5sum: 9a1f09c1d63fa123833d8a0f8adbe2a3
+SHA1: 8cc6eec427f0d70f4cb448a62ba7f9dcbeefb279
+SHA256: f388159fe3464fe28591237401b87a58b11f6a2e08514b10fe33392b239ed923
+Homepage: http://www.html-tidy.org/
+Description: A tool to tidy down your HTML code to a clean style
+
+Package: tidy-static
+Version: 5.9.14-next-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1356
+Depends: tidy (= 5.9.14-next-3)
+Filename: pool/debs-20261104-080355-00/tidy-static_5.9.14-next-3_aarch64.deb
+Size: 214956
+MD5sum: 2ef9c173508c98bfe1915830f031a2ce
+SHA1: 38436b751d09434d1cc3b2395eb788e7e426b01b
+SHA256: 506f26b07e4db9f3d38cc88d769437feaba0d07480c29f262e596b2313b4d0ac
+Homepage: http://www.html-tidy.org/
+Description: Static libraries for tidy
+

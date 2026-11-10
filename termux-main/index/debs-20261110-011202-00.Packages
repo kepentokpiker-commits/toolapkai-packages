@@ -1,0 +1,1734 @@
+Package: wasmer
+Version: 7.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 422968
+Filename: pool/debs-20261110-011202-00/wasmer_7.5.0_aarch64.deb
+Size: 71054028
+MD5sum: b0d11d8d86dcccc7e558098588fb2186
+SHA1: f80912668592d41d69162538520a03d6431ffe0b
+SHA256: b104b510bb258ce13c572c8fef8da55642ad1d29ff9d853b1dc0cb5e4b609630
+Homepage: https://wasmer.io/
+Description: A fast and secure WebAssembly runtime
+
+Package: wasmtime
+Version: 50.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 46568
+Filename: pool/debs-20261110-011202-00/wasmtime_50.0.1_aarch64.deb
+Size: 8753784
+MD5sum: 35c54e4298f22cff538af59df6133c51
+SHA1: 96933aca6e03627f8e05e89650c09cd36f45eb6a
+SHA256: 70943a929fec807d88625fae881ec7e7d940d62a8be4512b224823fb627a9095
+Homepage: https://wasmtime.dev/
+Description: A standalone runtime for WebAssembly
+
+Package: watchexec
+Version: 2.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8496
+Filename: pool/debs-20261110-011202-00/watchexec_2.8.0_aarch64.deb
+Size: 2494248
+MD5sum: 6767ba3e27873df73f9f53a367e4493f
+SHA1: 0d981489a9626f8b3676f9456147c32ec39fa750
+SHA256: 951b3b9fc2d04e1318e4ca9b05e7abfea8d2acfc9c9ff0c45822120c18861d8f
+Homepage: https://github.com/watchexec/watchexec
+Description: Executes commands in response to file modifications
+
+Package: wavemon
+Version: 0.9.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 312
+Depends: libcap, libnl, libnl-cli, ncurses
+Filename: pool/debs-20261110-011202-00/wavemon_0.9.7_aarch64.deb
+Size: 46228
+MD5sum: 93a55855218b42bc39ed78092fe6c6d1
+SHA1: 60c6437664c6fe4d8fc26fec7f03f66e5576f1fe
+SHA256: bc97a1894989b8931dac31b4ff03dc210db5d4559a6dd27db87086517c771de3
+Homepage: https://github.com/uoaerg/wavemon
+Description: Ncurses-based monitoring application for wireless network devices
+
+Package: waypipe
+Version: 0.11.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Depends: libandroid-spawn, liblz4, libwayland, zstd
+Filename: pool/debs-20261110-011202-00/waypipe_0.11.3_aarch64.deb
+Size: 65612
+MD5sum: ea51c317e6c2baf57947afa026e633c3
+SHA1: 49e9668deb9a585a344f3e59f3d17ff565b8aed0
+SHA256: e6b818df35ff67091d3f337b73a10fc96ee1197f467839d9f1aa9899ef13c161
+Homepage: https://gitlab.freedesktop.org/mstoeckl/waypipe
+Description: A proxy for Wayland clients
+
+Package: wayvnc
+Version: 0.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: libaml, libdrm, libjansson, libneatvnc, libpixman, libwayland, libxkbcommon
+Suggests: sway
+Filename: pool/debs-20261110-011202-00/wayvnc_0.10.2_aarch64.deb
+Size: 63952
+MD5sum: ff3050da38569e45cdb585e9036c9610
+SHA1: 6fc2bdf2f2585c89025527cc683de81168c48e00
+SHA256: d2eea86b96fca5f5aba2ef4c86fde453277ac88e71b8e6d17be0653cef99482c
+Homepage: https://github.com/any1/wayvnc
+Description: A VNC server for wlroots based Wayland compositors
+
+Package: wcalc
+Version: 2.5-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 528
+Depends: flex,libmpfr,libgmp,readline
+Filename: pool/debs-20261110-011202-00/wcalc_2.5-6_aarch64.deb
+Size: 97544
+MD5sum: 6ca4c6d186f6c6db796976d9ef416284
+SHA1: f2f2c4a3e32c08f32b2f22f059ff12cac8ed020f
+SHA256: 93ed788e8ecd3a356c934b50aa6643507a347244c6f959d29e6d8fa05c211e3b
+Homepage: https://w-calc.sourceforge.net
+Description: Capable calculator
+
+Package: wdiff
+Version: 1.2.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: ncurses
+Filename: pool/debs-20261110-011202-00/wdiff_1.2.3_aarch64.deb
+Size: 17444
+MD5sum: ee1239cc75474fca42e1cda8364280d5
+SHA1: 8e7180949ba8ddd8669332f33a3119a758bd2109
+SHA256: afa40d813297ed2c8dbaa0cbe8b090680cc69c48e7ba754aac4df06fe4535715
+Homepage: https://www.gnu.org/software/wdiff/
+Description: Display word differences between text files
+
+Package: webp-pixbuf-loader
+Version: 0.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: gdk-pixbuf, glib, libwebp
+Filename: pool/debs-20261110-011202-00/webp-pixbuf-loader_0.2.7-1_aarch64.deb
+Size: 7468
+MD5sum: 058e8d17fa5eea1ddf468e3ace7edc2d
+SHA1: 72e74a36ea85fa0da87aa290e76034a1de022faa
+SHA256: 032c23474b805bedab5465d900f47402eaab18131e7023ed79807a786a95592f
+Homepage: https://github.com/aruiz/webp-pixbuf-loader
+Description: WebM GDK Pixbuf Loader library
+
+Package: websocat
+Version: 1.14.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3680
+Depends: openssl
+Filename: pool/debs-20261110-011202-00/websocat_1.14.1_aarch64.deb
+Size: 969836
+MD5sum: 206cff2c10905c80c914cd5f262414dd
+SHA1: 3843ceaf912fafe772b871e95934b47f331d5f51
+SHA256: f894e7109c6ceb95c4177ccee8264c545e6535a036d2f3b74a212adde5c1b3fe
+Homepage: https://github.com/vi/websocat
+Description: Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
+
+Package: websocketd
+Version: 0.4.1-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7524
+Filename: pool/debs-20261110-011202-00/websocketd_0.4.1-5_aarch64.deb
+Size: 2124040
+MD5sum: f8a9e828015af66a84ab53ee0d6010ce
+SHA1: 63f4d2785e32d192cd93fa63f221baf64de0fc05
+SHA256: 8809b982e01448ae3e5563285b741de6b357ee43a5c8d8ec3b204d923bbb64bb
+Homepage: https://websocketd.com/
+Description: Turn any program that uses STDIN/STDOUT into a WebSocket server
+
+Package: webtunnel
+Version: 0.0.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9668
+Filename: pool/debs-20261110-011202-00/webtunnel_0.0.7-1_aarch64.deb
+Size: 1968312
+MD5sum: 0b547b186c336ff4baeb9562eb898c3d
+SHA1: cfbcadec1f6f8d722411482f14f75b86af8440e3
+SHA256: 2f819b663c074e8989216104b9f9894d658c0f17ddb33a3197f70161d6eaa484
+Homepage: https://torproject.org/
+Description: Pluggable Transport based on HTTP Upgrade(HTTPT)
+
+Package: weechat
+Version: 4.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3204
+Depends: libandroid-support, libcurl, libgcrypt, libgnutls, libiconv, ncurses, zlib, zstd
+Breaks: weechat-dev
+Replaces: weechat-dev
+Filename: pool/debs-20261110-011202-00/weechat_4.10.2_aarch64.deb
+Size: 804612
+MD5sum: 4e3adc54df7ed1c0eba3f70ae7827156
+SHA1: 2b49ce2f68b63a4c2c5e16efa5cce44a794d695f
+SHA256: 4a2592103326d8499b3e42cb71355f3fb57678817dd59f3363053acc2b929808
+Homepage: https://weechat.org/
+Description: Fast, light and extensible IRC chat client
+
+Package: weechat-lua-plugin
+Version: 4.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: lua53, weechat (= 4.10.2)
+Filename: pool/debs-20261110-011202-00/weechat-lua-plugin_4.10.2_aarch64.deb
+Size: 40136
+MD5sum: a85402ec879775dd3e2ea4b1edcc629f
+SHA1: 82cc1b3a0f9ef621efe247e050ae75423ddcfe6a
+SHA256: b6f8975d9949313e0c63d3898d92f8ea5df7ac0a73a46d58a5ed07d900258107
+Homepage: https://weechat.org/
+Description: WeeChat Lua Plugin
+
+Package: weechat-matrix-rs
+Version: 2022.10.04-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18088
+Depends: weechat, openssl
+Filename: pool/debs-20261110-011202-00/weechat-matrix-rs_2022.10.04-2_aarch64.deb
+Size: 4147556
+MD5sum: 371c08ea6da4a9c7c2486febb2287106
+SHA1: 5d7fb87d9733910a8f96d39f16eb6ba989476f67
+SHA256: 44e39f1258bd7e836a115a41004a3dc33c97d6f43460449160857f4309dd4b2d
+Homepage: https://github.com/poljar/weechat-matrix-rs
+Description: Rust rewrite of the python weechat-matrix script
+
+Package: weechat-perl-plugin
+Version: 4.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Depends: perl, weechat (= 4.10.2)
+Filename: pool/debs-20261110-011202-00/weechat-perl-plugin_4.10.2_aarch64.deb
+Size: 61596
+MD5sum: a2cf98316b8ce902ccb24a704b207d2c
+SHA1: 990715e426c57635831170d5b2538370326f1021
+SHA256: ef86c02720fa7221fa7146daf63cd98686fb39869ced9c0d03b6a4f3ea0c5cf8
+Homepage: https://weechat.org/
+Description: WeeChat Perl Plugin
+
+Package: weechat-python-plugin
+Version: 4.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: python, weechat (= 4.10.2)
+Filename: pool/debs-20261110-011202-00/weechat-python-plugin_4.10.2_aarch64.deb
+Size: 43584
+MD5sum: cd3be26b5162ae2eec50f7fc26f6d2d1
+SHA1: 88888dabf87ad55c3658f6dabef5b710fa2eb3d3
+SHA256: e74dd19a264eb4cd21b46cecf548c317c915713f6916d0c9599f1bb8fdc008c8
+Homepage: https://weechat.org/
+Description: WeeChat Python3 Plugin
+
+Package: weechat-ruby-plugin
+Version: 4.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 260
+Depends: ruby, weechat (= 4.10.2)
+Filename: pool/debs-20261110-011202-00/weechat-ruby-plugin_4.10.2_aarch64.deb
+Size: 46496
+MD5sum: a944184d3f32bb52fb30514ecee09336
+SHA1: 673ba49b785d26999c4064c2b9df4a8627c0a716
+SHA256: 84be762c5bfbed39dd5d5268c929dd2f6217f070ef28c3cb3b126ac0af32e672
+Homepage: https://weechat.org/
+Description: WeeChat Ruby Plugin
+
+Package: weggli
+Version: 0.2.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4324
+Depends: libc++
+Filename: pool/debs-20261110-011202-00/weggli_0.2.4-3_aarch64.deb
+Size: 751208
+MD5sum: 9c17bb132c23e14750d6deef3f3ee155
+SHA1: d6bef072ba1c756b5038a52c861ef40d220b6d8f
+SHA256: 222e108a1e1e6758d5d2bddab7f5f9ee6c4211e4de83ed7fbe2b200d6df913d1
+Homepage: https://github.com/googleprojectzero/weggli
+Description: A fast and robust semantic search tool for C and C++ codebases
+
+Package: wego
+Version: 2.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7508
+Filename: pool/debs-20261110-011202-00/wego_2.4-1_aarch64.deb
+Size: 2137624
+MD5sum: 3fa6f3c4354830d87f67fe7fd4b7ed4a
+SHA1: b51e5840863e2b0ad767025768dac241a869a802
+SHA256: b8141cfad4ee1bd7c81eeda3349b9e2b56660eeb71ba62e5a6a64d0b9187b116
+Homepage: https://github.com/schachmat/wego
+Description: weather app for the terminal
+
+Package: wget2
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1660
+Depends: brotli, gpgme, libandroid-glob, openssl, libiconv, libidn2, libnghttp2, pcre2, zlib, zstd
+Filename: pool/debs-20261110-011202-00/wget2_2.3.0_aarch64.deb
+Size: 301896
+MD5sum: 0351caf75732aa79042998fac1fbf085
+SHA1: ec2111d01e8f92d04198679725d5295f942bf287
+SHA256: 1e0d00707587650ec28bcd582c62396724ce4bb87933fb53db68db7f3faca7e0
+Homepage: https://gitlab.com/gnuwget/wget2
+Description: The successor of GNU Wget, a file and recursive website downloader
+
+Package: wget2-static
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1220
+Depends: wget2 (= 2.3.0)
+Filename: pool/debs-20261110-011202-00/wget2-static_2.3.0_aarch64.deb
+Size: 230496
+MD5sum: fbd03187092111951aba18ee57e35a2b
+SHA1: d4f024e53e90b494ccb36fe706286a03e4def266
+SHA256: 853502ff7c77f5c9ba40e2f1c9fdef1798f63f41170dd8cb523686534492f11e
+Homepage: https://gitlab.com/gnuwget/wget2
+Description: Static libraries for wget2
+
+Package: wgetpaste
+Version: 2.34
+Architecture: all
+Maintainer: @termux
+Installed-Size: 224
+Depends: wget
+Suggests: xclip
+Filename: pool/debs-20261110-011202-00/wgetpaste_2.34_all.deb
+Size: 14432
+MD5sum: 206f60fa810e66503758cb1f90ab3321
+SHA1: 112f76bff5071e19df4d718aa53ece664e1bc42e
+SHA256: a7ca0285dd15dae8c993f6c61c81c1872161518a4ad0f70b1e5d80713ff4846e
+Homepage: https://github.com/zlin/wgetpaste
+Description: wgetpaste is a shell script that allows its users to upload log.
+
+Package: whitebox-tools
+Version: 2.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16156
+Filename: pool/debs-20261110-011202-00/whitebox-tools_2.4.0-1_aarch64.deb
+Size: 3531612
+MD5sum: a347be259644f5c137ba1b40d4799737
+SHA1: 6fc8c617dc0538ee2fb5afe33b152215ffeaa009
+SHA256: dd407fea427e57dc7ed88986a9d7c3d4fe6deff97c927e0b2b26cd9c46c4d33f
+Homepage: https://github.com/jblindsay/whitebox-tools
+Description: An advanced geospatial data analysis platform
+
+Package: whois
+Version: 5.6.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Depends: libcrypt, libiconv, libidn2
+Conflicts: inetutils (<< 1.9.4-13)
+Filename: pool/debs-20261110-011202-00/whois_5.6.6_aarch64.deb
+Size: 38984
+MD5sum: 96bab47421a9168d627bce1a85593721
+SHA1: 39ee36ebfaa1f67db1eb04d7f4e057d09677d504
+SHA256: da34fbcd4b3ec52d87d983d34f209f0c95aec44d0ebabaa3d1beabbd57219ad6
+Homepage: https://github.com/rfc1036/whois
+Description: An intelligent Whois client
+
+Package: wimlib
+Version: 1.14.5
+Architecture: aarch64
+Maintainer: @xingguangcuican6666
+Installed-Size: 932
+Depends: libandroid-glob, libandroid-utimes, libfuse3, liblzma, libxml2, ntfs-3g, openssl, zlib
+Filename: pool/debs-20261110-011202-00/wimlib_1.14.5_aarch64.deb
+Size: 253708
+MD5sum: c065bdae88c53e5aa33c16cef7e5c670
+SHA1: c2cad9998f7459dcabb44fd98fa5968d46252561
+SHA256: 25d1f5bea565c138c57130e0c94e72ad7e851e3c5e0d3890cd207ea90c7afc20
+Homepage: https://wimlib.net/
+Description: A library and command-line tools to create, extract, and modify Windows Imaging (WIM ) files
+
+Package: wine-stable
+Version: 11.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3169972
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/debs-20261110-011202-00/wine-stable_11.0-2_aarch64.deb
+Size: 83426044
+MD5sum: 7c7439ad1e2d1dc9fd24039a7d789088
+SHA1: 1d44b55c77e79107f0448b2a442e41266b785849
+SHA256: 67792f4e42f0b7abfcbd1d0f3b1cff6b38bac199355c0e5cba1ed56d59a31e2d
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
+Package: wireguard-tools
+Version: 1.0.20260223
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Filename: pool/debs-20261110-011202-00/wireguard-tools_1.0.20260223_aarch64.deb
+Size: 49172
+MD5sum: b528029e0f44b93fdb457a53f84d3b59
+SHA1: 14d344ff4f9850b0d6174ecdfc85c39c32a788fc
+SHA256: 510bf7d2d54bbbf69fb74cbccb2af1b70a944cab1aec167e34ae18e5040901e2
+Homepage: https://www.wireguard.com
+Description: Tools for the WireGuard secure network tunnel
+
+Package: wireless-tools
+Version: 30pre9-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 600
+Breaks: wireless-tools-dev
+Replaces: wireless-tools-dev
+Filename: pool/debs-20261110-011202-00/wireless-tools_30pre9-4_aarch64.deb
+Size: 91268
+MD5sum: fd6d95392953d34d94688d691c64f36d
+SHA1: 0ef01a452d33cfa0d67dd3e93ad7215243946ab3
+SHA256: 34f455f0898aedcfc858c4950371b6eadb5c76531a2b1c533240b109b52f6d19
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Description: A set of tools allowing to manipulate the Wireless Extensions
+
+Package: wireless-tools-static
+Version: 30pre9-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: wireless-tools (= 30pre9-4)
+Filename: pool/debs-20261110-011202-00/wireless-tools-static_30pre9-4_aarch64.deb
+Size: 12624
+MD5sum: 3cf75778a5027b952171caf6ec22c1af
+SHA1: bf22490a6d5f88c046eed2364fd722847f22b528
+SHA256: f3e360329fd9126b0d17eba4633dc26d3220dcef7b0101bc6a9a91c7cdbd5b65
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Description: Static libraries for wireless-tools
+
+Package: wireproxy
+Version: 1.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11168
+Filename: pool/debs-20261110-011202-00/wireproxy_1.1.3-1_aarch64.deb
+Size: 2979428
+MD5sum: 0b1479c48a2901c574cdbbd33b7fcd56
+SHA1: ddb98c0cb5bf16a25b090a1b95a1b8a0bfbb6d07
+SHA256: c2aebd805fb819ee6445d55e80b852cf14bc9a337b6fa59fccb8c335c208b83d
+Homepage: https://github.com/pufferffish/wireproxy
+Description: Wireguard client that exposes itself as a socks5 proxy
+
+Package: wireshark-qt
+Version: 4.6.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 155624
+Depends: brotli, c-ares, glib, krb5, libandroid-support, libc++, libgcrypt, libgnutls, lua52, liblz4, libmaxminddb, libminizip, libnghttp2, libnl, libopus, libpcap, libsnappy, libssh, libxml2, pcre2, qt6-qtbase, qt6-qtmultimedia, qt6-qt5compat, speexdsp, zlib, zstd
+Conflicts: tshark, wireshark, wireshark-cli, wireshark-gtk
+Replaces: tshark, wireshark, wireshark-cli, wireshark-gtk
+Provides: tshark, wireshark, wireshark-cli, wireshark-gtk
+Filename: pool/debs-20261110-011202-00/wireshark-qt_4.6.9_aarch64.deb
+Size: 30820628
+MD5sum: ca597b2cc0bcf7a236a58e751c529303
+SHA1: dd49630c4dcec035fcf3c41dbd5118aa6dff65e5
+SHA256: fa6df2fdb6b8c099347112a4f0bccc19836a2dfe9c3cf513be378d4d540dd986
+Homepage: https://www.wireshark.org/
+Description: Network protocol analyzer
+
+Package: wiz
+Version: 2025.04.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 896
+Depends: libc++
+Filename: pool/debs-20261110-011202-00/wiz_2025.04.10_aarch64.deb
+Size: 225688
+MD5sum: 76ad840d5c4050d0a730b3d21db02670
+SHA1: de67c17ec336bb739865f67a6c50e93bef05932c
+SHA256: dd8854a02c7642b9fb6995f96a8345b90a7679280a76eab34d3c88c7147c2dea
+Homepage: http://wiz-lang.org/
+Description: A high-level assembly language for writing homebrew software for retro console platforms
+
+Package: wmaker
+Version: 0.96.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4076
+Depends: fontconfig, freetype, giflib, glib, harfbuzz, imagemagick, libandroid-shmem, libexif, libjpeg-turbo, libpng, libtiff, libwebp, libx11, libxext, libxft, libxinerama, libxmu, libxpm, pango
+Filename: pool/debs-20261110-011202-00/wmaker_0.96.0-4_aarch64.deb
+Size: 1082892
+MD5sum: a572c330645f87ff23d9079338023a0b
+SHA1: df10664c8f5182ecfe04fb0484cf6632190fa368
+SHA256: a645714ef9a70a37ce989355e53e3604d34cc18ef743fbbfbd91c7d58ef9b291
+Homepage: https://www.windowmaker.org/
+Description: An X11 window manager that reproduces the look and feel of the NeXTSTEP user interface
+
+Package: wmaker-static
+Version: 0.96.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Depends: wmaker (= 0.96.0-4)
+Filename: pool/debs-20261110-011202-00/wmaker-static_0.96.0-4_aarch64.deb
+Size: 206856
+MD5sum: fc979ce3ab5b5879639b1a98455ab625
+SHA1: e30452960db2e5bb3d7374df96e64771c6a9d852
+SHA256: f1ba4ca36845ade88db02777855793455cf2eba4521ef1ac9fefad1ea1bc32ff
+Homepage: https://www.windowmaker.org/
+Description: Static libraries for wmaker
+
+Package: wmctrl
+Version: 1.07-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: glib, libx11, libxmu
+Filename: pool/debs-20261110-011202-00/wmctrl_1.07-2_aarch64.deb
+Size: 15344
+MD5sum: 24343b93ae0ea03e00f248bce142c267
+SHA1: 797be5777487c5a01f8206d60bb8834e181812f5
+SHA256: acaa777cbcb08eaa3bc60b5380ab4523b92325f671337e23cfeb3cb107aa9f6c
+Homepage: https://sites.google.com/site/tstyblo/wmctrl/
+Description: A UNIX/Linux command line tool to interact with an EWMH/NetWM compatible X Window Manager
+
+Package: wol
+Version: 0.7.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Filename: pool/debs-20261110-011202-00/wol_0.7.1-4_aarch64.deb
+Size: 13836
+MD5sum: 5559e7c4f4b470cb19eb25f8931e6436
+SHA1: b5bde04be5ccc27cc743feb3e55f7a189a504e00
+SHA256: dbd095159bf47e03bff4c7e58da2facf09573661a1762399e70280fefef512c4
+Homepage: https://sourceforge.net/projects/wake-on-lan/
+Description: Program implementing Wake On LAN functionality
+
+Package: wordgrinder
+Version: 0.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 668
+Depends: lua53, ncurses, zlib
+Filename: pool/debs-20261110-011202-00/wordgrinder_0.8-1_aarch64.deb
+Size: 104768
+MD5sum: 829dbe6ce4116f6f3dd93ef31142e389
+SHA1: e47e8773c624ad6eb6f036d24ae161c2afda1b75
+SHA256: fad79d7cb1e1f8967cd17389a7c41f065b93b6e15c2e08ecd6dab83da1016683
+Homepage: http://cowlark.com/wordgrinder/
+Description: A Unicode-aware character cell word processor
+
+Package: wpa-supplicant
+Version: 2.12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2860
+Depends: openssl, readline, libnl
+Filename: pool/debs-20261110-011202-00/wpa-supplicant_2.12_aarch64.deb
+Size: 963220
+MD5sum: 52aac7950fb0e8eceab79284a30b0d06
+SHA1: 53367a9bc7f0381988ab2a4dc6ae3c666a4c6129
+SHA256: 0547d38107b08f564dbab250ec019104601ba5355e5964b5ffe74d1050c76304
+Homepage: https://w1.fi/wpa_supplicant/
+Description: Utility providing key negotiation for WPA wireless networks
+
+Package: wren
+Version: 0.4.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: libuv
+Filename: pool/debs-20261110-011202-00/wren_0.4.0-2_aarch64.deb
+Size: 62412
+MD5sum: ab76e541c105433aa35c669a49778c30
+SHA1: c63dae80992918ccbc113b0be23fcd551703d38b
+SHA256: 8a7affde3e8c444c52f18f52a9aac1548cfa9b7d7da64a7a4b4b77f0c67067f6
+Homepage: https://wren.io/
+Description: Small, fast, class-based concurrent scripting language interpreter
+
+Package: wrk
+Version: 4.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Depends: openssl, luajit
+Filename: pool/debs-20261110-011202-00/wrk_4.2.0-1_aarch64.deb
+Size: 31412
+MD5sum: d075bbde6ef74b5674cc2869708568d0
+SHA1: fdb1d587b891635ed207a72402fd753d3ecf195e
+SHA256: 39f9c5123fd1bf14abb82accc66ea533233002c3bbfdbe1a4d01fd17237a325f
+Homepage: https://github.com/wg/wrk
+Description: Modern HTTP benchmarking tool
+
+Package: wtfutil
+Version: 0.51.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 75420
+Filename: pool/debs-20261110-011202-00/wtfutil_0.51.0-1_aarch64.deb
+Size: 13478808
+MD5sum: 25de96217e7729548c91af1707045487
+SHA1: 525c46a861fa4b809f4a9da8da40d281762fbf64
+SHA256: 57c0a2699de512615a75ab948d4f6157a3cdec6b59f46124621d06705b369fe8
+Homepage: https://wtfutil.com/
+Description: The personal information dashboard for your terminal
+
+Package: wush
+Version: 0.4.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48332
+Filename: pool/debs-20261110-011202-00/wush_0.4.1-2_aarch64.deb
+Size: 10689452
+MD5sum: 99560d6f0136c2bdcbc05cf92ec5ecf9
+SHA1: e6ca9d785c2131c1ab7445a71c71ee184acaa207
+SHA256: 6f6c7d04037e508cf2572a1c64da19768bc7978c0159d870625ae83f9bf5fe43
+Homepage: https://github.com/coder/wush/
+Description: simplest & fastest way to transfer files between computers
+
+Package: wuzz
+Version: 0.5.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9968
+Filename: pool/debs-20261110-011202-00/wuzz_0.5.0-7_aarch64.deb
+Size: 2738528
+MD5sum: 6a201013b71a9f18d113fb57783b997a
+SHA1: d2069b8714bbd3845ac9acc08f129140a4235b69
+SHA256: 51865b1059a598968de27bc0dd0eba8890b8d4194959c6bf92893f890a486560
+Homepage: https://github.com/asciimoo/wuzz
+Description: Interactive command line tool for HTTP inspection
+
+Package: x11-repo
+Version: 8.4-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 176
+Depends: termux-keyring
+Filename: pool/debs-20261110-011202-00/x11-repo_8.4-1_all.deb
+Size: 1216
+MD5sum: d45316973d18fa0e1da6044e6781adb8
+SHA1: a2245849d0ca7cb7e497ee2731c064b58317154a
+SHA256: 58a9fb1dff1ab3dfd87169e6fda1731f657b5b409102117d145caf2fe1f10399
+Homepage: https://github.com/termux/x11-packages
+Description: Package repository containing X11 programs and libraries
+
+Package: x11vnc
+Version: 0.9.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1768
+Depends: libandroid-shmem, libcairo, libvncserver, libx11, libxcomposite, libxcursor, libxdamage, libxext, libxfixes, libxi, libxinerama, libxrandr, libxtst, openssl, xorg-xdpyinfo
+Filename: pool/debs-20261110-011202-00/x11vnc_0.9.17-1_aarch64.deb
+Size: 575116
+MD5sum: e5d85a50567525325c31c59327b25fec
+SHA1: 396b4932459edca311c2ae3cf17106c4e3f18a33
+SHA256: f9e8e02787081f484eb6ff1037f446dadb9c1cf9d5c6f734f4e1007d742f25a5
+Homepage: https://github.com/LibVNC/x11vnc
+Description: VNC server for real X displays
+
+Package: x2x
+Version: 1:1.30-10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: libx11, libxext, libxtst
+Filename: pool/debs-20261110-011202-00/x2x_1_1.30-10-1_aarch64.deb
+Size: 23072
+MD5sum: a252722e209fc76d0b090f7c7d23520e
+SHA1: c3b48deb7315dda31c6fb1e2bb7d71dab66af559
+SHA256: 3a026b48dd9bcc97cb28726c527460cf37a7e1ae3315a39b2bbd7e2defff691b
+Homepage: https://github.com/dottedmag/x2x
+Description: Allows the keyboard, mouse on one X display to be used to control another X display
+
+Package: xarchiver
+Version: 0.5.4.27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 932
+Depends: gdk-pixbuf, glib, gtk3
+Recommends: arj, llvm, bzip2, cpio, gzip, lz4, lzip, lzop, 7zip, tar, unar, unrar, unzip, xz-utils, zip, zstd
+Filename: pool/debs-20261110-011202-00/xarchiver_0.5.4.27-1_aarch64.deb
+Size: 307656
+MD5sum: 4d16c99c0d3392e3929e4ded8d87ad2e
+SHA1: e6b10e68dbcf1b75cc07edb4be1875b23ebeecab
+SHA256: 915e152cd9843e3367c1dd8a3c5a2b262f8b6b642da57d5ef5f0e820b604a0d3
+Homepage: https://github.com/ib/xarchiver
+Description: GTK+ frontend to various command line archivers
+
+Package: xbill
+Version: 2.1
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 576
+Depends: libx11, libxaw, libxmu, libxpm, libxt
+Filename: pool/debs-20261110-011202-00/xbill_2.1_aarch64.deb
+Size: 35800
+MD5sum: a2c68ba75219a6bccdf5e771c28e0a56
+SHA1: 41174f48441a70aff68690ac74c9e80169c2c03f
+SHA256: 6b328c86b36408ad50e49cb7236258a98f57dc2c9d069d39d78601214a80eb54
+Homepage: http://www.xbill.org/
+Description: The classic game of Bill vs. PCs
+
+Package: xboard
+Version: 4.9.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3100
+Depends: glib, libcairo, librsvg, libx11, libxaw, libxmu, libxt, pango
+Filename: pool/debs-20261110-011202-00/xboard_4.9.1-3_aarch64.deb
+Size: 716476
+MD5sum: 5971e6d2d9ccefebc667a4a7fb0b1640
+SHA1: 5f3caecfa7299cd2253382e06dde95562afa1819
+SHA256: fb1050890305fa4e81eb1b070e23bf837daad7d0b1ffdf91d45badf72188aa17
+Homepage: https://www.gnu.org/software/xboard/
+Description: A graphical chessboard for the X Window System
+
+Package: xcape
+Version: 1.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Filename: pool/debs-20261110-011202-00/xcape_1.2-1_aarch64.deb
+Size: 6936
+MD5sum: a282e3d357a62763ce34fe43dc863e0b
+SHA1: deba15e579f238cbafb846a4ac56fc37b28abbaa
+SHA256: d38d5ad8304ca36cfad6295e5921fac6e7b1602c14be19e3d375e0265deb6e46
+Homepage: https://github.com/alols/xcape
+Description: Linux utility to configure modifier keys to act as other keys when pressed and released on their own.
+
+Package: xclip
+Version: 0.13-3
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 216
+Depends: libx11, libxmu
+Filename: pool/debs-20261110-011202-00/xclip_0.13-3_aarch64.deb
+Size: 12052
+MD5sum: 5e0066816a43269688047d2a484ccd78
+SHA1: 88ebf5e4f96179a78483985542e00d65ac946aee
+SHA256: de204827cc5eb5f1d9fa975e539e05e0fb3ac1b3bffb227a422f3a1803bc323d
+Homepage: https://github.com/astrand/xclip
+Description: Command line interface to the X11 clipboard
+
+Package: xcompmgr
+Version: 1.1.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libx11, libxcomposite, libxdamage, libxext, libxfixes, libxrender
+Filename: pool/debs-20261110-011202-00/xcompmgr_1.1.10-1_aarch64.deb
+Size: 13864
+MD5sum: 5880f5927b772e61f922707104fffb01
+SHA1: f97988fe8af61da859ff383533ebaed6e33200a8
+SHA256: 0ec6d89ba578c43581bb72a4bdb0aa54bcab3c6da3c34e658bbeda6367f465b4
+Homepage: https://xorg.freedesktop.org/
+Description: Composite Window-effects manager for X.org
+
+Package: xdelta3
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 572
+Depends: liblzma
+Filename: pool/debs-20261110-011202-00/xdelta3_3.2.2_aarch64.deb
+Size: 105152
+MD5sum: 7df527393b91e34ce118bee251ffcba3
+SHA1: fdc6971c4d35ea6eabf544101eb41f1fae0220f5
+SHA256: ce51908a7ba30cee449a1bd91a1cfe39b27d19be13269619a7752645e091b004
+Homepage: https://github.com/jmacd/xdelta
+Description: xdelta3 - VCDIFF (RFC 3284) binary diff tool
+
+Package: xdelta3-static
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: xdelta3 (= 3.2.2)
+Filename: pool/debs-20261110-011202-00/xdelta3-static_3.2.2_aarch64.deb
+Size: 32424
+MD5sum: d6c4cdf7d29a57aae3321074b5ca5880
+SHA1: 013d18b2128efe18ca481ab39880a12241034fac
+SHA256: d0019311d62b09aaa921757316704ae40e26ff5be04e7f8a899e0ca7ae59b483
+Homepage: https://github.com/jmacd/xdelta
+Description: Static libraries for xdelta3
+
+Package: xdg-menu
+Version: 0.7.6.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 364
+Depends: perl
+Filename: pool/debs-20261110-011202-00/xdg-menu_0.7.6.6-1_all.deb
+Size: 33916
+MD5sum: e9af19911c3924316b93b86f2b4908df
+SHA1: 0207ffa71210401edf4458f76e46eb6ff654cfce
+SHA256: f020e384417165304e8323644106cc6dc48b2ea73ea5d96a029e7f5cf9d16a12
+Homepage: https://wiki.archlinux.org/title/Xdg-menu
+Description: Tool that generates XDG Desktop Menus for icewm and other window managers
+
+Package: xdotool
+Version: 4.20260303.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Depends: libx11, libxtst, libxinerama, libxkbcommon
+Filename: pool/debs-20261110-011202-00/xdotool_4.20260303.1_aarch64.deb
+Size: 58556
+MD5sum: 8a2f1d059a002a1ea1678d7528dcfcd5
+SHA1: a207440764d84effcc4d9c64587748b49c2eaa60
+SHA256: 9c7e074360c821004084b0e52150c5d2c27e477d3bc07c33577ab50d91699b53
+Homepage: https://github.com/jordansissel/xdotool
+Description: simulate (generate) X11 keyboard/mouse input events
+
+Package: xeyes
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libx11, libxcb, libxext, libxi, libxmu, libxrender, libxt
+Filename: pool/debs-20261110-011202-00/xeyes_1.3.1_aarch64.deb
+Size: 10756
+MD5sum: d1b1b762ca4c64c8fa6e2a2cedfd288b
+SHA1: 3275a40f63e12eda26439dd8a4a8cf789bdbc559
+SHA256: b224410175ca81884f1e84bdac5e85d70445ddd600383cb738a7ce816c64a484
+Homepage: https://gitlab.freedesktop.org/xorg/app/xeyes
+Description: A follow the mouse X demo
+
+Package: xfce4
+Version: 4.20
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4, xfce4-notifyd, xfce4-power-manager, xfce4-terminal
+Conflicts: xfce
+Replaces: xfce
+Provides: xfce
+Filename: pool/debs-20261110-011202-00/xfce4_4.20_all.deb
+Size: 804
+MD5sum: d5f087974ccc8ba1d37a9211d854b2ff
+SHA1: e5ee7112454adca761e99c046b749e29ebba79b0
+SHA256: 1112606984b7d5be9de029c91878af5e622ebe188f4e0b8e57c3d390ab560045
+Homepage: https://github.com/termux/x11-packages
+Description: A metapackage that installs all parts of the XFCE desktop environment
+
+Package: xfce4-appfinder
+Version: 4.20.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: garcon, gdk-pixbuf, glib, gtk3, libcairo, libxfce4ui, libxfce4util, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-appfinder_4.20.0-1_aarch64.deb
+Size: 65036
+MD5sum: fc341c8b7f6897fe2802d9450aebac00
+SHA1: 6cb55654ecee08b49cbb29042f93b1c205cc3e52
+SHA256: d49671ba3c8ef31cedb7462ebb123c98f764fac3a8f05389c4faaa357b9b8aad
+Homepage: https://docs.xfce.org/xfce/xfce4-appfinder/start
+Description: Application launcher and finder
+
+Package: xfce4-battery-plugin
+Version: 1.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 624
+Depends: glib, gtk3, termux-api, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-battery-plugin_1.2.0-1_aarch64.deb
+Size: 51924
+MD5sum: 6d784f14b6fd511b8fe948286f01c782
+SHA1: a42aec6833f1517757c14f4103892f9e1b36d82f
+SHA256: a3a65b8e084fa51fa94e645afe61a4f0c3acb28f7d84a9cf74b993313da52405
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-battery-plugin/start
+Description: A battery monitor plugin for the Xfce panel
+
+Package: xfce4-calculator-plugin
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: glib, gtk3, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-calculator-plugin_0.8.0-1_aarch64.deb
+Size: 59600
+MD5sum: b2e3c25f9ad37ac61c67a978259ac2f9
+SHA1: 1f4f23a05377bc7cc742ab15d5e2f04072be9121
+SHA256: 3062151630cf6582fc5662e9c8d8678584ffb0cc5afa3168ce6dbe3f8e4618ea
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-calculator-plugin/start
+Description: Simple command line based calculator for the Xfce panel
+
+Package: xfce4-clipman-plugin
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 760
+Depends: glib, gdk-pixbuf, gtk3, libcairo, libqrencode, libwayland, libx11, libxfce4ui, libxfce4util, libxtst, xfce4-panel, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-clipman-plugin_1.7.0-1_aarch64.deb
+Size: 76284
+MD5sum: 1f645875941313e50c9627a744f3871b
+SHA1: d5d3254b9a57855ee5afa46be5e9d8173dc1f59a
+SHA256: 850e1b77caf048585f3d4da132f4cc2b88edf337132daf2a9d5afa2e32d4b445
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin/start
+Description: Clipman is a clipboard manager for Xfce
+
+Package: xfce4-cpugraph-plugin
+Version: 1.3.0-1
+Architecture: aarch64
+Maintainer: @knyipab
+Installed-Size: 512
+Depends: glib, gtk3, libandroid-glob, libc++, libcairo, libxfce4ui, libxfce4util, xfce4-panel, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-cpugraph-plugin_1.3.0-1_aarch64.deb
+Size: 66572
+MD5sum: a6a04785f9d1e9d18d878f5e318517ee
+SHA1: 433fb4707e1264c4648282f42652d9a803c6c076
+SHA256: 3e465dc11a87dfb3d7bdcaf2970d82b07238591ae19937655819c0e27f86b9c3
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-cpugraph-plugin/start
+Description: Graphical representation of the CPU load
+
+Package: xfce4-datetime-plugin
+Version: 0.8.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libcairo, libxfce4ui, libxfce4util, pango, xfce4-panel, zlib
+Filename: pool/debs-20261110-011202-00/xfce4-datetime-plugin_0.8.3-1_aarch64.deb
+Size: 11788
+MD5sum: d30a0a66e75c399c090e5cac3c14d665
+SHA1: 2515b8dd35df7c351b33112998619b78fed68da8
+SHA256: 5fcbef761505d25eeb45a62bab2b46a8ae7e67a604883ca901ea3de2e173c5be
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-datetime-plugin/start
+Description: xfce4-datetime-plugin shows the date and time in the panel; when left-clicked, a popup calendar appears.
+
+Package: xfce4-datetime-plugin-static
+Version: 0.8.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: xfce4-datetime-plugin (= 0.8.3-1)
+Filename: pool/debs-20261110-011202-00/xfce4-datetime-plugin-static_0.8.3-1_aarch64.deb
+Size: 10120
+MD5sum: 4854785bc879745969254441419bb2b3
+SHA1: b275df9377ec1b794997a427131f0c075a3f82ab
+SHA256: 9a079b58e799c3e9d99b1ed6d1cfef353ec0987e9fe95969227685410bdc9b57
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-datetime-plugin/start
+Description: Static libraries for xfce4-datetime-plugin
+
+Package: xfce4-dict
+Version: 0.8.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Depends: atk, gdk-pixbuf, glib, gtk3, harfbuzz, libcairo, libx11, libxfce4ui, libxfce4util, pango, xfce4-panel, zlib
+Suggests: aspell
+Filename: pool/debs-20261110-011202-00/xfce4-dict_0.8.10_aarch64.deb
+Size: 62404
+MD5sum: 19e9b065a8d37099822c7c70585c8451
+SHA1: 1961f1fbc16a8ba89a73285b67c4bac2155e6a09
+SHA256: bf1cf8cd024989aec4b402415739e6d2ea6a676305dabca881dc69d108abe1ee
+Homepage: https://docs.xfce.org/apps/xfce4-dict/start
+Description: Dictionary for XFCE desktop
+
+Package: xfce4-docklike-plugin
+Version: 0.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 476
+Depends: exo, gdk-pixbuf, glib, gtk3, gtk-layer-shell, libc++, libcairo, libx11, libxi, libxfce4ui, libxfce4util, libxfce4windowing, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-docklike-plugin_0.5.1_aarch64.deb
+Size: 67084
+MD5sum: 3d7700d26490b5c1c9e693ff68ba3e13
+SHA1: 2450523654c89fcde5ad751ce12d6a6866451341
+SHA256: be5e1facd887c00713cefcb5c0f8d26d447ace04f7279a31229d9605987965d6
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-docklike-plugin/start
+Description: A modern, docklike, minimalist taskbar for XFCE
+
+Package: xfce4-eyes-plugin
+Version: 4.7.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 432
+Depends: glib, gdk-pixbuf, gtk3, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-eyes-plugin_4.7.0-2_aarch64.deb
+Size: 31352
+MD5sum: e99068a531ecf6593545c4b86626dddf
+SHA1: 6e48babeaee5303793ec5e0bd2f88462d0d64c85
+SHA256: a76a86643045360cf2c1e56a83b35c0510004a86f37cbf176dae110176607440
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-eyes-plugin/start
+Description: This plugin adds eyes to the Xfce panel which follow your cursor, similar to the xeyes program.
+
+Package: xfce4-genmon-plugin
+Version: 4.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: glib, gtk3, pango, libxfce4ui, libxfce4util, xfce4-panel, xfconf
+Recommends: hicolor-icon-theme
+Filename: pool/debs-20261110-011202-00/xfce4-genmon-plugin_4.3.0-1_aarch64.deb
+Size: 29408
+MD5sum: 361a80e882e9718da59d5461eccfc709
+SHA1: 30f4bde187a8c4f99049f765cf80042bf969510f
+SHA256: b5c4506d2fb1ed5745d986049bece7d36852638f03fe18f522214e9fdadd4c0b
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-genmon-plugin
+Description: Display cyclically run script or program output onto the panel
+
+Package: xfce4-goodies
+Version: 4.20.0-1
+Architecture: all
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 4
+Depends: xfce4-terminal, xfce4-appfinder, xfce4-calculator-plugin, xfce4-clipman-plugin, xfce4-datetime-plugin, xfce4-dict, xfce4-eyes-plugin, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notes-plugin, xfce4-notifyd, xfce4-panel-profiles, xfce4-screensaver, xfce4-taskmanager, xfce4-timer-plugin, xfce4-wavelan-plugin, xfce4-screenshooter, xfce4-whiskermenu-plugin, thunar-archive-plugin, parole, mousepad, file-roller, galculator, ristretto, gigolo
+Filename: pool/debs-20261110-011202-00/xfce4-goodies_4.20.0-1_all.deb
+Size: 956
+MD5sum: 3f3ba13f3c3e501691082b8f3eea530e
+SHA1: 845b7516dbfddd4d735f30a168c2c30eae801a6e
+SHA256: 895d969726eac50f222bd82475b7843d8a51c23d801d611f04a24a5cef1c375a
+Homepage: https://goodies.xfce.org/
+Description: this meta-package will install various utilities and programs for the XFCE desktop environment (incomplete!)
+
+Package: xfce4-mailwatch-plugin
+Version: 1.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 376
+Depends: exo, gdk-pixbuf, glib, gtk3, libcairo, libgnutls, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-mailwatch-plugin_1.4.0-1_aarch64.deb
+Size: 43916
+MD5sum: 2aa1629f655e5e3ddcf95a8397faace6
+SHA1: 9809293cfaff37fbd8dabe3be1716eb29ff1058c
+SHA256: 648db1c31de388f891f83b018088b04d02af9c7194b11eed54028d4bdeb1c4ad
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-mailwatch-plugin/start
+Description: Xfce4 Mailwatch Plugin is a multi-protocol, multi-mailbox mail watcher for the Xfce4 panel.
+
+Package: xfce4-netload-plugin
+Version: 1.5.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 316
+Depends: glib, gtk3, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-netload-plugin_1.5.0-2_aarch64.deb
+Size: 20228
+MD5sum: 1a4aa618ec698586582bfd1575bbf0c2
+SHA1: 120de3032c4868d37ae77dc65e47353b487a1dc7
+SHA256: ece6e41421702153d1ffb3127aa5798eae9fb492e72982e678d7a2d9b75653df
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-netload-plugin/start
+Description: network load monitor plugin for the Xfce4 panel
+
+Package: xfce4-notes-plugin
+Version: 1.12.0-1
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 824
+Depends: atk, gdk-pixbuf, glib, gtk3, gtksourceview4, harfbuzz, libcairo, libxfce4ui, libxfce4util, pango, xfce4-panel, xfconf, zlib
+Filename: pool/debs-20261110-011202-00/xfce4-notes-plugin_1.12.0-1_aarch64.deb
+Size: 85256
+MD5sum: b5fe4ae6943e87cc0407ec4539fe8285
+SHA1: 6fb88b10601dbb8db9adb6c57273d67dfe58df7c
+SHA256: 0a0b01dddb0975589f605c0f4b4e67902a9b0b35b790c424eff77c0ea47d3ea1
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-notes-plugin/start
+Description: Notes application for the Xfce4 desktop
+
+Package: xfce4-notifyd
+Version: 0.9.7-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 932
+Depends: atk, gdk-pixbuf, glib, gtk-layer-shell, gtk3, harfbuzz, libcairo, libnotify, libsqlite, libx11, libxfce4ui, libxfce4util, pango, xfce4-panel, xfconf, zlib
+Filename: pool/debs-20261110-011202-00/xfce4-notifyd_0.9.7-2_aarch64.deb
+Size: 107716
+MD5sum: 05464e4d5d2b67c4b57ff6857a8dc56f
+SHA1: 10c1e3f1478ef1b18265252ba859a530bee56080
+SHA256: 11894d89e6c0441c7204835b14450cb8658e6d36d46821e22f298c9b5afb7f87
+Homepage: https://docs.xfce.org/apps/notifyd/start
+Description: simple, visually-appealing notification daemon for Xfce
+
+Package: xfce4-notifyd-static
+Version: 0.9.7-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 212
+Depends: xfce4-notifyd (= 0.9.7-2)
+Filename: pool/debs-20261110-011202-00/xfce4-notifyd-static_0.9.7-2_aarch64.deb
+Size: 30728
+MD5sum: e99eab70829f8356dc0b098c08106c5d
+SHA1: 7b0adf76a07c58b1637581885312ac679d80971c
+SHA256: 98354655ec7a33736d668628dc950f36d7cf388c24830aeee06bc2e3d63ff0c5
+Homepage: https://docs.xfce.org/apps/notifyd/start
+Description: Static libraries for xfce4-notifyd
+
+Package: xfce4-panel-profiles
+Version: 1.1.1-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 504
+Depends: gtk3, libxfce4ui, libxfce4util, pygobject, python, python-pip, python-psutil, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-panel-profiles_1.1.1-3_all.deb
+Size: 67196
+MD5sum: e223c68aca3f823f1f5cc5f053ccb1be
+SHA1: 41ac23e0a72f59541484979accd305bcb37fd1ac
+SHA256: d3451b823110252e454767457cfa931f7884f559e0304ee15211bce82739a998
+Homepage: https://docs.xfce.org/apps/xfce4-panel-profiles/start
+Description: A simple application to manage Xfce panel layouts.
+
+Package: xfce4-places-plugin
+Version: 1.9.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 284
+Depends: exo, gdk-pixbuf, glib, gtk3, libcairo, libnotify, libxfce4ui, libxfce4util, xfce4-panel, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-places-plugin_1.9.0-2_aarch64.deb
+Size: 21576
+MD5sum: 291414ae3738a1dc043edd1c061ee18f
+SHA1: a6034c1303d5d2a5ddeff7183c906a475047f69b
+SHA256: 607bf9ec122cc7927dba9616adc1035be04a3c87c638bd1288847be0303ab775
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-places-plugin/start
+Description: This plugin brings much of the functionality of GNOME Places menu to Xfce
+
+Package: xfce4-power-manager
+Version: 4.20.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2924
+Depends: hicolor-icon-theme, libc++, libnotify, libxfce4ui, upower, xfce4-notifyd
+Filename: pool/debs-20261110-011202-00/xfce4-power-manager_4.20.1_aarch64.deb
+Size: 344740
+MD5sum: 844dfb8845725b6d437cb362d841bbd6
+SHA1: b96025d704bf8de389694e061e247f7536793bc1
+SHA256: 06b4dbbb3b654a921f4f64f8a0726af88a03480cb5a788aa9c72a4108dea943c
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Description: Power Manager for Xfce
+
+Package: xfce4-power-manager-static
+Version: 4.20.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: xfce4-power-manager (= 4.20.1)
+Filename: pool/debs-20261110-011202-00/xfce4-power-manager-static_4.20.1_aarch64.deb
+Size: 31532
+MD5sum: 6bb6eb7a25bcbde13f11fc51089ad939
+SHA1: 4269127361fcc106eaaa047b5bb27773f782058a
+SHA256: a7ced69ecca834b4a75d9a3f22ecdf2633084d570b809c0ecd7e77f846d5b873
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Description: Static libraries for xfce4-power-manager
+
+Package: xfce4-pulseaudio-plugin
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Depends: exo, gdk-pixbuf, glib, gtk3, libcairo, libcanberra, libnotify, libxfce4ui, libxfce4util, libxfce4windowing, pavucontrol, pulseaudio, xfce4-panel, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-pulseaudio-plugin_0.5.1-1_aarch64.deb
+Size: 52684
+MD5sum: e8f84d59d14987e05f5037949c3eabab
+SHA1: c19a7926f286687b92a1c16de66f5f577f87789c
+SHA256: 65011df1e645d982fa82535272136079e440b6ada85c78c822988e218ee27aae
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start
+Description: Pulseaudio plugin for the Xfce4 panel
+
+Package: xfce4-screensaver
+Version: 4.20.2-1
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 960
+Depends: dbus, dbus-glib, garcon, gdk-pixbuf, glib, gtk3, libcairo, libwnck, libx11, libxext, libxfce4ui, libxfce4util, libxklavier, libxss, opengl, pango, termux-auth, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-screensaver_4.20.2-1_aarch64.deb
+Size: 123932
+MD5sum: fc215ed037f346cb74bdc8e196be304c
+SHA1: fb4dbf263f403a0ce8b8cc678d4a0f4eaf00dc55
+SHA256: 4f62c2277c6f65c8ce94a671b5c07a294e8788da33f5ec884f6851e3579ac75c
+Homepage: https://docs.xfce.org/apps/screensaver/start
+Description: Xfce Screensaver is a screen saver and locker that aims to have simple, sane, secure defaults and be well integrated with the desktop.
+
+Package: xfce4-session
+Version: 4.20.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 996
+Depends: atk, gdk-pixbuf, glib, gtk3, gtk-layer-shell, libcairo, libice, libsm, libwnck, libx11, libxfce4ui, libxfce4util, libxfce4windowing, pango, xfconf, xorg-iceauth, xorg-xrdb
+Recommends: gnupg, hicolor-icon-theme, xfce4-settings, xfdesktop, xfwm4
+Filename: pool/debs-20261110-011202-00/xfce4-session_4.20.4-1_aarch64.deb
+Size: 179476
+MD5sum: 3091d7f5760e88e59c8684d593be31af
+SHA1: 70276d4d4ce397e7fa2291a53334bd8bd3cffa78
+SHA256: 10b33ba0d1aa063d0e650183b739b5dde9ff58cd06c18eaecf5f7115b579652c
+Homepage: https://docs.xfce.org/xfce/xfce4-session/start
+Description: A session manager for XFCE environment
+
+Package: xfce4-settings
+Version: 4.20.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4288
+Depends: atk, exo, fontconfig, garcon, gdk-pixbuf, glib, gtk3, gtk-layer-shell, harfbuzz, libcairo, libnotify, libwayland, libx11, libxcursor, libxfce4ui, libxfce4util, libxi, libxklavier, libxrandr, pango, xfconf, zlib
+Recommends: gsettings-desktop-schemas, libcanberra, lxde-icon-theme
+Filename: pool/debs-20261110-011202-00/xfce4-settings_4.20.5_aarch64.deb
+Size: 434604
+MD5sum: 85b968c126646027448ce1bb128ecabf
+SHA1: b9572a1ff77429811c1111cf4d34838070883ac4
+SHA256: 7a065a137df2c803169ffef85f748c03e29dbf363a51af50d5b3160813583ea5
+Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
+Description: Settings manager for XFCE environment
+
+Package: xfce4-settings-static
+Version: 4.20.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 292
+Depends: xfce4-settings (= 4.20.5)
+Filename: pool/debs-20261110-011202-00/xfce4-settings-static_4.20.5_aarch64.deb
+Size: 39924
+MD5sum: 91f67ede7939d92348ddefda4a265fdd
+SHA1: feb1351c13abe8b4971feb8c9d79e818f616b00d
+SHA256: d9d9a415085d88d186776859142a69709a11085ad012a21663ea9bdf95465f61
+Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
+Description: Static libraries for xfce4-settings
+
+Package: xfce4-taskmanager
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: glib, gtk3, libcairo, libwnck, libx11, libxfce4ui, libxfce4util, libxmu, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-taskmanager_1.6.0-1_aarch64.deb
+Size: 52156
+MD5sum: 097a5c9a889743ec40d2985f38369a8c
+SHA1: f12904912ce428a1fb1d24d62ed71350e2f0ac26
+SHA256: 77d64c41f1f2c541432da5a28a82785a2cd53ae9f6033d770f7af42ef00bf108
+Homepage: https://docs.xfce.org/apps/xfce4-taskmanager/start
+Description: Easy to use task manager
+
+Package: xfce4-terminal
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Depends: atk, gdk-pixbuf, glib, gtk3, gtk-layer-shell, libcairo, libvte, libx11, libxfce4ui, libxfce4util, pango, pcre2, xfconf
+Recommends: desktop-file-utils, hicolor-icon-theme
+Filename: pool/debs-20261110-011202-00/xfce4-terminal_1.2.0_aarch64.deb
+Size: 112784
+MD5sum: 21de9fbeeb2189fc0bdbc34c00ab0821
+SHA1: f8a55dfb2ebee306c5149aec32104aef0af4d923
+SHA256: 170ed52638b81d5f1b066d30d7ba0742f8d400b640e5fc1825f0f2922516d0e6
+Homepage: https://docs.xfce.org/apps/terminal/start
+Description: Terminal Emulator for the XFCE environment
+
+Package: xfce4-timer-plugin
+Version: 1.8.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 300
+Depends: glib, gtk3, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-timer-plugin_1.8.0-2_aarch64.deb
+Size: 20668
+MD5sum: 661fdc3a9499e75ce34b9e43679b6ece
+SHA1: 928520b53fd77d369aa7af96b94dce87f31a2c8a
+SHA256: 4ff5412aed25444d16e465287a00c3d7ebd802c5e625455e9e41ea1854ed4f50
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-timer-plugin/start
+Description: alarm and timer module for Xfce panel
+
+Package: xfce4-wavelan-plugin
+Version: 0.7.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 240
+Depends: glib, gtk3, libxfce4ui, libxfce4util, xfce4-panel
+Filename: pool/debs-20261110-011202-00/xfce4-wavelan-plugin_0.7.0-2_aarch64.deb
+Size: 10836
+MD5sum: cd0ee522e8d395ceb18323499f285d78
+SHA1: 2dac54ddab882116c57482c02e40d0b88bda45f5
+SHA256: 0464c3233ba4042f4240e5e3df4c12da9fe5cdb50d440d4cf7bcddf4e60f9c31
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-wavelan-plugin/start
+Description: wavelan status plugin for the Xfce4 panel
+
+Package: xfce4-whiskermenu-plugin
+Version: 2.10.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Depends: exo, garcon, gdk-pixbuf, glib, gtk3, gtk-layer-shell, libc++, libcairo, libxfce4ui, libxfce4util, xfce4-panel, xfconf
+Filename: pool/debs-20261110-011202-00/xfce4-whiskermenu-plugin_2.10.1_aarch64.deb
+Size: 119780
+MD5sum: 1aed272d430dac544ac3a4bd23fdcb17
+SHA1: d01f810f9f3e2a8e97b63bcdc50905f93489de56
+SHA256: 675a69acae2afed4bd85f20a3d58224bc5ab010b5f538e85b496b3aa3fa42131
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start
+Description: Alternate menu plugin for the Xfce desktop environment
+
+Package: xfdesktop
+Version: 4.20.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3500
+Depends: exo, garcon, gdk-pixbuf, glib, gtk3, gtk-layer-shell, libcairo, libnotify, libwnck, libx11, libxfce4ui, libxfce4util, libxfce4windowing, libyaml, pango, thunar, xfconf
+Recommends: hicolor-icon-theme
+Filename: pool/debs-20261110-011202-00/xfdesktop_4.20.2_aarch64.deb
+Size: 1025152
+MD5sum: 95f86f75ff0bf0ddc55b0efb302781e6
+SHA1: 1b84d8c1de7596057cf724c2e9dbcbdbf3760b7f
+SHA256: 0e042c882f4c02ea3a3876317319535bc70da4980dd6d06daeb08c2d059957e6
+Homepage: https://docs.xfce.org/xfce/xfdesktop/start
+Description: A desktop manager for XFCE environment
+
+Package: xfwm4
+Version: 4.20.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4064
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libepoxy, libwnck, libx11, libxcomposite, libxdamage, libxext, libxfce4ui, libxfce4util, libxfixes, libxinerama, libxpresent, libxrandr, libxrender, libxres, pango, startup-notification, xfconf
+Recommends: hicolor-icon-theme
+Filename: pool/debs-20261110-011202-00/xfwm4_4.20.0-3_aarch64.deb
+Size: 245956
+MD5sum: 7a647f8830cba9d5179912c25158ac1e
+SHA1: 48b4f17b3337205e2dfdc25d116df4025ff47a7a
+SHA256: b4498c18ac30c2ef65796895ab8efcdb39f9305a9b3d9b35ee1b1e733ac7f2a3
+Homepage: https://docs.xfce.org/xfce/xfwm4/start
+Description: Window manager for XFCE environment
+
+Package: xh
+Version: 0.26.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10416
+Filename: pool/debs-20261110-011202-00/xh_0.26.3_aarch64.deb
+Size: 2992552
+MD5sum: f9e6ed08bc0920aa02e34e63915f7379
+SHA1: f9e6be0f527161bcb7d91383c6b7a12f455175fe
+SHA256: adf165c943b4b1e923afb3387819479afbd71e6aad313e9f3f34116a9cc412fd
+Homepage: https://github.com/ducaale/xh
+Description: A friendly and fast tool for sending HTTP requests
+
+Package: xmake
+Version: 3.1.2
+Architecture: aarch64
+Maintainer: Ruki Wang @waruqi
+Installed-Size: 15816
+Depends: ncurses
+Filename: pool/debs-20261110-011202-00/xmake_3.1.2_aarch64.deb
+Size: 1143012
+MD5sum: 16a723e344620db937c367bcecaf636b
+SHA1: fc7f797ae39dc8934cfe3e259e3f6c3d3b0280c1
+SHA256: 411b808f06b0f0262e91ca25f8bc988100073b8ab51eda2c7d220e6a62d7d57e
+Homepage: https://xmake.io/
+Description: A cross-platform build utility based on Lua
+
+Package: xmlstarlet
+Version: 1.7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: libxslt, libxml2
+Filename: pool/debs-20261110-011202-00/xmlstarlet_1.7.0_aarch64.deb
+Size: 42280
+MD5sum: 8909d643015f21ae0cb8614645d04d88
+SHA1: 8b069478c7d5256e7e4f603123c56610bb7c5603
+SHA256: 253a51d7643de6846eef23bb14ce670557fc9c97951e8976ad11b88a0d24a2c0
+Homepage: https://github.com/xmlstarlet/xmlstarlet
+Description: Command line XML toolkit
+
+Package: xmoto
+Version: 0.6.3-2
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 70284
+Depends: bzip2, game-music-emu, glu, libcurl, libjpeg-turbo, libpng, libwavpack, libx11, libxdg-basedir, lua54, sdl2 | sdl2-compat, sdl2-mixer, sdl2-net, sdl2-ttf
+Filename: pool/debs-20261110-011202-00/xmoto_0.6.3-2_aarch64.deb
+Size: 33906652
+MD5sum: fe819bd34f812fcd15e9cd134308c18e
+SHA1: 7ce72df9a25888bdc45c93917eb7edf9bbe2e9ea
+SHA256: c5fc79788e778861956b8919f20eeb1d4464c577a1cff0c025b47d413ddd13c8
+Homepage: https://xmoto.tuxfamily.org/
+Description: A challenging 2D motocross platform game
+
+Package: xorg-fonts-cyrillic
+Version: 1.0.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 624
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Filename: pool/debs-20261110-011202-00/xorg-fonts-cyrillic_1.0.4_all.deb
+Size: 380796
+MD5sum: 9a0f7f3d6aecd7733d3a286663654367
+SHA1: d95b0198b547a81ae1e4cbe436009ff22cf12ec3
+SHA256: 78ca1f67f01850918c0ffbac45708db24c2f2642d4ce89387126bc3bba15b388
+Homepage: https://xorg.freedesktop.org/
+Description: X.org cyrillic fonts
+
+Package: xorg-fonts-misc
+Version: 1.0.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 14508
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Filename: pool/debs-20261110-011202-00/xorg-fonts-misc_1.0.4_all.deb
+Size: 6765332
+MD5sum: 39f91c201e5a72d358b59b8677ebad01
+SHA1: 2fa731d9246557afa27a99e1d048789975c18d39
+SHA256: a3e0fdf4fb0dee9efe906ff78344be3d87e626d85d1c17ae763ba4717fc2ba82
+Homepage: https://xorg.freedesktop.org/
+Description: X.org misc fonts
+
+Package: xorg-iceauth
+Version: 1.0.11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libice
+Filename: pool/debs-20261110-011202-00/xorg-iceauth_1.0.11_aarch64.deb
+Size: 13532
+MD5sum: 8d93206c6987e773f9b4698662dd8f58
+SHA1: bc34d20c7cf54426170b9da039962c2d8a063b5d
+SHA256: 5c3625f49ae78eecca5610326995ff59bae860f476e3175b457c7e89b3ac2c10
+Homepage: https://xorg.freedesktop.org/
+Description: ICE authority file utility
+
+Package: xorg-luit
+Version: 1.1.1-23
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: libfontenc
+Filename: pool/debs-20261110-011202-00/xorg-luit_1.1.1-23_aarch64.deb
+Size: 17964
+MD5sum: ee6bf818ce0797b2d4ab3a57e9ac21a7
+SHA1: de2e898ee64bc24608cb8c39309a568d0259d35e
+SHA256: 73b48fcecc1364646bd61c2ce5eb0f62f75c341d5dca1ada24e80bfa42a7f28e
+Homepage: https://xorg.freedesktop.org/
+Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+
+Package: xorg-setxkbmap
+Version: 1.3.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: libx11, libxkbfile, libxrandr
+Filename: pool/debs-20261110-011202-00/xorg-setxkbmap_1.3.5_aarch64.deb
+Size: 10692
+MD5sum: d0d2148c9a08ed80b81a9bee725ea89e
+SHA1: fadc14452c2b5b84e7903a281fc22540fb50a4e8
+SHA256: 98f11c18249cbc675309a3994484e1c98fde4635835b54b2a52c4f289a43fc94
+Homepage: https://xorg.freedesktop.org/
+Description: Set the keyboard using the X Keyboard Extension
+
+Package: xorg-twm
+Version: 1.0.13.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 376
+Depends: libice, libsm, libx11, libxext, libxmu, libxrandr, libxt
+Filename: pool/debs-20261110-011202-00/xorg-twm_1.0.13.1-1_aarch64.deb
+Size: 83708
+MD5sum: 57ac1b18fb228456fa605b9ec0a9ed85
+SHA1: 1a53ca5aa0d7af6aee9113664d62da7e49cb3e44
+SHA256: fd13c8d46d46c047079db08fc11f9e41f4724b8e3be33a7938200f0a70c5bcfe
+Homepage: https://xorg.freedesktop.org/
+Description: Tab Window Manager for the X Window System
+
+Package: xorg-xcalc
+Version: 1.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: libx11, libxaw, libxt, xorg-fonts-75dpi | xorg-fonts-100dpi
+Filename: pool/debs-20261110-011202-00/xorg-xcalc_1.1.3_aarch64.deb
+Size: 21792
+MD5sum: 2ab1acb013f3b2964b9dd29832ea4586
+SHA1: 98ddc13719d9788d4500674e75250b28e9020246
+SHA256: d72e5b1f8ade40be3d48bfaebe34fab6c25a4e763899db9ff95e41d67c5278c4
+Homepage: https://xorg.freedesktop.org/
+Description: Scientific calculator for X
+
+Package: xorg-xclock
+Version: 1.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: libiconv, libx11, libxaw, libxft, libxkbfile, libxmu, libxrender, libxt
+Conflicts: xclock
+Replaces: xclock
+Filename: pool/debs-20261110-011202-00/xorg-xclock_1.2.1_aarch64.deb
+Size: 24236
+MD5sum: 53fdac2fb326941128a5335fa733afc8
+SHA1: 4ce256eef5247661c311b6f86713d83d14c301ee
+SHA256: 2f984d49493ccaa0b5d91b397d6922702e67335844b61e7cebf39aa256dc780e
+Homepage: https://xorg.freedesktop.org/
+Description: X clock
+
+Package: xorg-xcursorgen
+Version: 1.0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libpng, libx11, libxcursor
+Filename: pool/debs-20261110-011202-00/xorg-xcursorgen_1.0.9_aarch64.deb
+Size: 7140
+MD5sum: 57159a68677d0b2ad4b6436c3ce243e0
+SHA1: f65b44d57c6799e2b7224262e340d513f3968b67
+SHA256: 414aac4d6fe21608a7501e38c089e782fe78a6ec0b860cea3224fc0ed7bdcc3c
+Homepage: https://xorg.freedesktop.org/
+Description: Create an X cursor file from PNG images
+
+Package: xorg-xev
+Version: 1.2.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libx11, libxrandr
+Filename: pool/debs-20261110-011202-00/xorg-xev_1.2.7_aarch64.deb
+Size: 12240
+MD5sum: 1e7e305a3fadbd05cdd1221cc5b0cb03
+SHA1: e5c8d0b12832fb29d7cc705961e2e65df82656de
+SHA256: 2ff10a1d2297834d061ed7b1da570594066fb83921616139baee5e5a3496834b
+Homepage: https://xorg.freedesktop.org/
+Description: Print contents of X events
+
+Package: xorg-xhost
+Version: 1.0.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libx11, libxmu
+Filename: pool/debs-20261110-011202-00/xorg-xhost_1.0.10_aarch64.deb
+Size: 9640
+MD5sum: 3974446b4306ce2e65dc1c5de1c688de
+SHA1: dec4a67f94f24f19d11407d4b1f02a8ecad001b5
+SHA256: 138d531d9fe3a45b76b1ea71bd26226c14c6d48a62c1c62b31a53df5098fa835
+Homepage: https://xorg.freedesktop.org/
+Description: Server access control program for X
+
+Package: xorg-xlsfonts
+Version: 1.0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: libx11
+Filename: pool/debs-20261110-011202-00/xorg-xlsfonts_1.0.9_aarch64.deb
+Size: 9440
+MD5sum: 270fd76cfae9c1473a15e6e9d8f502da
+SHA1: aa40a0141a5bc313c8df8038967879dc377c9132
+SHA256: 0722ef67666ad5f0a76311e5f47ee86e25ad9331a60bdbed07b1b6a63e62b09b
+Homepage: https://xorg.freedesktop.org/
+Description: List available X fonts
+
+Package: xorg-xsetroot
+Version: 1.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libx11, libxcursor, libxmu
+Filename: pool/debs-20261110-011202-00/xorg-xsetroot_1.1.4_aarch64.deb
+Size: 9304
+MD5sum: 72eecf6be9049c74ec85438373064a67
+SHA1: a9ba0c5772bbf9b4e51cdc36d392dda52b71c7c6
+SHA256: e996ef51cede2d4fcdb01b1314543e9674d151a0e83274272cc3e867e4a883c0
+Homepage: https://xorg.freedesktop.org/
+Description: Classic X utility to set your root window background to a given pattern or color
+
+Package: xorg-xwininfo
+Version: 1.1.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: libiconv, libxcb
+Filename: pool/debs-20261110-011202-00/xorg-xwininfo_1.1.7_aarch64.deb
+Size: 18628
+MD5sum: c55f9f51064c75774aedbbeafa106562
+SHA1: 6c33f761c442548d558be51ff15262c64e7d8863
+SHA256: 9126719d5213734d7478675af2dcbd4af4bbfea9cbb1b03a252bc37c9ddf78ae
+Homepage: https://xorg.freedesktop.org/
+Description: Utility to print information about X11 windows
+
+Package: xorriso
+Version: 1:1.5.8.pl02
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2680
+Depends: libiconv, libandroid-support, readline, libbz2, zlib
+Filename: pool/debs-20261110-011202-00/xorriso_1_1.5.8.pl02_aarch64.deb
+Size: 899732
+MD5sum: 2be711b58ef8eb06fde5f155c4817375
+SHA1: cec2c6c4a690ce3e0c4afbc08afbcd5dd5a75f34
+SHA256: f7805fd1892121a5b7d87295ea9f5d7ff967ce05531a6983fbae3a2a66f9e758
+Homepage: https://www.gnu.org/software/xorriso
+Description: Tool for creating ISO files
+
+Package: xournalpp
+Version: 1.3.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6560
+Depends: gdk-pixbuf, glib, gtk3, gtksourceview4, libandroid-execinfo, libc++, libcairo, librsvg, libsndfile, libx11, libxi, libxml2, libzip, pango, poppler, portaudio, qpdf, zlib
+Replaces: xournal
+Filename: pool/debs-20261110-011202-00/xournalpp_1.3.8-1_aarch64.deb
+Size: 1021532
+MD5sum: cf85a7db6c6ed3cc222097b76020f51e
+SHA1: 26d82bd8f7e207cc09c1b7ec13a496beb6db98de
+SHA256: c32c92409ba0f635767715363b77cd645d6d6af0ea755b8982892fe649d8f3d4
+Homepage: https://github.com/xournalpp/xournalpp
+Description: A hand note taking software
+
+Package: xpdf
+Version: 4.06
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4656
+Depends: fontconfig, freetype, libc++, libpng, qt6-qtbase, qt6-qtsvg
+Filename: pool/debs-20261110-011202-00/xpdf_4.06_aarch64.deb
+Size: 839448
+MD5sum: 4b1f1cc9679150517a6def4c447c420f
+SHA1: b1d46c65f7e9fb86a8c0658b285cf78e84e21a92
+SHA256: 6366bb2f89915e6da8bac16fd2c0cbfb2d5912d1f2c1c33b018f7f4147ae5c62
+Homepage: https://www.xpdfreader.com/
+Description: Xpdf is an open source viewer for Portable Document Format (PDF) files.
+
+Package: xscreensaver
+Version: 6.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 102876
+Depends: at-spi2-core, gdk-pixbuf, glib, glu, gtk3, opengl, libandroid-shmem, libjpeg-turbo, libx11, libxext, libxft, libxi, libxml2, libxmu, libxrandr, libxt, libxxf86vm, xdg-utils
+Filename: pool/debs-20261110-011202-00/xscreensaver_6.17_aarch64.deb
+Size: 72783312
+MD5sum: 176b4a6abed10dc4fbb388a886bc6689
+SHA1: 502d71cb9a40aea307e79d2be58338e0874c2830
+SHA256: 6f49745ece4869cfc5e82a324760d9cdbf4115c93ebfed74d55d3a7710247696
+Homepage: https://www.jwz.org/xscreensaver
+Description: Screen saver and OpenGL demos for the X Window System
+
+Package: xsel
+Version: 1.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libx11
+Filename: pool/debs-20261110-011202-00/xsel_1.2.1_aarch64.deb
+Size: 14616
+MD5sum: f19b38e0b36e6b0dda160aaca7ec09da
+SHA1: 2be4057d6f59c0feb3534a6370da97b4a43f2010
+SHA256: 70bec756bb39306d4272ddabecfe948af40158795d92e5660570d0bd5b78c840
+Homepage: http://www.kfish.org/software/xsel/
+Description: Command-line program for getting and setting the contents of the X selection
+
+Package: xwallpaper
+Version: 0.7.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libjpeg-turbo, libpixman, libpng, libxcb, libxpm, xcb-util, xcb-util-image
+Filename: pool/debs-20261110-011202-00/xwallpaper_0.7.6_aarch64.deb
+Size: 16068
+MD5sum: bae1c2ad5c3451133ea379de49255d6a
+SHA1: 462af58f9c6aebbae480268af6ba81cd4d15ba28
+SHA256: f14480e2d5181f0e1fb9860dd5f54c2f737e0177846c32b3b99800f2efc36a08
+Homepage: https://github.com/stoeckmann/xwallpaper
+Description: wallpaper setting utility for X
+
+Package: yacreader
+Version: 10.4.0-1
+Architecture: aarch64
+Maintainer: @tke918
+Installed-Size: 9616
+Depends: libarchive, libc++, poppler, poppler-qt, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative, qt6-qtimageformats, qt6-qtmultimedia, qt6-qtspeech, qt6-qtsvg
+Filename: pool/debs-20261110-011202-00/yacreader_10.4.0-1_aarch64.deb
+Size: 2139772
+MD5sum: 23814dc48b9f854a42136d827c676c29
+SHA1: 447dd91484233b67d42e94a98cdae6fd5864a6de
+SHA256: ca45ff7a71a7885b49281c6edc270569be06e2ba9455cbbb9794585ad675531c
+Homepage: https://www.yacreader.com
+Description: Comic reader and comic library manager
+
+Package: yad
+Version: 15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 636
+Depends: gspell, gtk3, gtksourceview3, libandroid-shmem, webkit2gtk-4.1
+Filename: pool/debs-20261110-011202-00/yad_15.0_aarch64.deb
+Size: 136576
+MD5sum: b7ff751fd302acc37f998f5ce2cdc96f
+SHA1: c6be20882f058db4c54b4b526c2da66a8603405c
+SHA256: 96fad9b45616732f04a8be946206092d3d8ef82c594b0510091fe27bbb1e305e
+Homepage: https://github.com/v1cont/yad
+Description: Display graphical dialogs from shell scripts or command line
+
+Package: yadm
+Version: 3.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 292
+Depends: git
+Filename: pool/debs-20261110-011202-00/yadm_3.5.0_aarch64.deb
+Size: 29152
+MD5sum: 31230b2b0ad95ada947e0aa4eb611fdc
+SHA1: 1fa24e21dcd9307fc2fda2640af7938c9db7857b
+SHA256: ec67294bb68975b0ed175e210180c4dc2725d9c90b0ef7589c6f044c0b6901e4
+Homepage: https://yadm.io/
+Description: Yet Another Dotfiles Manager
+
+Package: yara
+Version: 4.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1408
+Depends: libandroid-posix-semaphore, libmagic, openssl
+Breaks: yara-dev
+Replaces: yara-dev
+Filename: pool/debs-20261110-011202-00/yara_4.6.0_aarch64.deb
+Size: 219240
+MD5sum: 5d60a4de19df1d58b1d6066542c17c60
+SHA1: 8564f1b373b5b4e5f7357988a351fad81a241346
+SHA256: 72385e54a98c08f78fce7496a42029e1fd8935b491d6114282426aa8a2fc7045
+Homepage: https://github.com/VirusTotal/yara
+Description: Tool aimed at helping malware researchers to identify and classify malware samples
+
+Package: yara-static
+Version: 4.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 900
+Depends: yara (= 4.6.0)
+Filename: pool/debs-20261110-011202-00/yara-static_4.6.0_aarch64.deb
+Size: 180720
+MD5sum: 5020d3f4f6b9753bf8a78483f12491ee
+SHA1: 78a5e1582f856c1ac7c68370052b7d47b89733b8
+SHA256: bd2bb06595251d3adafa035bca5af50d98b75e1c184209b1a90fbd17d200d706
+Homepage: https://github.com/VirusTotal/yara
+Description: Static libraries for yara
+
+Package: yazi
+Version: 26.9.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31416
+Recommends: 7zip, chafa, fd, ffmpeg, fzf, imagemagick, jq, poppler, ripgrep, zoxide
+Filename: pool/debs-20261110-011202-00/yazi_26.9.1-1_aarch64.deb
+Size: 9831416
+MD5sum: 77f14a77988f70ee20fbcdcf45cd5816
+SHA1: ee241b636985bee49ccc3faa28865ad311033b9e
+SHA256: 487efe4d89a81d20ddf927feb0d3c67d7ca17be6900aaf8fdec36d251d51f93e
+Homepage: https://yazi-rs.github.io/
+Description: Blazing fast terminal file manager written in Rust, based on async I/O
+
+Package: yosys
+Version: 0.70
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 70592
+Depends: graphviz, libandroid-glob, libandroid-spawn, libc++, libffi, ncurses, readline, tcl, zlib, python
+Filename: pool/debs-20261110-011202-00/yosys_0.70_aarch64.deb
+Size: 16284152
+MD5sum: e8c12818e459524c87f7e70df91aa75c
+SHA1: 36cb799e9fa799316105663071aab390c28f19cc
+SHA256: ec6aa4af7e438fc88b519e47f530335a7dda5de252a9a52cfa3bbeda7ed0ae1a
+Homepage: https://yosyshq.net/yosys/
+Description: A framework for RTL synthesis tools
+

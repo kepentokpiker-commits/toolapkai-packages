@@ -1,0 +1,401 @@
+Package: stb
+Version: 0.0.0+g31c1ad37
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2140
+Filename: pool/debs-20261109-134001-00/stb_0.0.0_g31c1ad37_aarch64.deb
+Size: 347692
+MD5sum: 93e5803231644752a18d593f92f070d3
+SHA1: d8704815875075268e88e2c0c37295e2e4593618
+SHA256: f5ee390870802689dac7f37bffc8532219819f10123b37e19639a54998a24166
+Homepage: https://github.com/nothings/stb
+Description: Single-file public domain (or MIT licensed) libraries for C/C++
+
+Package: stdman
+Version: 2024.07.05
+Architecture: all
+Maintainer: @termux
+Installed-Size: 23220
+Depends: mandoc
+Filename: pool/debs-20261109-134001-00/stdman_2024.07.05_all.deb
+Size: 4802040
+MD5sum: b0b66f7fb08d83a44da57a8c159d221c
+SHA1: b5e55ca9d8e412d45fdda01bc755938a7c55ea48
+SHA256: efa6ced64944d20c1d286f758618e8ff82ddceb9f278a0da85c629eb4032aab6
+Homepage: https://github.com/jeaye/stdman
+Description: Formatted C++23 stdlib man pages (cppreference)
+
+Package: stdoutisatty
+Version: 1.0-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 192
+Filename: pool/debs-20261109-134001-00/stdoutisatty_1.0-1_aarch64.deb
+Size: 4868
+MD5sum: b9b529104313c802841772f193144aac
+SHA1: 10a62904e4393a88c62d2af71b77b663b3e76f6a
+SHA256: e5a5715ba7e863ad834ba41fb7e8aa22e13a12e77a27fdfbffd0e8fe2360f5bd
+Homepage: https://github.com/lilydjwg/stdoutisatty
+Description: Patch the isatty() calls for colored output in pipeline
+
+Package: stduuid
+Version: 1.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Filename: pool/debs-20261109-134001-00/stduuid_1.2.3-1_aarch64.deb
+Size: 10012
+MD5sum: f16fc20a561c308a5cf2d958ec1d0bd7
+SHA1: d73167c1f9748c7e95689c602a689517b1974125
+SHA256: f7fdaf28ffd315c8e3cf5810c3b87585ac5a548339ecf4ee383e7d385309b26a
+Homepage: https://github.com/mariusbancila/stduuid
+Description: C++17 cross-platform single-header library implementation for universally unique identifiers
+
+Package: steghide
+Version: 0.5.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: libc++, libjpeg-turbo, libmcrypt, libmhash, zlib
+Filename: pool/debs-20261109-134001-00/steghide_0.5.1-8_aarch64.deb
+Size: 125608
+MD5sum: bbe0ca6b61f4c1dc857c02a9bf430794
+SHA1: 9be86941a9959f9b7a359ca57158a9c48b8baba3
+SHA256: bb191277483a18ca7d74a8f971d5f983908b55153d9d01807613614b1e5c73bf
+Homepage: https://steghide.sourceforge.net/
+Description: Embeds a message in a file by replacing some of the least significant bits
+
+Package: step-cli
+Version: 0.31.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40776
+Depends: termux-tools
+Filename: pool/debs-20261109-134001-00/step-cli_0.31.0-1_aarch64.deb
+Size: 9235672
+MD5sum: d25ddfc55b0370160442446b707dcf40
+SHA1: 783cca7b4927e99475818f2e7cc92034ec80fc3b
+SHA256: 072fc414f1aef21f75ab57b624697d100b0909c4c80d499448fba68a37a088e1
+Homepage: https://smallstep.com/cli
+Description: An easy-to-use CLI tool for building, operating, and automating Public Key Infrastructure (PKI) systems and workflows
+
+Package: stockfish
+Version: 19
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96896
+Depends: libc++
+Filename: pool/debs-20261109-134001-00/stockfish_19_aarch64.deb
+Size: 74129012
+MD5sum: fd4270a7446d541270ede7e90033b2eb
+SHA1: 3948e5d31d5e1772ee3b1d37c68ede3290eed991
+SHA256: 6426dfeaf4955fd2e407762386b2014bdaa697e4a4f50c59215dcc4e599ab0d6
+Homepage: https://stockfishchess.org/
+Description: Free and strong UCI chess engine
+
+Package: stoken
+Version: 0.93-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: libnettle, libxml2
+Filename: pool/debs-20261109-134001-00/stoken_0.93-3_aarch64.deb
+Size: 48308
+MD5sum: 4889d538fbdc4b9ed8d4b4eefbf1a362
+SHA1: 2f6a858448eb5cdc9a2ccab68d690fb871bd3afb
+SHA256: 5b0ff2807de7d08914ad8fd6a284740beb21c079965bac6d7749e2231cba52e5
+Homepage: https://github.com/cernekee/stoken
+Description: Software Token for Linux/UNIX
+
+Package: stoken-static
+Version: 0.93-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: stoken (= 0.93-3)
+Filename: pool/debs-20261109-134001-00/stoken-static_0.93-3_aarch64.deb
+Size: 21268
+MD5sum: 12cea05bb20c330b807db9e7162a77a7
+SHA1: 997a264168a5b535b5039dee213e3c8c7df2042f
+SHA256: 2f1cd51598e3cc9e3a48469bc63a6eff61d50c35369f19c1cb3784a5e9f8e42a
+Homepage: https://github.com/cernekee/stoken
+Description: Static libraries for stoken
+
+Package: stone
+Version: 2.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: openssl
+Filename: pool/debs-20261109-134001-00/stone_2.4-3_aarch64.deb
+Size: 48168
+MD5sum: 98a7f0e8b8c84b52d96b605330da6d02
+SHA1: a49a75f238fde0b1a888836c6a8ab338899c5248
+SHA256: 9fe852aee70532b8c5faa460c1cc7ff63d3c8444eb3ca620ea4fddda9c39a5e5
+Homepage: https://www.gcd.org/sengoku/stone/
+Description: A TCP/IP repeater in the application layer
+
+Package: storj-uplink
+Version: 1.165.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18180
+Filename: pool/debs-20261109-134001-00/storj-uplink_1.165.6_aarch64.deb
+Size: 4463396
+MD5sum: 768090f0a24f2aff511f705607e2c076
+SHA1: 89e60ed9581373465d2d80b5e44670cacc0591ff
+SHA256: b950527c4b1fea886a85d18cf196b4c01364dfd9f4b4aad8574682c4a5886a0c
+Homepage: https://github.com/storj/storj
+Description: Storj DCS Uplink CLI
+
+Package: stow
+Version: 2.4.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 976
+Depends: perl
+Filename: pool/debs-20261109-134001-00/stow_2.4.1_all.deb
+Size: 108272
+MD5sum: b3dd4f1658229b47c4ef4faa2b69249a
+SHA1: 3a938bca1067a452f6d14ac581aef6bb73f05a7b
+SHA256: d20261b3bc58516c6faceb752b610f4337a9af83cc40b90546361af91b8ba54b
+Homepage: https://www.gnu.org/software/stow/
+Description: Tool for managing the installation of multiple software packages into a single directory
+
+Package: streamripper
+Version: 1.64.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: glib, libmad, libogg, libvorbis
+Filename: pool/debs-20261109-134001-00/streamripper_1.64.6-3_aarch64.deb
+Size: 54076
+MD5sum: 6243c4ba98812667237e5a3ac9133045
+SHA1: 0362f43066a1aeb3869c4d4c7ce85dea413c2945
+SHA256: a287e7a7c6be3c31c8a03f8ba9fd6ee53f3039dd3157bd1dfe7eed4deb1c297d
+Homepage: https://streamripper.sourceforge.net/
+Description: Records and splits streaming mp3 into tracks
+
+Package: stunnel
+Version: 5.82
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 804
+Depends: openssl
+Filename: pool/debs-20261109-134001-00/stunnel_5.82_aarch64.deb
+Size: 190420
+MD5sum: 4633a30aedfe255c3e7d8c82acd8411f
+SHA1: f8d839ac6867bc88e90f974c194542ea9bef99f5
+SHA256: afef17ebb11b07846a550849b43444eddec87f6fd5dc4233b363ffa540c247ad
+Homepage: https://www.stunnel.org/
+Description: Socket wrapper which can provide TLS support to ordinary applications
+
+Package: stunnel-static
+Version: 5.82
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: stunnel (= 5.82)
+Filename: pool/debs-20261109-134001-00/stunnel-static_5.82_aarch64.deb
+Size: 2080
+MD5sum: e2f86b30e759fa1b3e75d4bc2024668f
+SHA1: dcedc13c24d43d3da913ccbdd4963fa4440459b5
+SHA256: 98cdc1ef761a1840c875089f9a7ea0f724413dbfb194ecbe5231d862a96875cc
+Homepage: https://www.stunnel.org/
+Description: Static libraries for stunnel
+
+Package: stuntman
+Version: 1.2.16-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 476
+Depends: libc++, openssl
+Filename: pool/debs-20261109-134001-00/stuntman_1.2.16-8_aarch64.deb
+Size: 85288
+MD5sum: ac62ea9b9ff1e35caff705d93ac1ddd5
+SHA1: 772272e8a554eb3a7988adb39a9584db4cdf400c
+SHA256: 055c2339e18cbad6ea95c409ee9d389913ec235168871d6f5c1d5fda8095cabe
+Homepage: https://www.stunprotocol.org/
+Description: An open source STUN server
+
+Package: stylua
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7000
+Filename: pool/debs-20261109-134001-00/stylua_2.6.0_aarch64.deb
+Size: 1784056
+MD5sum: 478ca687cebb5a6d8544afce0e29d62a
+SHA1: 8a90754ca6d41dba09e727aa5b19184313956427
+SHA256: 7bcb1d68c4f921448cd6026667908dc1e256ae5c9cdd4ee9e42232823add0b76
+Homepage: https://github.com/JohnnyMorganz/StyLua
+Description: An opinionated Lua code formatter
+
+Package: sudo
+Version: 1.3.0
+Architecture: all
+Maintainer: @agnostic-apollo
+Installed-Size: 588
+Depends: bash
+Conflicts: tsu
+Replaces: tsu
+Filename: pool/debs-20261109-134001-00/sudo_1.3.0_all.deb
+Size: 54820
+MD5sum: 7bdddba2e4d671111f4ae7f62ec51777
+SHA1: 1a73ad3ae775b1e7d841d942ff14f6ecf59d5845
+SHA256: 989f3df6619ffa5fb90bbe6c0d514ae25146bc44e24eb0f8b611695e6ff410b1
+Homepage: https://github.com/agnostic-apollo/sudo
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the root (superuser) user in the Termux app
+
+Package: suite3270
+Version: 4.1ga11-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3980
+Depends: less, libexpat, libiconv, ncurses, openssl
+Filename: pool/debs-20261109-134001-00/suite3270_4.1ga11-3_aarch64.deb
+Size: 587428
+MD5sum: 17302671651a0267e805e9355d690b22
+SHA1: beaf4ea094323342b0b464807377cc7ac96ca795
+SHA256: eb4e8931ec23f92402ac41a62e914f47097853749c6233bdac385c58e4127364
+Homepage: https://x3270.bgp.nu/
+Description: A family of IBM 3270 terminal emulators and related tools
+
+Package: sun
+Version: 1.0.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2780
+Filename: pool/debs-20261109-134001-00/sun_1.0.0-4_aarch64.deb
+Size: 761748
+MD5sum: 8d8bf4f463241f3ae9ea042f00aa3c33
+SHA1: 09769c59eaf00cc8c14cbea5eaaf1e10abc9eca3
+SHA256: 8d8b7d7f423c5b8facb4caa008d7a906da96936e4042359bb230be3925d11fb3
+Homepage: https://stand-up-notes.org
+Description: A very simple note taking cli app
+
+Package: superhtml
+Version: 0.7.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2716
+Filename: pool/debs-20261109-134001-00/superhtml_0.7.1_aarch64.deb
+Size: 603304
+MD5sum: 0505939ad9d910904aea1b60935cf550
+SHA1: 1597155f7f940de6e1855d530ba777f35153e02b
+SHA256: 02fe3c337b46c8fd1ee74616105655065c01a2ae82f27c43b50f525b652e84dd
+Homepage: https://github.com/kristoff-it/superhtml
+Description: A HTML language server and templating engine formatter/linter
+
+Package: supertux
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 8556
+Depends: fmt, freetype, glew, libandroid-execinfo, libandroid-spawn, libandroid-stub, libcurl, libogg, libphysfs, libpng, libvorbis, openal-soft, sdl2, sdl2-image, supertux-data, xdg-utils, zlib
+Filename: pool/debs-20261109-134001-00/supertux_0.7.0-1_aarch64.deb
+Size: 1842708
+MD5sum: c963b1e01021fc28a93d92d40888ced6
+SHA1: 8ef540812aef5f0deb0be19534500361e05e3da7
+SHA256: 2b1bcc860ca620321ee289d9d8e5dcc16f77ff4c6a57558aa9884bbf9b7aaa6c
+Homepage: https://www.supertux.org
+Description: Classic 2D jump'n'run sidescroller game in a style similar to Super Mario Bros
+
+Package: supertux-data
+Version: 0.7.0-1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 331460
+Filename: pool/debs-20261109-134001-00/supertux-data_0.7.0-1_all.deb
+Size: 271822616
+MD5sum: fbe5733fe1ccb3b3fa5e5569e3759cff
+SHA1: c7a77fab734610f92ae965730a3c90b058ea8d7c
+SHA256: 840c4050695506dc0d6c4b4093b2daf47695ec7b198a82b66e946654841ade08
+Homepage: https://www.supertux.org
+Description: Data files for supertux2
+
+Package: surf
+Version: 2.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Depends: gcr, glib, gtk3, libx11, webkit2gtk-4.1
+Recommends: curl, dmenu, st, xorg-xprop
+Filename: pool/debs-20261109-134001-00/surf_2.1-4_aarch64.deb
+Size: 21016
+MD5sum: a34abac5ed478666d1efd6bdeccdccfc
+SHA1: bb500b4b6b462f74ad55e9917f157743a96f4f57
+SHA256: e6f06ad7f762215852fefe947b6e6db3438ac500923ce439d122ffa83fdebcfd
+Homepage: https://surf.suckless.org/
+Description: A simple web browser based on WebKit2/GTK+
+
+Package: surfraw
+Version: 2.3.0-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 808
+Depends: lynx, perl
+Filename: pool/debs-20261109-134001-00/surfraw_2.3.0-10_aarch64.deb
+Size: 72000
+MD5sum: a45b08f1e8660ba5c28f1a2a1bb85ad9
+SHA1: ccf97e1b841735490828337b83bf7394e9e07e89
+SHA256: b0dc6a3cacb2fdcd85c8ed474da65da1baeac3740b401013f7726063e2585126
+Homepage: https://gitlab.com/surfraw/Surfraw
+Description: Shell Users' Revolutionary Front Rage Against the Web
+
+Package: swaks
+Version: 20240103.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 396
+Depends: perl
+Filename: pool/debs-20261109-134001-00/swaks_20240103.0_all.deb
+Size: 58252
+MD5sum: ff06d9cc4f3ddc9d998fdfe1c308afce
+SHA1: 1e15cf15c6da7bb35cd1125547d0ea3918a692f5
+SHA256: dd5571fb61fa6f879377c4d08d65f23f9c41b1341519d5d24a3a0a05245fd97e
+Homepage: http://jetmore.org/john/code/swaks/
+Description: Swiss Army Knife for SMTP
+
+Package: swaybg
+Version: 1.2.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: gdk-pixbuf, libcairo, libwayland
+Filename: pool/debs-20261109-134001-00/swaybg_1.2.2_aarch64.deb
+Size: 11916
+MD5sum: 595747d815192959f34cee06629e6a3e
+SHA1: 2f3410cffc824d0dd928d30754cf68630d8a50a3
+SHA256: e0609baeacec47638b66b66eb437f8d0404a9c21edb515d996c3fbe08473a99b
+Homepage: https://github.com/swaywm/swaybg
+Description: Wallpaper tool for Wayland compositors
+
+Package: swtpm
+Version: 0.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 720
+Depends: glib, json-glib, libseccomp, libtpms, openssl
+Filename: pool/debs-20261109-134001-00/swtpm_0.10.2_aarch64.deb
+Size: 145128
+MD5sum: 8bbd943f08485563f7570d194d6eda3d
+SHA1: 9f0fb3dac840b9cd4cace8324571e689e3c872cf
+SHA256: 53b78722c3911fe94aeca59305fff1e2fb8eeda20d0b117c695376acc9148bb3
+Homepage: https://github.com/stefanberger/swtpm
+Description: Software TPM Emulator
+
+Package: swtpm-static
+Version: 0.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: swtpm (= 0.10.2)
+Filename: pool/debs-20261109-134001-00/swtpm-static_0.10.2_aarch64.deb
+Size: 47676
+MD5sum: eb69b5d4c5de891a56ddf9efb7708698
+SHA1: d345ba407346e85d486466ad29fd9019d09f811f
+SHA256: 3c2c124267748bf995d2abd87d3e509115e1a3ab8fa46a919a915bdcb69817dc
+Homepage: https://github.com/stefanberger/swtpm
+Description: Static libraries for swtpm
+

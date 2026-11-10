@@ -1,0 +1,428 @@
+Package: iw
+Version: 6.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: libnl
+Filename: pool/debs-20261105-220242-00/iw_6.17_aarch64.deb
+Size: 93240
+MD5sum: f8d344323e9bf9911528e09f6e41a4d7
+SHA1: cf6bfeb49f3bf7379f66d61ed64a222a76937eca
+SHA256: 1003c46caee80fa2e47d3ff405941d4abb49f8ecc2fff6853b47815bc72eca16
+Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
+Description: CLI configuration utility for wireless devices
+
+Package: jack-example-tools
+Version: 4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 672
+Depends: alsa-lib, jack, libsamplerate, libsndfile
+Filename: pool/debs-20261105-220242-00/jack-example-tools_4-1_aarch64.deb
+Size: 83576
+MD5sum: 6efd368f60189fe8d94dba3aee0d5190
+SHA1: 20f6192e40973522ff396707a41d1a392b3a2b7c
+SHA256: ebe4bc05f8d8b75e3eb7245e4e55319ead5cb45900e0181045cd83e1c0b03c37
+Homepage: https://jackaudio.org/
+Description: Official JACK example clients and tools
+
+Package: jackett
+Version: 0.24.2985
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15044
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Filename: pool/debs-20261105-220242-00/jackett_0.24.2985_aarch64.deb
+Size: 3225508
+MD5sum: 1751e75c4c729965574c259e7cdf648b
+SHA1: ea8bf3eeab4b8b2ef8723b4d88bbc9ee18e8dd7e
+SHA256: 73a24901c3fc4bc1b5aa9ec830c9c060ac3e6e4132ea40fa8ce07723d0c98664
+Homepage: https://github.com/jackett/jackett
+Description: API Support for your favorite torrent trackers
+
+Package: jadx
+Version: 1.5.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 76584
+Depends: openjdk-21
+Filename: pool/debs-20261105-220242-00/jadx_1.5.6_all.deb
+Size: 72062468
+MD5sum: b07413982cb0e02a937ce6c36e9a66e0
+SHA1: 21e1dd5c1eebeed8f3d51721a0f7f703c5c4486a
+SHA256: 60a93a5d722276b806038c06b8232a9d48b267f86143b682ca4d383247d2d94b
+Homepage: https://github.com/skylot/jadx
+Description: Dex to Java decompiler
+
+Package: jadx-x
+Version: 1.5.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 36
+Depends: openjdk-21-x, jadx (= 1.5.6)
+Filename: pool/debs-20261105-220242-00/jadx-x_1.5.6_all.deb
+Size: 3316
+MD5sum: cb826f6d80a7fb30d6dc778a29ab9683
+SHA1: 9df9e0cbd9e74681721683f60ffd8b9f74e574a8
+SHA256: 8517712fa055b33fbc5e43ed8b537419616a0b14ccf0a198b961d8657848b2f7
+Homepage: https://github.com/skylot/jadx
+Description: Dex to Java decompiler GUI
+
+Package: jbig2enc
+Version: 1:0.32
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 380
+Depends: giflib, leptonica, libc++, libjpeg-turbo, libpng, libtiff, libwebp, python, zlib
+Filename: pool/debs-20261105-220242-00/jbig2enc_1_0.32_aarch64.deb
+Size: 56724
+MD5sum: 39c414aa42eef9e4f86d15a99227c4ea
+SHA1: 79abc091e68d630523eff7f300f3191b95b90204
+SHA256: 023e44a1bba5168de5774da6ea79c08d4c2ef6ce0dfe5bdb0fe6e61bb5b2fe17
+Homepage: https://github.com/agl/jbig2enc
+Description: An encoder for JBIG2
+
+Package: jbig2enc-static
+Version: 1:0.32
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 756
+Depends: jbig2enc (= 1:0.32)
+Filename: pool/debs-20261105-220242-00/jbig2enc-static_1_0.32_aarch64.deb
+Size: 71820
+MD5sum: d4701eb0fdd72d4b93c47c5ca9bf7484
+SHA1: ac74711bfdcb9803e9c29b50101cfe2bb1b7f622
+SHA256: 2160258a3b6d12f4375221036fbf85a4791d7a820099727d233203a50b66953b
+Homepage: https://github.com/agl/jbig2enc
+Description: Static libraries for jbig2enc
+
+Package: jcal
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Filename: pool/debs-20261105-220242-00/jcal_0.5.1-1_aarch64.deb
+Size: 39248
+MD5sum: c0a5ed3893b23c488815e36062a3d698
+SHA1: 0d6c548fd0d70946bdc0c6766a6b77e63f686c69
+SHA256: 0291ee1ca6ae873542debad969a9eb8c1a87f8092fbcc46cd070926a89509c8a
+Homepage: http://nongnu.org/jcal
+Description: UNIX-cal-like tool to display Jalali (Persian/Iranian) calendar
+
+Package: jcal-static
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: jcal (= 0.5.1-1)
+Filename: pool/debs-20261105-220242-00/jcal-static_0.5.1-1_aarch64.deb
+Size: 8420
+MD5sum: 96562eeaa060e1e80a5d9c0bf1f27266
+SHA1: e4943d1b7e7c8e35c0afe3eb76efbf090a4e5f1b
+SHA256: 701f45dfd17bfdd2e66582acad8a16244c431e39525e898b90250359dfb07a24
+Homepage: http://nongnu.org/jcal
+Description: Static libraries for jcal
+
+Package: jfrog-cli
+Version: 2.129.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 66324
+Filename: pool/debs-20261105-220242-00/jfrog-cli_2.129.0_aarch64.deb
+Size: 19744512
+MD5sum: 2a52a617e3b454858e90654c27422af5
+SHA1: 00940c09c2e34ac640d56766e1fdcca8f7886225
+SHA256: b8f2fb16998214f11609b85181623f7c3b12ce56dfdac3fa5b3d85197ae6ac91
+Homepage: https://jfrog.com/getcli
+Description: A CLI for JFrog products
+
+Package: jhead
+Version: 3.08-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Filename: pool/debs-20261105-220242-00/jhead_3.08-1_aarch64.deb
+Size: 42264
+MD5sum: 52d8b39a94e4b0437003666cef93214e
+SHA1: 7b1a6f28ab52b54dbd04c04ec56729f2e9127d02
+SHA256: 712b606ff98caa397986fdacc9c3c5f483a468e1ca683b4a675ca6b8c23eabe7
+Homepage: http://www.sentex.net/~mwandel/jhead/
+Description: Exif Jpeg header manipulation tool
+
+Package: jigdo
+Version: 0.8.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: libbz2, libc++, libdb, wget, zlib
+Filename: pool/debs-20261105-220242-00/jigdo_0.8.2-1_aarch64.deb
+Size: 121968
+MD5sum: 0cc0799cb722564ae49c621128594b84
+SHA1: b9bd1e175fcc30d5dc5062ebb4ab6ee7efbbb80a
+SHA256: ec5898cd085edb4df6305bdb85e675688a841fec6dd140cc424a132aa38ed83c
+Homepage: https://www.einval.com/~steve/software/jigdo/
+Description: Distribute large images by sending and receiving the files that make them up
+
+Package: jira-go
+Version: 1.0.28-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11736
+Filename: pool/debs-20261105-220242-00/jira-go_1.0.28-4_aarch64.deb
+Size: 3137092
+MD5sum: 456139e4542004119fab89d5f62167ef
+SHA1: 0a088b07191d6854a600a4ba355da819bd08e1b9
+SHA256: 92f9cce5a5763d90d565da461d53e6940c48f1dc1d42892a9b0c5c76e3af63c5
+Homepage: https://github.com/go-jira/jira
+Description: Simple jira command line client written in Go
+
+Package: jless
+Version: 0.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2500
+Filename: pool/debs-20261105-220242-00/jless_0.9.0-1_aarch64.deb
+Size: 681888
+MD5sum: 8fdfa9f93fc1ad14cae218d30b896c02
+SHA1: 5848f0c48d98a2f3a9e9339680714a59c4de201c
+SHA256: 369f87e17d3f549d30a3b26769cc4e49bbebb4e56160f567ae9daacee4184297
+Homepage: https://jless.io
+Description: A command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+
+Package: jo
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Filename: pool/debs-20261105-220242-00/jo_1.9-1_aarch64.deb
+Size: 17240
+MD5sum: b4152a0a118415c723f2e871231d180a
+SHA1: 036240fa6ca5312ccc694a838c853a0e331b6417
+SHA256: 1acb8dcc13f8935b222399bcde3b92986cf4461b98b7d092b4218e959dadef65
+Homepage: https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/
+Description: JSON output from a shell
+
+Package: joe
+Version: 4.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2492
+Depends: ncurses
+Conflicts: jupp
+Filename: pool/debs-20261105-220242-00/joe_4.8_aarch64.deb
+Size: 474944
+MD5sum: 5f2429b517aa1d67b6c38708fe39853a
+SHA1: 5795518a239ef83e51df649773b0e767204aaad2
+SHA256: e4403e6ff51daa0d6871c6171b8b081b73ceb2ea1fef435772132d8f8000b725
+Homepage: http://joe-editor.sourceforge.net
+Description: Wordstar like text editor
+
+Package: jove
+Version: 4.17.5.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1392
+Depends: ncurses
+Filename: pool/debs-20261105-220242-00/jove_4.17.5.5_aarch64.deb
+Size: 493888
+MD5sum: 787710975a5ee60043a4a57d14ef63c8
+SHA1: f3e40037b502afb1e5f1b5ef38cf909aca7dc9f1
+SHA256: 0545582fa151b40e479790234e6c2ad4fc71ddf219f6aa06598a642a98ea37d1
+Homepage: https://directory.fsf.org/wiki/Jove
+Description: Jove is a compact, powerful, Emacs-style text-editor.
+
+Package: jp2a
+Version: 1.3.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Depends: libcurl, libexif, libjpeg-turbo, libpng, libwebp, ncurses
+Filename: pool/debs-20261105-220242-00/jp2a_1.3.3_aarch64.deb
+Size: 23332
+MD5sum: 7b8af4bd1b47ea422b2d520ed8c73272
+SHA1: d5e9b558886c28cc26104ebb7240d2dd94686ae4
+SHA256: eeda2ac2a6c2ea2412973dbe75566184fa74f7ac619c575e5a88d07d6cb4b476
+Homepage: https://github.com/Talinx/jp2a/
+Description: A simple JPEG to ASCII converter
+
+Package: jpegoptim
+Version: 1.5.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 168
+Depends: libjpeg-turbo
+Filename: pool/debs-20261105-220242-00/jpegoptim_1.5.6_aarch64.deb
+Size: 20104
+MD5sum: 1a2b46e84a566e3d1e478c4b6d3318d5
+SHA1: a0c74e05ef0df7eee237f7019544be20706042b8
+SHA256: 3c1a82cd27794a34f71f18e47a3efb629e8fea3621414aa67ee358f578896913
+Homepage: https://www.kokkonen.net/tjko/projects.html
+Description: JPEG optimizer that recompresses image files to a smaller size, without losing any information
+
+Package: jq
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 620
+Depends: oniguruma
+Breaks: jq-dev
+Replaces: jq-dev
+Filename: pool/debs-20261105-220242-00/jq_1.8.2_aarch64.deb
+Size: 184616
+MD5sum: 16b570977b66b057dd04ea2ff5dd7c65
+SHA1: 229698db52674a442db75f55cce2b2ecf40cbc7a
+SHA256: cac7ba98e0105b1a1c883bfc7ae02ce8cbd151278d4060418d0cb21989d87f84
+Homepage: https://jqlang.org/
+Description: Command-line JSON processor
+
+Package: jq-lsp
+Version: 0.1.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5060
+Filename: pool/debs-20261105-220242-00/jq-lsp_0.1.19-1_aarch64.deb
+Size: 1333668
+MD5sum: d1d4aa6b4e806dab29e023286150f557
+SHA1: 73301b47367c229ac08fbf0eafb16988c7c4e713
+SHA256: c1dee4335e8fb54a24a18ba758ec984adee3b3c0db3158d1c16a93f924d5003f
+Homepage: https://github.com/wader/jq-lsp
+Description: jq language server
+
+Package: jq-static
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 628
+Depends: jq (= 1.8.2)
+Filename: pool/debs-20261105-220242-00/jq-static_1.8.2_aarch64.deb
+Size: 141676
+MD5sum: 1fe4cffbbe8ade47935449ba3608fcd5
+SHA1: 0a49e573c62a274fff552c810507bfe9608703c8
+SHA256: 0c1a28be904a25aa057cc4786500a69b7023520d38ec0ead97ff79725ebebfd2
+Homepage: https://jqlang.org/
+Description: Static libraries for jq
+
+Package: jql
+Version: 9.0.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Filename: pool/debs-20261105-220242-00/jql_9.0.3_aarch64.deb
+Size: 343408
+MD5sum: d2c3eadb14af89467a3efaaba754a2ca
+SHA1: 737f0a9cae5af87507040fcf7dfaccf0d2fda887
+SHA256: 2a0fa0e7a040d8133afb1e6a7a668b2aece028a7f8ba6596ed144ec069ae4e82
+Homepage: https://github.com/yamafaktory/jql
+Description: A JSON Query Language CLI tool
+
+Package: jujutsu
+Version: 0.46.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 22920
+Suggests: openssl
+Filename: pool/debs-20261105-220242-00/jujutsu_0.46.0_aarch64.deb
+Size: 6066580
+MD5sum: a0071f74d2060b73bed9dc3cc3ca1321
+SHA1: 82d4d1d72838ac0fe59ccc3fa57c87420c4b3285
+SHA256: 587485107c67243c8aecaac9071d258fc7313d0587ba64c330d6a180bd96d1e0
+Homepage: https://jj-vcs.github.io/jj/
+Description: A Git-compatible VCS that is both simple and powerful
+
+Package: jump
+Version: 0.69.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4096
+Filename: pool/debs-20261105-220242-00/jump_0.69.0-1_aarch64.deb
+Size: 1113144
+MD5sum: 381284453e92dd9a1923cc813f8a90fa
+SHA1: ea31c2f32d806d91a2f99bcd0b90684ca3a4059a
+SHA256: d47fde2d56b47729c43732a59732dbf6ec19b6ecd7cb56b54a5c0afc00404f6f
+Homepage: https://github.com/gsamokovarov/jump
+Description: Jump helps you navigate in shell faster by learning your habits
+
+Package: jupp
+Version: 3.1jupp41-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 976
+Depends: ncurses
+Conflicts: joe
+Filename: pool/debs-20261105-220242-00/jupp_3.1jupp41-4_aarch64.deb
+Size: 214176
+MD5sum: aa0082e29e2eab15cab546e42c6544e1
+SHA1: 78b0d4e5dbee286c09870fa344422a008f0749e7
+SHA256: 2a435dbf9626b59e04d83b768ac3d4c73336a4997f85ae1b147861ad671e725b
+Homepage: http://www.mirbsd.org/jupp.htm
+Description: User friendly full screen text editor
+
+Package: just
+Version: 1.59.0
+Architecture: aarch64
+Maintainer: @flipee
+Installed-Size: 4868
+Filename: pool/debs-20261105-220242-00/just_1.59.0_aarch64.deb
+Size: 1427096
+MD5sum: 7ff5e0f9bfd90edb77518b1d273613fc
+SHA1: 8bc6cc429b625fd450110620f7131bdbf6b61913
+SHA256: 1e7dd9048fcfb793cfe7abd539403d9cdb5053ea01cbbbe3c655c3867f71ef79
+Homepage: https://just.systems
+Description: A handy way to save and run project-specific commands
+
+Package: jwm
+Version: 2.4.6-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 384
+Depends: libcairo, libjpeg-turbo, libpng, librsvg, libxext, libxinerama, libxmu, libxpm, libxrender, pango
+Filename: pool/debs-20261105-220242-00/jwm_2.4.6-2_aarch64.deb
+Size: 95416
+MD5sum: 98d111175f295562cc7c384d24d3fd46
+SHA1: e9fcca0c454ed329b28be71032a71569fb8ccfc8
+SHA256: 03f1685e61dfe67d921d4e69268d4b91aa4025ff7e9dde00609b49cc5d89aedf
+Homepage: http://joewing.net/projects/jwm/
+Description: Joe's Window Manager is a light-weight X11 window manager
+
+Package: jython
+Version: 2.7.5b1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 101936
+Depends: openjdk-21
+Filename: pool/debs-20261105-220242-00/jython_2.7.5b1_all.deb
+Size: 55009452
+MD5sum: 0fcc7dcf34a7be5f9aeefd06085c9cea
+SHA1: 85c0a6f05acf77abfb19b814cea7583c0fe05410
+SHA256: ba1ca947e99964d44316d4ea5477075466db616d53cdc1b456cda3c2798dcb55
+Homepage: https://www.jython.org/
+Description: Python for the Java Platform
+
+Package: libesqlite3
+Version: 3.49.1.20250307
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1696
+Filename: pool/debs-20261105-220242-00/libesqlite3_3.49.1.20250307_aarch64.deb
+Size: 608356
+MD5sum: a999d5c3b4fd055572c9998748f59ab4
+SHA1: 33863c15e2b09b2b7658fc079dec091fae487a65
+SHA256: 6d5944ce4c4f7e89beb82c2bfce7634ad62e9366d09973f560c02c1cfa69386e
+Homepage: https://github.com/ericsink/SQLitePCL.raw
+Description: SQLitePCLRaw is a Portable Class Library for low-level access to SQLite (native library)
+
+Package: libskiasharp
+Version: 3.119.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8564
+Depends: libexpat, libglvnd, libpng, libwebp, freetype, zlib, libjpeg-turbo
+Breaks: jellyfin-server (<< 12.0~)
+Filename: pool/debs-20261105-220242-00/libskiasharp_3.119.4_aarch64.deb
+Size: 2219924
+MD5sum: 3e38b52698f97ad0d5d24d11e91f238f
+SHA1: 67b90807efd583b9a9fa8a1311c4fff301aecba9
+SHA256: b8e069770eb5b53564ff38f2d7267540ff4aeac8ec8c11f3c6887d884ffade82
+Homepage: https://github.com/mono/SkiaSharp
+Description: SkiaSharp is a cross-platform 2D graphics API for .NET platforms
+

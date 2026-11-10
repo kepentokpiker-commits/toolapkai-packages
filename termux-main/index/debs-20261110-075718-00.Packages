@@ -1,0 +1,149 @@
+Package: zile
+Version: 2.6.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: glib, libgee, ncurses
+Filename: pool/debs-20261110-075718-00/zile_2.6.4-3_aarch64.deb
+Size: 111872
+MD5sum: 9927b29788b96b5c5f1f950a6ed9479e
+SHA1: 1bef5f1b79b285e40d97a360e9ef74b963cf448c
+SHA256: 29280b8e0b766ce60033260a2dfd60cda82f04f247ff31d1ad92abaf7e544869
+Homepage: https://www.gnu.org/software/zile/
+Description: Lightweight clone of the Emacs text editor
+
+Package: zipios
+Version: 2.3.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Depends: libc++, zlib
+Filename: pool/debs-20261110-075718-00/zipios_2.3.4_aarch64.deb
+Size: 82752
+MD5sum: e95da6e4070367154f504f514f7a08f0
+SHA1: aa4433301a7d5a9dfa028b03983fe8cabd08503f
+SHA256: e5686da385df253c6666a1e0083184ece3697c31c7063ad2451e6d03ff76339d
+Homepage: https://zipios.sourceforge.io/
+Description: A small C++ library for reading and writing zip files
+
+Package: zk
+Version: 0.15.7-1
+Architecture: aarch64
+Maintainer: @kirasok
+Installed-Size: 13528
+Filename: pool/debs-20261110-075718-00/zk_0.15.7-1_aarch64.deb
+Size: 3616340
+MD5sum: b4a3a6c8441da4542875882939f7ade8
+SHA1: 9c5fbc59a8b5a8f77279ec20633216a554038d1d
+SHA256: b6b0bbff8564b944e72f61cc3200c1d275e198a18e866a16a603def723e392db
+Homepage: https://zk-org.github.io/zk/
+Description: A plain text note-taking assistant
+
+Package: zls
+Version: 0.17.0
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 3112
+Filename: pool/debs-20261110-075718-00/zls_0.17.0_aarch64.deb
+Size: 1004760
+MD5sum: edcb342d5444c2d804125aabcae072f8
+SHA1: b516169542c3dbfbd762dc3b9492e0e5cc533a61
+SHA256: 61036fe37170e4c730af0eae5b79317602436bec0871f5a0eeb0853fc7ca1bde
+Homepage: https://github.com/zigtools/zls
+Description: Zig language server
+
+Package: zmap
+Version: 1:4.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: json-c, libgmp, libpcap, libunistring
+Filename: pool/debs-20261110-075718-00/zmap_1_4.4.0_aarch64.deb
+Size: 147984
+MD5sum: 65b9fc07a36da58c66a6f1217d3da542
+SHA1: bcf3e491993378ca30375314e1db272df391d887
+SHA256: 082c3c4a2822b4d4344f482bb999706b4133a247c2a63fe0012feb3eae2b6707
+Homepage: https://zmap.io/
+Description: A fast single packet network scanner designed for Internet-wide network surveys
+
+Package: zmap-static
+Version: 1:4.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: zmap (= 1:4.4.0)
+Filename: pool/debs-20261110-075718-00/zmap-static_1_4.4.0_aarch64.deb
+Size: 81636
+MD5sum: 3f4463de2ac0797e2db63f934cf6b838
+SHA1: 46124a07133c3e0eac537621c02eb3ab1f862243
+SHA256: 5e1e8e44201b0afe84fd628e91aa316de46a9254d2646663f098984db5390ca8
+Homepage: https://zmap.io/
+Description: Static libraries for zmap
+
+Package: znc
+Version: 1.10.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9000
+Depends: libc++, libicu, libsasl, openssl, zlib
+Filename: pool/debs-20261110-075718-00/znc_1.10.3_aarch64.deb
+Size: 1607368
+MD5sum: f0fbe9194c899a0e640cc29ce2999475
+SHA1: dfb781246a3dc90c9cfd698e84ffe2e5b41f337a
+SHA256: a15dcb6cb9e61d27f92725007e148b233586e797fe0f43846da3458e59c661c6
+Homepage: https://znc.in/
+Description: An advanced IRC bouncer
+
+Package: zola
+Version: 0.23.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44180
+Filename: pool/debs-20261110-075718-00/zola_0.23.6_aarch64.deb
+Size: 10421228
+MD5sum: 4f4dc7638054a65ae73ffd8767b1ed89
+SHA1: c0942051f3dae0a9ed8f8591a991d4c34bab1b7a
+SHA256: ed4f3746cc64f69411928e0feb9dedfed31459a66874adee5278f4788f17dbe5
+Homepage: https://github.com/getzola/zola
+Description: A fast static site generator in a single binary with everything built-in.
+
+Package: zoxide
+Version: 0.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1256
+Filename: pool/debs-20261110-075718-00/zoxide_0.10.0_aarch64.deb
+Size: 371316
+MD5sum: 43a6063dfc66a71cfc1d1d74ac60111a
+SHA1: 93be2ae7ecdd61142d32643e8df4784c2d100da7
+SHA256: 72fcfef36587928c80e25032f20f1c9864385856297d44749637d4abc8cc14b1
+Homepage: https://github.com/ajeetdsouza/zoxide
+Description: A faster way to navigate your filesystem
+
+Package: zpaq
+Version: 7.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 536
+Depends: libc++
+Filename: pool/debs-20261110-075718-00/zpaq_7.15-1_aarch64.deb
+Size: 150572
+MD5sum: 367dbc6879c7d779b8821251354ef76c
+SHA1: f4ed7d791ebeb52466168e2856ee2f17eae52d3d
+SHA256: 2cd9d4eabaa4610b47c226f9d624644ea722bba4de829688f76bfe59f6ecf0f3
+Homepage: https://mattmahoney.net/dc/zpaq.html
+Description: Programmable file compressor, library and utilities. Based on the PAQ compression algorithm
+
+Package: zrok
+Version: 1.1.13-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 179824
+Filename: pool/debs-20261110-075718-00/zrok_1.1.13-1_aarch64.deb
+Size: 38061392
+MD5sum: f0b724972ace45c387940dcdd6256b76
+SHA1: 348c610edc7e261512cc3a81fe9ffdf22f4449c8
+SHA256: f75a9db0e2711865294fde2d119a27481332bd3b3f9656b54ecc1acce7aa281e
+Homepage: https://zrok.io/
+Description: An open source sharing solution built on OpenZiti.
+

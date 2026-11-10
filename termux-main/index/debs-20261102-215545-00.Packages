@@ -1,0 +1,58 @@
+Package: qt6-qtdeclarative
+Version: 6.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 139924
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Recommends: qt6-qtlanguageserver
+Filename: pool/debs-20261102-215545-00/qt6-qtdeclarative_6.12.0-1_aarch64.deb
+Size: 16812444
+MD5sum: 471a7abfa90ec8685427f590c0bc80ca
+SHA1: 3ae046c92e5550b8e618b922ccf668aa195144d4
+SHA256: 15d3b8d87d5b73b5e3c4335d5f2e20a4b56919944498020f43b25428f3d53d97
+Homepage: https://www.qt.io/
+Description: Classes for QML and JavaScript languages
+
+Package: qt6-qtdeclarative-cross-tools
+Version: 6.12.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 202548
+Depends: qt6-qtdeclarative (= 6.12.0-1)
+Filename: pool/debs-20261102-215545-00/qt6-qtdeclarative-cross-tools_6.12.0-1_all.deb
+Size: 21564936
+MD5sum: d717f19d024d99a2ecf16f7dbef952d6
+SHA1: e8826a34275fa5a09138e23c7fa10a0ab59e6559
+SHA256: f0c91874b5665a3ad5999cecffa60b07035e4a9e151227688a6f4ee208ed040b
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+
+Package: qt6-qttools
+Version: 6.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23732
+Depends: libc++, qt6-qtbase (>= 6.12.0), zstd
+Recommends: qt6-qtdeclarative
+Filename: pool/debs-20261102-215545-00/qt6-qttools_6.12.0_aarch64.deb
+Size: 5218168
+MD5sum: 986fc531d60a77d1882fce8b0d0dd482
+SHA1: 5b9325261f624cf1c1d3014d41e7d2b4dee86291
+SHA256: b160c95045916266fe334ccc21d11166dc045d21d9509426ec664b83caa4a6aa
+Homepage: https://www.qt.io/
+Description: Qt Development Tools (Linguist, Assistant, Designer, etc.)
+
+Package: qt6-qttools-cross-tools
+Version: 6.12.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 27080
+Depends: qt6-qttools (= 6.12.0)
+Filename: pool/debs-20261102-215545-00/qt6-qttools-cross-tools_6.12.0_all.deb
+Size: 6136672
+MD5sum: 3fee7b52e0b902b745f0b4bb8893b77f
+SHA1: 98fc69b1848a230b80daf798264bd3564051e77e
+SHA256: 43869ea6b9192a185a23a01a4f15c130feea2b030e2c7bc52366560d941b8d77
+Homepage: https://www.qt.io/
+Description: Tools for cross build on the host (NOT for Termux)
+

@@ -1,0 +1,529 @@
+Package: tinygo
+Version: 0.44.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 106372
+Depends: binaryen, golang, libc++, tinygo-common
+Filename: pool/debs-20261109-191949-00/tinygo_0.44.0_aarch64.deb
+Size: 24874204
+MD5sum: d079a406713050cce263b2bf25e78fe5
+SHA1: b03a3aaf77a2d72f48686abec318dd920f7e59fe
+SHA256: dad078a943c3a6c703a81cb644563715fcb1fc198894dc477333b6b836e22ca2
+Homepage: https://tinygo.org
+Description: Go compiler for microcontrollers, WASM, CLI tools
+
+Package: tinygo-common
+Version: 0.44.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1075300
+Filename: pool/debs-20261109-191949-00/tinygo-common_0.44.0_all.deb
+Size: 25267356
+MD5sum: 8f38ac770fd4828c7bd5b313e6ed950e
+SHA1: 53325737cd890799ac8271b6da662442e0aa6b46
+SHA256: 58d33d0550f5f83b25df2e4e11b2642252a603a2e6ba40cb8b3a45bc7edcb878
+Homepage: https://tinygo.org
+Description: TinyGo common files
+
+Package: tinymist
+Version: 0.15.10
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 102708
+Depends: openssl
+Breaks: typst-lsp
+Replaces: typst-lsp
+Filename: pool/debs-20261109-191949-00/tinymist_0.15.10_aarch64.deb
+Size: 31891628
+MD5sum: 104ee883aff4ee7e0ccba8cf04ece840
+SHA1: 0dd7b01e900daf27e72684665fbe3167970b3d3a
+SHA256: e010e7334ed7a9977782b6a2c03905383c7d689e2e12ac3009c93d1c492f87fb
+Homepage: https://myriad-dreamin.github.io/tinymist
+Description: An integrated language service for Typst
+
+Package: tinyproxy
+Version: 1.11.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 344
+Filename: pool/debs-20261109-191949-00/tinyproxy_1.11.3_aarch64.deb
+Size: 45452
+MD5sum: ee930fc42bba2bc732dfb7fc33819025
+SHA1: c4ba3120083f47101df4ef19f477be0eb71a76a9
+SHA256: c6f584dccac280b3c322b6267eac6d886af30c3482e3ab73dab01f116cf1f5b3
+Homepage: https://tinyproxy.github.io/
+Description: Light-weight HTTP proxy daemon for POSIX operating systems
+
+Package: tinyscheme
+Version: 1.42-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Filename: pool/debs-20261109-191949-00/tinyscheme_1.42-2_aarch64.deb
+Size: 32084
+MD5sum: 062be08ede7d8800c508e3acae84fa97
+SHA1: 0ba24ef98bebb89144ece021d23d5576318580b8
+SHA256: 1b30348aeb648c8d29ca63d894233fa3cd2e2ed7ad38758c5673d3e093b8e357
+Homepage: https://tinyscheme.sourceforge.net/home.html
+Description: Very small scheme implementation
+
+Package: tizonia
+Version: 0.22.0-27
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9640
+Depends: boost, dbus, libandroid-wordexp, libc++, libcurl, libflac, liblog4c, libmad, libmediainfo, libmp3lame, liboggz, libopus, libsndfile, libsqlite, libuuid, libvpx, libmpg123, opusfile, pulseaudio, python, taglib
+Filename: pool/debs-20261109-191949-00/tizonia_0.22.0-27_aarch64.deb
+Size: 1382540
+MD5sum: 162e1625765e50b646835204d222587b
+SHA1: 4a47731d2d4f44609550842788f1829dcf364d55
+SHA256: 6744ab70e3d34adcdd9102b9d828f2b8298a4eaab569e60981ebc7bdb7672aa0
+Homepage: https://github.com/tizonia/
+Description: A command-line streaming music client/server for Linux
+
+Package: toilet
+Version: 0.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1000
+Depends: libcaca
+Filename: pool/debs-20261109-191949-00/toilet_0.3-3_aarch64.deb
+Size: 718948
+MD5sum: d120b9a2535b3773b53d726aa2c59dd1
+SHA1: 018d460d41d7617bc8a3dbd26af3e6d69452bc3e
+SHA256: 29e90e63a4ac39fb3c467afe0506a2ee2f0c0bbc5b70193d1db8a51e43e12b5f
+Homepage: http://caca.zoy.org/wiki/toilet
+Description: FIGlet-compatible display of large colourful characters in text mode
+
+Package: tokei
+Version: 15.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4484
+Filename: pool/debs-20261109-191949-00/tokei_15.0.0_aarch64.deb
+Size: 1147132
+MD5sum: 2f2ee3f0adfe20beeb6730bee59e93ca
+SHA1: edc3b18a8e9ff6e4aaeeb51e3701727ef8046e3a
+SHA256: 6da24e39dc9bdaa5f2b556ae3276f0c7582169db493c388516becd0fe1692784
+Homepage: https://github.com/XAMPPRocky/tokei
+Description: A blazingly fast CLOC (Count Lines Of Code) program
+
+Package: tokodon
+Version: 26.08.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7292
+Depends: kf6-kcolorscheme, kf6-kconfig, kf6-kcoreaddons, kf6-kdbusaddons, kf6-kdeclarative, kf6-ki18n, kf6-kio, kf6-kirigami, kf6-kitemmodels, kf6-knotifications, kf6-kservice, kf6-kwindowsystem, kf6-prison, kf6-purpose, kf6-qqc2-desktop-style, kirigami-addons, kunifiedpush, libc++, qt6-qtbase, qt6-qtdeclarative, qt6-qtmultimedia, qt6-qtwebsockets, qt6-qtwebview, qtkeychain
+Filename: pool/debs-20261109-191949-00/tokodon_26.08.2_aarch64.deb
+Size: 1218796
+MD5sum: 733fa035aabe0b97d3e860942ebf849f
+SHA1: 5f402e0aa5a05a5a39649e2d8f5ac8f7821dd0ef
+SHA256: c40b6d9839bcc95ec13651fa301504dc58c78d13b2398f4caa39604eb21d966c
+Homepage: https://apps.kde.org/tokodon/
+Description: A Mastodon client for Plasma
+
+Package: tomcat
+Version: 11.0.27-1
+Architecture: all
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 19828
+Depends: openjdk-21
+Filename: pool/debs-20261109-191949-00/tomcat_11.0.27-1_all.deb
+Size: 12860240
+MD5sum: 6e1e54dd09055485b07b3868ab1f5a2a
+SHA1: 9982ae0f525540cdaa789e70da6b7437897f5527
+SHA256: ede4984ca9901dcd9fae93fa87a902fa38da76b6f3cd1fdb111ecac267e2d789
+Homepage: https://tomcat.apache.org/
+Description: Open source implementation of the Jakarta Servlet, Pages and WebSocket technologies
+
+Package: tome2
+Version: 2025.12.13-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17680
+Depends: boost, libc++, libx11, ncurses
+Filename: pool/debs-20261109-191949-00/tome2_2025.12.13-3_aarch64.deb
+Size: 1939824
+MD5sum: 9d7705bbb5ce1aabfb055f0b0041dc01
+SHA1: ada53f1aae1a7dedc676f0129c5773e692929ce6
+SHA256: 11aea0ae4c199e87f9d816ec266a7e0971581c492481908356ee63fed2066a86
+Homepage: https://github.com/tome2/tome2
+Description: An open world roguelike adventure set in middle earth
+
+Package: toml11
+Version: 4.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1024
+Filename: pool/debs-20261109-191949-00/toml11_4.4.0_aarch64.deb
+Size: 73380
+MD5sum: 5d28d68867dc9975c488ba49454fecd6
+SHA1: 1972a640532eb14521aa9c688b0d8d83212e4987
+SHA256: d0f08c458d5e8f1dbd60a991eaea0a941a67f7f5586f9dd42651dc282b253137
+Homepage: https://github.com/ToruNiina/toml11
+Description: toml11 is a C++11 (or later) header-only toml parser/encoder depending only on C++ standard library
+
+Package: topgrade
+Version: 17.14.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7384
+Filename: pool/debs-20261109-191949-00/topgrade_17.14.1_aarch64.deb
+Size: 2033616
+MD5sum: c6e86ca3f58a100974149deff25140e2
+SHA1: b604587e840df1f08a8c1975ecfd7b64e902991a
+SHA256: 7db33a3039dbbc6f84b9b106129a899e69c52f58eb5f50d224f04d0d19b19ed2
+Homepage: https://github.com/topgrade-rs/topgrade/
+Description: Upgrade all the things
+
+Package: torsocks
+Version: 2.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Depends: tor
+Filename: pool/debs-20261109-191949-00/torsocks_2.5.0-1_aarch64.deb
+Size: 49764
+MD5sum: c789ee1a335cf535c6e158232fdd958b
+SHA1: ef467c9b44d558479635dcab4c3683e953d2fd4b
+SHA256: 182e7c9ffd55a79ce0e7dc7760cea4af95e43bc0d9322cfaf167a5333bd1f104
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Description: Wrapper to safely torify applications
+
+Package: torsocks-static
+Version: 2.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Depends: torsocks (= 2.5.0-1)
+Filename: pool/debs-20261109-191949-00/torsocks-static_2.5.0-1_aarch64.deb
+Size: 33812
+MD5sum: 12a796e81c0f97917fab27b9686fe339
+SHA1: 872d866c1d3af4c8bb32c052cc12306273365474
+SHA256: 2322bc9829de04e26a8be2974349245f98b55e0b5c0b7e8e7089db01be91ba5b
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Description: Static libraries for torsocks
+
+Package: toxic
+Version: 0.16.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2388
+Depends: c-toxcore, libconfig, libcurl, libpng, libqrencode, ncurses
+Filename: pool/debs-20261109-191949-00/toxic_0.16.3_aarch64.deb
+Size: 914116
+MD5sum: f42933ad13da76c0bb49ec30f75d45ee
+SHA1: 22a1e8916059d6e9c12dad33e4dc8301ebb1f66f
+SHA256: e32b38258bc14e96e032e5baa2761857d58c87141eb0c771222272f49be149d3
+Homepage: https://github.com/JFreegman/toxic
+Description: A command line client for Tox
+
+Package: tracepath
+Version: 20250605-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Filename: pool/debs-20261109-191949-00/tracepath_20250605-1_aarch64.deb
+Size: 8836
+MD5sum: 1e803a1b203528a8c65b7ce8ca287fc7
+SHA1: 8ba7cf43c58d348803ea8a68378c4418ae147de4
+SHA256: c62658c5d95f8197436a53661d8b9a357798084979d134e6437b2586095218b7
+Homepage: https://github.com/iputils/iputils
+Description: Tool to trace the network path to a remote host
+
+Package: traceroute
+Version: 2.1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Conflicts: tracepath (<< 20221126-1)
+Filename: pool/debs-20261109-191949-00/traceroute_2.1.6-1_aarch64.deb
+Size: 32624
+MD5sum: 71129390641b58a8d26e9e4572dee786
+SHA1: 0a911d949f886a1855f0982ffeaf9a973fc4e1a0
+SHA256: 8b5e07bee53dd093ecb5ea296f852b7d5c46dfc6b704a2d45a3dce3062447f19
+Homepage: https://traceroute.sourceforge.net/
+Description: A new modern implementation of traceroute(8) utility for Linux systems
+
+Package: transmission
+Version: 4.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13220
+Depends: libc++, libcurl, libevent, libpsl, miniupnpc, natpmpc, openssl
+Suggests: jackett
+Filename: pool/debs-20261109-191949-00/transmission_4.1.4_aarch64.deb
+Size: 1517872
+MD5sum: 60561e8f6f52fe6bc821e341542126cd
+SHA1: f0fb4967d5d16da7404e76125649f9ec050a0aac
+SHA256: dc9787e02a8aa953a4d3836ba13bb1340c8422000966cc3c02338b212adb21f9
+Homepage: https://transmissionbt.com/
+Description: Easy, lean and powerful BitTorrent client
+
+Package: transmission-gtk
+Version: 4.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17136
+Depends: glib, gtk3, gtkmm3, libatkmm-1.6, libc++, libcairomm-1.0, libcurl, libevent, libglibmm-2.4, libpangomm-1.4, libpsl, libsigc++-2.0, miniupnpc, natpmpc, openssl
+Suggests: jackett
+Conflicts: transmission
+Replaces: transmission
+Filename: pool/debs-20261109-191949-00/transmission-gtk_4.1.4_aarch64.deb
+Size: 2006432
+MD5sum: b4aff4d5322d54c91191ece005ec3be0
+SHA1: 332177b3e21b507382416bc1c9e348b145098ba9
+SHA256: ebb438e5f19e90a759681b4faf508b91fa921cafa149bedf5697e755bf680a0f
+Homepage: https://transmissionbt.com/
+Description: Easy, lean and powerful BitTorrent client (gtk3)
+
+Package: tree-sitter-bash
+Version: 0.25.1-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 1596
+Filename: pool/debs-20261109-191949-00/tree-sitter-bash_0.25.1-2_aarch64.deb
+Size: 125888
+MD5sum: 61e4310b35f1c4bbf986303798f2089a
+SHA1: 73f1d4ea63083bc2e23e7cb8dc0b6771ac338c01
+SHA256: 813d32f739b517037d24bd0837428dad0c0199b9d5a8a78248087c74c63cbccc
+Homepage: https://github.com/tree-sitter/tree-sitter-bash
+Description: Bash grammar for tree-sitter
+
+Package: tree-sitter-css
+Version: 0.25.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 388
+Filename: pool/debs-20261109-191949-00/tree-sitter-css_0.25.0-2_aarch64.deb
+Size: 18984
+MD5sum: 5a5222a991ebb5934ba95543c9e57b29
+SHA1: 2491e5708289ad00c3c20c6e894e4b523fdfb207
+SHA256: 52850d6576cb1fc11ebaa59205382e020eb8feaf5cdc160a5e92b3c1e94ae61a
+Homepage: https://github.com/tree-sitter/tree-sitter-css
+Description: CSS grammar for tree-sitter
+
+Package: tree-sitter-go
+Version: 0.25.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 476
+Filename: pool/debs-20261109-191949-00/tree-sitter-go_0.25.0-2_aarch64.deb
+Size: 29836
+MD5sum: 52df3646f85122afa9421b9b5879a362
+SHA1: f37af30cd9bc3050e1ba29e4dfb84cb5b3e22b07
+SHA256: f0cdb13bf501414432c1429274e5537e4d85380ed9cf1e379d9102c1d612f689
+Homepage: https://github.com/tree-sitter/tree-sitter-go
+Description: Golang grammar for tree-sitter
+
+Package: tree-sitter-html
+Version: 0.23.2-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 280
+Filename: pool/debs-20261109-191949-00/tree-sitter-html_0.23.2-2_aarch64.deb
+Size: 9572
+MD5sum: a6f3ea62c3087e5618a97052c643649d
+SHA1: 71da849aa5be0cf047e98a3176f95358e905b5e2
+SHA256: c5f89071bb36943f5d9ea315f3cad5f03ef440cbc5ff1b9f196be65346ee93df
+Homepage: https://github.com/tree-sitter/tree-sitter-html
+Description: HTML grammar for tree-sitter
+
+Package: tree-sitter-java
+Version: 0.23.5-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 668
+Filename: pool/debs-20261109-191949-00/tree-sitter-java_0.23.5-2_aarch64.deb
+Size: 37308
+MD5sum: ad1c23bd198bd00d683dd3fd711c465d
+SHA1: 8485df68e3b87d06e94f54b78da617900071f535
+SHA256: 979a86d62e6acd3f359423be3a957e9a4a3f89ffcb42e7552f10a8a8aa1c9b92
+Homepage: https://github.com/tree-sitter/tree-sitter-java
+Description: Java grammar for tree-sitter
+
+Package: tree-sitter-javascript
+Version: 0.25.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 680
+Filename: pool/debs-20261109-191949-00/tree-sitter-javascript_0.25.0-2_aarch64.deb
+Size: 40004
+MD5sum: 7fe47404c1ce0442795623642a0c2693
+SHA1: fe4975a9f6df37f61fe3d769a0c6b4a0f1aba72e
+SHA256: 555c76b3c698934afc8f8e2f9c135f366d4f3d4a3e8297815b3a3cdcc7c4a454
+Homepage: https://github.com/tree-sitter/tree-sitter-javascript
+Description: JavaScript grammar for tree-sitter
+
+Package: tree-sitter-json
+Version: 0.24.8-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 264
+Filename: pool/debs-20261109-191949-00/tree-sitter-json_0.24.8-2_aarch64.deb
+Size: 4872
+MD5sum: 9407726507a766ccc40eca1c4b435e77
+SHA1: afcc0a129dd57806f3ba5c103912344b1f0cc84c
+SHA256: 429bbb88ec392c6824f2d001f6fc4298f535bcc4f260c4afb5d2a3ba7012103b
+Homepage: https://github.com/tree-sitter/tree-sitter-json
+Description: JSON grammar for tree-sitter
+
+Package: tree-sitter-latex
+Version: 0.6.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 3756
+Filename: pool/debs-20261109-191949-00/tree-sitter-latex_0.6.0-2_aarch64.deb
+Size: 95380
+MD5sum: 966e861fb01dfc97169b18e23960cb23
+SHA1: f99b15c5b925845931cd9dd6b4c292971e977f6c
+SHA256: e559af103c63f068c8a4a249798c40799d36c7f9ec8dee67f77eb12b85ebd5c4
+Homepage: https://github.com/latex-lsp/tree-sitter-latex
+Description: LaTeX grammar for tree-sitter
+
+Package: tree-sitter-python
+Version: 0.25.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 712
+Filename: pool/debs-20261109-191949-00/tree-sitter-python_0.25.0-2_aarch64.deb
+Size: 49428
+MD5sum: afc91c2aafb5e9efdd27d2cfa79425d9
+SHA1: a0edf755b6966db595628b8c9a370c0458403a76
+SHA256: 3bd32499f8b20429575b8e4e7cbf18f5b21c12a51a6964a268137ba8c823aff3
+Homepage: https://github.com/tree-sitter/tree-sitter-python
+Description: Python grammar for tree-sitter
+
+Package: tree-sitter-regex
+Version: 0.25.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 280
+Filename: pool/debs-20261109-191949-00/tree-sitter-regex_0.25.0-2_aarch64.deb
+Size: 7788
+MD5sum: 4fc795cce0e6d7ccde121521aaba2e18
+SHA1: 78e1090c468b15fdf4b3fcfbb468920811a1b891
+SHA256: 9f2972f00b246d7a457fb29ea763bf7cc84a85650dfa1ccdab10a20c18d41142
+Homepage: https://github.com/tree-sitter/tree-sitter-regex
+Description: RegEx grammar for tree-sitter
+
+Package: tree-sitter-rust
+Version: 0.24.2-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 1356
+Filename: pool/debs-20261109-191949-00/tree-sitter-rust_0.24.2-2_aarch64.deb
+Size: 77040
+MD5sum: 5471380f19bf81f58b3bd4b4b7fa723b
+SHA1: fc87010b03d86d7842b6e39129cc013c615bffd0
+SHA256: 50a6d2401e311c3cbd74fe92f66baafc82b2991eecde62762f3a8cfa26e777f7
+Homepage: https://github.com/tree-sitter/tree-sitter-rust
+Description: Rust grammar for tree-sitter
+
+Package: tree-sitter-sql
+Version: 0.3.11-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 2680
+Filename: pool/debs-20261109-191949-00/tree-sitter-sql_0.3.11-2_aarch64.deb
+Size: 212460
+MD5sum: 5bab63bd893c1ce938cf63c488d1f672
+SHA1: 0efa05211c8d95914f1e822ecb0b823d887fa1b1
+SHA256: ffec6969ff963f3216ec5c65e23c1359c16c4ce1ff4a605d01a05f56607cc84e
+Homepage: https://github.com/derekstride/tree-sitter-sql
+Description: SQL grammar for tree-sitter
+
+Package: tree-sitter-toml
+Version: 0.7.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 280
+Filename: pool/debs-20261109-191949-00/tree-sitter-toml_0.7.0-2_aarch64.deb
+Size: 9608
+MD5sum: cbae660435c8d424e1ffb883e8472049
+SHA1: e81c10f5758d064a14b526cf78483d0010a853eb
+SHA256: 457640749ca9a3cfbbe4602539417f004022f362ca88b0f8b7b87bf67760b028
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-toml
+Description: TOML grammar for tree-sitter
+
+Package: tree-sitter-xml
+Version: 0.7.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 308
+Filename: pool/debs-20261109-191949-00/tree-sitter-xml_0.7.0-2_aarch64.deb
+Size: 15996
+MD5sum: 08f3c6268bca426c3440612e0c040c28
+SHA1: 93f347e70ae41cef9e6af0e6f1771962814818e7
+SHA256: dd53c8c4e29d3c64fc93e0a7572909ae838ed4d1e262188ec5c1e2b9908af948
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-xml
+Description: XML grammar for tree-sitter
+
+Package: tree-sitter-yaml
+Version: 0.7.2-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 444
+Filename: pool/debs-20261109-191949-00/tree-sitter-yaml_0.7.2-2_aarch64.deb
+Size: 28648
+MD5sum: 94163ca58b8e8d6313655c3dd7028838
+SHA1: af055e24c1791f0eba249c78a773996f4674697f
+SHA256: 47487e4d5f2903c5ed01d51623ef4145e6ef579780692ce5569e16016899b92b
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-yaml
+Description: YAML grammar for tree-sitter
+
+Package: trojan-go
+Version: 0.10.6-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16880
+Filename: pool/debs-20261109-191949-00/trojan-go_0.10.6-5_aarch64.deb
+Size: 4254404
+MD5sum: 8edc48e23e1b9f04c948cca63c91ef02
+SHA1: 4ed8754b79f53890927a7d687519e5d4f5cf43b6
+SHA256: d32c5547d30e701cf7d232a56770d78b937d4650543b444d5258ffa6f404b5f6
+Homepage: https://p4gefau1t.github.io/trojan-go
+Description: A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW
+
+Package: trunk
+Version: 0.22.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 30448
+Depends: openssl, bzip2
+Filename: pool/debs-20261109-191949-00/trunk_0.22.1_aarch64.deb
+Size: 5590720
+MD5sum: a4570bb4120ebcb4c2911a7c9af840b8
+SHA1: 4d599cfb275b574ac48f282986714a362a4d6124
+SHA256: 2cf095ecd661d309a2e8af1ddca50171255a884a3c731f4ab6d1ff206e65acd9
+Homepage: https://github.com/trunk-rs/trunk
+Description: Build, bundle & ship your Rust WASM application to the web
+
+Package: trurl
+Version: 0.16.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libcurl
+Filename: pool/debs-20261109-191949-00/trurl_0.16.1-1_aarch64.deb
+Size: 22004
+MD5sum: 07d8c49f997e15b95a4e1b9e01c570f7
+SHA1: 70942811be233ac2ec96cf9161ea72d28204b472
+SHA256: 59b1fdbc37219ebffe8bb295aa9168f7b8bcb0cc6c35e479c6bef2723a08bfae
+Homepage: https://curl.se/trurl/
+Description: trurl is a command line tool that parses and manipulates URLs
+
+Package: trzsz-go
+Version: 1.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18180
+Recommends: trzsz-ssh
+Filename: pool/debs-20261109-191949-00/trzsz-go_1.2.0-1_aarch64.deb
+Size: 2973980
+MD5sum: d426c3bc6aca4ef5ff780f87b0b8cf67
+SHA1: df389204848696bb96c6b0b7b3ed715dd4ae0928
+SHA256: a15dd29388bb1a779ddd0212236e7f4b93f6206d05328a1d2584a7dada133d79
+Homepage: https://trzsz.github.io/
+Description: A simple file transfer tools, similar to lrzsz ( rz / sz )
+

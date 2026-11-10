@@ -1,0 +1,118 @@
+Package: frida
+Version: 17.2.14-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 101576
+Conflicts: frida-tools (<< 15.1.24-1)
+Breaks: frida-server (<< 15.1.24)
+Replaces: frida-tools (<< 15.1.24-1), frida-server (<< 15.1.24)
+Filename: pool/debs-20261105-115112-00/frida_17.2.14-4_aarch64.deb
+Size: 31519388
+MD5sum: ec76fe15636f58f5224ca2746c32ddd7
+SHA1: ce6a9c79cbb4ff76c308133305fa7c72ec385def
+SHA256: f17e065f668428c3040320c646476997050e7a6cc86ba8fcbc7d4590d898b8cf
+Homepage: https://www.frida.re/
+Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+
+Package: frida-dev
+Version: 17.2.14-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 140004
+Depends: frida (= 17.2.14-4)
+Conflicts: frida-server (<< 14.2.13)
+Replaces: frida-server (<< 14.2.13)
+Filename: pool/debs-20261105-115112-00/frida-dev_17.2.14-4_aarch64.deb
+Size: 34160584
+MD5sum: 350457c10af995329762f4bf140aea41
+SHA1: d1c2ffdea466ec1979c975cb6fba015bc1dace9b
+SHA256: d9875209a05186bc423c97426ea5bfee670565cfdd5cc436f8383bc3f471d3a9
+Homepage: https://www.frida.re/
+Description: Development files for frida
+
+Package: frida-python
+Version: 17.2.14-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 65796
+Depends: libandroid-support, python, python-pip, frida (= 17.2.14-4)
+Conflicts: frida-tools (<< 15.1.24)
+Replaces: frida-tools (<< 15.1.24)
+Filename: pool/debs-20261105-115112-00/frida-python_17.2.14-4_aarch64.deb
+Size: 19631948
+MD5sum: a1db718cb2f73fa47fbefd50186ab7d1
+SHA1: 7bb58f5ad11c093522ac846d340d37f466f88691
+SHA256: 5b1d507f797cd676123669bb124594b8459ed9b25ecf03661fca695a4469006e
+Homepage: https://www.frida.re/
+Description: Python bindings and CLI tools for Frida
+
+Package: fritzing
+Version: 0.9.6-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8984
+Depends: fritzing-data, libc++, libgit2, qt5-qtbase, qt5-qtserialport, qt5-qtsvg
+Filename: pool/debs-20261105-115112-00/fritzing_0.9.6-10_aarch64.deb
+Size: 3458412
+MD5sum: d9400d456a5b2d19bfcd251a7a3567f9
+SHA1: 7e0103df5613ef0909fe052c104bf0e3cba20e13
+SHA256: bd5ba89bf32ddcce3126dcb4a43550900f69be7880884d377e42453178b445d9
+Homepage: https://fritzing.org/
+Description: An Electronic Design Automation software
+
+Package: fritzing-data
+Version: 0.9.6-10
+Architecture: all
+Maintainer: @termux
+Installed-Size: 8296
+Filename: pool/debs-20261105-115112-00/fritzing-data_0.9.6-10_all.deb
+Size: 3482816
+MD5sum: 49c936d3357bdf03bd4342a1e8eb5645
+SHA1: eb37f6539fd992413f144e06bcfa0172482e45d9
+SHA256: dbc8c49bbea5b256d6bb9ecd4d809a4caa4c83a772c93ad3330a469250f5ee39
+Homepage: https://fritzing.org/
+Description: Platform-independent data for fritzing
+
+Package: frobtads
+Version: 2.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11228
+Depends: libc++, ncurses, libcurl
+Filename: pool/debs-20261105-115112-00/frobtads_2.0-5_aarch64.deb
+Size: 2056836
+MD5sum: 1f4197425e02e3d7b450543a6f5f653b
+SHA1: 8a789e3b0ad5955962e9da9e682082c77ff2c526
+SHA256: 592ae1ce36c13c816b57da50dca32fc7fb280fd053a335e211ed7cfef67c794d
+Homepage: http://www.tads.org/frobtads.htm
+Description: TADS is a free authoring system for writing your own Interactive Fiction
+
+Package: frp
+Version: 0.71.1-1
+Architecture: aarch64
+Maintainer: 2096779623 <admin@utermux.dev>
+Installed-Size: 37836
+Breaks: frpc, frps
+Replaces: frpc, frps
+Filename: pool/debs-20261105-115112-00/frp_0.71.1-1_aarch64.deb
+Size: 9811276
+MD5sum: e80b1b9e2d6a1c8ab0962e63c5aa7262
+SHA1: a97239b379ce67b4d74007c0b8c9daafabb2c022
+SHA256: b9d6ef08a5f11c0832d111b21977d2ba20a5a030646965e32f2dfa25a8d17704
+Homepage: https://github.com/fatedier/frp
+Description: A fast reverse proxy to expose a local server behind a NAT or firewall to the internet
+
+Package: qt5-qtserialport
+Version: 5.15.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: libc++, qt5-qtbase
+Filename: pool/debs-20261105-115112-00/qt5-qtserialport_5.15.18_aarch64.deb
+Size: 34964
+MD5sum: 1631e71d012108720b1a43718f798dee
+SHA1: a2f2b7c4f358fcec99a5f53c50e1fc9ce05e8e08
+SHA256: f4b93755f3d2af30a08a87b2985b1f975b80be322946da9dfcbae2d226fb4617
+Homepage: https://www.qt.io/
+Description: Qt Serial Port Library
+

@@ -1,0 +1,74 @@
+Package: emscripten
+Version: 6.0.13
+Architecture: all
+Maintainer: @termux
+Installed-Size: 96088
+Depends: nodejs-lts | nodejs, python, emscripten-binaryen, emscripten-llvm
+Filename: pool/debs-20261105-013355-00/emscripten_6.0.13_all.deb
+Size: 15237000
+MD5sum: f30c5cba104abc364854cf6519bfac7f
+SHA1: 71545702cc3c15422354951fe21e1b4d2a815017
+SHA256: 0ff45ab8bc949223ab94bc48cbfc1af01f52e3b02dead4b4b2f2ec603005639e
+Homepage: https://emscripten.org
+Description: Emscripten: An LLVM-to-WebAssembly Compiler
+
+Package: emscripten-binaryen
+Version: 6.0.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19944
+Depends: libc++
+Filename: pool/debs-20261105-013355-00/emscripten-binaryen_6.0.13_aarch64.deb
+Size: 3802724
+MD5sum: 34061d282aa3f83d68f83d4c05f3643a
+SHA1: 7251ac1369d5429cadb3d57775332647bc76b59a
+SHA256: 5a31cf5a140f376d53e655acec5f8d4ce635fc28e4a8fedb39ad88d808071323
+Homepage: https://emscripten.org
+Description: Emscripten-compatible Binaryen
+
+Package: emscripten-llvm
+Version: 6.0.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 178068
+Depends: libc++
+Filename: pool/debs-20261105-013355-00/emscripten-llvm_6.0.13_aarch64.deb
+Size: 37466988
+MD5sum: d9a212b854be6bf68f34479277f5271e
+SHA1: d39c4eb89891eb8e7f11202022e6568c3b4ea290
+SHA256: eb31c8071ba7a9eac38fc00c51710b6a938cb32f996b2254f896b21c6fba0e46
+Homepage: https://emscripten.org
+Description: Emscripten-compatible LLVM
+
+Package: emscripten-tests-third-party
+Version: 6.0.13
+Architecture: all
+Maintainer: @termux
+Installed-Size: 83492
+Filename: pool/debs-20261105-013355-00/emscripten-tests-third-party_6.0.13_all.deb
+Size: 9600020
+MD5sum: b9ea127371ef57092766bbc01de006c5
+SHA1: 6d5424351eb52ce36069882ecada4da31f447ef9
+SHA256: d86c053c2803c65f289842cbe253c400b0b8fdc73745ead0423587df61f40f4f
+Homepage: https://emscripten.org
+Description: Emscripten third party test suite files
+
+Package: nodejs-lts
+Version: 24.22.2
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 47940
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib
+Recommends: npm
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/debs-20261105-013355-00/nodejs-lts_24.22.2_aarch64.deb
+Size: 9990516
+MD5sum: 31c22f4dbbbbc49b2775c81003fea33f
+SHA1: 6e9ff70086fabd4fd5278d2b4d2569941d4dfcc1
+SHA256: 1b82935b633499c5ce113d48b813d8c4aa2c1b8e5efc5314b6600ea10c62a615
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+

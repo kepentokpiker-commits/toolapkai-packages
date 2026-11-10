@@ -1,0 +1,846 @@
+Package: syncthing
+Version: 2.1.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 34804
+Filename: pool/debs-20261109-163806-00/syncthing_2.1.7-1_aarch64.deb
+Size: 10034440
+MD5sum: a580adb2541df64bf2c7ce84bb7c4469
+SHA1: 1a35d80465247e82004016e48954dbf397473338
+SHA256: 1df29392b2c468805b19e89bcc7ebcb6f59701643488590bab502bcd31d1431f
+Homepage: https://syncthing.net/
+Description: Decentralized file synchronization
+
+Package: ta-lib
+Version: 0.8.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3460
+Breaks: talib
+Replaces: talib
+Filename: pool/debs-20261109-163806-00/ta-lib_0.8.3_aarch64.deb
+Size: 509168
+MD5sum: 0b00864ac83cad12baf116df11af3225
+SHA1: 6b1d32023118f23599110d8820196f09d4da59af
+SHA256: 85a611c7a75eae2b378495c168d65e652311248f6c85bc6f504bfd16441d8cf2
+Homepage: https://ta-lib.org/
+Description: Technical analysis library with indicators like ADX
+
+Package: ta-lib-static
+Version: 0.8.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3304
+Depends: ta-lib (= 0.8.3)
+Filename: pool/debs-20261109-163806-00/ta-lib-static_0.8.3_aarch64.deb
+Size: 508960
+MD5sum: 7f837e1384b5d2ff543e292bfa03d12e
+SHA1: 0bf46bd6e6d8711149c563d4ffedee400dcd86c7
+SHA256: fbff22656c88317df213fe5e3c65f13c2f4a3e57f7cb7e04033c884fd05b3047
+Homepage: https://ta-lib.org/
+Description: Static libraries for ta-lib
+
+Package: tabbed
+Version: 0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Depends: libx11, libxft
+Filename: pool/debs-20261109-163806-00/tabbed_0.9_aarch64.deb
+Size: 14876
+MD5sum: 172ebdd656fc1a0f033cea31ac7f121b
+SHA1: 1d9894ae6638d40bd0461ba6b652e613fe91920c
+SHA256: c166cd7df7118dff340a6ed05fa47340e728755ba6f24d229b3d4525c5a6725a
+Homepage: https://tools.suckless.org/tabbed/
+Description: Generic tabbed interface
+
+Package: tagparser
+Version: 12.5.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2264
+Depends: libc++, libc++utilities, zlib
+Filename: pool/debs-20261109-163806-00/tagparser_12.5.3_aarch64.deb
+Size: 424048
+MD5sum: 153a18a122fbf0507700e06734d20eb2
+SHA1: c1d51a108c335447e52981d9ec69914948f205f7
+SHA256: 90761a455415196d6e82b01cc55138686ca5087cf2b59024c1a068af9c772608
+Homepage: https://github.com/Martchus/tagparser
+Description: C++ library for reading and writing MP4 (iTunes), ID3, Vorbis, Opus, FLAC and Matroska tags
+
+Package: taplo
+Version: 0.10.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 10552
+Depends: openssl
+Filename: pool/debs-20261109-163806-00/taplo_0.10.0-2_aarch64.deb
+Size: 3009956
+MD5sum: c3532c46fbe735cad7ef7574f2474e21
+SHA1: 540c53751375de2b35138b8313ffa61fe07cd2b8
+SHA256: 417edf0fe6df87a57c328daa05b50bdc38ba0ac9663112fd37afc57e1b1e1615
+Homepage: https://taplo.tamasfe.dev/
+Description: A TOML LSP and toolkit
+
+Package: task-spooler
+Version: 1:1.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Filename: pool/debs-20261109-163806-00/task-spooler_1_1.0.4_aarch64.deb
+Size: 25368
+MD5sum: 48015b8d32f7d8806173c911488ef29f
+SHA1: e68d4a4bb91659a30cdf04bc3293e81dfdb86304
+SHA256: 409ac3abc832fca30c76277cf0b2d00a2bac52843ddffae141219a42781c3c4f
+Homepage: https://vicerveza.homeunix.net/~viric/soft/ts/
+Description: Task spooler is a Unix batch system where the tasks spooled run one after the other
+
+Package: tasksh
+Version: 1.2.0-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Depends: libc++, readline, taskwarrior, libandroid-glob
+Filename: pool/debs-20261109-163806-00/tasksh_1.2.0-11_aarch64.deb
+Size: 93160
+MD5sum: 9ec966a1fbb5b025bfb3c7afcb6ceb5d
+SHA1: 140cefea3f9554feb12a571960d3c9ec3a9a13e1
+SHA256: 3c7790902b41f86289f2f753d153af12c5001d4f14261d6b2bb6e325ed7c722c
+Homepage: https://taskwarrior.org
+Description: Shell command wrapping Taskwarrior commands
+
+Package: taskwarrior
+Version: 3.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15620
+Depends: libandroid-glob, libc++, libgnutls, libuuid
+Filename: pool/debs-20261109-163806-00/taskwarrior_3.5.0_aarch64.deb
+Size: 4641916
+MD5sum: 6c2e54a80ec6f638def0a70d429b9809
+SHA1: 4d391619e8859074579e5df553f50c216cc3186c
+SHA256: 2be6c0c0fb325f76978ab4b57e3139fae6f210ea2b3ec3a1a23626a97485c5a3
+Homepage: https://taskwarrior.org
+Description: Utility for managing your TODO list
+
+Package: tcllib
+Version: 2.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 15252
+Depends: tcl
+Recommends: resolv-conf
+Filename: pool/debs-20261109-163806-00/tcllib_2.0_all.deb
+Size: 3630956
+MD5sum: b5b01c4bcf5bff7786af91e8ad8fdcdf
+SHA1: 99d5bc7c500628d37c0070af8af236d2355ea210
+SHA256: 22fff6fe40a0cafcce7bc2e6c5c06dbc8353abefdfb85f03d299e46dded0dd1a
+Homepage: https://core.tcl-lang.org/tcllib/
+Description: Tcl Standard Library
+
+Package: tcpdump
+Version: 4.99.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1268
+Depends: libcap-ng, libpcap, openssl
+Filename: pool/debs-20261109-163806-00/tcpdump_4.99.7_aarch64.deb
+Size: 347728
+MD5sum: 2a5c0b86598b2c0621879885bc56b295
+SHA1: c275dbc97b1ed1ee59ffccb9145f3e3b983119a6
+SHA256: 2ec7151ec5b87fd04d4de36f927e1c847ba6aa3c5b5992ac730070752d6881ae
+Homepage: https://www.tcpdump.org/
+Description: A powerful command-line packet analyzer
+
+Package: tcplay-veracrypt
+Version: 3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: libdevmapper, libuuid, libgcrypt
+Filename: pool/debs-20261109-163806-00/tcplay-veracrypt_3.3-1_aarch64.deb
+Size: 43856
+MD5sum: 35bc650d99667f64459466d2fa6a45bb
+SHA1: 2ac23d6b7efda6eb6a2efe90cfd692068309adaa
+SHA256: 62d08378441f2ef9edd6a1b79259e340a70359bf8062f789f6284538f234eb92
+Homepage: https://github.com/bwalex/tc-play
+Description: Free and simple TrueCrypt implementation based on dm-crypt.
+
+Package: tcplay-veracrypt-static
+Version: 3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: tcplay-veracrypt (= 3.3-1)
+Filename: pool/debs-20261109-163806-00/tcplay-veracrypt-static_3.3-1_aarch64.deb
+Size: 28372
+MD5sum: 0ee3243786707767206e8e3aeab2a44a
+SHA1: ae76685fef6ab2b523c03d9f0366beb327350586
+SHA256: 57e4df02157d27ced360730404dfff53de6261f1c68bad5920e3c7ef1c4f83bc
+Homepage: https://github.com/bwalex/tc-play
+Description: Static libraries for tcplay-veracrypt
+
+Package: tcsh
+Version: 6.24.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 600
+Filename: pool/debs-20261109-163806-00/tcsh_6.24.16-1_aarch64.deb
+Size: 212620
+MD5sum: 74aacd7d00d35ac6138e2cee9753d0fe
+SHA1: 31954b716a4572bc95f25492584d8f5e8383a60a
+SHA256: 58a52b5a9b7f51f76d10181b59aa2c47fd4428b63719431981c78106e659a03d
+Homepage: https://www.tcsh.org
+Description: TENEX C Shell, an enhanced version of Berkeley csh
+
+Package: tdl
+Version: 0.20.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 51952
+Filename: pool/debs-20261109-163806-00/tdl_0.20.4-1_aarch64.deb
+Size: 9189800
+MD5sum: da5f8e7faba8cad7e99e827759a4ad3f
+SHA1: 6d12682ab76763c4179eb4e1ac965cd6df3ec257
+SHA256: a87637ae8646150380b37fc09b02a43468e1569419945714a4bc2f6214397485
+Homepage: https://docs.iyear.me/tdl/
+Description: Telegram downloader/tools written in Golang
+
+Package: tea
+Version: 0.16.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29276
+Filename: pool/debs-20261109-163806-00/tea_0.16.0-1_aarch64.deb
+Size: 6177848
+MD5sum: 9afb1a8837a5f3e9347f836c037361fe
+SHA1: b13801373c92730d1aed93915bca7527e1a3079e
+SHA256: 83a10dde76c1da414486655e4b831e595307c26f56e3ea06029e02f09a98455f
+Homepage: https://gitea.com/gitea/tea
+Description: The official CLI for Gitea
+
+Package: tealdeer
+Version: 1.9.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3148
+Filename: pool/debs-20261109-163806-00/tealdeer_1.9.1_aarch64.deb
+Size: 1216504
+MD5sum: ad4966e5290071bb88271da11d5391d8
+SHA1: 520d10fcc6059099e4c34b21b86d3795921f5173
+SHA256: eb8faed55a82ed0c782242bb67590703d332b19a54c370f2d94d8fdbc23e1007
+Homepage: https://tealdeer-rs.github.io/tealdeer/
+Description: A very fast implementation of tldr in Rust
+
+Package: teckit
+Version: 2.5.13
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 3492
+Depends: libc++, zlib
+Breaks: teckit-dev
+Replaces: teckit-dev
+Filename: pool/debs-20261109-163806-00/teckit_2.5.13_aarch64.deb
+Size: 484708
+MD5sum: 55d2f64d5126bcbbcf336a0936ec192c
+SHA1: a279f6d9d90c7f6c594b4bdeb15fba6644861484
+SHA256: a317c1332a8a1741574161f749c57167971ecd1b9618bfaa808588ed102743b6
+Homepage: https://scripts.sil.org/teckitdownloads
+Description: TECkit is a library for encoding conversion
+
+Package: teckit-static
+Version: 2.5.13
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 5356
+Depends: teckit (= 2.5.13)
+Filename: pool/debs-20261109-163806-00/teckit-static_2.5.13_aarch64.deb
+Size: 333720
+MD5sum: 0fbb8be8de534c78457f84dd2597a02a
+SHA1: ba004b67ce4383fa56ccecfd56e1398f466cb9b0
+SHA256: 5aeceffc4f9d5f8c06e6834de043a353937587c7688f530611b65a53707c5b31
+Homepage: https://scripts.sil.org/teckitdownloads
+Description: Static libraries for teckit
+
+Package: tectonic
+Version: 0.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16828
+Depends: fontconfig, freetype, harfbuzz, libc++, libgraphite, libicu, libpng, openssl, zlib
+Filename: pool/debs-20261109-163806-00/tectonic_0.17.0-1_aarch64.deb
+Size: 4142760
+MD5sum: fcb2eace22a1d3227cca730741a9ce9d
+SHA1: 1e99eb4601604c5b0f4c7d9b18fe8d14d10f2aae
+SHA256: 98204d72d2ff5736e2c6fae7f6e272c2320cfdffe3bc6f79960d7f562235fe1a
+Homepage: https://tectonic-typesetting.github.io/
+Description: A modernized, complete, self-contained TeX/LaTeX engine
+
+Package: telepathy-glib
+Version: 1:0.24.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21560
+Depends: dbus-glib, glib
+Breaks: telepathy-glib-dev
+Replaces: telepathy-glib-dev
+Filename: pool/debs-20261109-163806-00/telepathy-glib_1_0.24.2-2_aarch64.deb
+Size: 1541620
+MD5sum: 951a87750080e3f885f7751a6f974ebd
+SHA1: 974e8653f5f3afb89fce26f0ccb82c4bf96132ca
+SHA256: 50c0557590e507986e766654495d3f3654ff57740908632d2c3a9d8ea1736e41
+Homepage: https://telepathy.freedesktop.org/
+Description: GLib bindings for the Telepathy D-Bus protocol
+
+Package: telepathy-glib-static
+Version: 1:0.24.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4724
+Depends: telepathy-glib (= 1:0.24.2-2)
+Filename: pool/debs-20261109-163806-00/telepathy-glib-static_1_0.24.2-2_aarch64.deb
+Size: 685340
+MD5sum: 48c65eed8d0fd3d4310951d6d289a2c9
+SHA1: 603e46eead4a729b05a9c989e233a3572674cef2
+SHA256: 83b9aab433bc7cb2d6e33fc9a68c7aabc762c3dbb960299a00d9cc492a889612
+Homepage: https://telepathy.freedesktop.org/
+Description: Static libraries for telepathy-glib
+
+Package: television
+Version: 0.15.9
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 7488
+Filename: pool/debs-20261109-163806-00/television_0.15.9_aarch64.deb
+Size: 2367492
+MD5sum: 83e4a98f76894a3eacaa117006cce9cf
+SHA1: 60c0d0aed215317d6c25c6e7bf61850bda1d1e84
+SHA256: 34c17a9ef551313c000dc97969107262580192692c70977a9502053e997b0dca
+Homepage: https://github.com/alexpasmantier/television
+Description: A very fast, portable and hackable fuzzy finder
+
+Package: tere
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2484
+Filename: pool/debs-20261109-163806-00/tere_1.6.0-1_aarch64.deb
+Size: 705152
+MD5sum: c866df10753178a13b6d84396c23a4cb
+SHA1: b6171c3aea19432d81dcabdb0cb33f0964e511b0
+SHA256: 9aabd8e39cbea92e23f53de8116548ec632dc397b05345c563e74ec00c8c5ef5
+Homepage: https://github.com/mgunyho/tere
+Description: Terminal file explorer written in rust
+
+Package: tergent
+Version: 1.0.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 776
+Depends: termux-api
+Filename: pool/debs-20261109-163806-00/tergent_1.0.0-5_aarch64.deb
+Size: 225348
+MD5sum: 3140b7a1500c821c28be59330642a2b2
+SHA1: 36f42df4ce9ebc5c22db35bbf7b48edefc566922
+SHA256: 36b3e954a89e859a79acee612b36f6cecfd0b1e149dc1702b8cedfa11de9189e
+Homepage: https://github.com/aeolwyr/tergent
+Description: A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend
+
+Package: termimage
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2624
+Filename: pool/debs-20261109-163806-00/termimage_1.2.1-1_aarch64.deb
+Size: 777940
+MD5sum: 2df78515056a711664afd81004bf4076
+SHA1: 3ba24c5a5cc0a83e6473455c53d01f548deca092
+SHA256: 5c827d1a6e82901edee8382e189d32f4973268861a7c5197389c19e991e66a93
+Homepage: https://github.com/nabijaczleweli/termimage
+Description: Terminal image viewer
+
+Package: termshark
+Version: 2.4.0-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18280
+Depends: tshark
+Filename: pool/debs-20261109-163806-00/termshark_2.4.0-6_aarch64.deb
+Size: 4759960
+MD5sum: 5a3d48b9a821fd334c6d55e8004d47b0
+SHA1: 0e58fc0095ff5488141a6e8d139b275bc87a94b5
+SHA256: 926cad4637c8a688d755ce294ea09fb230ed1eaf479e69e12669fa24b2426c53
+Homepage: https://termshark.io
+Description: A terminal UI for tshark, inspired by Wireshark
+
+Package: termux-apt-repo
+Version: 0.5-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 236
+Depends: llvm, python, tar
+Filename: pool/debs-20261109-163806-00/termux-apt-repo_0.5-5_all.deb
+Size: 9316
+MD5sum: 053fb496e9efb166a5f4bcbc0e67bef0
+SHA1: f06f9be1000e758e322e7d9ca4db4d1660eb3a79
+SHA256: 709144ee30063f95b1273356a1a0dbee6503e946b3d06844e7157e18f608f496
+Homepage: https://github.com/termux/termux-apt-repo
+Description: Script to create Termux apt repositories
+
+Package: termux-create-package
+Version: 0.12.0-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 352
+Depends: llvm, python
+Filename: pool/debs-20261109-163806-00/termux-create-package_0.12.0-3_all.deb
+Size: 33376
+MD5sum: 1abecd613846e380576ae8af1f8dec57
+SHA1: 3e2e517ec62152a4ad9fc5c6b761760e7c05fc14
+SHA256: c3528344efe81eefc37091772be040a3903155943ece0b79a281d9f0eb6d15ce
+Homepage: https://github.com/termux/termux-create-package
+Description: Utility to create Termux packages
+
+Package: termux-elf-cleaner
+Version: 3.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libc++
+Filename: pool/debs-20261109-163806-00/termux-elf-cleaner_3.0.1-1_aarch64.deb
+Size: 18068
+MD5sum: 920fc49e806306bc7a008d7c7ca28087
+SHA1: 976f8864ab9990f258e206c1b5b04d59f8712630
+SHA256: 1b64f73cc7436c1e8fc959c0b71f0b3b9e13b1ac7e177ca54052a00a7a2b1021
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: termux-gui-package
+Version: 0.1.6-4
+Architecture: all
+Maintainer: @tareksander
+Installed-Size: 696
+Depends: python, python-pip
+Filename: pool/debs-20261109-163806-00/termux-gui-package_0.1.6-4_all.deb
+Size: 361900
+MD5sum: 3bbcd9d7797c30db52ce2c7cd06bfae2
+SHA1: 3c4542b130caece51e1ed66735b8d05cc21c2021
+SHA256: ed3b0973a95efebf002f73589196da29a501559417cd16c65fdbeec70a6bcdac
+Homepage: https://github.com/tareksander/termux-gui-package
+Description: A Termux package containing utilities for Termux:GUI
+
+Package: termux-gui-pm
+Version: 1.0.0-4
+Architecture: all
+Maintainer: @tareksander
+Installed-Size: 184
+Depends: python, python-pip
+Filename: pool/debs-20261109-163806-00/termux-gui-pm_1.0.0-4_all.deb
+Size: 20556
+MD5sum: 4a25d86e8410a4b5f3e5d4f75ce6879c
+SHA1: 8a16d3943d4f2f698461534a7500a1642798910c
+SHA256: 287bf524b829d1d206f4c63c280d94fcd6043359c7df9cde95a5b2e3f8a21809
+Homepage: https://github.com/tareksander/termux-gui-pm
+Description: A graphical package manager for various package formats for Termux and proot-distro distros
+
+Package: termux-x11-nightly
+Version: 1.03.01-6
+Architecture: all
+Maintainer: Twaik Yont @twaik
+Installed-Size: 224
+Depends: xkeyboard-config
+Suggests: xfce4
+Breaks: termux-x11
+Replaces: termux-x11
+Provides: termux-x11
+Filename: pool/debs-20261109-163806-00/termux-x11-nightly_1.03.01-6_all.deb
+Size: 5696
+MD5sum: 225c20f658e7c613b2502faf86f8cf37
+SHA1: 7e89c0e9ad1710a90766885eed925838e65bdb99
+SHA256: 9973cef8b5396ec47dc14c9b9576089b064c1018e1e446128ba7770e650b858f
+Homepage: https://github.com/termux/termux-x11
+Description: Termux X11 add-on.
+
+Package: teseq
+Version: 1.1.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Filename: pool/debs-20261109-163806-00/teseq_1.1.1-2_aarch64.deb
+Size: 49540
+MD5sum: 9a4aae8e133647379dbfdcfa5cdd4b60
+SHA1: 2eecd5f37068e858f4f435fb94e6e14dd3704fe7
+SHA256: 8dbe604bf563d6791ef55d5f13585120f33af8089af90aa0a299bc3a1d90dc14
+Homepage: https://www.gnu.org/software/teseq/
+Description: Tool for analyzing control characters and terminal control sequences
+
+Package: testdisk
+Version: 7.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2192
+Depends: libuuid, zlib, libjpeg-turbo, libiconv, ncurses, libandroid-glob
+Filename: pool/debs-20261109-163806-00/testdisk_7.2_aarch64.deb
+Size: 460192
+MD5sum: f62ef7ec11eae229acd22d73ac79851a
+SHA1: ea6c097e5edef5b9d51e83669e28fb3c197d70bd
+SHA256: a75d137b23a1fb9d0d1cdbc595eb743bc350be45343aaf90bcf93855283af751
+Homepage: https://www.cgsecurity.org/wiki/TestDisk
+Description: Partition Recovery and File Undelete
+
+Package: texlive-installer
+Version: 20260301
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 3004
+Depends: perl, texlive-bin (>= 20240310), gnupg, curl, lz4, xz-utils
+Breaks: texlive
+Replaces: texlive
+Filename: pool/debs-20261109-163806-00/texlive-installer_20260301_all.deb
+Size: 522408
+MD5sum: 6a6ece7870874340aa7adaa1fec3cd51
+SHA1: 1a6112acf276937aeaf25a66b5a2b37815858f44
+SHA256: 7514fde595532ad2eaffc2dd85455a9ba46d48e95e79f1ddf6ff121e1ecdfdfd
+Homepage: https://www.tug.org/texlive/
+Description: Wrapper around texlive's install-tl script
+
+Package: texstudio
+Version: 4.9.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 34776
+Depends: hunspell, libc++, libx11, poppler-qt, qt6-qtbase, qt6-qtdeclarative, qt6-qtsvg, qt6-qttools, quazip, texstudio-data, zlib
+Recommends: ghostscript
+Suggests: texlive-installer
+Filename: pool/debs-20261109-163806-00/texstudio_4.9.9_aarch64.deb
+Size: 14970672
+MD5sum: 2a0de1bc78cf548452860d9085ad46ad
+SHA1: bf9a74fe32f96eaf078a7c3be254ef52df5750b5
+SHA256: dadf300c253f4e4394483a8600c3d2d1be98766b8452b836df7df1dfa061237f
+Homepage: https://www.texstudio.org/
+Description: A fully featured LaTeX editor
+
+Package: texstudio-data
+Version: 4.9.9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 339608
+Filename: pool/debs-20261109-163806-00/texstudio-data_4.9.9_all.deb
+Size: 44778464
+MD5sum: a23002b28b74ce8a6d8be1a817be2766
+SHA1: 52fd17c8dbdc7c0bce08ec47e55c681644eb27d4
+SHA256: 7647f58a828dde6bb5b90e90711a192c311b25530cf540a78379de5990fdcafc
+Homepage: https://www.texstudio.org/
+Description: Platform-independent data for texstudio
+
+Package: texworks
+Version: 0.6.11-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6484
+Depends: hunspell, libc++, libsynctex, lua53, poppler-qt, qt6-qtbase, qt6-qtdeclarative, qt6-qt5compat, qt6-qttools, zlib
+Filename: pool/debs-20261109-163806-00/texworks_0.6.11-3_aarch64.deb
+Size: 2604840
+MD5sum: 281e5302a0996d5e000fdc5b336e9d91
+SHA1: 21257c25dac07ab806615df983b07f6179b9f1d4
+SHA256: 3bd81d75fbfe8d681f9ad65e40b4fd61b19754e0031125ba0b722a55740b6ad5
+Homepage: https://www.tug.org/texworks/
+Description: TeXworks is an environment for authoring TeX (LaTeX, ConTeXt, etc) documents
+
+Package: tgpt
+Version: 2.15.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17020
+Filename: pool/debs-20261109-163806-00/tgpt_2.15.0-1_aarch64.deb
+Size: 4375520
+MD5sum: c66006dd93087bc05ce3cbc389a83264
+SHA1: ead4b9af69e810e907fbaad2318d5168df53422a
+SHA256: dfa2154c9f86ab6230a0cd1103e013835cdc7caa19bed9fa3bbc170774b507a8
+Homepage: https://github.com/aandrew-me/tgpt
+Description: AI Chatbots in terminal without needing API keys
+
+Package: the-powder-toy
+Version: 100.1.400
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2568
+Depends: fftw, jsoncpp, libandroid-execinfo, libbz2, libc++, libcurl, luajit, libpng, sdl2 | sdl2-compat
+Filename: pool/debs-20261109-163806-00/the-powder-toy_100.1.400_aarch64.deb
+Size: 824160
+MD5sum: 80150eee64d66e4dcb56a495ddd3aba7
+SHA1: 37ce500f835097940e61ed34545cd3bedd28ae7d
+SHA256: 793d2b3d7258f9f39e65c4e8006c09ab935ae0c7bb2f6d8911460e73b62b53a5
+Homepage: https://powdertoy.co.uk/
+Description: The Powder Toy is a free physics sandbox game
+
+Package: thonny
+Version: 5.0.1
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 11588
+Depends: python, python-tkinter, python-pip, xdg-utils
+Filename: pool/debs-20261109-163806-00/thonny_5.0.1_aarch64.deb
+Size: 1269348
+MD5sum: 220dfc475e3e429c527563894dd8ebb8
+SHA1: 0de0e84d0dc5b894573e7388d679efa30b358d08
+SHA256: f0ead7c7855696f18135e1f39c85cfe58164a13ba68c007baeabc6bb866b1334
+Homepage: https://thonny.org
+Description: Python IDE for beginners (Tkinter based, learning-focused)
+
+Package: thunar
+Version: 4.20.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2148
+Depends: atk, desktop-file-utils, exo, gdk-pixbuf, glib, gtk3, harfbuzz, libcairo, libexif, libice, libnotify, libsm, libx11, libxfce4ui, libxfce4util, pango, pcre2, shared-mime-info, xfce4-panel, xfconf, zlib
+Recommends: gvfs, hicolor-icon-theme, thunar-archive-plugin, tumbler
+Filename: pool/debs-20261109-163806-00/thunar_4.20.10_aarch64.deb
+Size: 395164
+MD5sum: 7e45556f8ce3e9a6b964310cec7c7e16
+SHA1: c3e8b30965daee3a5721884da4d5e0d985c2fc55
+SHA256: 806728f98d11bd5d5002bcd8af77ea0cc87938fdcbb244e547b6d5d971b25354
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Description: Modern file manager for XFCE environment
+
+Package: thunar-archive-plugin
+Version: 0.6.0-2
+Architecture: aarch64
+Maintainer: JesusChapman <developer@jesuschapman.me>
+Installed-Size: 248
+Depends: glib, gtk3, libxfce4util, thunar
+Recommends: file-roller
+Filename: pool/debs-20261109-163806-00/thunar-archive-plugin_0.6.0-2_aarch64.deb
+Size: 10464
+MD5sum: 761537482571c61a50d9d709e3648254
+SHA1: a3910631cd37bdb4c69d62daf92d1b1eddd44cd9
+SHA256: 0ceffe515e3dc65165a7f610cb21a81409bcc44124bc814be3678b3be0ec73ac
+Homepage: https://docs.xfce.org/xfce/thunar/archive
+Description: This plugin allows one to extract and create archive from inside the Thunar file manager.
+
+Package: thunderbird
+Version: 159.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 295152
+Depends: botan3, dbus, ffmpeg, fontconfig, freetype, gdk-pixbuf, glib, gtk3, libandroid-shmem, libandroid-spawn, libc++, libcairo, libevent, libffi, libice, libicu, libjpeg-turbo, libnspr, libnss, libotr, libpixman, libsm, libvpx, libwayland, libwebp, libx11, libxcb, libxcomposite, libxdamage, libxext, libxfixes, libxkbcommon, libxrandr, libxtst, pango, pulseaudio, zlib
+Filename: pool/debs-20261109-163806-00/thunderbird_159.0_aarch64.deb
+Size: 71481428
+MD5sum: 5a2b2de1025f4f7852c6324b5f3e5b67
+SHA1: b42263ec6806ee7a0dc9cbfb02a59946810879ac
+SHA256: cad7c124e9fcdd3b82c524a5fc3522b4f39264215cf02b531e3f3df5e1d0aafc
+Homepage: https://www.thunderbird.net
+Description: Standalone mail and news reader from mozilla.org
+
+Package: tig
+Version: 2.6.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1244
+Depends: git, libandroid-support, libiconv, ncurses, pcre2
+Filename: pool/debs-20261109-163806-00/tig_2.6.1_aarch64.deb
+Size: 228768
+MD5sum: 3fdb5240baea0b2447181bb957e37f23
+SHA1: 73716af847a155de09f90b21eaee865635a74fd3
+SHA256: f2e51cb397c13e3375be1096522faee08b4dfd38a2d383384e2d6a4a0f3695bd
+Homepage: https://jonas.github.io/tig/
+Description: Ncurses-based text-mode interface for git
+
+Package: tigervnc-viewer
+Version: 1.16.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1084
+Depends: fltk, libandroid-shmem, libc++, libgmp, libgnutls, libjpeg-turbo, libnettle, libpixman, libx11, libxext, libxi, libxrandr, libxrender, zlib
+Conflicts: tigervnc (<< 1.9.0-4)
+Filename: pool/debs-20261109-163806-00/tigervnc-viewer_1.16.2-1_aarch64.deb
+Size: 279212
+MD5sum: 96843957ddc7ef89d85239faf06e5035
+SHA1: e7903e60adcdd038577285340d828065d74dd63b
+SHA256: 6af5ce6a3bc83b39c94231494d2c888adefb004ae4e1eba17e306ad4bda7444e
+Homepage: https://tigervnc.org/
+Description: A viewer (client) for Virtual Network Computing
+
+Package: tilda
+Version: 2.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 388
+Depends: gdk-pixbuf, glib, gtk3, libconfuse, libvte, libx11, pango
+Filename: pool/debs-20261109-163806-00/tilda_2.0.0-1_aarch64.deb
+Size: 59368
+MD5sum: 2450901c1e3d85f1ebfc67be9def1d4e
+SHA1: 2c81cae430d32f636790587b3b93d0409cf0e9c2
+SHA256: 6b0322f1049b61236a07c916e02ecd1d2df6b829ccbf3b9b0c9117a9dad64a8f
+Homepage: https://github.com/lanoxx/tilda
+Description: A Gtk based drop down terminal for Linux and Unix.
+
+Package: tilde
+Version: 1.1.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 828
+Depends: libc++, libt3config, libt3highlight, libt3widget, libtranscript, libunistring
+Filename: pool/debs-20261109-163806-00/tilde_1.1.3-2_aarch64.deb
+Size: 147036
+MD5sum: 8cfd62f51c92b81b9e801be0049e34d2
+SHA1: 8e8e60998ce90bd23405c9317c68221036953906
+SHA256: 615e1768ddfcf4d548a0e581227077ef9365200b92dbffc347d5641df7aaa169
+Homepage: https://os.ghalkes.nl/tilde/
+Description: A text editor for the console/terminal
+
+Package: time
+Version: 1.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/debs-20261109-163806-00/time_1.10_aarch64.deb
+Size: 23924
+MD5sum: 210305046400aa8836557408a963856c
+SHA1: 638e71116e3e916063d658c7c4ea490a96c61b63
+SHA256: 7299323f76204622ef50be2833ffddc6553b8952026c0379049df16ca014e85a
+Homepage: https://www.gnu.org/software/time/
+Description: GNU time program for measuring CPU resource usage
+
+Package: timewarrior
+Version: 1.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1304
+Depends: libandroid-glob, libc++
+Filename: pool/debs-20261109-163806-00/timewarrior_1.10.0_aarch64.deb
+Size: 287268
+MD5sum: dfb9a072c74304c9aaca8853490ef3c2
+SHA1: da17abcdab80abbd32eb8962a77e8b531d95ad8c
+SHA256: a558c57137148be5c957241409ba9d5535366764f6ea118ec70920883a8782f1
+Homepage: https://timewarrior.net/
+Description: Command-line time tracker
+
+Package: timewarrior-static
+Version: 1.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1568
+Depends: timewarrior (= 1.10.0)
+Filename: pool/debs-20261109-163806-00/timewarrior-static_1.10.0_aarch64.deb
+Size: 220444
+MD5sum: d7b0c9f0514e22c0c0606e45bc3ce4d8
+SHA1: 05dc39c2ff4c0ace48dfe1daab21165462fb7949
+SHA256: 0dbd5e61cb6e11d7ed94a881fb4eb85772c84c229438693148a89c66673e7eca
+Homepage: https://timewarrior.net/
+Description: Static libraries for timewarrior
+
+Package: timidity++
+Version: 2.15.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1036
+Filename: pool/debs-20261109-163806-00/timidity___2.15.0-2_aarch64.deb
+Size: 350712
+MD5sum: 9022f4f849252a18147d53f37f81e0fe
+SHA1: 6e02a001fab946663dc939347172af8899f78298
+SHA256: 06efc846fefea24248cd340a0f0a83af9c49de32b9e6ebc0079f0b93d8500025
+Homepage: https://timidity.sourceforge.net/
+Description: MIDI-to-WAVE converter and player
+
+Package: tin-summer
+Version: 1.21.14-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2500
+Conflicts: mono
+Filename: pool/debs-20261109-163806-00/tin-summer_1.21.14-2_aarch64.deb
+Size: 701196
+MD5sum: 30952a8d1131358c68c046f96b508cbf
+SHA1: cd5c0422a9b8b04d937e5c796f7ac0a126e1cc44
+SHA256: f61c84a99e4c65f390fee1d5d5d427e4b7ad957ba433420bb91e98d1f9652960
+Homepage: https://github.com/vmchale/tin-summer
+Description: Find build artifacts that are taking up disk space
+
+Package: tinc
+Version: 1.0.37
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: liblzo, openssl, zlib
+Filename: pool/debs-20261109-163806-00/tinc_1.0.37_aarch64.deb
+Size: 92368
+MD5sum: 3329164b2c0cad97dbee4525bf7e1a2d
+SHA1: b0799687cfdc39039c9b1d4f20472315ffc409de
+SHA256: e64d48d403615527807270a37884663294f52b92c13405aee2fc78ff1e792e14
+Homepage: https://www.tinc-vpn.org/
+Description: VPN daemon
+
+Package: tintin++
+Version: 2.02.61
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5188
+Depends: pcre, libgnutls, zlib
+Filename: pool/debs-20261109-163806-00/tintin___2.02.61_aarch64.deb
+Size: 1407432
+MD5sum: d118ad36e5113ef55fe63a8703ce0c92
+SHA1: 3cc01659af7d2c0ec3e1dc52bdff699b49c93421
+SHA256: ec4683920f57a1b7b2e341a9de52c5a500217645176679100497f6f782c97e1e
+Homepage: https://tintin.mudhalla.net
+Description: Classic text-based MUD client
+
+Package: tinyemu
+Version: 2019.12.21-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 460
+Depends: libcurl, openssl, sdl
+Filename: pool/debs-20261109-163806-00/tinyemu_2019.12.21-2_aarch64.deb
+Size: 116572
+MD5sum: 5f0996c668232a33be9daeb853542109
+SHA1: 78d5756741843b42581fe9eb0cd0600e5df7aa8f
+SHA256: 82a839acb0df65d5b38622a0d740aa0b16bf856019cbc0d8edb843655c63de6e
+Homepage: https://bellard.org/tinyemu
+Description: A system emulator for the RISC-V and x86 architectures.
+
+Package: tinyfugue
+Version: 5.0b8-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1368
+Depends: ncurses, openssl, pcre, zlib
+Filename: pool/debs-20261109-163806-00/tinyfugue_5.0b8-4_aarch64.deb
+Size: 301248
+MD5sum: aefbb4c9ffe7a1a0144c405f8289c3b3
+SHA1: 8578e2bf73e87090dbfa88173fc05af6946b33f5
+SHA256: b8b3988b17e6f6b6920de59a932b8b0153dea7d12494178b83b72efd92793b8f
+Homepage: https://tinyfugue.sourceforge.net/
+Description: Flexible, screen-oriented MUD client, for use with any type of MUD
+
+Package: tshark
+Version: 4.6.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 139368
+Depends: brotli, c-ares, glib, libandroid-support, libcap, libgcrypt, libgmp, libgnutls, libgpg-error, libiconv, libidn2, liblz4, liblzma, libminizip, libnettle, libnghttp2, libnl, libopus, libpcap, libsnappy, libssh, libunistring, libxml2, openssl, pcre2, speexdsp, zlib, zstd
+Breaks: tshark-dev
+Replaces: tshark-dev
+Filename: pool/debs-20261109-163806-00/tshark_4.6.9_aarch64.deb
+Size: 21087212
+MD5sum: aa8385567f5ed2a9c443f77b31055a07
+SHA1: ed9558c140ca786ff167533fa67ed96ce839646f
+SHA256: 31e15dc0c46e98ab2d4620ce17ac974e8260a3ecaed606a0a3174831a691f1c5
+Homepage: https://www.wireshark.org/
+Description: Network protocol analyzer and sniffer
+
+Package: xfce4-panel
+Version: 4.20.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5320
+Depends: atk, exo, garcon, gdk-pixbuf, glib, gtk3, gtk-layer-shell, harfbuzz, libcairo, libdisplay-info, libice, libsm, libwayland, libwnck, libx11, libxext, libxrandr, libxfce4ui, libxfce4util, libxfce4windowing, pango, xfconf, zlib
+Recommends: desktop-file-utils, hicolor-icon-theme
+Filename: pool/debs-20261109-163806-00/xfce4-panel_4.20.8_aarch64.deb
+Size: 492364
+MD5sum: ba8607f264037dd5b4051c74edb9076b
+SHA1: fec2beaeae09d055f17fa13b38d87b19318ad971
+SHA256: bae0fa06d75d41cb65a726e4aa993780f636c1302da644fc88f701e03aca576c
+Homepage: https://docs.xfce.org/xfce/xfce4-panel/start
+Description: Panel for the XFCE environment
+

@@ -1,0 +1,110 @@
+Package: zrok2
+Version: 2.0.9
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 103992
+Filename: pool/debs-20261110-092033-00/zrok2_2.0.9_aarch64.deb
+Size: 22603692
+MD5sum: e03c7d68bb530e71d32520d3a37eed64
+SHA1: b5a7ca633463c33e3f730a395079abe3f9090f0c
+SHA256: b4f4b68f38b9f3a64a9f0de26285fedd1dd22bd6a483a22dad3b5f02a0152577
+Homepage: https://zrok.io/
+Description: An open source sharing solution built on OpenZiti
+
+Package: zsh
+Version: 5.9.2-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 9252
+Depends: libandroid-support, libcap, ncurses, termux-tools, pcre2
+Recommends: command-not-found, zsh-completions
+Filename: pool/debs-20261110-092033-00/zsh_5.9.2-2_aarch64.deb
+Size: 2014552
+MD5sum: 692e20ba541e795be864767bcb626179
+SHA1: 85d288869f153013a92cd2e649d1fc2aea1bb278
+SHA256: 01e595bd3c6d166530503070990ef72ebfdea268a1d4961b85a698c9a3ef1022
+Homepage: https://www.zsh.org
+Description: Shell with lots of features
+
+Package: zsh-completions
+Version: 0.36.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2104
+Depends: zsh
+Filename: pool/debs-20261110-092033-00/zsh-completions_0.36.0_all.deb
+Size: 299192
+MD5sum: 352b092b0736cb51e1e804f2c35be5f1
+SHA1: 559ce073f823fc0a2815a7e4981333fe99e615dd
+SHA256: 4f13adb2372144e46c071c91c785ace11649b3387d9ec9557a39c1ecb1749b43
+Homepage: https://github.com/zsh-users/zsh-completions
+Description: Additional completion definitions for Zsh
+
+Package: zssh
+Version: 1.5c-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libandroid-glob, lrzsz, openssh, readline
+Filename: pool/debs-20261110-092033-00/zssh_1.5c-2_aarch64.deb
+Size: 14140
+MD5sum: eb68b4da740dd3697e786c1d13f01f9f
+SHA1: 364fb96a00b1abc93a2ce4ed4585ae5d1fc8ab3d
+SHA256: dc6530993ce958781565a40df6bd80c9081eda305468f0a652d6f47eb320fa1c
+Homepage: https://zssh.sourceforge.net/
+Description: A program for interactively transferring files to a remote machine while using the secure shell (ssh)
+
+Package: zsync
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8360
+Filename: pool/debs-20261110-092033-00/zsync_0.8.0-1_aarch64.deb
+Size: 2038912
+MD5sum: 24d3b4623758041cbb3a40852c7a5724
+SHA1: f2e0480e153404b56fa085a9bd3d3d4570ef09e3
+SHA256: b368bab77b3142f4a6b6c116804d4440828b00928eaa3f331f9a9b0bf15724fd
+Homepage: https://zsync.moria.org.uk/
+Description: A file transfer program to download files from remote web servers
+
+Package: zziplib
+Version: 0.13.80-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: zlib
+Filename: pool/debs-20261110-092033-00/zziplib_0.13.80-1_aarch64.deb
+Size: 55712
+MD5sum: 197f7f93ee6ecbd7a31c1dd6926b7173
+SHA1: c03e5be53d92b3cafdaeef49b2af7fd4c205d29c
+SHA256: f20bbeccbda6966facdbad53258368ee2f3c51cafc738ddb104bf0f89f9cd397
+Homepage: https://zziplib.sourceforge.net/
+Description: Provides read access to zipped files in a zip-archive, using compression based on free algorithms
+
+Package: zzuf
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Filename: pool/debs-20261110-092033-00/zzuf_2022.05.29-1_aarch64.deb
+Size: 49944
+MD5sum: 82b3918bf07c06637282612b9cb27d0b
+SHA1: 6dae0f42374b79941d7384cd9675fdabb50aa572
+SHA256: 5e94c87e396f8d4ecb0afc85c0f2a9fde15d2665023267af38f0f56c7395f7ad
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: A transparent application input fuzzer
+
+Package: zzuf-static
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: zzuf (= 2022.05.29-1)
+Filename: pool/debs-20261110-092033-00/zzuf-static_2022.05.29-1_aarch64.deb
+Size: 66780
+MD5sum: bc5ca655456b9d331e1881c4bc9e08e6
+SHA1: 0d57605f6f774b2110e2cd73e5bae418a4492181
+SHA256: 291aad89d0eeb54bab717df1caff3aebe3917f24171fa7a215247c774b237d93
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: Static libraries for zzuf
+

@@ -1,0 +1,116 @@
+Package: code-oss-extension-codelldb
+Version: 1.12.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: code-oss, vsix-package-codelldb, codelldb (= 1.12.3)
+Filename: pool/debs-20261104-053230-00/code-oss-extension-codelldb_1.12.3_aarch64.deb
+Size: 1736
+MD5sum: 4718f1b1c8c773a2950aa8659e402912
+SHA1: 52262ca067beb173a25888947b9432395328be8b
+SHA256: 24501235f487bd76e5a963f5deb0e07577579f519fa17997f77ebf7fdd2a4b7a
+Homepage: https://github.com/vadimcn/codelldb
+Description: A native debugger extension for code-oss based on LLDB
+
+Package: codecrypt
+Version: 1.8-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 520
+Depends: cryptopp, fftw, libc++, libgmp
+Filename: pool/debs-20261104-053230-00/codecrypt_1.8-10_aarch64.deb
+Size: 128064
+MD5sum: 4cc981cff9392bc0a4195c0030e308e0
+SHA1: 21bb6ed90045bf568dbcd5c5bb298965c13e1d97
+SHA256: e4b02e22929ec661aff00e6dc2a79055bfc4fe8ba2f5570b710dc4cc8607a9a5
+Homepage: https://github.com/exaexa/codecrypt
+Description: The post-quantum cryptography tool
+
+Package: codelldb
+Version: 1.12.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5184
+Depends: lldb
+Filename: pool/debs-20261104-053230-00/codelldb_1.12.3_aarch64.deb
+Size: 1271596
+MD5sum: 4e678c9b13cb3584e4938533cb66e2f1
+SHA1: cf6e49da12864564f069f656c1570708bfa814d5
+SHA256: a8b2cd9c28a5e0488b60de8d75adf3916e79521fc1cbb51d765a70e20ca2c089
+Homepage: https://github.com/vadimcn/codelldb
+Description: A native debugger extension for VSCode based on LLDB
+
+Package: codex
+Version: 0.166.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 333028
+Depends: git, libc++, openssl
+Recommends: ripgrep
+Filename: pool/debs-20261104-053230-00/codex_0.166.0_aarch64.deb
+Size: 82711628
+MD5sum: b06908ae0d8c46a6d80bf80fa569f6aa
+SHA1: 3eb5d74d2f8b4d7a733f9cd9e7d8e98ae5434f5c
+SHA256: 13194ca0111c958216d8b442ce75fce0e3fadf207ce00b2a0290d67eb8befd24
+Homepage: https://github.com/openai/codex
+Description: Lightweight coding agent that runs in your terminal
+
+Package: cryptopp
+Version: 8.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7612
+Depends: libc++
+Breaks: cryptopp-dev
+Replaces: cryptopp-dev
+Filename: pool/debs-20261104-053230-00/cryptopp_8.9.0-1_aarch64.deb
+Size: 1260872
+MD5sum: 2f34d61cce5992664c039712e5657b32
+SHA1: d72cfc0dca89567b327d7a0e6d6dec7d6c074e67
+SHA256: ba03f66e16abe188d8c7cd1e73e28c71069b5398e4496297bb56a157c9408d00
+Homepage: https://github.com/weidai11/cryptopp
+Description: A free C++ class library of cryptographic schemes
+
+Package: cryptopp-static
+Version: 8.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52312
+Depends: cryptopp (= 8.9.0-1)
+Filename: pool/debs-20261104-053230-00/cryptopp-static_8.9.0-1_aarch64.deb
+Size: 5819092
+MD5sum: bf99bf2670c691bb9b7f868dee0b976d
+SHA1: eb59f45c0ad9847f1db497dd937dca77215c83e7
+SHA256: 0fb0d43817328370cadcbd167b0392bccbc7556d825fd5f06e0d75e17158a3ed
+Homepage: https://github.com/weidai11/cryptopp
+Description: Static libraries for cryptopp
+
+Package: ripgrep
+Version: 15.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5112
+Depends: pcre2
+Recommends: brotli, lz4
+Filename: pool/debs-20261104-053230-00/ripgrep_15.2.0_aarch64.deb
+Size: 1223168
+MD5sum: b2ee40aa07978c2cb13637457e45237b
+SHA1: f16e1cbdc1e3d6ab26dd5a48264be21ed54f66ab
+SHA256: 43e812432f036c4399b1293bd31851e83535dd9e3f45bc1185fbd9c83ab1726d
+Homepage: https://github.com/BurntSushi/ripgrep
+Description: Search tool like grep and The Silver Searcher
+
+Package: vsix-package-codelldb
+Version: 1.12.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: codelldb (= 1.12.3)
+Filename: pool/debs-20261104-053230-00/vsix-package-codelldb_1.12.3_aarch64.deb
+Size: 97600
+MD5sum: 0186a31e2061cdde7f43b49c3e99c247
+SHA1: d6ae5d4b79e805e861dcf4bb87aab0911a86e89e
+SHA256: e712c3cc28d455682f8b23e5462d23089062763697560bdb5dcb0dce7340658b
+Homepage: https://github.com/vadimcn/codelldb
+Description: A VSIX package for VSCode-based editors to install to use codelldb
+

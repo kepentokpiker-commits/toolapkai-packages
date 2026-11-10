@@ -1,0 +1,1263 @@
+Package: trzsz-ssh
+Version: 0.1.27
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22892
+Recommends: trzsz-go
+Filename: pool/debs-20261109-221330-00/trzsz-ssh_0.1.27_aarch64.deb
+Size: 5606588
+MD5sum: 70f349ccdd8b81fbb8e20318ba96e4cb
+SHA1: 8067268c02f839cf6e0efc908fde692cc1a7abd0
+SHA256: 5fc0c394cc93ef034d142a5121e6b750a987a23d04a5d514376c0612286c6cba
+Homepage: https://trzsz.github.io/ssh
+Description: An openssh client alternative
+
+Package: tsocks
+Version: 1.8beta5-5
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 240
+Filename: pool/debs-20261109-221330-00/tsocks_1.8beta5-5_aarch64.deb
+Size: 19772
+MD5sum: 7156201a509c5eba5eb82c010f2ac45a
+SHA1: 479d3d47a82e8a92059824acc8aedf475341206a
+SHA256: c8ef3e8fc06f4123b3cb18252c0434fb560ee7a6068c3ff7a67154ee62da06da
+Homepage: http://tsocks.sf.net
+Description: transparent network access through a SOCKS 4 or 5 proxy
+
+Package: tsu
+Version: 8.6.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 172
+Filename: pool/debs-20261109-221330-00/tsu_8.6.0-1_all.deb
+Size: 4400
+MD5sum: 682e861fc445054490feb6ad89c08cac
+SHA1: 597485d4be66d833ad1e710e54d36f30afa70080
+SHA256: bab6dd58707728ce175f2b8b3369c512c2d68f99db2855c21539bf3b3b47c6a9
+Homepage: https://github.com/cswl/tsu
+Description: A su wrapper for Termux
+
+Package: ttf-jetbrains-mono
+Version: 2.304
+Architecture: all
+Maintainer: @termux
+Installed-Size: 7844
+Filename: pool/debs-20261109-221330-00/ttf-jetbrains-mono_2.304_all.deb
+Size: 735204
+MD5sum: 782080bc36355cb3c1895ee88842091c
+SHA1: f9acc3edbb2c28adde46b07dff3f327c8d3e71d8
+SHA256: f583091717f76aa9c46b9771c3d86c46e4fec214bf5dc670d64a6d14ed5f6949
+Homepage: https://www.jetbrains.com/lp/mono/
+Description: A free and open-source typeface for developers
+
+Package: ttf-nerd-fonts-symbols
+Version: 3.5.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 5264
+Filename: pool/debs-20261109-221330-00/ttf-nerd-fonts-symbols_3.5.1_all.deb
+Size: 2361692
+MD5sum: acfc2868465356a50569931a41d04a08
+SHA1: 8f0b1eb36ad8ff138756043e612a3fd8308fd7c4
+SHA256: e23ea40b7dcb536c301d43053776532e6d81cb17844c9498cdf82bfa3eea67f2
+Homepage: https://www.nerdfonts.com/
+Description: Symbols-only font containing the Nerd Font icons
+
+Package: tty-clock
+Version: 2.3-2
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 196
+Depends: ncurses
+Filename: pool/debs-20261109-221330-00/tty-clock_2.3-2_aarch64.deb
+Size: 8932
+MD5sum: 0bd50fad4855cde5560f0f5bf68ce29c
+SHA1: 583b190d32cb006410b04d7a1a774a4e026b94b3
+SHA256: 39356c3361d31b8f3d085fc6c6594a36d773c6613497bc61f1f2d93a40b88121
+Homepage: https://github.com/xorg62/tty-clock
+Description: Simple terminal clock
+
+Package: tty-solitaire
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: ncurses
+Filename: pool/debs-20261109-221330-00/tty-solitaire_1.4.1-1_aarch64.deb
+Size: 9384
+MD5sum: d181a0f511f8b1f9bc2579ab0f715143
+SHA1: 1eee68b91ae77dc87d6f8a613ba180b1ee60fabe
+SHA256: aaa56c6390c29a5f4bb9744180a6f92d21b130a357ea57d6b94eb4b90719c1c4
+Homepage: https://github.com/mpereira/tty-solitaire
+Description: Klondike solitaire game
+
+Package: ttyc
+Version: 0.4-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8116
+Filename: pool/debs-20261109-221330-00/ttyc_0.4-5_aarch64.deb
+Size: 2311448
+MD5sum: c206106a74c09798f03c628018b26752
+SHA1: b90412786d62673b627e7946f8741df048280c93
+SHA256: 05ba31d899f4f160ac4c013feabdc7427cba4186bd8d0eb665cb988cd8597141
+Homepage: https://github.com/Depau/ttyc
+Description: ttyd protocol client
+
+Package: ttyd
+Version: 1.7.7-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: json-c, libcap, libuv, libwebsockets, openssl, zlib
+Filename: pool/debs-20261109-221330-00/ttyd_1.7.7-6_aarch64.deb
+Size: 210220
+MD5sum: 616c7b79b3decbc068e2339574b5d0cc
+SHA1: 46868a3cd258899119e1b5c8238c87f44ababe99
+SHA256: 0cf1c63c58cbfca5a6761d632d0505109e60a22d4fb063f07b62fee562dd355f
+Homepage: https://tsl0922.github.io/ttyd/
+Description: Command-line tool for sharing terminal over the web
+
+Package: ttyper
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1844
+Filename: pool/debs-20261109-221330-00/ttyper_1.6.0-1_aarch64.deb
+Size: 586684
+MD5sum: 0762183ebc7c1a1e16d424d6919c057d
+SHA1: 38b5f507ce9de4214e91531740b905e200382684
+SHA256: b775cfd59243e0c677a6712ad124e60bb34ea1bd0a133ca11b6a39c9a76563b2
+Homepage: https://github.com/max-niederman/ttyper
+Description: Terminal-based typing test
+
+Package: ttyplot
+Version: 1.7.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: ncurses
+Filename: pool/debs-20261109-221330-00/ttyplot_1.7.6_aarch64.deb
+Size: 9728
+MD5sum: 98e176b66139368387d9474dcf037836
+SHA1: f515502a1a57595da64372b7cef15993d8a6e4c7
+SHA256: 55e58e9d03f9b41dac48d130a8fa787cff1f41cf76b35fbdb8ae53b3a61b45a9
+Homepage: https://github.com/tenox7/ttyplot
+Description: A realtime plotting utility for terminal with data input from stdin
+
+Package: ttyrec
+Version: 1.0.8-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Filename: pool/debs-20261109-221330-00/ttyrec_1.0.8-9_aarch64.deb
+Size: 10712
+MD5sum: fa32637103f376aa6e2d4cb0c3328c0a
+SHA1: 0aaad47e407236472b72fcb9126c707de62ae9ae
+SHA256: d0c638add5fa3896e7cd68118e49e31208f0edc466ab4d22f6f3be3eb7954b07
+Homepage: https://0xcc.net/ttyrec/
+Description: Terminal recorder and player
+
+Package: tudo
+Version: 1.3.0
+Architecture: all
+Maintainer: @agnostic-apollo
+Installed-Size: 528
+Depends: bash
+Filename: pool/debs-20261109-221330-00/tudo_1.3.0_all.deb
+Size: 46296
+MD5sum: 6bac085f666dcf45fd934ebdef3d73ec
+SHA1: 8ca23eb80f6c409001207c5e33c4c9bc8c2662bb
+SHA256: 191d7477d8d93f6952b11889f6b201db0ad6121d31ddf9b4014a2c8f1bbc4edf
+Homepage: https://github.com/agnostic-apollo/tudo
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the Termux app (u<userid>_a<appid>) user in the Termux app
+
+Package: tuicr
+Version: 0.28.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 12592
+Depends: libgit2, libssh2, openssl, zlib
+Filename: pool/debs-20261109-221330-00/tuicr_0.28.0_aarch64.deb
+Size: 4257272
+MD5sum: f321f1cee155d8f051c4961e70069c67
+SHA1: f639051fb1808acfd58e826b7832779e0a13a9de
+SHA256: de0531d58353c29ad3f56d214b8b3e7a75f66418ed1fac4e2be682d3da01722b
+Homepage: https://github.com/agavra/tuicr
+Description: A code review TUI with vim keybindings, exports to GitHub, GitLab, Gitea, Bitbucket, or clipboard
+
+Package: tumbler
+Version: 4.20.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: freetype, gdk-pixbuf, glib, libcurl, libjpeg-turbo, libpng, libxfce4util
+Suggests: libgepub
+Filename: pool/debs-20261109-221330-00/tumbler_4.20.2-1_aarch64.deb
+Size: 91512
+MD5sum: 6adfc7120b2b624d8816c08fdb05040f
+SHA1: 8d4a5535637c2587f01037938e25179b49d98f0a
+SHA256: 01aeb2aa2c62de9dcc9753e386c83c68e5e1949a2903e217c5465a5ed74815d2
+Homepage: https://docs.xfce.org/xfce/tumbler/start
+Description: Tumbler is a D-Bus service for applications to request thumbnails for various URI schemes and MIME type
+
+Package: tumbler-static
+Version: 4.20.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Depends: tumbler (= 4.20.2-1)
+Filename: pool/debs-20261109-221330-00/tumbler-static_4.20.2-1_aarch64.deb
+Size: 58248
+MD5sum: 0dde84783fa878032a59ccf2f0cb3430
+SHA1: 6000e32804eb1374b2c19e7a4cc37dd78822f755
+SHA256: fe2eb136583c0d86d8dd993edac0e4f8a9e4839b82627adf1cedb8cca086d307
+Homepage: https://docs.xfce.org/xfce/tumbler/start
+Description: Static libraries for tumbler
+
+Package: tur-repo
+Version: 1.0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 180
+Filename: pool/debs-20261109-221330-00/tur-repo_1.0.1_all.deb
+Size: 2908
+MD5sum: 04132afa51e6b2bcd7158062ce20bc26
+SHA1: cb22eb8ffe20b7652bcbb30802961cb7040d8bff
+SHA256: f3c1814718e25f914f12713d0644ed75fbf3dbb2fdb36d07bce5e09c94da4405
+Homepage: https://github.com/termux-user-repository/tur
+Description: A single and trusted place for all unofficial/less popular termux packages
+
+Package: turbo
+Version: 2.10.0
+Architecture: aarch64
+Maintainer: @xingguangcuican6666
+Installed-Size: 45364
+Filename: pool/debs-20261109-221330-00/turbo_2.10.0_aarch64.deb
+Size: 10666416
+MD5sum: 474d9ddf6c3fa0b590609b118d72568a
+SHA1: dee559ece5bd9972f6875fcab6fb3258d21be381
+SHA256: 6f04c242606f1f217fbf4376341a300362fbd27251b4c3d4bfd114ce519670e1
+Homepage: https://turborepo.dev/
+Description: High-performance build system for JS/TS
+
+Package: turbopack
+Version: 16.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88996
+Depends: ca-certificates
+Filename: pool/debs-20261109-221330-00/turbopack_16.4.3_aarch64.deb
+Size: 19941576
+MD5sum: 668028e2ae363782e7ba1c6ca9365b92
+SHA1: 183d67aa9150429bbced62536ba4994acf41b35f
+SHA256: b04b64ee4c96447e5f031e13efcd941f20cf057bb82f8e3e876426f8ea77b535
+Homepage: https://nextjs.org/
+Description: Rust-based incremental compilation engine and bundler for Next.js
+
+Package: tut
+Version: 2.0.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12584
+Filename: pool/debs-20261109-221330-00/tut_2.0.1-4_aarch64.deb
+Size: 3293332
+MD5sum: 7618d76ac98c4ec3af7afd06887bf2b1
+SHA1: da769db131150219db3e0ccb3b1b54c0d2fb1f76
+SHA256: 3012a50a0c10442212f986a02509646c3e979ce79a9526e2333e79e2526f2706
+Homepage: https://github.com/RasmusLindroth/tut
+Description: A TUI for Mastodon with vim inspired keys
+
+Package: tuxpaint
+Version: 0.9.35-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2060
+Depends: fontconfig, fribidi, glib, libandroid-wordexp, libcairo, libimagequant, libpaper, libpng, librsvg, pango, sdl2 | sdl2-compat, sdl2-gfx, sdl2-image, sdl2-mixer, sdl2-pango, sdl2-ttf, zlib, tuxpaint-data
+Filename: pool/debs-20261109-221330-00/tuxpaint_0.9.35-1_aarch64.deb
+Size: 420172
+MD5sum: 6e5492f5f930353370b62ac33973ce82
+SHA1: 71857a67ddc448e829c308888fa8caab31244c9f
+SHA256: 619e7fbaa00755b04ab7063c09dabe442aee516b386ea170d22c5470c1797935
+Homepage: https://tuxpaint.org/
+Description: A free, award-winning drawing program for children ages 3 to 12
+
+Package: tuxpaint-data
+Version: 0.9.35-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 44508
+Filename: pool/debs-20261109-221330-00/tuxpaint-data_0.9.35-1_all.deb
+Size: 25106880
+MD5sum: dc2f5bf2016ff4796e2415a882bdfcd3
+SHA1: 5f503eaf5d9ca26c8c5e31df4fa9e096d63b8ccd
+SHA256: cd0214f842c3655260c24ed16667cb1761cf09d568ee6a8bb05e5ded78684b7e
+Homepage: https://tuxpaint.org/
+Description: Platform-independent data for tuxpaint
+
+Package: tvheadend
+Version: 4.2.8-13
+Architecture: aarch64
+Maintainer: Aditya Alok <alok@termux.dev>
+Installed-Size: 4544
+Depends: dbus, libandroid-execinfo, libdvbcsa, libiconv, openssl, tvheadend-data, zlib
+Filename: pool/debs-20261109-221330-00/tvheadend_4.2.8-13_aarch64.deb
+Size: 1022324
+MD5sum: 7d8085ce98fd09b238d132243d535d88
+SHA1: 14b7aab7af39b19d3af4f1665c53a3ea249fb738
+SHA256: 45b45200e05f0f0fe8c7c8c79454c62dd8ccd101419b781fc30ad4414f1274b2
+Homepage: https://tvheadend.org/
+Description: TV streaming server for Linux and Android supporting DVB-S, DVB-S2 and other formats.
+
+Package: tvheadend-data
+Version: 4.2.8-13
+Architecture: all
+Maintainer: Aditya Alok <alok@termux.dev>
+Installed-Size: 48128
+Breaks: tvheadend (<< 4.2.8-9)
+Replaces: tvheadend (<< 4.2.8-9)
+Filename: pool/debs-20261109-221330-00/tvheadend-data_4.2.8-13_all.deb
+Size: 4875604
+MD5sum: 58bc959ec60164982faaff5d5e9c22db
+SHA1: c1824f6341b5bb631f66c359f98fc859baa3125a
+SHA256: 7204dc21350bbf759b72695d969d1266cb32c6087ab65751c0b9306439471b04
+Homepage: https://tvheadend.org/
+Description: Platform-independent data for tvheadend
+
+Package: tweego
+Version: 2.1.1-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4192
+Filename: pool/debs-20261109-221330-00/tweego_2.1.1-5_aarch64.deb
+Size: 1190040
+MD5sum: c18d15d66c3411f3739a3ad9110ceb29
+SHA1: 80ef468bb761f060c7bef151bb43b1a7b15af2b4
+SHA256: 715032bf330fdb5278875b048b8912b51e85e8585a3b25574326cfce9e5f5c9e
+Homepage: https://www.motoslave.net/tweego/
+Description: A free command line compiler for Twine/Twee story formats
+
+Package: txikijs
+Version: 1:26.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6116
+Depends: libandroid-spawn, libc++, libcurl, libffi
+Filename: pool/debs-20261109-221330-00/txikijs_1_26.11.0_aarch64.deb
+Size: 2068476
+MD5sum: e0167311b35d7c6ef29fbd5c487b8fd4
+SHA1: dac48b27d6cc0cecbd43c10165a4a8cc89d6109d
+SHA256: 5ee9424d0df5d90976503490892106fbd650d122dd3e9c9701aa141dcb9b779c
+Homepage: https://github.com/saghul/txiki.js
+Description: A small and powerful JavaScript runtime
+
+Package: txr
+Version: 302
+Architecture: aarch64
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Installed-Size: 4496
+Depends: libffi, zlib
+Filename: pool/debs-20261109-221330-00/txr_302_aarch64.deb
+Size: 1418068
+MD5sum: ddd90b3dbe0ca9cee18f68d6fcc8a5ac
+SHA1: effeeae280f58774d538c5d4f2dfd88efd18ab17
+SHA256: f6cc430bd9cd6ac168a60c7eccd3f6d976b55b4352a70d290dd2a7581ef106b9
+Homepage: https://www.nongnu.org/txr/
+Description: Data munging language and pattern matching tool
+
+Package: ty
+Version: 0.0.95
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28824
+Filename: pool/debs-20261109-221330-00/ty_0.0.95_aarch64.deb
+Size: 9269972
+MD5sum: 89034d22b155ad5be87abf192120b72e
+SHA1: 1aba80daa32582e5e41eb853b6ecebd031dbc3d3
+SHA256: b880ff3bbb94f58f32831cf61408f4b6b7d97c88d3f5033f3604be065c25c395
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+
+Package: typst
+Version: 0.15.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 45352
+Depends: openssl
+Filename: pool/debs-20261109-221330-00/typst_0.15.1_aarch64.deb
+Size: 14352128
+MD5sum: a45d6928e0bd9330101eeba141e0dba0
+SHA1: e7230734c3d6c9f031496801dcd70ec1f46340f7
+SHA256: d0dd0a9fbcb45d8296068602b9fc04252e64e0ffbbbbcf5f7fe7a936aa3db28b
+Homepage: https://typst.app/
+Description: A new markup-based typesetting system that is powerful and easy to learn
+
+Package: typstfmt
+Version: 0.2.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2796
+Filename: pool/debs-20261109-221330-00/typstfmt_0.2.10-1_aarch64.deb
+Size: 710660
+MD5sum: 6eb49990cc35f159f3ee25511162df2d
+SHA1: 9c87e547554300baefd6f3e5cea45f250292f3b0
+SHA256: e59e50005d9586faf892738c6cd8ad0a1c4a308037a9689df658f526f26cea39
+Homepage: https://github.com/astrale-sharp/typstfmt
+Description: basic formatter for the Typst language
+
+Package: udftools
+Version: 2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: readline
+Filename: pool/debs-20261109-221330-00/udftools_2.3-1_aarch64.deb
+Size: 108948
+MD5sum: 431db243c56d6ded2f7a1c89781442e4
+SHA1: b5f571258485516f677380adc0d29438a3d6a017
+SHA256: 3e592ea212646b616307dbef213c5e4ce213d31fc193adf75e031585d6aa30f6
+Homepage: https://github.com/pali/udftools
+Description: Linux tools for UDF filesystems and DVD/CD-R(W) drives
+
+Package: udocker
+Version: 1.3.17-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 780
+Depends: curl, proot, python, resolv-conf
+Filename: pool/debs-20261109-221330-00/udocker_1.3.17-5_all.deb
+Size: 84056
+MD5sum: c6b94dcdb377008eb418212ca8799903
+SHA1: b2656d70c02f40f519ed14c08e83fcb17419527b
+SHA256: bc1b8dcf0607268801b2a08e9c53e7086521c2d7714b9e291c537e9fd208feb3
+Homepage: https://indigo-dc.github.io/udocker
+Description: A basic user tool to execute simple docker containers in batch or interactive systems without root privileges.
+
+Package: uftrace
+Version: 0.20
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2132
+Depends: capstone, libandroid-execinfo, libandroid-glob, libandroid-spawn, libc++, libdw, libelf, luajit, ncurses, python
+Filename: pool/debs-20261109-221330-00/uftrace_0.20_aarch64.deb
+Size: 390092
+MD5sum: f3b3d714b751427c31aec81b6114e34d
+SHA1: 8724a0f2ab2f1cc9b280cc0ceda41a237d4f81ee
+SHA256: 5913d773a6c06c57b8bdd6c9c0f9ed4e9504368171d682dab0db5f4cae56aafe
+Homepage: https://uftrace.github.io/slide
+Description: Function (graph) tracer for user-space
+
+Package: uget
+Version: 2.2.3-23
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Depends: atk, gdk-pixbuf, glib, gstreamer, gtk3, libcairo, libcurl, libnotify, openssl, pango
+Suggests: aria2
+Filename: pool/debs-20261109-221330-00/uget_2.2.3-23_aarch64.deb
+Size: 194612
+MD5sum: 4f02abd656c30f3cc8c5163a203a79f3
+SHA1: 5b73af81b69276f22a172785f2e99599fe9a8f93
+SHA256: d571b6f5a9b15bbbcab9abb498f2e6bd4489b85a030801e31a5ece7e940d752f
+Homepage: https://github.com/ugetdm/uget
+Description: GTK+ download manager featuring download classification and HTML import
+
+Package: ugrep
+Version: 7.8.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3236
+Depends: brotli, libbz2, libc++, liblz4, liblzma, pcre2, zlib, zstd
+Filename: pool/debs-20261109-221330-00/ugrep_7.8.5_aarch64.deb
+Size: 352364
+MD5sum: 30f8823b08a173eb3f3f54d6fafa1bd5
+SHA1: 1ceea51dcf73f2ba0201c866c67e26aa16894fec
+SHA256: c41c840876ad9cb4e50c88741560d1eadf4111e1d0f89fc8b8360c8ad974f0fa
+Homepage: https://github.com/Genivia/ugrep
+Description: A faster, user-friendly and compatible grep replacement
+
+Package: unar
+Version: 1.10.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4584
+Depends: libandroid-utimes, libbz2, libc++, libgnustep-base, libicu, libwavpack, zlib
+Filename: pool/debs-20261109-221330-00/unar_1.10.8-3_aarch64.deb
+Size: 997876
+MD5sum: 576bf5a3a2dde3c77f3755c38c11eba7
+SHA1: bfb00cd2053a8106d77949e7ab350fe0c58cd1e7
+SHA256: 06048f1e9e312f9ac62b9de90565db33bb3029a7a23d5461d153af1f3ccba9c8
+Homepage: https://theunarchiver.com/command-line
+Description: Command line tools for archive and file unarchiving and extraction
+
+Package: unfs3
+Version: 0.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Depends: libtirpc
+Filename: pool/debs-20261109-221330-00/unfs3_0.11.0_aarch64.deb
+Size: 48104
+MD5sum: 19b6f636cb7a14e6e1c261ba4b852f90
+SHA1: 942de3675d49b0a3ce4bc9af566f0cfc9a72925b
+SHA256: 2b702d9a5e81673e3a11f7f969e8161a26cb863af9c96e37d25817f8511d9ca7
+Homepage: https://unfs3.github.io/
+Description: User-space implementation of the NFSv3 server specification
+
+Package: unicorn
+Version: 2.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19788
+Breaks: unicorn-dev
+Replaces: unicorn-dev
+Filename: pool/debs-20261109-221330-00/unicorn_2.1.4_aarch64.deb
+Size: 2578312
+MD5sum: d4bdfa059b378510ea4830c8ab1d5b60
+SHA1: 7d74a0a51dc07dd0e8f0c33d19f9a121af9853bf
+SHA256: eb020f89df4cc42293ca05620654685b98a5b17de1693c12fa848b5f1ac4ba7b
+Homepage: https://www.unicorn-engine.org/
+Description: Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework
+
+Package: unicorn-static
+Version: 2.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29192
+Depends: unicorn (= 2.1.4)
+Filename: pool/debs-20261109-221330-00/unicorn-static_2.1.4_aarch64.deb
+Size: 2394700
+MD5sum: 66fb7dd578f074320d81a1887534cffd
+SHA1: 302879f1ec2ad2f4873ea699d0ed09bd3fffc809
+SHA256: a3a934aa403766b9e0788c75cd53490e61cddf93568939b63e4abf809959cae9
+Homepage: https://www.unicorn-engine.org/
+Description: Static libraries for unicorn
+
+Package: unifdef
+Version: 2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Filename: pool/debs-20261109-221330-00/unifdef_2.12-1_aarch64.deb
+Size: 16316
+MD5sum: 06485d048751f45c60d26e8500905b84
+SHA1: 14a6c5f0606c195628cdd64da97a33e702b51114
+SHA256: ebb285b8b667033658f1cdb5a307c40b800c9b26ddfade9f78dcc77e250ba4f6
+Homepage: http://dotat.at/prog/unifdef/
+Description: Remove #ifdef'ed lines
+
+Package: units
+Version: 2.27
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1208
+Depends: readline, libandroid-support
+Filename: pool/debs-20261109-221330-00/units_2.27_aarch64.deb
+Size: 285340
+MD5sum: 6e70f1fbf9d8ffb0ee18d1b2b30ab556
+SHA1: ed68597365544f00f61351b7e1c87d051f2b8c97
+SHA256: 9100cd6e206a2eb03366fda204e2e0efdc989ecb180861ff94b9a7e591d9904b
+Homepage: https://www.gnu.org/software/units/
+Description: Converts between different systems of units
+
+Package: units-cur
+Version: 2.27
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Depends: python, python-pip, units (= 2.27)
+Breaks: units (<< 2.22)
+Replaces: units (<< 2.22)
+Filename: pool/debs-20261109-221330-00/units-cur_2.27_all.deb
+Size: 9996
+MD5sum: 41ae9cfe495a1037abcd166dc4a959fd
+SHA1: 8414d3367d0988247cdfdb454419878b109e6152
+SHA256: 4d7407a8fa65243f06906916f9c7a6824c7cbdad0c03b217d94cd1f44dd371f3
+Homepage: https://www.gnu.org/software/units/
+Description: units_cur Python script
+
+Package: unshield
+Version: 1.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: libiconv, openssl, openssh, zlib
+Filename: pool/debs-20261109-221330-00/unshield_1.6.2-1_aarch64.deb
+Size: 23028
+MD5sum: 0b9a620a184e0c5fe59710a255b56636
+SHA1: 90bb52b63a7de7f56d40045e8fe25e14881fb64b
+SHA256: 2a2051c0b3e91c5132db36122191d6cc72ea45eb95811be7c161acdbf277753c
+Homepage: https://github.com/twogood/unshield
+Description: Tool and library to extract CAB files from InstallShield installers
+
+Package: up
+Version: 0.4-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3284
+Filename: pool/debs-20261109-221330-00/up_0.4-5_aarch64.deb
+Size: 907020
+MD5sum: 7d6611e2411c9b421ea843e90c05de3b
+SHA1: 90a369d87658997906b35c1cf4995c7f70d18ed1
+SHA256: ec83c516872b6284e2f6985eaa2629e5158bcda029217d5aa45ce9d3fb8740fd
+Homepage: https://github.com/akavel/up
+Description: Helps interactively and incrementally explore textual data in Linux
+
+Package: upx
+Version: 5.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3520
+Depends: libc++
+Filename: pool/debs-20261109-221330-00/upx_5.3.0_aarch64.deb
+Size: 712344
+MD5sum: 69568b1e9a95a0dee9274f74f3abf3d7
+SHA1: a2a6ecab650308076979882c7268c447dee6016b
+SHA256: b7341ff82d399bdffd3418d0b3c25839e611f74ea27784449d1e43c5cf790433
+Homepage: https://upx.github.io/
+Description: the Ultimate Packer for eXecutables
+
+Package: urdfdom
+Version: 6.0.2
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 764
+Depends: libc++, libtinyxml2, urdfdom-headers, console-bridge
+Filename: pool/debs-20261109-221330-00/urdfdom_6.0.2_aarch64.deb
+Size: 81888
+MD5sum: c75a65702375ed3ad1bfed9b47128e9e
+SHA1: b4185b8c836afa6852f2ad7f041819ad5e9987f2
+SHA256: 23e82006bd260c177e5c7db5e9e6006cfc7a71083f7dc0edf0ec7ffbf88fcd99
+Homepage: https://github.com/ros/urdfdom
+Description: Unified Robot Description Format (URDF) parser library and tools
+
+Package: urdfdom-headers
+Version: 3.0.1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 392
+Filename: pool/debs-20261109-221330-00/urdfdom-headers_3.0.1_aarch64.deb
+Size: 12096
+MD5sum: 3869eb2cf046d24f40381ec7456e97fd
+SHA1: 4eb4f4e90990102f81c7b6871a1b70dc03af2563
+SHA256: 5c81b6bf2e89754dc161cc601206eb545ca2b4f180d65f0881efc64834f7db95
+Homepage: https://github.com/ros/urdfdom_headers
+Description: Headers for URDF parsers
+
+Package: usbutils
+Version: 020
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 348
+Depends: hwdata, libiconv, libusb
+Filename: pool/debs-20261109-221330-00/usbutils_020_aarch64.deb
+Size: 69656
+MD5sum: 08e31d43ea415b1edfadf6f2f7b9cc94
+SHA1: f765676fbe613959f3a189170f9938eac960ae37
+SHA256: 7e1ee847b9e55d7d8e6c05e9ece37c826becb1a01dfafc7eb4fdc361aa13a6ac
+Homepage: http://www.linux-usb.org/
+Description: Collection of USB tools to query connected USB devices
+
+Package: usql
+Version: 0.21.6-1
+Architecture: aarch64
+Maintainer: @flipee
+Installed-Size: 159680
+Filename: pool/debs-20261109-221330-00/usql_0.21.6-1_aarch64.deb
+Size: 28432124
+MD5sum: 60b5c9396b83a260e4c9282e9b948911
+SHA1: 039528743e1bd50da12c7529f33aa5c0ccbb20de
+SHA256: 5dcdb7c618c766be2142157013b733167dcdf7cd1a9c80cb1e9954f01a15ed25
+Homepage: https://github.com/xo/usql
+Description: A universal command-line interface for SQL databases
+
+Package: uucp
+Version: 1.07-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1652
+Filename: pool/debs-20261109-221330-00/uucp_1.07-2_aarch64.deb
+Size: 315872
+MD5sum: 22d6bf2786a5997032e6cefb65ed86c3
+SHA1: 72cda4969ccbe984d02a0d8635736ac92362760e
+SHA256: 749a3f112eb10dc6fb951e3c3e79e496d3cef450fccceadf0ec835af2d8f5e73
+Homepage: https://www.airs.com/ian/uucp.html
+Description: The standard UUCP package of the Free Software Foundation
+
+Package: uutils-coreutils
+Version: 0.12.0
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 13672
+Filename: pool/debs-20261109-221330-00/uutils-coreutils_0.12.0_aarch64.deb
+Size: 3637196
+MD5sum: ef68bf3723c18d55fc435fdf77ef85ea
+SHA1: ff83b1d726f66a56b55e6a1fb7d82712fb855cd2
+SHA256: 5fb7dbac09156caa6b02a50486c668e257ec5f125b279cc243446325d1933221
+Homepage: https://uutils.org/
+Description: Cross-platform Rust rewrite of the GNU coreutils
+
+Package: uv
+Version: 0.13.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 34056
+Filename: pool/debs-20261109-221330-00/uv_0.13.6_aarch64.deb
+Size: 10414192
+MD5sum: 066c3d81b66658923dec4b103ae4fe9c
+SHA1: 8c59364ad1f0685e1ec6801601566a90f61b209a
+SHA256: 63267856a0da912be7b73f44e170470d678c175fdd7859bedebc5b6749efe10d
+Homepage: https://docs.astral.sh/uv/
+Description: An extremely fast Python package installer and resolver, written in Rust.
+
+Package: uwsgi
+Version: 2.0.31-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1340
+Depends: libandroid-glob, libandroid-sysv-semaphore, libandroid-utimes, libcap, libcrypt, libjansson, libuuid, libxml2, openssl, pcre2, python
+Filename: pool/debs-20261109-221330-00/uwsgi_2.0.31-2_aarch64.deb
+Size: 385032
+MD5sum: 8d7f45b42a4d608315fd6b646d4b3157
+SHA1: 6df8144bf1792672f86f02d33107a3eae15d0816
+SHA256: 2ff4df318e325e7072d0dcf4053a9437266c14edad095ee642252896cb115fba
+Homepage: https://github.com/unbit/uwsgi
+Description: uWSGI application server container
+
+Package: v2ray
+Version: 5.53.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 65188
+Filename: pool/debs-20261109-221330-00/v2ray_5.53.0-1_aarch64.deb
+Size: 11626608
+MD5sum: dcb8c31ab10403b102dc4a89356f239b
+SHA1: a8fecea427abec18f29f2db459c00fd293d6d941
+SHA256: bae9fa82f666f18f59a086d298e62596c3705f87e26728f913491656a9a8b1b6
+Homepage: https://www.v2fly.org/
+Description: A platform for building proxies to bypass network restrictions
+
+Package: vale
+Version: 3.26.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 57516
+Filename: pool/debs-20261109-221330-00/vale_3.26.0_aarch64.deb
+Size: 8362452
+MD5sum: f98392c02de3303ec684f7449906ded4
+SHA1: b6b3c88a355a0cd8e78ad4bfa4f7f63c640f52cb
+SHA256: 6a5836eb01f6e73c420c6e9c2fba9dea2c8814e530c446456cc6877749707f97
+Homepage: https://vale.sh
+Description: A syntax-aware linter for prose built with speed and extensibility in mind
+
+Package: valgrind
+Version: 3.28.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23332
+Breaks: valgrind-dev
+Replaces: valgrind-dev
+Filename: pool/debs-20261109-221330-00/valgrind_3.28.0_aarch64.deb
+Size: 2835556
+MD5sum: 7d9674a6edbf8727384f6fa4bb2379e6
+SHA1: 89ba3896ff72897498026a8ec5c764b15dc72371
+SHA256: b129d1c3e16aa28bd59b322a67764e863eb7a5747298453ba298bbe5d814fa90
+Homepage: https://valgrind.org/
+Description: Instrumentation framework for building dynamic analysis tools
+
+Package: valgrind-static
+Version: 3.28.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33152
+Depends: valgrind (= 3.28.0)
+Filename: pool/debs-20261109-221330-00/valgrind-static_3.28.0_aarch64.deb
+Size: 5446812
+MD5sum: 3a6a54d995b99417ad5b44b98acc6600
+SHA1: 371abee313e0e7c65246cf2f936b6e0c29930b6a
+SHA256: f46c2cbc1b5f3aa9c3b82fa4ea5a47f576c97418e5507d48f70082af981b02e9
+Homepage: https://valgrind.org/
+Description: Static libraries for valgrind
+
+Package: valkey
+Version: 9.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4708
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: redis
+Breaks: redis
+Provides: redis
+Filename: pool/debs-20261109-221330-00/valkey_9.1.3_aarch64.deb
+Size: 1142276
+MD5sum: c18616a4504e0a41a3539affadf7753e
+SHA1: d39b55e6571ca40439e56c3f4867827db15eccb1
+SHA256: cdfaf97ac5c0fd1f1e418d9651e4b1e72f2a2b8468c88c2d1df83cde6881534b
+Homepage: https://valkey.io/
+Description: In-memory data structure store used as a database, cache and message broker
+
+Package: valkey-static
+Version: 9.1.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 576
+Depends: valkey (= 9.1.3)
+Filename: pool/debs-20261109-221330-00/valkey-static_9.1.3_aarch64.deb
+Size: 82020
+MD5sum: 361cd8cebebd4d7978ea6dea58254530
+SHA1: 7d9b56defb95e54b220f09e60d97d12fd4ab7fcd
+SHA256: 3265f417d90b9ec38e3a67cdbce78914b97fc91c23839f644f0f56ae05441174
+Homepage: https://valkey.io/
+Description: Static libraries for valkey
+
+Package: vbindiff
+Version: 3.0-beta5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: libc++, ncurses, ncurses-ui-libs
+Filename: pool/debs-20261109-221330-00/vbindiff_3.0-beta5-1_aarch64.deb
+Size: 31400
+MD5sum: 545dd13eb56b5788c3223e370d7ee37a
+SHA1: 2f336a337dfc386e109c49e969b10e5dcc3214bf
+SHA256: 1a7b123eeb407aa66b1ef0b8ee1143bdaaaffda3f868052d5785b10e844f69de
+Homepage: https://www.cjmweb.net/vbindiff/
+Description: Visual binary diff
+
+Package: vde2
+Version: 2.3.3-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 828
+Depends: libpcap, libwolfssl
+Filename: pool/debs-20261109-221330-00/vde2_2.3.3-7_aarch64.deb
+Size: 139204
+MD5sum: 4599d067f96bb5e9abb7cd344a2fc196
+SHA1: 1ecef947ce0387d8e38ca9ebb493ae7b6b57d6fc
+SHA256: 25cabe27990b41aa94be38fd61b08381516d487f466a9e8b69746d9811334a2c
+Homepage: https://github.com/virtualsquare/vde-2
+Description: Virtual Distributed Ethernet for emulators like qemu
+
+Package: vde2-static
+Version: 2.3.3-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: vde2 (= 2.3.3-7)
+Filename: pool/debs-20261109-221330-00/vde2-static_2.3.3-7_aarch64.deb
+Size: 22064
+MD5sum: 4e1e2a86466be0c8e66bffacfab50d02
+SHA1: 2c764ec25b6e52a02485c167a66f39d098d5073b
+SHA256: d8142ad7abbfe65413aeec97d931c914f9957ecfdbc85dbc951dd02b4a8b96de
+Homepage: https://github.com/virtualsquare/vde-2
+Description: Static libraries for vde2
+
+Package: vegeta
+Version: 12.13.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13652
+Filename: pool/debs-20261109-221330-00/vegeta_12.13.0-1_aarch64.deb
+Size: 3510136
+MD5sum: f5c324b98d120a36319daf8668dc3f90
+SHA1: 8a032782d1db30a2e132e942094ef091d58bfdb2
+SHA256: cc3bd079f7bf1a9c079b1180473f36ecbd4b7504b0e664640afdacf78e093abb
+Homepage: https://github.com/tsenart/vegeta
+Description: HTTP load testing tool
+
+Package: vera
+Version: 1.3.0-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 808
+Depends: boost, libc++, tcl
+Filename: pool/debs-20261109-221330-00/vera_1.3.0-11_aarch64.deb
+Size: 143944
+MD5sum: 659941dbe203e016319768e396c1583c
+SHA1: ac58fb5232841aab49e3b57b2dfceee54527258d
+SHA256: bdfbfd2db7a31c29a8d96f3c2cb092d2d0229912155dd53ed0ccbc38b8b27e6f
+Homepage: https://github.com/verateam/vera
+Description: A programmable tool for verification, analysis and transformation of C++ source code
+
+Package: vgmtools
+Version: 2023.01.27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 872
+Depends: libandroid-glob, libc++, zlib
+Filename: pool/debs-20261109-221330-00/vgmtools_2023.01.27-1_aarch64.deb
+Size: 177440
+MD5sum: 0c5c28536a267c4b6e9e4bf21a2573a4
+SHA1: a4723a5c1d171df8da6cf3061ab97c6b567c6b88
+SHA256: 635c07502ed28709d8bf51e087d60e1e0f24fbe1b113f2d494e7ab5964de551b
+Homepage: https://github.com/vgmrips/vgmtools
+Description: A collection of tools for the VGM file format
+
+Package: vhs
+Version: 0.12.1-2
+Architecture: aarch64
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 24420
+Depends: ttyd, ffmpeg
+Recommends: chromium
+Filename: pool/debs-20261109-221330-00/vhs_0.12.1-2_aarch64.deb
+Size: 7066472
+MD5sum: 5504686041684ac9cc6a3dce0d9b41b8
+SHA1: 4cc466d7977769ad84d57b54fdf82d2a9ee6d8a4
+SHA256: 4556cf76711fa9064e3a5d406e57055d1ba94be007011b66e8c1f4e300e5e599
+Homepage: https://github.com/charmbracelet/vhs
+Description: Your CLI home video recorder
+
+Package: viddy
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7436
+Filename: pool/debs-20261109-221330-00/viddy_1.3.1_aarch64.deb
+Size: 2086640
+MD5sum: afbe3663511d8582446722cab199944d
+SHA1: fcd2fb817d0bc99c76dcaa793d3904b3203e4bd2
+SHA256: 7cc963665e2878e2a0a710274a044feec17f8d330c7ca54f902bccc79f460772
+Homepage: https://github.com/sachaos/viddy
+Description: A modern watch command
+
+Package: video-downloader
+Version: 0.12.31-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 624
+Depends: ffmpeg, libadwaita, librsvg, pygobject, python, python-yt-dlp
+Filename: pool/debs-20261109-221330-00/video-downloader_0.12.31-2_aarch64.deb
+Size: 110264
+MD5sum: 5e6731885a95b3f176186f5499bff9b1
+SHA1: 2a36671a192ab1e370ec02ff19f223fcc061ecf5
+SHA256: f4956dea64cbfb152bc5e671d3f7e3a8b8480b8a0958f02a39b5f88f63669f12
+Homepage: https://github.com/Unrud/video-downloader
+Description: Download videos from websites like YouTube and many others (based on yt-dlp)
+
+Package: vifm
+Version: 0.14.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3660
+Depends: libmagic, ncurses
+Filename: pool/debs-20261109-221330-00/vifm_0.14.5_aarch64.deb
+Size: 850312
+MD5sum: 92bde1a06c72d79ea3d8399c3b571708
+SHA1: 01fd22843bf0868aec85c5f918d709cd6f01c5e1
+SHA256: baf81b726b67bec629b36338d68c51536bbef5388b3ca86cd59104bd0bb22c0a
+Homepage: https://vifm.info/
+Description: File manager with vi like keybindings
+
+Package: vile
+Version: 9.8z-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5552
+Depends: ncurses
+Filename: pool/debs-20261109-221330-00/vile_9.8z-1_aarch64.deb
+Size: 931024
+MD5sum: da02c2ac15d97c64d5bcc2287549a666
+SHA1: 73b0b701380dbce5e22d413da9e04e4a1128f413
+SHA256: 82a5231ec450677a245e79eb5674d9866925aa953c0c13e1944074b4b2771f07
+Homepage: https://invisible-island.net/vile/
+Description: VI Like Emacs - vi work-alike
+
+Package: vim-gtk
+Version: 9.2.1250
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 35832
+Depends: gdk-pixbuf, glib, gtk3, libcairo, libcanberra, libice, libiconv, libsm, libsodium, libx11, libxt, ncurses, pango
+Recommends: diffutils, xxd
+Suggests: luajit, perl, python, ruby, tcl
+Conflicts: vim
+Breaks: vim-python
+Replaces: vim-python
+Provides: vim-python
+Filename: pool/debs-20261109-221330-00/vim-gtk_9.2.1250_aarch64.deb
+Size: 6942652
+MD5sum: 5d17475954e3dcabd23f51de82cc5829
+SHA1: cdecdcf62fd72cc95753de6b53bf28e09c9ab836
+SHA256: 8ead2f53a8a12c627aacf201750bc85d83079b874f4df4ca141493da084abd04
+Homepage: https://www.vim.org
+Description: Vi IMproved - enhanced vi editor
+
+Package: virglrenderer-android
+Version: 1.3.0-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 9884
+Depends: angle-android
+Filename: pool/debs-20261109-221330-00/virglrenderer-android_1.3.0-1_aarch64.deb
+Size: 1183956
+MD5sum: 5d097e48fdf8f1874f103a5121de8818
+SHA1: 6ae1009636933dfa5286c23a60012c5a0fa679b9
+SHA256: 4700f7d51e93cbd99e7984d4d7c1432bf38bd9193fe9cfeebb2d50f06e2f0679
+Homepage: https://virgil3d.github.io/
+Description: A virtual 3D GPU for use inside qemu virtual machines over OpenGLES libraries on Android
+
+Package: virustotal-cli
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11920
+Breaks: vt-cli
+Replaces: vt-cli
+Filename: pool/debs-20261109-221330-00/virustotal-cli_1.3.1-1_aarch64.deb
+Size: 3222420
+MD5sum: 657a5e707b1ec924cdd6d8ebbda99920
+SHA1: f34f49e71747483921760d642f2fd1f53313b42b
+SHA256: 7d05af4a714eb27e78a6ed070604274444dca62422410666b37f018b1a375195
+Homepage: https://github.com/VirusTotal/vt-cli
+Description: Command line interface for VirusTotal
+
+Package: vis
+Version: 0.9-p20250111-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1860
+Depends: lua55, libunibilium, libtermkey, lua-lpeg, ncurses
+Filename: pool/debs-20261109-221330-00/vis_0.9-p20250111-1_aarch64.deb
+Size: 321716
+MD5sum: fc46212f90ac95b0e6b694ae46b537c8
+SHA1: 6df2bb50732548b5d40372232e8a4092626d423a
+SHA256: c2707997c16abb487493336260c06387707f0724b32efdc094347ccbcacfc16a
+Homepage: https://www.brain-dump.org/projects/vis/
+Description: Modern, legacy free, simple yet efficient vim-like editor
+
+Package: vitetris
+Version: 0.59.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: ncurses
+Filename: pool/debs-20261109-221330-00/vitetris_0.59.1-4_aarch64.deb
+Size: 46308
+MD5sum: 545ae90641702e2f223d129a50506a6b
+SHA1: 24f89194f5b635401ca5f730e585a1100462bdb4
+SHA256: 6e326629ff65772b74d3c5ea9b9283b5a0607f2f5ca6ab41635653ce7ee0d439
+Homepage: https://victornils.net/tetris/
+Description: Virtual terminal *tris clone
+
+Package: viu
+Version: 1.6.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3408
+Filename: pool/debs-20261109-221330-00/viu_1.6.1_aarch64.deb
+Size: 990156
+MD5sum: 1aeecadba9ac487535cffaf24840ff45
+SHA1: a13bd218b8cfd6ee1f24390431c408c61a73d3d0
+SHA256: 1c3e8aadf9034c6cb10d6a336f4677ec3f3deb549eac847f541de63df52cf018
+Homepage: https://github.com/atanunq/viu
+Description: Terminal image viewer with native support for iTerm and Kitty
+
+Package: vivid
+Version: 0.11.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1016
+Filename: pool/debs-20261109-221330-00/vivid_0.11.1_aarch64.deb
+Size: 316864
+MD5sum: 16cb15a474776ec95ddbbc28d3b3ca45
+SHA1: 3e5f7a5f7f76aa5b7be0c7fb17961ea887396dad
+SHA256: d08013486d5a671510409667d14865dd66ef819419eb89756a483936188d2c9c
+Homepage: https://github.com/sharkdp/vivid
+Description: A themeable LS_COLORS generator with a rich filetype datebase
+
+Package: vlan
+Version: 2.0.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 224
+Depends: iproute2
+Filename: pool/debs-20261109-221330-00/vlan_2.0.5_all.deb
+Size: 6236
+MD5sum: 5529c7279466c30de7499eff57d632f3
+SHA1: 05d9ec270e4c0adc9d02620b7b3ad46029f501c8
+SHA256: ea91be7d71bb6379c05360bdee908afb2f7872a16da5eddae359fa938fbfb5c4
+Homepage: https://salsa.debian.org/debian/vlan
+Description: ifupdown integration for vlan configuration
+
+Package: vnstat
+Version: 2.14
+Architecture: aarch64
+Maintainer: @Denzy7
+Installed-Size: 512
+Depends: libsqlite
+Filename: pool/debs-20261109-221330-00/vnstat_2.14_aarch64.deb
+Size: 100336
+MD5sum: b0feec84fe1ef70a9569c3a3c7546197
+SHA1: 3a2bdce81b98f94a33dca4ddb709cbd07d1d399c
+SHA256: b639da604ca52979814bf13fed3b7b32480cc146f301bd3fe76015e4a0d2ba38
+Homepage: https://github.com/vergoh/vnstat
+Description: A console-based network traffic monitor
+
+Package: vnstati
+Version: 2.14
+Architecture: aarch64
+Maintainer: @Denzy7
+Installed-Size: 168
+Depends: libgd, vnstat (= 2.14)
+Filename: pool/debs-20261109-221330-00/vnstati_2.14_aarch64.deb
+Size: 53032
+MD5sum: ba4cc2871bdfd598cc9a44e6cf2d10cb
+SHA1: cf86679047e64a48efb3bc40f4fc42550500b759
+SHA256: 41761d8f7959a38092379190328c0ba348370bf6873c0bd419514078730d642d
+Homepage: https://github.com/vergoh/vnstat
+Description: Image output for vnstat
+
+Package: vtm
+Version: 2026.10.12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7780
+Depends: freetype, harfbuzz, libc++, lua54, lunasvg
+Filename: pool/debs-20261109-221330-00/vtm_2026.10.12_aarch64.deb
+Size: 1518596
+MD5sum: 193c3ec339f176a040f6aac7b91f8297
+SHA1: 4f669acb3f5a9a78b4b929db90e680ea9c76f90a
+SHA256: 31657fd8b59e1cecd4b629fa473d2b0c8d7d6db6379d95497f0d0ef78810056b
+Homepage: https://github.com/directvt/vtm
+Description: Terminal multiplexer with TUI window manager and multi-party session sharing
+
+Package: vttest
+Version: 20251205
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 460
+Filename: pool/debs-20261109-221330-00/vttest_20251205_aarch64.deb
+Size: 93272
+MD5sum: 5440f0d7fb97738f2dfea72eeb1cf08a
+SHA1: fed41d7084e41fa2fd7b786734e600e2552a1cd2
+SHA256: 424dd2a202bc297782f02e542516a50eab7d4e9a7814200a45a969ed44c15307
+Homepage: https://invisible-island.net/vttest/
+Description: Program for testing the VT100 compatibility of terminal emulators
+
+Package: vulkan-extension-layer
+Version: 1.4.363
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3548
+Depends: libc++, vulkan-loader
+Filename: pool/debs-20261109-221330-00/vulkan-extension-layer_1.4.363_aarch64.deb
+Size: 449052
+MD5sum: ddf27bc880c4d09bddca7f2305e9b61f
+SHA1: 50ba61b6e2fe2f62fdc2ae066606dabb8ccc7f3d
+SHA256: 566747bb20c150a8ab15f750043dc0eaef07270bda5c2b47931a25dbe3d02b61
+Homepage: https://github.com/KhronosGroup/Vulkan-ExtensionLayer
+Description: Vulkan Extension Layer
+
+Package: vulkan-utility-libraries
+Version: 1.4.367
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8600
+Filename: pool/debs-20261109-221330-00/vulkan-utility-libraries_1.4.367_aarch64.deb
+Size: 643376
+MD5sum: bebfc0ba4548c73f3e63fffe2540312b
+SHA1: 7a318f7f2e309db4992e0867c164cf831eae50a5
+SHA256: 3202de8945ba203a5eda5cbe8c0ddb91e547d49f63b713d69d246e3551c2312c
+Homepage: https://github.com/KhronosGroup/Vulkan-Utility-Libraries
+Description: Utility Libraries for Vulkan
+
+Package: vulkan-validation-layers
+Version: 1.4.367
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29144
+Depends: libc++, vulkan-loader
+Filename: pool/debs-20261109-221330-00/vulkan-validation-layers_1.4.367_aarch64.deb
+Size: 5219584
+MD5sum: 7e1f77ee541e6bee0605b68f3242d7a3
+SHA1: 2292851f058bbfdf7b011ed096c630c3965b5ed8
+SHA256: 389cd70278e36081472107965b676d757d3f844a25f5c68e3b6dc4c207b711f4
+Homepage: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+Description: Vulkan Validation Layers
+
+Package: w3m
+Version: 0.5.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2188
+Depends: libgc, ncurses, openssl, zlib
+Suggests: imlib2, libsixel, perl
+Filename: pool/debs-20261109-221330-00/w3m_0.5.6-2_aarch64.deb
+Size: 701336
+MD5sum: c10f37a169a97ea2bfe8d5cd0a25b84d
+SHA1: 465cf4a5d57c165e761c1e7be8d43ca04d5d499a
+SHA256: a082490ed328ba5af34e2b60e96ea8a7eb55b2845b39c517a58e5598457cf1f5
+Homepage: https://git.sr.ht/~rkta/w3m
+Description: Text based Web browser and pager
+
+Package: w3m-img
+Version: 0.5.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: imlib2, libx11, w3m (= 0.5.6-2)
+Filename: pool/debs-20261109-221330-00/w3m-img_0.5.6-2_aarch64.deb
+Size: 5844
+MD5sum: 3b45b32d323351de886e62ea252faf73
+SHA1: b39db6c2ee2c94a2cb4c4bcdc06f6ad921edc05c
+SHA256: 38a2237999d68d095ec514e04248fc154dc1303175b6a9ea45ba5dd04eaa006e
+Homepage: https://git.sr.ht/~rkta/w3m
+Description: Inline image extension support utilities for w3m
+
+Package: wabt
+Version: 1.0.42
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19308
+Depends: libc++
+Filename: pool/debs-20261109-221330-00/wabt_1.0.42_aarch64.deb
+Size: 1404100
+MD5sum: f019be9d1e968264418ea0eb6282f79f
+SHA1: a8ebe05b44a0d3853a4ece63860e9a75c7a2285f
+SHA256: 60d443d56e608ae77b541c0ca53922daa8edbe5f5174d11739e10ca7c762861d
+Homepage: https://github.com/WebAssembly/wabt
+Description: The WebAssembly Binary Toolkit
+
+Package: wakatime-cli
+Version: 2.28.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22808
+Filename: pool/debs-20261109-221330-00/wakatime-cli_2.28.0_aarch64.deb
+Size: 5863144
+MD5sum: c23ddff7ab9b92a9474f8a2bca4e08f5
+SHA1: d32d655763906b37980a1db1c5f20d0e0511de3b
+SHA256: ea23c42b907120934a70bfc944fdf5aaf96dc5c51f2e3dc01c4e3cf8a34d61e1
+Homepage: https://wakatime.com/plugins/
+Description: Command line interface used by all WakaTime text editor plugins
+
+Package: walk
+Version: 1.13.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10512
+Breaks: llama (<< 1.4.0-2)
+Replaces: llama (<< 1.4.0-2)
+Filename: pool/debs-20261109-221330-00/walk_1.13.0-1_aarch64.deb
+Size: 2463100
+MD5sum: 932622846ba555d63d8953b55977aecd
+SHA1: a517babff1804d248bb9236898fbbbfba5949051
+SHA256: b14a42a08b64157591e678f572aa11a6c57213c5f1ea2ef4fb8ee903f8ed40c2
+Homepage: https://github.com/antonmedv/walk
+Description: A terminal file manager
+
+Package: wasm-component-ld
+Version: 0.5.31
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5692
+Filename: pool/debs-20261109-221330-00/wasm-component-ld_0.5.31_aarch64.deb
+Size: 1441116
+MD5sum: 02aaa1060366b4c5d7392bc538565d4c
+SHA1: 8ac92546a9d6bfb6c147cc20ab76aed275f98ecb
+SHA256: aced62708e8fc7209a2def82edb07d671b26e5c121205b5693ced65a33da57af
+Homepage: https://github.com/bytecodealliance/wasm-component-ld
+Description: Command line linker for creating WebAssembly components
+
